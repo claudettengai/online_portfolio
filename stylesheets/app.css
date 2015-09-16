@@ -9439,3 +9439,28 @@ th.hide-for-touch {
     display: none !important;
   }
 }
+/* line 1, ../scss/_style.scss */
+#personal-top {
+  padding-top: 20px;
+  display: block;
+  height: 100px;
+}
+/* line 6, ../scss/_style.scss */
+#personal-top ul {
+  list-style-type: none;
+}
+/* line 10, ../scss/_style.scss */
+#personal-top li {
+  float: left;
+  margin: 0 20px;
+}
+
+/* line 16, ../scss/_style.scss */
+.hero {
+  text-align: left;
+}
+
+/* line 20, ../scss/_style.scss */
+header {
+  background: green;
+}
