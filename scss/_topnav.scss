@@ -1,0 +1,57 @@
+// Background color for the top bar
+$topbar-bg-color: white;
+$topbar-link-color: white;
+
+
+// Set the link colors and styles for top-level nav
+$topbar-link-color: black;
+$topbar-link-color-hover: black;
+$topbar-link-color-active: black;
+$topbar-link-color-active-hover: black;
+
+$topbar-link-bg-hover: $topbar-bg-color;
+$topbar-link-bg-color-hover: $topbar-bg-color;
+
+$topbar-link-font-size: rem-calc(18);
+
+$topbar-link-font-family: "Myriad Pro";
+
+
+
+
+// Top menu icon styles
+$topbar-menu-link-color: black;
+$topbar-menu-icon-color: black;
+
+
+
+
+
+
+// Transitions and breakpoint styles
+
+
+// Using rem-calc for the below breakpoint causes issues with top bar
+//$topbar-breakpoint: #{lower-bound(em-calc(640)  + em-calc(1), em-calc(1024))}; // Change to 9999px for always mobile layout
+
+
+
+
+
+// $small-breakpoint:  em-calc(640);
+// $medium-breakpoint: em-calc(1024);
+// $medium-range:  ($small-breakpoint  + em-calc(1), $medium-breakpoint);
+
+
+//(em-calc(640)  + em-calc(1), em-calc(1024))
+
+
+
+
+
+
+
+
+
+
+
