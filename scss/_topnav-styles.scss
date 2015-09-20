@@ -1,4 +1,9 @@
-$transparent-black: transparentize(#000, 0.20);
+$topbar-media-query-tablet: "
+	only screen and (max-width: 768px),
+	only screen
+	and (min-device-width : 768px)
+	and (max-device-width : 1024px)
+	and (orientation : landscape)" ;
 
 
 
@@ -9,7 +14,7 @@ $transparent-black: transparentize(#000, 0.20);
 		padding-bottom: .8rem;
 		border-bottom: 1px solid #4d4d4d;
 
-		@media #{$small-only} {
+		@media #{$topbar-media-query-tablet} {
 			padding:0;
 			border-bottom: 1px solid $jumbo;
 		}
@@ -53,7 +58,7 @@ $transparent-black: transparentize(#000, 0.20);
 			text-align: center;
 			margin-right: 1rem;
 
-			@media #{$small-only} { 
+			@media #{$topbar-media-query-tablet} { 
 				margin:0;
 			}
 
@@ -73,7 +78,7 @@ $transparent-black: transparentize(#000, 0.20);
 				padding: 0 0.75rem;
 				line-height: 2.2rem;
 
-				@media #{$small-only} { 
+				@media #{$topbar-media-query-tablet} { 
 					border-top: 1px solid $iron;
 					margin:0;
 					padding: .7rem 0;
@@ -97,7 +102,7 @@ $transparent-black: transparentize(#000, 0.20);
 			color: white;
 		}
 
-		@media #{$medium-up} { 
+		@media (min-width: $topbar-breakpoint+1) { 
 			border: 1px solid black;
 		}
 

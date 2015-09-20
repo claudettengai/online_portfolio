@@ -6813,8 +6813,8 @@ table tr td {
 }
 /* line 113, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.0625em)/";
-  width: 40.0625em;
+  font-family: "/only screen and (min-width:768px)/";
+  width: 768px;
 }
 
 /* Wrapped around .top-bar to contain to grid width */
@@ -7218,9 +7218,9 @@ meta.foundation-mq-topbar {
 }
 /* line 373, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover:not(.has-form) > a {
-  background-color: white;
+  background-color: #555555;
   color: black;
-  background: white;
+  background: #222222;
 }
 /* line 383, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
@@ -7341,7 +7341,7 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 768px) {
   /* line 492, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
     background: white;
@@ -7416,8 +7416,8 @@ meta.foundation-mq-topbar {
   }
   /* line 545, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
-    background-color: white;
-    background: white;
+    background-color: #555555;
+    background: #222222;
     color: black;
   }
   /* line 555, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7428,8 +7428,8 @@ meta.foundation-mq-topbar {
   }
   /* line 559, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background-color: white;
-    background: white;
+    background-color: #555555;
+    background: #222222;
   }
   /* line 569, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -7521,7 +7521,7 @@ meta.foundation-mq-topbar {
   }
   /* line 646, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
-    background-color: white;
+    background-color: #555555;
     color: black;
     background: #222222;
   }
@@ -7572,8 +7572,8 @@ meta.foundation-mq-topbar {
 
   /* line 708, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background-color: white;
-    background: white;
+    background-color: #555555;
+    background: #222222;
     color: black;
   }
   /* line 717, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -9439,96 +9439,234 @@ th.hide-for-touch {
     display: none !important;
   }
 }
-/* line 7, ../scss/_topnav-styles.scss */
+/* line 12, ../scss/_topnav-styles.scss */
 #personal-top .top-bar {
   margin-top: .7rem;
   padding-bottom: .8rem;
   border-bottom: 1px solid #4d4d4d;
 }
-@media only screen and (max-width: 40em) {
-  /* line 7, ../scss/_topnav-styles.scss */
+@media only screen and (max-width: 768px), only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 12, ../scss/_topnav-styles.scss */
   #personal-top .top-bar {
     padding: 0;
     border-bottom: 1px solid #888888;
   }
 }
-/* line 19, ../scss/_topnav-styles.scss */
+/* line 24, ../scss/_topnav-styles.scss */
 #personal-top .top-bar .menu-icon {
   top: 25%;
   margin-right: 1rem;
 }
-/* line 25, ../scss/_topnav-styles.scss */
+/* line 30, ../scss/_topnav-styles.scss */
 #personal-top h5 {
   font-family: "Myriad Pro";
   font-weight: 600;
   font-size: 18px;
   color: #333333;
 }
-/* line 31, ../scss/_topnav-styles.scss */
+/* line 36, ../scss/_topnav-styles.scss */
 #personal-top h5 a {
   color: black;
 }
-/* line 34, ../scss/_topnav-styles.scss */
+/* line 39, ../scss/_topnav-styles.scss */
 #personal-top h5 a:hover {
   color: black;
 }
-/* line 41, ../scss/_topnav-styles.scss */
+/* line 46, ../scss/_topnav-styles.scss */
 #personal-top .title-area {
   margin-left: 1.7rem;
 }
-/* line 46, ../scss/_topnav-styles.scss */
+/* line 51, ../scss/_topnav-styles.scss */
 #personal-top .top-bar-section ul {
   margin-right: 0.3rem;
   background-color: transparent;
 }
-/* line 50, ../scss/_topnav-styles.scss */
+/* line 55, ../scss/_topnav-styles.scss */
 #personal-top .top-bar-section ul li {
   background: none;
   text-align: center;
   margin-right: 1rem;
 }
-@media only screen and (max-width: 40em) {
-  /* line 50, ../scss/_topnav-styles.scss */
+@media only screen and (max-width: 768px), only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 55, ../scss/_topnav-styles.scss */
   #personal-top .top-bar-section ul li {
     margin: 0;
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 50, ../scss/_topnav-styles.scss */
+  /* line 55, ../scss/_topnav-styles.scss */
   #personal-top .top-bar-section ul li {
     margin-right: 2rem;
   }
-  /* line 63, ../scss/_topnav-styles.scss */
+  /* line 68, ../scss/_topnav-styles.scss */
   #personal-top .top-bar-section ul li #contact-me-button {
     margin-right: 1rem;
   }
 }
-/* line 72, ../scss/_topnav-styles.scss */
+/* line 77, ../scss/_topnav-styles.scss */
 #personal-top .top-bar-section ul li a {
   padding: 0 0.75rem;
   line-height: 2.2rem;
 }
-@media only screen and (max-width: 40em) {
-  /* line 72, ../scss/_topnav-styles.scss */
+@media only screen and (max-width: 768px), only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 77, ../scss/_topnav-styles.scss */
   #personal-top .top-bar-section ul li a {
     border-top: 1px solid #CCCCCC;
     margin: 0;
     padding: .7rem 0;
   }
-  /* line 81, ../scss/_topnav-styles.scss */
+  /* line 86, ../scss/_topnav-styles.scss */
   #personal-top .top-bar-section ul li a:hover {
     color: white;
     background-color: #333333;
   }
 }
-/* line 95, ../scss/_topnav-styles.scss */
+/* line 100, ../scss/_topnav-styles.scss */
 #personal-top #contact-me-button a:hover {
   background-color: #333333;
   color: white;
 }
-@media only screen and (min-width: 40.0625em) {
-  /* line 93, ../scss/_topnav-styles.scss */
+@media (min-width: 769px) {
+  /* line 98, ../scss/_topnav-styles.scss */
   #personal-top #contact-me-button {
     border: 1px solid black;
+  }
+}
+
+/* line 6, ../scss/_landing.scss */
+.hero {
+  text-align: left;
+}
+
+/* line 10, ../scss/_landing.scss */
+header {
+  background: url("../img/landing_back.png") no-repeat top center;
+  background-size: cover;
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 10, ../scss/_landing.scss */
+  header {
+    background: url("../img/landing_back.png");
+  }
+}
+/* line 18, ../scss/_landing.scss */
+header #landing-overlay {
+  height: 760px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 32, ../scss/_landing.scss */
+#personal-top-land .top-bar {
+  padding-top: .7rem;
+  padding-bottom: .8rem;
+  background: none;
+}
+@media only screen and (max-width: 768px), only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 32, ../scss/_landing.scss */
+  #personal-top-land .top-bar {
+    padding: 0;
+  }
+}
+/* line 43, ../scss/_landing.scss */
+#personal-top-land .top-bar .menu-icon {
+  top: 25%;
+  margin-right: 1rem;
+}
+/* line 47, ../scss/_landing.scss */
+#personal-top-land .top-bar .menu-icon a span::after {
+  box-shadow: 0 0 0 1px #C8F526, 0 7px 0 1px #C8F526, 0 14px 0 1px #C8F526;
+}
+/* line 57, ../scss/_landing.scss */
+#personal-top-land h5 {
+  font-family: "Myriad Pro";
+  font-weight: 500;
+  font-size: 18px;
+  color: #333333;
+}
+/* line 63, ../scss/_landing.scss */
+#personal-top-land h5 a {
+  color: #C8F526;
+}
+/* line 66, ../scss/_landing.scss */
+#personal-top-land h5 a:hover {
+  color: #C8F526;
+}
+/* line 73, ../scss/_landing.scss */
+#personal-top-land .title-area {
+  margin-left: 1.7rem;
+}
+@media only screen and (max-width: 768px), only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 76, ../scss/_landing.scss */
+  #personal-top-land .title-area .name {
+    background-color: transparent;
+  }
+}
+/* line 84, ../scss/_landing.scss */
+#personal-top-land .top-bar.expanded .title-area {
+  background: transparent;
+}
+/* line 88, ../scss/_landing.scss */
+#personal-top-land .top-bar-section ul {
+  margin-right: 0.3rem;
+  background-color: transparent;
+}
+/* line 92, ../scss/_landing.scss */
+#personal-top-land .top-bar-section ul li {
+  background: none;
+  text-align: center;
+  margin-right: 1rem;
+}
+@media only screen and (max-width: 768px), only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 92, ../scss/_landing.scss */
+  #personal-top-land .top-bar-section ul li {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 92, ../scss/_landing.scss */
+  #personal-top-land .top-bar-section ul li {
+    margin-right: 2rem;
+  }
+  /* line 105, ../scss/_landing.scss */
+  #personal-top-land .top-bar-section ul li #contact-me-button {
+    margin-right: 1rem;
+  }
+}
+/* line 114, ../scss/_landing.scss */
+#personal-top-land .top-bar-section ul li a {
+  padding: 0 0.75rem;
+  line-height: 2.2rem;
+  background: transparent;
+  color: #C8F526;
+}
+@media only screen and (max-width: 768px), only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 114, ../scss/_landing.scss */
+  #personal-top-land .top-bar-section ul li a {
+    border-bottom: 1px solid #888888;
+    margin: 0;
+    padding: .7rem 0;
+  }
+  /* line 125, ../scss/_landing.scss */
+  #personal-top-land .top-bar-section ul li a:hover {
+    color: black;
+    background-color: #C8F526;
+  }
+}
+@media only screen and (max-width: 768px), only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 139, ../scss/_landing.scss */
+  #personal-top-land .top-bar-section ul {
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+/* line 150, ../scss/_landing.scss */
+#personal-top-land #contact-me-button a:hover {
+  background-color: #C8F526;
+  color: black;
+}
+@media (min-width: 769px) {
+  /* line 148, ../scss/_landing.scss */
+  #personal-top-land #contact-me-button {
+    border: 1px solid #C8F526;
   }
 }
