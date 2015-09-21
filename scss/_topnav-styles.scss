@@ -1,9 +1,13 @@
 $topbar-media-query-tablet: "
-	only screen and (max-width: 768px),
+	only screen and (max-width: 770px),
 	only screen
 	and (min-device-width : 768px)
 	and (max-device-width : 1024px)
 	and (orientation : landscape)" ;
+
+
+
+// //////////   /////// NAV BAR ////////   /////////////  //
 
 
 
@@ -77,6 +81,9 @@ $topbar-media-query-tablet: "
 			a{
 				padding: 0 0.75rem;
 				line-height: 2.2rem;
+				&:hover{
+					background: white;
+				}
 
 				@media #{$topbar-media-query-tablet} { 
 					border-top: 1px solid $iron;
@@ -108,8 +115,24 @@ $topbar-media-query-tablet: "
 
 	}
 
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

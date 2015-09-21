@@ -26,8 +26,14 @@ $topbar-menu-icon-color: black;
 
 
 // Transitions and breakpoint styles
-$topbar-breakpoint: 768px !default; // Change to 9999px for always mobile layout
+$topbar-breakpoint: 770px !default; // Change to 9999px for always mobile layout
 
+$topbar-media-query: "
+only screen and (min-width: 770px),
+only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)" !default;
 
 
 
