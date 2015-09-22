@@ -1,6 +1,12 @@
 a.button:hover{
-	// color: $lime-green;
-	background: darken($button-bg-color, 20%);
+	color: $lime-green;
+	background: transparent;
+	border: 1px solid $lime-green;
+}
 
-	// border: 1px solid $lime-green;
+.tablet-up a:nth-child(2){
+	background: transparent;
+	border: 1px solid $lime-green;
+	color: $lime-green;
+
 }

@@ -26,7 +26,9 @@ $button-font-lrg: 75px;
 
 $button-function-factor: 20%;
 $button-bg-color: $lime-green;
-// $button-bg-hover: transparent;
+$button-bg-hover: transparent;
+$button-bg-hover: scale-color($button-bg-color, $lightness: $button-function-factor);
+
 
 
 
