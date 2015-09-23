@@ -11,10 +11,10 @@ $button-font-color: black;
 // We use these to control button text styles.
 //to transfer to settings. 
 
-	// $button-font-tny: rem-calc(38);
-	// $button-font-sml: rem-calc(54);
-	// $button-font-med: rem-(64);
-	// $button-font-lrg: rem-calc(75);
+// $button-font-tny: rem-calc(38);
+// $button-font-sml: rem-calc(54);
+// $button-font-med: rem-calc(64);
+// $button-font-lrg: rem-calc(75);
 
 
 
@@ -28,9 +28,5 @@ $button-function-factor: 20%;
 $button-bg-color: $lime-green;
 $button-bg-hover: transparent;
 $button-bg-hover: scale-color($button-bg-color, $lightness: $button-function-factor);
-
-
-
-
 
 

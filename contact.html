@@ -11,13 +11,45 @@
 
   <body>
 
-    <div class= "contact-me">
+
+
+    <div id="personal-top" class= "fixed">
+
+      <nav class= "top-bar" data-topbar>
+        <ul class= "title-area">
+          <li class = "name">
+             <h6><a href= "landing_page.html" class= "left">claudette ngai</a></h6>
+           </li>
+           <li class= "toggle-topbar menu-icon"><a href= "#"><span></span></a><li>
+        </ul>
+
+        <section class= "top-bar-section">
+          <ul class="right">
+            <li><a href= "about.html">about</a></li>
+            <li><a href= "work.html">work</a></li>
+            <li><a href= "resume.html">resume</a></li>
+            <li id= "contact-me-button"><a href= "contact.html"data-reveal-id="myModal">contact me</a></li>
+          </ul>
+        </section>
+      </nav>
+     </div>
+
+
+
+
+
+
+
+
+
+
+    <div class= "contact-me reveal-modal" id= "myModal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
 
       <div class= "row">
         <div class= "small-12 small-centered columns">
           <div class= "box-boundary">
 
-            <div id= "x-out">x</div>
+             <a class="close-reveal-modal" aria-label="Close"><div id= "x-out">x</div></a>
 
             <h2>leave me a<br><span>message!</span></h2>
 
@@ -56,8 +88,6 @@
 
      </div>  
    </div>
-
-
 
 
 

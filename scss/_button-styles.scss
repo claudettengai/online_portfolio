@@ -1,12 +1,69 @@
-a.button:hover{
-	color: $lime-green;
-	background: transparent;
-	border: 1px solid $lime-green;
+//landing buttons
+header{
+
+	a.button:hover{
+		color: $lime-green;
+		background: transparent;
+		border: 1px solid $lime-green;
+	}
+
+	.tablet-up a:nth-child(2){
+		background: transparent;
+		border: 1px solid $lime-green;
+		color: $lime-green;
+
+	}
 }
 
-.tablet-up a:nth-child(2){
+
+
+a.hollow.button {
 	background: transparent;
-	border: 1px solid $lime-green;
-	color: $lime-green;
+	border: 2px solid $lime-green;	
+ 
+
+	 &:hover{
+	 	background: $lime-green;
+	 }
+}
+
+
+
+
+.title-buttons{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	@media #{$medium-up}{
+		margin-top: 60px;
+		margin-bottom: 100px;
+
+	} 
+
+
+
+	.hollow-button-row{
+		margin-top: -70px;
+		@media #{$medium-up}{
+			margin-top: -110px;
+		
+
+			a{
+				margin-left: 30px;
+			}
+		}
+
+	}
+
+	.button{
+		&:hover{
+			background: $lime-green;
+		}
+	}
+	
+
 
 }
+
+
+
