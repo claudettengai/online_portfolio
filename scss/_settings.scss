@@ -115,6 +115,8 @@ $include-html-global-classes: $include-html-classes;
 // $jet         : #222222;
 // $black       : #000000;
 
+	$lime-green: #C8F526;
+
 // We use these as default colors throughout
 // $primary-color: #008CBA;
 // $secondary-color: #e7e7e7;
@@ -122,6 +124,9 @@ $include-html-global-classes: $include-html-classes;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
+
+	$primary-color: $lime-green;
+
 
 // We use these to control various global styles
 // $body-bg: $white;
@@ -226,6 +231,8 @@ $include-html-global-classes: $include-html-classes;
 // $h4-font-size: rem-calc(23);
 // $h5-font-size: rem-calc(18);
 // $h6-font-size: 1rem;
+
+ $h1-font-size: rem-calc(62);
 
 // We use these to control header size reduction on small screens
 // $h1-font-reduction: rem-calc(10);
@@ -459,12 +466,7 @@ $include-html-global-classes: $include-html-classes;
 // $button-font-weight: $font-weight-normal;
 // $button-font-align: center;
 
-$button-font-family: "Myriad Pro Condensed";
-$button-font-color: black;
-$button-font-tny: rem-calc(38);
-$button-font-sml: rem-calc(54);
-$button-font-med: rem-calc(64);
-$button-font-lrg: rem-calc(78);
+
 
 
 
@@ -489,8 +491,7 @@ $button-font-lrg: rem-calc(78);
 // $info-button-bg-hover: scale-color($info-color, $lightness: $button-function-factor);
 // $info-button-border-color: $info-button-bg-hover;
 
-$button-bg-color: #C8F526;
-$button-bg-hover: transparent;
+
 
 // We use this to set the default radius used throughout the core.
 // $button-radius: $global-radius;

@@ -6,7 +6,15 @@ $reveal-overlay-bg: transparentize($lime-green, 0.1) ;
 
 // We use these to control the style of the modal itself.
 $reveal-modal-bg: transparentize(#000, 0.15);
-// $reveal-position-top: rem-calc(100);
+
+
+//use this when dropping into settings.scss
+// $reveal-position-top: rem-calc(25);
+$reveal-position-top: 25px;
+
+
+
+
 $reveal-default-width: 90%;
 // $reveal-max-width: $row-width;
 // $reveal-modal-padding: rem-calc(20);
