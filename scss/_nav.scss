@@ -103,8 +103,4 @@
   background-color: #333;
 }
 
-.off-canvas-wrap, .inner-wrap {
-    @media (min-width: 768px) {
-        -webkit-backface-visibility: visible; 
-    }
-}
+
