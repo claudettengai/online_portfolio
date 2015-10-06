@@ -4,9 +4,20 @@
     float: right;
     display: block;
     margin: 4.5rem 2.5rem;
-    position: fixed;
+    position: absolute;
     z-index: 1;
-    margin-left: 85%;
+    margin-left: 80%;
+
+    @media (max-width:399px) {
+      margin: 2rem; 
+      margin-left: 80%;
+    }
+
+
+    @media #{$medium-only}{
+      margin-left: 85%;
+    }
+    
     @media #{$large-up} {
       margin-left: 90%;
     }
@@ -15,39 +26,88 @@
 }
 
 
+
+
+
+
+
+
+$menu-text-width-percent: 0.36;
+
+$menu-push-percent-small: 0.7;
+$menu-side-padding-small: ($menu-push-percent-small - $menu-text-width-percent)/2;
+
+$menu-push-percent-med: 0.5;
+$menu-side-padding-med: ($menu-push-percent-med - $menu-text-width-percent)/2;
+
+
+
+
+
+
+
 .move-left .exit-off-canvas {
   box-shadow: none;
 }
 
 .right-off-canvas-menu {
-  width: 35%;
+  width: percentage($menu-text-width-percent);
 
 
 }
 
 .move-left > .inner-wrap {
-  transform: translate3d(-35%, 0, 0); 
+  transform: translate3d(percentage((0- $menu-push-percent-small)), 0, 0); 
+
+  @media #{$medium-only}{
+    transform: translate3d(percentage((0- $menu-push-percent-med)), 0, 0); 
+  }
+
+  @media #{$large-up} {
+    transform: translate3d(-36%, 0, 0); 
+
+  }
+
 }
 
 .right-off-canvas-menu {
-  background: #00d7ff;
-  padding: 3rem 3rem;
+  background: $jet;
+  padding: 3rem percentage($menu-side-padding-small);
+  // text-align: center;
+
+  @media #{$medium-only}{
+    padding: 3rem percentage($menu-side-padding-med);
+  }
+
+  @media #{$large-up} {
+    
+    padding: 3rem 3rem;
+    text-align: left;
+  }
+
   .side-nav.main li a:not(.button) {
-    font-weight: 100;
+    // font-weight: 100;
+    font-family: "Varela";
     font-style: normal;
     font-size: 3rem;
-    color: #323237;
+    padding-top: 1rem;
+    color: $lime-green;
     text-transform: capitalize;
     .is-active, &:hover {
       color: #f1f3f3;
       background: transparent;
     }
+
+    @media #{$small-only}{
+      font-size: 2rem;
+    }
   }
 
   .social {
-    padding-left: 0.8rem;
+    // padding-left: 0.8rem;
+    padding-top: 6rem;
     li {
-      margin-left: 1.1rem;
+      text-align: center;
     }
     i {
       font-size: 1.7rem;
@@ -67,15 +127,20 @@
 }
 
 
+
+
+
+
 .top-bar,
 .middle-bar,
 .bottom-bar {
   display: block;
   width: 40px;
-  height: 10px;
+  height: 7px;
   background-color: #333;
-  margin-bottom: 4px;
+  margin-bottom: 7px;
   transition: transform 0.4s cubic-bezier(1, 0, 0, 1) 0, background-color 0.6s ease 0;
+
 }
 
 .top-bar, .bottom-bar {

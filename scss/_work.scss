@@ -1,0 +1,28 @@
+.work{
+	width:100%;
+	// padding-top: 15vh;
+
+	h2{
+		border-bottom: 3px solid #333;
+		display: inline-block;
+		padding-bottom: 1rem;
+
+	}
+
+}
+
+
+.project-links{
+	margin-top: 6rem;
+}
+
+.project-fe-link img{
+	// background-image: url("../img/proj_fe_temp.jpg");
+	// background-size: contain;
+	// margin-bottom: 8rem;
+	// // width: 100%;
+	@media (max-width: 1000px) {
+	height: 486px;
+}
+
+}
