@@ -12,17 +12,53 @@
 }
 
 
-.project-links{
+.projects{
 	margin-top: 6rem;
+	height: 2000px;
+	a{
+		display: inline-block;
+	}
 }
 
-.project-fe-link img{
-	// background-image: url("../img/proj_fe_temp.jpg");
-	// background-size: contain;
-	// margin-bottom: 8rem;
-	// // width: 100%;
-	@media (max-width: 1000px) {
-	height: 486px;
+
+
+
+.project-link{
+margin-bottom: 5rem;
 }
 
+
+
+.image-overlay-content{
+	background-color: transparentize(black, 0.2);
+	display:none;
+	position: absolute;
+
+
+	.project-title{
+		text-align: center;
+
+		
+
+
+	}
+
+	h3{
+		color: white;
+	}
+
+	h4{
+		color: $lime-green;
+	}
+
 }
+
+// .project-fe-link img{
+// 	border: 5px solid $lime-green;
+// }
+
+
+
+
+
+

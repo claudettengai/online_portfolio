@@ -10332,12 +10332,6 @@ th.hide-for-touch {
   height: 84vh;
   z-index: -1;
 }
-@media only screen and (min-width: 80.0625em) {
-  /* line 12, ../scss/_hero.scss */
-  #hero-top {
-    background-image: url("../img/triangle-pics-1.jpg");
-  }
-}
 @media (max-width: 375px) {
   /* line 12, ../scss/_hero.scss */
   #hero-top {
@@ -10415,13 +10409,35 @@ h3 {
 }
 
 /* line 15, ../scss/_work.scss */
-.project-links {
+.projects {
   margin-top: 6rem;
+  height: 2000px;
+}
+/* line 18, ../scss/_work.scss */
+.projects a {
+  display: inline-block;
 }
 
-@media (max-width: 1000px) {
-  /* line 19, ../scss/_work.scss */
-  .project-fe-link img {
-    height: 486px;
-  }
+/* line 26, ../scss/_work.scss */
+.project-link {
+  margin-bottom: 5rem;
+}
+
+/* line 32, ../scss/_work.scss */
+.image-overlay-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  position: absolute;
+}
+/* line 38, ../scss/_work.scss */
+.image-overlay-content .project-title {
+  text-align: center;
+}
+/* line 46, ../scss/_work.scss */
+.image-overlay-content h3 {
+  color: white;
+}
+/* line 50, ../scss/_work.scss */
+.image-overlay-content h4 {
+  color: #C8F526;
 }

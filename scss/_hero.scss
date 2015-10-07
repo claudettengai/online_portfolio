@@ -17,9 +17,9 @@
 	height: 84vh;
 	z-index: -1;
 
-	@media #{$xlarge-up}{
-		background-image: url("../img/triangle-pics-1.jpg")
-	}
+	// @media #{$xlarge-up}{
+	// 	background-image: url("../img/triangle-pics-1-large.jpg")
+	// }
 
 	@media (max-width: 375px) {
 		height: 114vh;
