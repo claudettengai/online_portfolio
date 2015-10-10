@@ -1,0 +1,52 @@
+
+
+$triangle-2-height: 50vh;
+
+.triangle-2{
+
+	background: url("../img/triangle-pics-2-large.jpg");
+	background-attachment: fixed;
+	// background-size: cover;
+	background-position: top left;
+	height: $triangle-2-height;
+	width: 100%
+}
+
+
+
+$triangle-2-top-height: 26vh;
+
+#triangle-2-top{
+	background-color: $white;
+	-webkit-clip-path: polygon(0% 0%,100% 0%, 0% 100%);
+	width: 100%;
+	height: $triangle-2-top-height;
+	margin-top: -5px;
+
+	
+
+}
+
+
+
+
+
+#triangle2-bottom{
+	background-color: $lime-green;
+	-webkit-clip-path: polygon(0% 100%,100% 0%, 100% 100%);
+	width: 100%;
+	height: $triangle-2-height;
+	margin-top: - $triangle-2-top-height;
+
+}
+
+
+
+
+
+
+.about-me{
+	height: 200vh;
+	width: 100%;
+	background-color: $lime-green;
+}

@@ -17,6 +17,30 @@ $(function() {
 });
 
 
+		// my code -- make menu fixed
+
+
+$('.right-off-canvas-toggle').click(function(){
+	// console.log('hello');
+
+	var windowTop = ($(window).scrollTop());
+
+	$('.side-nav, .top-bar, middle-bar, bottom-bar').css({
+		marginTop: windowTop
+	});
+
+
+});
+
+
+
+	$(document).scroll(function(){
+		var windowTop = ($(window).scrollTop());
+
+		$('.side-nav, .top-bar, middle-bar, bottom-bar').css({
+			marginTop: windowTop
+		});
+	});
 
 
 
@@ -30,33 +54,32 @@ $(function() {
 
 	$('.project-link').mouseenter(function(){
 
+		var imageShown= $(this).find($('.project-image').filter(':visible'));
+
+
 		$(this).find($('.image-overlay-content')).css({
-			width: $(this).find($('.project-image')).width(),
-			height: $(this).find($('.project-image')).height()
+			width: imageShown.width(),
+			height: imageShown.height()
 			});
 
-		// $(this).find($('.project-title')).css({
-		// 	marginTop: ($(this).find($('.project-title')).parent().height()/2) - 
-		// 	($(this).find($('.project-title')).height()/2) -40 
-		// });
+		
 
-
-		$(this).find($('.image-overlay-content')).fadeIn(200);
+		$(this).find($('.image-overlay-content')).fadeIn(150);
 
 		$(this).find($('.project-title')).animate({
 			marginTop:($(this).find($('.project-title')).parent().height()/2) - 
 			($(this).find($('.project-title')).height()/2)}
-			, 150);
+			, 200);
 
 	});
 
 	$('.project-link').mouseleave(function(){
-		$(this).find($('.image-overlay-content')).fadeOut(200);
+		$(this).find($('.image-overlay-content')).fadeOut(150);
 
 		$(this).find($('.project-title')).animate({
 			marginTop:($(this).find($('.project-title')).parent().height()/2) - 
 			($(this).find($('.project-title')).height()/2) - 30}
-			, 150);
+			, 200);
 
 
 
