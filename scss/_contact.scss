@@ -1,132 +1,35 @@
-.contact-me {
-		// background: transparentize($lime-green, 0.1) ;
-		// width: 90%;
-		// height: 100%;
+.contact{
 
-	.box-boundary{
-		// background: transparentize(#000, 0.15);
+	h2{
+		border-bottom: 3px solid #333;
 		display: inline-block;
-		text-align: center;
-		// margin-top: 5%;
-
-
-		// @media (max-width: 400px){
-		// 	margin-top: 3.5%;
-		// }
-
-
-
-
-		#x-out{
-			font-family: "Myriad Pro Condensed";
-			font-size: 30px;
-			border: 1px solid $lime-green;
-			display: inline-block;
-			padding: 0 1rem;
-			color: white;
-			// margin: 1.5rem 2rem;
-			float: right;
-
-		}
-
-
-		h2 {
-			margin:0;
-			margin-top: 50px;
-			display:inline-block;
-			line-height: 1.1;
-
-			@media #{$small-only}{
-				// margin-top: 5;
-				font-size: 35px;
-
-			}
-
-			@media (max-width:400px) {
-				font-size: 36px;
-				// margin-top: 0;
-				margin-left: -60px;
-			}
-
-
-			span{
-			margin-left: 10rem;
-
-			}
-		}
-
-
-		p{
-			font-family: "Open Sans";
-			font-size: 19px;
-			color: white;
-			margin-top: 50px;
-			line-height: 2;
-
-			@media #{$small-only}{
-				font-size: 16px;
-				// margin:0;
-				margin-top: 40px;
-			}
-
-			@media (max-width:400px) {
-				// font-size: 14;
-				// margin-top: 0;
-				text-align: left;
-				margin-bottom: 40px;
-			}
-
-
-		}
-
-
-
-		#email {
-			margin: -190px 0 60px -30px;
-
-			@media #{$small-only}{
-				margin: -100px 0 60px -30px
-			}
-
-			@media (max-width:400px) {
-				margin: 0;
-				margin-bottom: 15px;
-			}
-
-		}
-
-		#location{
-			margin: 40px 0 60px 0;
-
-			@media (max-width:400px) {
-				margin: 0;
-				margin-bottom: 10px;
-			}
-		}
-
-
-		h5{
-			font-family: "Myriad Pro Condensed";
-			font-size: 26px;
-			color: white;
-			border: 1px solid $lime-green;
-			// display: inline-block;
-			text-align: left;
-			padding: 50px;
-
-			@media #{$small-only}{
-				display: inline-block;
-			}
-
-			@media (max-width:400px) {
-				padding: 20px;
-				// font-size: 22px;			
-
-					
-			}
-		}
-
-
-	
+		float: right;
+		text-align: right;
 	}
+
+	p{
+		margin-top: 7vh;
+		display: inline-block;
+		float: right;
+		line-height: 2.2rem;
+	}
+
+	h4{
+		line-height: 2rem;
+
+		
+	}
+}
+
+#location-box{
+	padding: 2rem 1.5rem;
+	border: 2px solid $lime-green;
+	display: inline-block;
+	margin-top: 7rem;
+}
+
+#email-box{
+	@extend #location-box;
+	float: right;
+	margin-top: 4rem;
 }

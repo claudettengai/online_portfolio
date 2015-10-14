@@ -1,9 +1,5 @@
 
-// fixed nav bar override 
-.off-canvas-wrap, .inner-wrap {
- 
-        -webkit-backface-visibility: visible; 
-}
+
 
 
 ////////////////////////////////////////////////////////////
@@ -31,6 +27,8 @@
 	-webkit-clip-path: polygon(0 0%, 100% 0%, 100% 30vh, 0% 100%);
 	height: 80vh;
 	background-color: $lime-green;
+
+	//fixing issues with right-off-canvas menu with hero-top background-attachement fixed 
 	overflow: hidden;
 
 	@media (max-width: 375px) {

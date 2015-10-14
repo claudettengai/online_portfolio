@@ -106,7 +106,7 @@
 
 <!--         work section      -->
 
-<!-- 
+
     <div class= "work-title row">
       <div class= "small-10 small-indent medium-offset-1 xlarge-offset-0 xlarge-12 columns">
         <h2>My Work</h2>
@@ -155,7 +155,7 @@
           </div>        
        
       </div>
-    </div> -->
+    </div>
 
 
 
@@ -168,9 +168,6 @@
       <div id = "triangle-2-bottom"></div>
     </div>
 
-
-
-  <div class= "work-section">
 
  <div class= "work-title row">
       <div class= "small-10 small-indent medium-offset-1 xlarge-offset-0 xlarge-12 columns">
@@ -221,7 +218,6 @@
        
       </div>
     </div>
-  </div>
    
 
 

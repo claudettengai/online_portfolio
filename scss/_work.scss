@@ -1,14 +1,16 @@
 .work-title{
 	width:100%;
-	// padding-top: 15vh;
+	padding-top: 20vh;
 
 	// padding-bottom: 10vh;
+
+
 
 
 	h2{
 		border-bottom: 3px solid #333;
 		display: inline-block;
-		padding-bottom: 1rem;
+	
 
 	}
 
@@ -16,8 +18,8 @@
 
 
 .projects{
-	margin-top: 6rem;
-	padding-bottom: 9vh;
+	
+	padding-bottom: 15vh;
 	background-color: $white;
 	
 	a{
@@ -27,9 +29,11 @@
 
 
 
+$project-margin-top: 7rem; 
+$project-margin-bottom: 10rem;
 
 .project-link{
-margin-bottom: 7rem;
+margin: $project-margin-top 0 $project-margin-bottom 0;
 }
 
 

@@ -1,4 +1,4 @@
-
+// triangle-2 ////////
 
 $triangle-2-height: 50vh;
 
@@ -20,8 +20,9 @@ $triangle-2-top-height: 26vh;
 	background-color: $white;
 	-webkit-clip-path: polygon(0% 0%,100% 0%, 0% 100%);
 	width: 100%;
-	height: $triangle-2-top-height;
-	margin-top: -5px;
+	height: $triangle-2-top-height +1;
+	margin-top: -1vh
+	// margin-top: -$project-margin-top + $project-margin-bottom;
 
 	
 
@@ -31,7 +32,7 @@ $triangle-2-top-height: 26vh;
 
 
 
-#triangle2-bottom{
+#triangle-2-bottom{
 	background-color: $lime-green;
 	-webkit-clip-path: polygon(0% 100%,100% 0%, 100% 100%);
 	width: 100%;
@@ -41,12 +42,92 @@ $triangle-2-top-height: 26vh;
 }
 
 
+/////////////////about me///////////////
 
 
-
+$p-top: 4vh;
 
 .about-me{
-	height: 200vh;
+	padding: 7vh 0 7vh 0;
+
 	width: 100%;
 	background-color: $lime-green;
+	border-top: 3px solid $lime-green;
+
+	p{
+		line-height: 2em;
+		margin-top: $p-top;
+	}
+
+
 }
+
+
+
+
+
+
+///////////////// triangle 3//////////////
+
+
+$triangle-3-height: 60vh;
+
+.triangle-3{
+
+	background: url("../img/triangle-pics-1-med.jpg");
+	background-attachment: fixed;
+	// background-size: cover;
+	background-position: top left;
+	height: $triangle-3-height;
+	width: 100%
+}
+
+
+
+$triangle-3-top-height: 30vh;
+
+#triangle-3-top{
+	background-color: $lime-green;
+	-webkit-clip-path: polygon(0% 0%,100% 0%, 0% 100%);
+	width: 100%;
+	height: $triangle-3-top-height;
+	// margin-top: -$p-top;
+
+	
+
+}
+
+
+$triangle-3-space: 2vh;
+
+#triangle-3-bottom{
+	background-color: $white;
+	-webkit-clip-path: polygon(0% 100%,100% 0%, 100% 100%);
+	width: 100%;
+	height: $triangle-3-height - $triangle-3-space + 0.1;
+	margin-top: - $triangle-3-top-height + $triangle-3-space;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

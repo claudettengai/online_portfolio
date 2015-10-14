@@ -1,12 +1,26 @@
+// fixed background attachment (hero) - nav bar override 
+.off-canvas-wrap, .inner-wrap {
+        -webkit-backface-visibility: visible; 
+}
+
+
+.offcanvas-overlap, .offcanvas-overlap-left{
+  -webkit-backface-visibility:visible;
+}
+
+
+
+// main
+
 
 .right-off-canvas-toggle {
   .menu {
     float: right;
     display: block;
-    margin: 4.5rem 2.5rem;
+    margin: 2.5rem 2.5rem;
     position: absolute;
     z-index: 1;
-    margin-left: 80%;
+    margin-left: 85%;
 
     @media (max-width:399px) {
       margin: 2rem; 
@@ -15,11 +29,15 @@
 
 
     @media #{$medium-only}{
-      margin-left: 85%;
+      margin-left: 90%;
     }
     
     @media #{$large-up} {
-      margin-left: 90%;
+      margin-left: 92%;
+    }
+
+    @media #{$xlarge-up}{
+      margin-left: 94%;
     }
 
   }  

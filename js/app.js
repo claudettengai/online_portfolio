@@ -17,30 +17,24 @@ $(function() {
 });
 
 
+
+
+
+
 		// my code -- make menu fixed
 
-
-$('.right-off-canvas-toggle').click(function(){
-	// console.log('hello');
-
+var placeMenu = function(){
 	var windowTop = ($(window).scrollTop());
 
 	$('.side-nav, .top-bar, middle-bar, bottom-bar').css({
 		marginTop: windowTop
 	});
+};
 
+placeMenu();
 
-});
+$(document).scroll(placeMenu);
 
-
-
-	$(document).scroll(function(){
-		var windowTop = ($(window).scrollTop());
-
-		$('.side-nav, .top-bar, middle-bar, bottom-bar').css({
-			marginTop: windowTop
-		});
-	});
 
 
 

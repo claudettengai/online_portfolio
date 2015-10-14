@@ -8597,15 +8597,15 @@ a img {
 /* line 234, ../bower_components/foundation/scss/foundation/components/_type.scss */
 p {
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.0625rem;
   font-weight: normal;
-  line-height: 1.6;
+  line-height: 1.8;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility;
 }
 /* line 242, ../bower_components/foundation/scss/foundation/components/_type.scss */
 p.lead {
-  font-size: 1.21875rem;
+  font-size: 1.28125rem;
   line-height: 1.6;
 }
 /* line 244, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -8721,8 +8721,8 @@ ul,
 ol,
 dl {
   font-family: inherit;
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 1.0625rem;
+  line-height: 1.8;
   list-style-position: outside;
   margin-bottom: 1.25rem;
 }
@@ -8842,7 +8842,7 @@ blockquote cite a:visited {
 /* line 418, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
-  line-height: 1.6;
+  line-height: 1.8;
   color: #6f6f6f;
 }
 
@@ -10159,81 +10159,105 @@ th.hide-for-touch {
     display: none !important;
   }
 }
-/* line 3, ../scss/_nav.scss */
+@media only screen and (max-width: 40em) {
+  /* line 1, ../scss/_global.scss */
+  .small-indent {
+    margin-left: 4%;
+    width: 92%;
+  }
+}
+
+/* line 2, ../scss/_nav.scss */
+.off-canvas-wrap, .inner-wrap {
+  -webkit-backface-visibility: visible;
+}
+
+/* line 7, ../scss/_nav.scss */
+.offcanvas-overlap, .offcanvas-overlap-left {
+  -webkit-backface-visibility: visible;
+}
+
+/* line 17, ../scss/_nav.scss */
 .right-off-canvas-toggle .menu {
   float: right;
   display: block;
-  margin: 4.5rem 2.5rem;
+  margin: 2.5rem 2.5rem;
   position: absolute;
   z-index: 1;
-  margin-left: 80%;
+  margin-left: 85%;
 }
 @media (max-width: 399px) {
-  /* line 3, ../scss/_nav.scss */
+  /* line 17, ../scss/_nav.scss */
   .right-off-canvas-toggle .menu {
     margin: 2rem;
     margin-left: 80%;
   }
 }
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
-  /* line 3, ../scss/_nav.scss */
-  .right-off-canvas-toggle .menu {
-    margin-left: 85%;
-  }
-}
-@media only screen and (min-width: 64.0625em) {
-  /* line 3, ../scss/_nav.scss */
+  /* line 17, ../scss/_nav.scss */
   .right-off-canvas-toggle .menu {
     margin-left: 90%;
   }
 }
+@media only screen and (min-width: 64.0625em) {
+  /* line 17, ../scss/_nav.scss */
+  .right-off-canvas-toggle .menu {
+    margin-left: 92%;
+  }
+}
+@media only screen and (min-width: 80.0625em) {
+  /* line 17, ../scss/_nav.scss */
+  .right-off-canvas-toggle .menu {
+    margin-left: 94%;
+  }
+}
 
-/* line 50, ../scss/_nav.scss */
+/* line 68, ../scss/_nav.scss */
 .move-left .exit-off-canvas {
   box-shadow: none;
 }
 
-/* line 54, ../scss/_nav.scss */
+/* line 72, ../scss/_nav.scss */
 .right-off-canvas-menu {
   width: 36%;
 }
 
-/* line 60, ../scss/_nav.scss */
+/* line 78, ../scss/_nav.scss */
 .move-left > .inner-wrap {
   transform: translate3d(-70%, 0, 0);
 }
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
-  /* line 60, ../scss/_nav.scss */
+  /* line 78, ../scss/_nav.scss */
   .move-left > .inner-wrap {
     transform: translate3d(-50%, 0, 0);
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 60, ../scss/_nav.scss */
+  /* line 78, ../scss/_nav.scss */
   .move-left > .inner-wrap {
     transform: translate3d(-36%, 0, 0);
   }
 }
 
-/* line 74, ../scss/_nav.scss */
+/* line 92, ../scss/_nav.scss */
 .right-off-canvas-menu {
   background: #222222;
   padding: 3rem 17%;
 }
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
-  /* line 74, ../scss/_nav.scss */
+  /* line 92, ../scss/_nav.scss */
   .right-off-canvas-menu {
     padding: 3rem 7.0%;
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 74, ../scss/_nav.scss */
+  /* line 92, ../scss/_nav.scss */
   .right-off-canvas-menu {
     padding: 3rem 3rem;
     text-align: left;
   }
 }
-/* line 89, ../scss/_nav.scss */
+/* line 107, ../scss/_nav.scss */
 .right-off-canvas-menu .side-nav.main li a:not(.button) {
   font-family: "Varela";
   font-style: normal;
@@ -10242,26 +10266,26 @@ th.hide-for-touch {
   color: #C8F526;
   text-transform: capitalize;
 }
-/* line 97, ../scss/_nav.scss */
+/* line 115, ../scss/_nav.scss */
 .right-off-canvas-menu .side-nav.main li a:not(.button) .is-active, .right-off-canvas-menu .side-nav.main li a:not(.button):hover {
   color: #f1f3f3;
   background: transparent;
 }
 @media only screen and (max-width: 40em) {
-  /* line 89, ../scss/_nav.scss */
+  /* line 107, ../scss/_nav.scss */
   .right-off-canvas-menu .side-nav.main li a:not(.button) {
     font-size: 2rem;
   }
 }
-/* line 107, ../scss/_nav.scss */
+/* line 125, ../scss/_nav.scss */
 .right-off-canvas-menu .social {
   padding-top: 6rem;
 }
-/* line 110, ../scss/_nav.scss */
+/* line 128, ../scss/_nav.scss */
 .right-off-canvas-menu .social li {
   text-align: center;
 }
-/* line 113, ../scss/_nav.scss */
+/* line 131, ../scss/_nav.scss */
 .right-off-canvas-menu .social i {
   font-size: 1.7rem;
   font-weight: 300;
@@ -10270,14 +10294,14 @@ th.hide-for-touch {
   background: #333;
   border: 2px solid #333;
 }
-/* line 121, ../scss/_nav.scss */
+/* line 139, ../scss/_nav.scss */
 .right-off-canvas-menu .social i:hover {
   background: #00d7ff;
   color: #333;
   transition: all 500ms ease-in .1s;
 }
 
-/* line 135, ../scss/_nav.scss */
+/* line 153, ../scss/_nav.scss */
 .top-bar,
 .middle-bar,
 .bottom-bar {
@@ -10289,42 +10313,37 @@ th.hide-for-touch {
   transition: transform 0.4s cubic-bezier(1, 0, 0, 1) 0, background-color 0.6s ease 0;
 }
 
-/* line 147, ../scss/_nav.scss */
+/* line 165, ../scss/_nav.scss */
 .top-bar, .bottom-bar {
   transform-origin: 100% 50%;
 }
 
-/* line 151, ../scss/_nav.scss */
+/* line 169, ../scss/_nav.scss */
 .middle-bar {
   transition-property: opacity;
   transition-duration: 0.6s;
 }
 
-/* line 156, ../scss/_nav.scss */
+/* line 174, ../scss/_nav.scss */
 .top-bar-close {
   transform: rotate(-45deg);
   background-color: #333;
 }
 
-/* line 161, ../scss/_nav.scss */
+/* line 179, ../scss/_nav.scss */
 .middle-bar-close {
   opacity: 0;
   transition-property: opacity;
   transition-duration: 0.3s;
 }
 
-/* line 167, ../scss/_nav.scss */
+/* line 185, ../scss/_nav.scss */
 .bottom-bar-close {
   transform: rotate(45deg);
   background-color: #333;
 }
 
-/* line 3, ../scss/_hero.scss */
-.off-canvas-wrap, .inner-wrap {
-  -webkit-backface-visibility: visible;
-}
-
-/* line 12, ../scss/_hero.scss */
+/* line 8, ../scss/_hero.scss */
 #hero-top {
   background: url("../img/triangle-pics-1-med.jpg");
   background-attachment: fixed;
@@ -10333,13 +10352,13 @@ th.hide-for-touch {
   z-index: -1;
 }
 @media (max-width: 375px) {
-  /* line 12, ../scss/_hero.scss */
+  /* line 8, ../scss/_hero.scss */
   #hero-top {
     height: 114vh;
   }
 }
 
-/* line 30, ../scss/_hero.scss */
+/* line 26, ../scss/_hero.scss */
 #hero-content {
   -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 30vh, 0% 100%);
   height: 80vh;
@@ -10347,41 +10366,41 @@ th.hide-for-touch {
   overflow: hidden;
 }
 @media (max-width: 375px) {
-  /* line 30, ../scss/_hero.scss */
+  /* line 26, ../scss/_hero.scss */
   #hero-content {
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 55vh, 0% 100%);
     height: 110vh;
   }
 }
 
-/* line 44, ../scss/_hero.scss */
+/* line 42, ../scss/_hero.scss */
 #hero-text {
   margin-top: 25vh;
 }
 @media (max-width: 400px) {
-  /* line 44, ../scss/_hero.scss */
+  /* line 42, ../scss/_hero.scss */
   #hero-text {
     margin-top: 21vh;
   }
 }
 
-/* line 57, ../scss/_hero.scss */
+/* line 55, ../scss/_hero.scss */
 h1, h3 {
   font-family: "Varela";
   margin: 0 0 0.5em 0;
 }
 
-/* line 64, ../scss/_hero.scss */
+/* line 62, ../scss/_hero.scss */
 h1 {
   font-weight: 700;
 }
 
-/* line 71, ../scss/_hero.scss */
+/* line 69, ../scss/_hero.scss */
 h3 {
   font-weight: 300;
 }
 
-/* line 81, ../scss/_hero.scss */
+/* line 79, ../scss/_hero.scss */
 #hero-bottom {
   background-color: #FFFFFF;
   -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 101%, 0% 101%);
@@ -10390,7 +10409,7 @@ h3 {
   margin-top: -26vh;
 }
 
-/* line 89, ../scss/_hero.scss */
+/* line 87, ../scss/_hero.scss */
 #hero-bottom2 {
   background-color: white;
   width: 100%;
@@ -10400,45 +10419,44 @@ h3 {
 /* line 1, ../scss/_work.scss */
 .work-title {
   width: 100%;
+  padding-top: 20vh;
 }
-/* line 8, ../scss/_work.scss */
+/* line 10, ../scss/_work.scss */
 .work-title h2 {
   border-bottom: 3px solid #333;
   display: inline-block;
-  padding-bottom: 1rem;
 }
 
-/* line 18, ../scss/_work.scss */
+/* line 20, ../scss/_work.scss */
 .projects {
-  margin-top: 6rem;
-  padding-bottom: 9vh;
+  padding-bottom: 15vh;
   background-color: #FFFFFF;
 }
-/* line 23, ../scss/_work.scss */
+/* line 25, ../scss/_work.scss */
 .projects a {
   display: inline-block;
 }
 
-/* line 31, ../scss/_work.scss */
+/* line 35, ../scss/_work.scss */
 .project-link {
-  margin-bottom: 7rem;
+  margin: 7rem 0 10rem 0;
 }
 
-/* line 37, ../scss/_work.scss */
+/* line 41, ../scss/_work.scss */
 .image-overlay-content {
   background-color: rgba(0, 0, 0, 0.8);
   display: none;
   position: absolute;
 }
-/* line 43, ../scss/_work.scss */
+/* line 47, ../scss/_work.scss */
 .image-overlay-content .project-title {
   text-align: center;
 }
-/* line 51, ../scss/_work.scss */
+/* line 55, ../scss/_work.scss */
 .image-overlay-content h3 {
   color: white;
 }
-/* line 55, ../scss/_work.scss */
+/* line 59, ../scss/_work.scss */
 .image-overlay-content h4 {
   color: #C8F526;
 }
@@ -10457,12 +10475,12 @@ h3 {
   background-color: #FFFFFF;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
   width: 100%;
-  height: 26vh;
-  margin-top: -5px;
+  height: 27vh;
+  margin-top: -1vh;
 }
 
-/* line 34, ../scss/_about.scss */
-#triangle2-bottom {
+/* line 35, ../scss/_about.scss */
+#triangle-2-bottom {
   background-color: #C8F526;
   -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
   width: 100%;
@@ -10470,9 +10488,102 @@ h3 {
   margin-top: -26vh;
 }
 
-/* line 48, ../scss/_about.scss */
+/* line 50, ../scss/_about.scss */
 .about-me {
-  height: 200vh;
+  padding: 7vh 0 7vh 0;
   width: 100%;
   background-color: #C8F526;
+  border-top: 3px solid #C8F526;
+}
+/* line 57, ../scss/_about.scss */
+.about-me p {
+  line-height: 2em;
+  margin-top: 4vh;
+}
+
+/* line 75, ../scss/_about.scss */
+.triangle-3 {
+  background: url("../img/triangle-pics-1-med.jpg");
+  background-attachment: fixed;
+  background-position: top left;
+  height: 60vh;
+  width: 100%;
+}
+
+/* line 89, ../scss/_about.scss */
+#triangle-3-top {
+  background-color: #C8F526;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  width: 100%;
+  height: 30vh;
+}
+
+/* line 103, ../scss/_about.scss */
+#triangle-3-bottom {
+  background-color: #FFFFFF;
+  -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+  width: 100%;
+  height: 58.1vh;
+  margin-top: -28vh;
+}
+
+/* line 3, ../scss/_contact.scss */
+.contact h2 {
+  border-bottom: 3px solid #333;
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+/* line 10, ../scss/_contact.scss */
+.contact p {
+  margin-top: 7vh;
+  display: inline-block;
+  float: right;
+  line-height: 2.2rem;
+}
+/* line 17, ../scss/_contact.scss */
+.contact h4 {
+  line-height: 2rem;
+}
+
+/* line 24, ../scss/_contact.scss */
+#location-box, #email-box {
+  padding: 2rem 1.5rem;
+  border: 2px solid #C8F526;
+  display: inline-block;
+  margin-top: 7rem;
+}
+
+/* line 31, ../scss/_contact.scss */
+#email-box {
+  float: right;
+  margin-top: 4rem;
+}
+
+/* line 41, ../scss/_footer.scss */
+#footer {
+  margin-top: 5vh;
+  background: url("../img/triangle-bottom-medium2.jpg");
+  background-attachment: fixed;
+  background-position: bottom left;
+  height: 85vh;
+  width: 100%;
+}
+
+/* line 52, ../scss/_footer.scss */
+#footer-top {
+  background-color: #FFFFFF;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  width: 100%;
+  height: 60vh;
+  margin-top: -1vh;
+}
+
+/* line 62, ../scss/_footer.scss */
+#footer-bottom {
+  background-color: #C8F526;
+  width: 100%;
+  height: 56vh;
+  margin-top: -20vh;
+  -webkit-clip-path: polygon(0% 52%, 100% 0%, 100% 100%, 0% 100%);
 }

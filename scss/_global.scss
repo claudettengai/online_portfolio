@@ -1,0 +1,6 @@
+.small-indent{
+	@media #{$small-only}{
+		margin-left: 4%;
+		width: 92%;
+	}
+}
