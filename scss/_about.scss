@@ -54,6 +54,10 @@ $p-top: 4vh;
 	background-color: $lime-green;
 	border-top: 3px solid $lime-green;
 
+	h2{
+		border-bottom: 3px solid #333;
+	}
+
 	p{
 		line-height: 2em;
 		margin-top: $p-top;
@@ -61,8 +65,6 @@ $p-top: 4vh;
 
 
 }
-
-
 
 
 

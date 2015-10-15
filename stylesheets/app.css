@@ -10496,12 +10496,16 @@ h3 {
   border-top: 3px solid #C8F526;
 }
 /* line 57, ../scss/_about.scss */
+.about-me h2 {
+  border-bottom: 3px solid #333;
+}
+/* line 61, ../scss/_about.scss */
 .about-me p {
   line-height: 2em;
   margin-top: 4vh;
 }
 
-/* line 75, ../scss/_about.scss */
+/* line 77, ../scss/_about.scss */
 .triangle-3 {
   background: url("../img/triangle-pics-1-med.jpg");
   background-attachment: fixed;
@@ -10510,7 +10514,7 @@ h3 {
   width: 100%;
 }
 
-/* line 89, ../scss/_about.scss */
+/* line 91, ../scss/_about.scss */
 #triangle-3-top {
   background-color: #C8F526;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
@@ -10518,7 +10522,7 @@ h3 {
   height: 30vh;
 }
 
-/* line 103, ../scss/_about.scss */
+/* line 105, ../scss/_about.scss */
 #triangle-3-bottom {
   background-color: #FFFFFF;
   -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
@@ -10536,7 +10540,7 @@ h3 {
 }
 /* line 10, ../scss/_contact.scss */
 .contact p {
-  margin-top: 7vh;
+  margin-top: 4vh;
   display: inline-block;
   float: right;
   line-height: 2.2rem;
@@ -10551,19 +10555,19 @@ h3 {
   padding: 2rem 1.5rem;
   border: 2px solid #C8F526;
   display: inline-block;
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 /* line 31, ../scss/_contact.scss */
 #email-box {
   float: right;
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 /* line 41, ../scss/_footer.scss */
-#footer {
-  margin-top: 5vh;
-  background: url("../img/triangle-bottom-medium2.jpg");
+#footers {
+  margin-top: 1vh;
+  background: url("../img/triangle-bottom-medium3.jpg");
   background-attachment: fixed;
   background-position: bottom left;
   height: 85vh;
@@ -10572,10 +10576,10 @@ h3 {
 
 /* line 52, ../scss/_footer.scss */
 #footer-top {
-  background-color: #FFFFFF;
+  background-color: white;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   margin-top: -1vh;
 }
 
@@ -10583,7 +10587,19 @@ h3 {
 #footer-bottom {
   background-color: #C8F526;
   width: 100%;
-  height: 56vh;
-  margin-top: -20vh;
-  -webkit-clip-path: polygon(0% 52%, 100% 0%, 100% 100%, 0% 100%);
+  height: 20vh;
+  margin-top: -15vh;
+  -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+}
+
+/* line 71, ../scss/_footer.scss */
+#footer-bottom2 {
+  background-color: #C8F526;
+  width: 100%;
+  height: 20vh;
+}
+
+/* line 79, ../scss/_footer.scss */
+.copywrite p {
+  float: right;
 }

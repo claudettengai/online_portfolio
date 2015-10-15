@@ -1,0 +1,139 @@
+/* line 5, ../scss/_test.scss */
+.about-me {
+  background-color: white;
+  border: none;
+  padding: 0;
+}
+
+/* line 11, ../scss/_test.scss */
+.work-section, .projects {
+  background-color: #C8F526;
+  padding-bottom: 10rem;
+}
+
+/* line 17, ../scss/_test.scss */
+.triangle-3 {
+  height: 30vh;
+}
+
+/* line 21, ../scss/_test.scss */
+.triangle-2, .triangle-3 {
+  background: none;
+  background-color: #C8F526;
+}
+
+/* line 28, ../scss/_test.scss */
+.work-title, .projects {
+  padding: 0;
+}
+
+/* line 33, ../scss/_test.scss */
+.work-title {
+  margin-top: -10vh;
+}
+
+/* line 40, ../scss/_test.scss */
+.project-link {
+  margin: 4em 0 0 0;
+}
+
+/* line 45, ../scss/_test.scss */
+#triangle-3-bottom {
+  height: 30vh;
+  margin-top: -30vh;
+  background-color: white;
+}
+
+/* line 4, ../scss/_test2.scss */
+.projects, .work-section {
+  background-color: white;
+}
+
+/* line 10, ../scss/_test2.scss */
+.work-section {
+  padding-top: 10vh;
+  padding-bottom: 7vh;
+}
+
+/* line 15, ../scss/_test2.scss */
+.about-me {
+  background-color: #C8F526;
+  margin-top: -10vh;
+}
+
+/* line 22, ../scss/_test2.scss */
+#triangle-2-top {
+  margin-top: -1vh;
+  height: 27vh;
+  border-top: 5px solid white;
+}
+
+/* line 58, ../scss/_test2.scss */
+.about-me {
+  padding: 0 0 7vh 0;
+  margin: 0;
+}
+/* line 65, ../scss/_test2.scss */
+.about-me h2, .about-me p {
+  display: inline-block;
+  text-align: left;
+  float: right;
+}
+/* line 73, ../scss/_test2.scss */
+.about-me .about-text {
+  margin-top: -5vh;
+}
+
+/* line 78, ../scss/_test2.scss */
+.project-link {
+  margin-bottom: 6vh;
+}
+
+/* line 86, ../scss/_test2.scss */
+.triangle-2 {
+  height: 30vh;
+  -webkit-clip-path: polygon(100% 0%, 0 101%, 100% 101%);
+  background-color: #C8F526;
+}
+
+/* line 92, ../scss/_test2.scss */
+.triangle-3 {
+  height: 20vh;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  background-color: #C8F526;
+}
+
+/* line 107, ../scss/_test2.scss */
+.contact {
+  margin-top: 9vh;
+}
+/* line 110, ../scss/_test2.scss */
+.contact h2 {
+  float: none;
+  text-align: left;
+}
+/* line 116, ../scss/_test2.scss */
+.contact p {
+  margin-top: 3vh;
+  display: inline-block;
+  float: left;
+  line-height: 2.2rem;
+}
+/* line 123, ../scss/_test2.scss */
+.contact h4 {
+  line-height: 2rem;
+}
+
+/* line 130, ../scss/_test2.scss */
+#location-box, #email-box {
+  padding: 2rem 1.5rem;
+  border: 2px solid #C8F526;
+  display: inline-block;
+  margin-top: 5rem;
+}
+
+/* line 137, ../scss/_test2.scss */
+#email-box {
+  float: right;
+  margin-top: 2rem;
+}
