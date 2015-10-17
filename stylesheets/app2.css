@@ -70,18 +70,17 @@
 
 /* line 58, ../scss/_test2.scss */
 .about-me {
-  padding: 0 0 7vh 0;
+  padding: 0 0 2vh 0;
   margin: 0;
 }
 /* line 65, ../scss/_test2.scss */
 .about-me h2, .about-me p {
   display: inline-block;
   text-align: left;
-  float: right;
 }
 /* line 73, ../scss/_test2.scss */
 .about-me .about-text {
-  margin-top: -5vh;
+  margin-top: 5vh;
 }
 
 /* line 78, ../scss/_test2.scss */
@@ -109,14 +108,14 @@
 }
 /* line 110, ../scss/_test2.scss */
 .contact h2 {
-  float: none;
-  text-align: left;
+  float: right;
+  text-align: right;
 }
 /* line 116, ../scss/_test2.scss */
 .contact p {
   margin-top: 3vh;
   display: inline-block;
-  float: left;
+  float: right;
   line-height: 2.2rem;
 }
 /* line 123, ../scss/_test2.scss */

@@ -6341,10 +6341,10 @@ ul.pagination li {
 .panel {
   border-style: solid;
   border-width: 1px;
-  border-color: #d8d8d8;
+  border-color: #C8F526;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #f2f2f2;
+  background: white;
   color: #333333;
 }
 /* line 61, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -6372,7 +6372,7 @@ ul.pagination li {
 .panel.callout {
   border-style: solid;
   border-width: 1px;
-  border-color: #d8d8d8;
+  border-color: #C8F526;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
   background: #ecfaff;
@@ -10163,7 +10163,7 @@ th.hide-for-touch {
   /* line 1, ../scss/_global.scss */
   .small-indent {
     margin-left: 4%;
-    width: 92%;
+    width: 96%;
   }
 }
 
@@ -10540,7 +10540,7 @@ h3 {
 }
 /* line 10, ../scss/_contact.scss */
 .contact p {
-  margin-top: 4vh;
+  margin-top: 7vh;
   display: inline-block;
   float: right;
   line-height: 2.2rem;
@@ -10555,13 +10555,13 @@ h3 {
   padding: 2rem 1.5rem;
   border: 2px solid #C8F526;
   display: inline-block;
-  margin-top: 4rem;
+  margin-top: 7rem;
 }
 
 /* line 31, ../scss/_contact.scss */
 #email-box {
   float: right;
-  margin-top: 1rem;
+  margin-top: 4rem;
 }
 
 /* line 41, ../scss/_footer.scss */
@@ -10602,4 +10602,172 @@ h3 {
 /* line 79, ../scss/_footer.scss */
 .copywrite p {
   float: right;
+}
+
+/* line 2, ../scss/_proj-fe.scss */
+#FE-head-top {
+  background-color: #C8F526;
+  height: 60vh;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 51%, 0% 100%);
+  overflow: hidden;
+}
+/* line 9, ../scss/_proj-fe.scss */
+#FE-head-top h1 {
+  margin-top: 15vh;
+  line-height: 1.4;
+}
+@media only screen and (max-width: 40em) {
+  /* line 9, ../scss/_proj-fe.scss */
+  #FE-head-top h1 {
+    margin-top: 14vh;
+  }
+}
+
+/* line 23, ../scss/_proj-fe.scss */
+#FE-back {
+  background: url("../img/proj-fe-header4.jpg") center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 72vh;
+  width: 100%;
+  margin-top: -33vh;
+  text-align: center;
+}
+
+/* line 35, ../scss/_proj-fe.scss */
+.fe-info-summary {
+  margin-top: 6vh;
+}
+/* line 39, ../scss/_proj-fe.scss */
+.fe-info-summary h2 {
+  margin: 10vh 0 4vh 0;
+}
+/* line 43, ../scss/_proj-fe.scss */
+.fe-info-summary h3 {
+  margin-top: 3vh;
+}
+/* line 47, ../scss/_proj-fe.scss */
+.fe-info-summary li {
+  padding-bottom: 0.4rem;
+}
+
+/* line 60, ../scss/_proj-fe.scss */
+#fe-pic1 {
+  background: url("../img/fe-pic1.jpg") top left;
+  background-attachment: fixed;
+  height: 84vh;
+  -webkit-clip-path: polygon(0 23%, 100% 0%, 100% 17%, 0% 100%);
+}
+
+/* line 68, ../scss/_proj-fe.scss */
+h2.after-pic1 {
+  margin-top: -5vh;
+}
+
+/* line 78, ../scss/_proj-fe.scss */
+.personas {
+  position: relative;
+}
+/* line 83, ../scss/_proj-fe.scss */
+.personas img {
+  width: 50%;
+}
+/* line 91, ../scss/_proj-fe.scss */
+.personas img:nth-child(1) {
+  position: absolute;
+  z-index: 1;
+  float: left;
+  margin-left: 25%;
+  margin-top: 6%;
+  display: block;
+  border: 1px solid #39B54A;
+}
+/* line 103, ../scss/_proj-fe.scss */
+.personas img:nth-child(2) {
+  position: absolute;
+  z-index: 0;
+  float: left;
+  margin-top: 0;
+  border: 1px solid #D50000;
+}
+/* line 113, ../scss/_proj-fe.scss */
+.personas img:nth-child(3) {
+  position: relative;
+  z-index: 2;
+  float: right;
+  margin-top: 12%;
+  border: 1px solid #0071BC;
+}
+
+/* line 126, ../scss/_proj-fe.scss */
+.img-row {
+  margin-top: 5%;
+}
+
+/* line 136, ../scss/_proj-fe.scss */
+.solutions ul {
+  list-style-type: none;
+}
+/* line 141, ../scss/_proj-fe.scss */
+.solutions .solution-num {
+  display: inline-block;
+  width: 100%;
+}
+/* line 149, ../scss/_proj-fe.scss */
+.solutions .panel {
+  padding: 0;
+  background-color: transparent;
+}
+/* line 157, ../scss/_proj-fe.scss */
+.solutions h1 {
+  color: rgba(200, 245, 38, 0.7);
+  margin: 1.2rem;
+  padding: 0;
+  float: right;
+}
+/* line 169, ../scss/_proj-fe.scss */
+.solutions .solution-text {
+  float: left;
+  margin-top: 1.5rem;
+}
+/* line 176, ../scss/_proj-fe.scss */
+.solutions h3 {
+  margin: 0 0 1rem 0;
+}
+/* line 181, ../scss/_proj-fe.scss */
+.solutions a {
+  display: inline-block;
+  padding: 1.25rem;
+  width: 100%;
+}
+/* line 186, ../scss/_proj-fe.scss */
+.solutions a:hover {
+  background-color: rgba(200, 245, 38, 0.9);
+}
+/* line 188, ../scss/_proj-fe.scss */
+.solutions a:hover h1 {
+  color: rgba(255, 255, 255, 0.9);
+  display: block;
+}
+
+/* line 206, ../scss/_proj-fe.scss */
+#fe-pic2 {
+  background: url("../img/fe-pic2.jpg") top left;
+  background-attachment: fixed;
+  height: 40vh;
+  -webkit-clip-path: polygon(0 23%, 100% 0%, 100% 17%, 0% 100%);
+  margin-top: 8%;
+}
+
+/* line 221, ../scss/_proj-fe.scss */
+.solutions-detail h1 {
+  color: rgba(200, 245, 38, 0.7);
+  padding: 0;
+  float: right;
+  margin: 0;
+}
+/* line 229, ../scss/_proj-fe.scss */
+.solutions-detail h2 {
+  margin-top: 0.3rem;
 }

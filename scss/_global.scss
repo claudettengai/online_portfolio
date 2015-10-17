@@ -1,6 +1,10 @@
 .small-indent{
 	@media #{$small-only}{
 		margin-left: 4%;
-		width: 92%;
+		width: 96%;		
 	}
 }
+
+
+// grid
+// <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-12 xlarge-offset-0 columns">

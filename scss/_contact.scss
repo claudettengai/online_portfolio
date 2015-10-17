@@ -8,7 +8,7 @@
 	}
 
 	p{
-		margin-top: 4vh;
+		margin-top: 7vh;
 		display: inline-block;
 		float: right;
 		line-height: 2.2rem;
@@ -25,11 +25,11 @@
 	padding: 2rem 1.5rem;
 	border: 2px solid $lime-green;
 	display: inline-block;
-	margin-top: 4rem;
+	margin-top: 7rem;
 }
 
 #email-box{
 	@extend #location-box;
 	float: right;
-	margin-top: 1rem;
+	margin-top: 4rem;
 }

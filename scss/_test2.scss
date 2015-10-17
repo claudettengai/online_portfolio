@@ -57,7 +57,7 @@ $lime-green: #C8F526;
 
 .about-me{
 
-	padding: 0 0 7vh 0;
+	padding: 0 0 2vh 0;
 	margin: 0;
 	
 
@@ -65,13 +65,13 @@ $lime-green: #C8F526;
 	h2, p{
 		display: inline-block;
 		text-align: left;
-		float: right;
+		// float: right;
 		
 	}
 
 
 	.about-text{
-		margin-top: -5vh;
+		margin-top: 5vh;
 	}
 }
 
@@ -109,14 +109,14 @@ $lime-green: #C8F526;
 
 	h2{
 
-		float: none ;
-		text-align: left;
+		float: right ;
+		text-align: right;
 	}
 
 	p{
 		margin-top: 3vh;
 		display: inline-block;
-		float: left;
+		float: right;
 		line-height: 2.2rem;
 	}
 

@@ -1,0 +1,266 @@
+
+#FE-head-top{
+	background-color: $lime-green;
+	height: 60vh;
+	width: 100%;
+	-webkit-clip-path: polygon(0 0%, 100% 0%, 100% 51%, 0% 100%);
+	overflow:hidden;
+
+	h1{
+		margin-top: 15vh;
+		line-height: 1.4;
+
+		@media #{$small-only}{	
+			margin-top : 14vh;
+		}
+
+	}
+}
+
+
+
+
+#FE-back{
+	background: url("../img/proj-fe-header4.jpg") center center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 72vh;
+	width:100%;
+	margin-top: -33vh;
+	text-align: center;
+
+}
+
+
+.fe-info-summary{
+	margin-top: 6vh;
+
+
+	h2{
+		margin: 10vh 0 4vh 0;	
+	}
+
+	h3{
+		margin-top: 3vh;
+	}
+
+	li{
+		padding-bottom: 0.4rem;
+
+	}
+}
+
+
+
+
+
+
+///////////////////////first picture/////////////////////
+
+#fe-pic1{
+	background: url("../img/fe-pic1.jpg") top left;
+	background-attachment: fixed;
+	height: 84vh;
+	-webkit-clip-path: polygon(0 23%, 100% 0%, 100% 17%, 0% 100%);
+
+}
+
+h2.after-pic1{
+	margin-top: -5vh;
+}
+
+
+
+
+////////////////////////PERSONAS///////////////////////////
+
+
+.personas{
+	position: relative;
+
+
+
+	img{
+		width: 50%;
+		
+	}
+
+
+
+
+	img:nth-child(1){
+		position: absolute;
+		z-index:1;
+		float: left;
+		margin-left: 25%;
+		margin-top: 6%;
+		display: block;
+		// margin: -10% auto 0 auto;
+		border: 1px solid #39B54A;
+
+	}
+
+	img:nth-child(2){
+		position: absolute;
+		z-index:0;
+		float:left;
+		// transform: rotate(340deg);
+		margin-top: 0;
+		border: 1px solid #D50000;
+
+	}
+
+	img:nth-child(3){
+		position: relative;
+		z-index:2;
+		float: right;
+		// transform: rotate(12deg);
+		margin-top: 12%;
+		border: 1px solid #0071BC;
+	}
+
+
+}
+
+
+.img-row{
+	margin-top: 5%;
+}
+
+
+
+////////////////////Solutions///////////////////////////
+
+
+.solutions{
+	ul{
+		list-style-type: none;
+	}
+
+
+	.solution-num{
+		display: inline-block;
+		width: 100%
+	}
+
+
+
+
+	.panel{
+		padding: 0;
+		background-color: transparent;
+	}
+	// ul li{
+	// 	padding: 0.5rem;
+	// }
+
+	h1{
+		color: transparentize($lime-green, 0.3);
+		margin: 1.2rem;
+		padding:0;
+		// font-size: 90px;
+		// position: absolute;
+		// display: inline-block;
+		float: right;
+		// display: none;
+
+	}
+
+	.solution-text{ 
+		float: left;
+		margin-top: 1.5rem;
+
+	}
+
+
+	h3{
+		margin:0 0 1rem 0;
+		// float: left;
+	}
+
+	a{
+		display: inline-block;
+		padding: 1.25rem;
+		width: 100%;
+
+		&:hover{
+			background-color: transparentize($lime-green, 0.1);
+			h1{
+				color: transparentize(white, 0.1);
+				display: block;
+			}
+
+		}
+	
+	}
+
+
+}
+
+
+
+//////////////////picture 2/////////////////////////////
+
+
+
+#fe-pic2{
+	background: url("../img/fe-pic2.jpg") top left;
+	background-attachment: fixed;
+	height: 40vh;
+	-webkit-clip-path: polygon(0 23%, 100% 0%, 100% 17%, 0% 100%);
+	margin-top:8%;
+};
+
+
+
+
+
+//////////////////////SOLUTIONS-DETAIL/////////////////////////
+
+.solutions-detail{
+	h1{ 
+		color: transparentize($lime-green, 0.3);
+		padding: 0;
+		float: right;
+		margin:0;
+
+	}
+
+	h2{
+		margin-top: 0.3rem;
+	}
+}
+
+
+
+/////Organizational-changes///////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

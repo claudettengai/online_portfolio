@@ -1019,8 +1019,14 @@ $paragraph-line-height: 1.8;
 // $panel-border-size: 1px;
 // $callout-panel-bg: scale-color($primary-color, $lightness: 94%);
 
+$panel-bg: white;
+$panel-border-size: 1px;
+
+
 // We use this % to control how much we darken things on hover
 // $panel-border-color: scale-color($panel-bg, $lightness: -11%);
+
+$panel-border-color: $lime-green;
 
 // We use these to set default inner padding and bottom margin
 // $panel-margin-bottom: rem-calc(20);
