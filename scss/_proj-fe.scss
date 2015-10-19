@@ -222,7 +222,8 @@ h2.after-pic1{
 		color: transparentize($lime-green, 0.3);
 		padding: 0;
 		float: right;
-		margin:0;
+		margin: -9vh 3rem 0 0;
+		font-size: 110px;
 
 	}
 
@@ -237,11 +238,19 @@ h2.after-pic1{
 
 
 
+.map-section,
+.flow-section {
+	margin-top: 3vh;
+
+	img{
+		border: 1px solid $jumbo;
+	}
+}
 
 
 
 
-
+///////////flow changes////////////
 
 
 

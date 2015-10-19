@@ -553,6 +553,7 @@ $paragraph-line-height: 1.8;
 // $clearing-carousel-thumb-width: 120px;
 // $clearing-carousel-thumb-active-border: 1px solid rgb(255,255,255);
 
+
 // 08. Dropdown
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -1163,6 +1164,7 @@ $panel-border-color: $lime-green;
 // $reveal-overlay-bg: rgba($black, .45);
 // $reveal-overlay-bg-old: $black;
 
+
 // We use these to control the style of the modal itself.
 // $reveal-modal-bg: $white;
 // $reveal-position-top: rem-calc(100);
@@ -1170,6 +1172,10 @@ $panel-border-color: $lime-green;
 // $reveal-max-width: $row-width;
 // $reveal-modal-padding: rem-calc(20);
 // $reveal-box-shadow: 0 0 10px rgba($black,.4);
+
+
+$reveal-position-top: rem-calc(20);
+
 
 // We use these to style the reveal close button
 // $reveal-close-font-size: rem-calc(40);
@@ -1186,6 +1192,8 @@ $panel-border-color: $lime-green;
 // $reveal-border-style: solid;
 // $reveal-border-width: 1px;
 // $reveal-border-color: $steel;
+
+
 
 // $reveal-modal-class: "reveal-modal";
 // $close-reveal-modal-class: "close-reveal-modal";
