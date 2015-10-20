@@ -1,125 +1,58 @@
 // triangle-2 ////////
 
-$triangle-2-height: 50vh;
 
 .triangle-2{
 
-	background: url("../img/triangle-pics-2-large.jpg");
-	background-attachment: fixed;
-	// background-size: cover;
-	background-position: top left;
-	height: $triangle-2-height;
-	width: 100%
-}
-
-
-
-$triangle-2-top-height: 26vh;
-
-#triangle-2-top{
-	background-color: $white;
-	-webkit-clip-path: polygon(0% 0%,100% 0%, 0% 100%);
-	width: 100%;
-	height: $triangle-2-top-height +1;
-	margin-top: -1vh
-	// margin-top: -$project-margin-top + $project-margin-bottom;
-
-	
-
-}
-
-
-
-
-
-#triangle-2-bottom{
 	background-color: $lime-green;
-	-webkit-clip-path: polygon(0% 100%,100% 0%, 100% 100%);
+	height: 25vh;
 	width: 100%;
-	height: $triangle-2-height;
-	margin-top: - $triangle-2-top-height;
-
+	-webkit-clip-path: polygon(100% 0%,0 101%, 100% 101%);
 }
+
+
 
 
 /////////////////about me///////////////
 
 
-$p-top: 4vh;
+
 
 .about-me{
-	padding: 7vh 0 7vh 0;
-
+	margin:0;
+	padding: 0 0 2vh 0;
 	width: 100%;
 	background-color: $lime-green;
-	border-top: 3px solid $lime-green;
+	
 
 	h2{
 		border-bottom: 3px solid #333;
+		display: inline-block;
+		text-align: left;
+		margin-top: 2.5rem;
+	}
+
+	.about-text{
+		margin-top: 5vh;
 	}
 
 	p{
 		line-height: 2em;
-		margin-top: $p-top;
+		margin-top: 4vh;
+		display: inline-block;
+		text-align: left;
 	}
 
 
 }
-
-
 
 
 ///////////////// triangle 3//////////////
 
 
-$triangle-3-height: 60vh;
-
 .triangle-3{
-
-	background: url("../img/triangle-pics-1-med.jpg");
-	background-attachment: fixed;
-	// background-size: cover;
-	background-position: top left;
-	height: $triangle-3-height;
-	width: 100%
-}
-
-
-
-$triangle-3-top-height: 30vh;
-
-#triangle-3-top{
-	background-color: $lime-green;
+	@extend .triangle-2;
 	-webkit-clip-path: polygon(0% 0%,100% 0%, 0% 100%);
-	width: 100%;
-	height: $triangle-3-top-height;
-	// margin-top: -$p-top;
-
-	
-
 }
-
-
-$triangle-3-space: 2vh;
-
-#triangle-3-bottom{
-	background-color: $white;
-	-webkit-clip-path: polygon(0% 100%,100% 0%, 100% 100%);
-	width: 100%;
-	height: $triangle-3-height - $triangle-3-space + 0.1;
-	margin-top: - $triangle-3-top-height + $triangle-3-space;
-
-}
-
-
-
-
-
-
-
-
-
-
 
 
 

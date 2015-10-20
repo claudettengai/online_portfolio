@@ -1,10 +1,15 @@
+.work-section{
+	background-color: white;
+	padding: 10vh 0 9vh 0;
+
+}
+
+
+
 .work-title{
 	width:100%;
-	padding-top: 20vh;
-
-	// padding-bottom: 10vh;
-
-
+	padding: 0;
+	margin-top: -10vh;
 
 
 	h2{
@@ -17,10 +22,12 @@
 }
 
 
+
+
 .projects{
 	
-	padding-bottom: 15vh;
-	background-color: $white;
+	padding:0;
+	background-color: white;
 	
 	a{
 		display: inline-block;
@@ -29,14 +36,18 @@
 
 
 
-$project-margin-top: 7rem; 
-$project-margin-bottom: 10rem;
+
 
 .project-link{
-margin: $project-margin-top 0 $project-margin-bottom 0;
-}
+	margin: 4em 0 6vh 0;
+	}
 
 
+
+
+
+
+////////////image overlay/////////////
 
 .image-overlay-content{
 	background-color: transparentize(black, 0.2);
@@ -61,6 +72,25 @@ margin: $project-margin-top 0 $project-margin-bottom 0;
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

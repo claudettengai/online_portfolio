@@ -10417,190 +10417,188 @@ h3 {
 }
 
 /* line 1, ../scss/_work.scss */
+.work-section {
+  background-color: white;
+  padding: 10vh 0 9vh 0;
+}
+
+/* line 9, ../scss/_work.scss */
 .work-title {
   width: 100%;
-  padding-top: 20vh;
+  padding: 0;
+  margin-top: -10vh;
 }
-/* line 10, ../scss/_work.scss */
+/* line 15, ../scss/_work.scss */
 .work-title h2 {
   border-bottom: 3px solid #333;
   display: inline-block;
 }
 
-/* line 20, ../scss/_work.scss */
+/* line 27, ../scss/_work.scss */
 .projects {
-  padding-bottom: 15vh;
-  background-color: #FFFFFF;
+  padding: 0;
+  background-color: white;
 }
-/* line 25, ../scss/_work.scss */
+/* line 32, ../scss/_work.scss */
 .projects a {
   display: inline-block;
 }
 
-/* line 35, ../scss/_work.scss */
+/* line 41, ../scss/_work.scss */
 .project-link {
-  margin: 7rem 0 10rem 0;
+  margin: 4em 0 6vh 0;
 }
 
-/* line 41, ../scss/_work.scss */
+/* line 52, ../scss/_work.scss */
 .image-overlay-content {
   background-color: rgba(0, 0, 0, 0.8);
   display: none;
   position: absolute;
 }
-/* line 47, ../scss/_work.scss */
+/* line 58, ../scss/_work.scss */
 .image-overlay-content .project-title {
   text-align: center;
 }
-/* line 55, ../scss/_work.scss */
+/* line 66, ../scss/_work.scss */
 .image-overlay-content h3 {
   color: white;
 }
-/* line 59, ../scss/_work.scss */
+/* line 70, ../scss/_work.scss */
 .image-overlay-content h4 {
   color: #C8F526;
 }
 
-/* line 5, ../scss/_about.scss */
-.triangle-2 {
-  background: url("../img/triangle-pics-2-large.jpg");
-  background-attachment: fixed;
-  background-position: top left;
-  height: 50vh;
-  width: 100%;
-}
-
-/* line 19, ../scss/_about.scss */
-#triangle-2-top {
-  background-color: #FFFFFF;
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
-  width: 100%;
-  height: 27vh;
-  margin-top: -1vh;
-}
-
-/* line 35, ../scss/_about.scss */
-#triangle-2-bottom {
+/* line 4, ../scss/_about.scss */
+.triangle-2, .triangle-3 {
   background-color: #C8F526;
-  -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+  height: 25vh;
   width: 100%;
-  height: 50vh;
-  margin-top: -26vh;
+  -webkit-clip-path: polygon(100% 0%, 0 101%, 100% 101%);
 }
 
-/* line 50, ../scss/_about.scss */
+/* line 20, ../scss/_about.scss */
 .about-me {
-  padding: 7vh 0 7vh 0;
+  margin: 0;
+  padding: 0 0 2vh 0;
   width: 100%;
   background-color: #C8F526;
-  border-top: 3px solid #C8F526;
 }
-/* line 57, ../scss/_about.scss */
+/* line 27, ../scss/_about.scss */
 .about-me h2 {
   border-bottom: 3px solid #333;
+  display: inline-block;
+  text-align: left;
+  margin-top: 2.5rem;
 }
-/* line 61, ../scss/_about.scss */
+/* line 34, ../scss/_about.scss */
+.about-me .about-text {
+  margin-top: 5vh;
+}
+/* line 38, ../scss/_about.scss */
 .about-me p {
   line-height: 2em;
   margin-top: 4vh;
+  display: inline-block;
+  text-align: left;
 }
 
-/* line 77, ../scss/_about.scss */
+/* line 52, ../scss/_about.scss */
 .triangle-3 {
-  background: url("../img/triangle-pics-1-med.jpg");
-  background-attachment: fixed;
-  background-position: top left;
-  height: 60vh;
-  width: 100%;
-}
-
-/* line 91, ../scss/_about.scss */
-#triangle-3-top {
-  background-color: #C8F526;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
-  width: 100%;
-  height: 30vh;
 }
 
-/* line 105, ../scss/_about.scss */
-#triangle-3-bottom {
-  background-color: #FFFFFF;
-  -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
-  width: 100%;
-  height: 58.1vh;
-  margin-top: -28vh;
+/* line 1, ../scss/_contact.scss */
+.contact {
+  margin-top: 3rem;
 }
-
-/* line 3, ../scss/_contact.scss */
+/* line 4, ../scss/_contact.scss */
 .contact h2 {
   border-bottom: 3px solid #333;
   display: inline-block;
   float: right;
   text-align: right;
 }
-/* line 10, ../scss/_contact.scss */
+/* line 11, ../scss/_contact.scss */
 .contact p {
-  margin-top: 7vh;
+  margin-top: 3vh;
   display: inline-block;
   float: right;
   line-height: 2.2rem;
 }
-/* line 17, ../scss/_contact.scss */
+/* line 18, ../scss/_contact.scss */
 .contact h4 {
   line-height: 2rem;
 }
 
-/* line 24, ../scss/_contact.scss */
-#location-box, #email-box {
+/* line 28, ../scss/_contact.scss */
+.location-box, .email-box {
   padding: 2rem 1.5rem;
   border: 2px solid #C8F526;
   display: inline-block;
-  margin-top: 7rem;
-}
-
-/* line 31, ../scss/_contact.scss */
-#email-box {
+  margin-top: 3rem;
+  margin-right: 4rem;
   float: right;
-  margin-top: 4rem;
 }
 
-/* line 41, ../scss/_footer.scss */
-#footers {
-  margin-top: 1vh;
-  background: url("../img/triangle-bottom-medium3.jpg");
+/* line 38, ../scss/_contact.scss */
+.email-box {
+  float: right;
+  margin-top: 1.5rem;
+  margin-right: 0;
+}
+
+/* line 5, ../scss/_footer.scss */
+.footers {
+  margin-top: 5vh;
+  background: url("../img/triangle-bottom-medium4.jpg");
   background-attachment: fixed;
-  background-position: bottom left;
-  height: 85vh;
+  background-position: 0% -10%;
+  height: 77vh;
   width: 100%;
 }
 
-/* line 52, ../scss/_footer.scss */
-#footer-top {
-  background-color: white;
+/* line 16, ../scss/_footer.scss */
+.footer-top {
+  background-color: #FFFFFF;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
   width: 100%;
-  height: 70vh;
+  height: 57vh;
   margin-top: -1vh;
 }
 
-/* line 62, ../scss/_footer.scss */
-#footer-bottom {
+/* line 28, ../scss/_footer.scss */
+.footer-bottom {
   background-color: #C8F526;
   width: 100%;
-  height: 20vh;
-  margin-top: -15vh;
-  -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+  height: 30vh;
+  margin-top: -10vh;
+  -webkit-clip-path: polygon(0% 90%, 100% 0%, 100% 100%, 0% 100%);
 }
 
-/* line 71, ../scss/_footer.scss */
-#footer-bottom2 {
+/* line 37, ../scss/_footer.scss */
+.copywrite {
   background-color: #C8F526;
-  width: 100%;
-  height: 20vh;
+  margin-top: -1vh;
 }
-
-/* line 79, ../scss/_footer.scss */
-.copywrite p {
+/* line 41, ../scss/_footer.scss */
+.copywrite ul {
+  margin: 0;
+}
+/* line 46, ../scss/_footer.scss */
+.copywrite li {
+  display: inline-block;
+}
+/* line 50, ../scss/_footer.scss */
+.copywrite .list-social ul {
+  font-size: 3rem;
+  float: left;
+}
+/* line 54, ../scss/_footer.scss */
+.copywrite .list-social ul i {
+  color: #222222;
+}
+/* line 61, ../scss/_footer.scss */
+.copywrite .copywrite-text {
   float: right;
 }
 
