@@ -60,15 +60,45 @@
 #fe-pic1{
 	background: url("../img/fe-pic1.jpg") top left;
 	background-attachment: fixed;
+
 	height: 84vh;
 	-webkit-clip-path: polygon(0 23%, 100% 0%, 100% 17%, 0% 100%);
 
+	@media #{$xlarge-up}{
+		background-size: cover;
+	}
+
 }
+
+
 
 h2.after-pic1{
 	margin-top: -5vh;
 }
 
+h2.after-pic3{
+		margin-top: -10vh;
+}
+
+
+
+#fe-pic2{
+	@extend #fe-pic1;
+	background-image: url("../img/fe-pic2.jpg");
+}
+
+#fe-pic3{
+	@extend #fe-pic1;
+	background-image: url("../img/fe-pic3.jpg");
+	-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 17%, 0% 100%);
+
+	margin-top: -20vh;
+	@media #{$xlarge-up}{
+		background-size: 102%;
+	}
+
+
+}
 
 
 
@@ -123,9 +153,37 @@ h2.after-pic1{
 }
 
 
-.img-row{
+.img-personas-row{
 	margin-top: 5%;
+	padding-bottom: 10%;
+
 }
+
+
+
+/////////////////////////CURRENT PROBLEMS/////////////////////////////////////////
+
+// .current-problems,
+// .use-cases {
+// 	margin: 2.25rem 0;
+// 	li{
+// 		line-height: 2.25rem;
+// 	}	
+
+// 		// font-weight: bold;
+// 		// font-size: 110%;
+// 		// margin-bottom: 1.5rem;
+	
+// }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -155,7 +213,7 @@ h2.after-pic1{
 	// }
 
 	h1{
-		color: transparentize($lime-green, 0.3);
+		color: transparentize($lime-green, 0.1);
 		margin: 1.2rem;
 		padding:0;
 		// font-size: 90px;
@@ -182,6 +240,8 @@ h2.after-pic1{
 		display: inline-block;
 		padding: 1.25rem;
 		width: 100%;
+		transition: background-color .2s linear;
+		-webkit-transition: background-color .2s linear;
 
 		&:hover{
 			background-color: transparentize($lime-green, 0.1);
@@ -203,43 +263,28 @@ h2.after-pic1{
 
 
 
-#fe-pic2{
-	background: url("../img/fe-pic2.jpg") top left;
-	background-attachment: fixed;
-	height: 40vh;
-	-webkit-clip-path: polygon(0 23%, 100% 0%, 100% 17%, 0% 100%);
-	margin-top:8%;
-};
+// #fe-pic2{
+// 	background: url("../img/fe-pic2.jpg") top left;
+// 	background-attachment: fixed;
+// 	height: 40vh;
+// 	-webkit-clip-path: polygon(0 23%, 100% 0%, 100% 17%, 0% 100%);
+// 	margin-top:8%;
+// };
 
 
 
 
 
-//////////////////////SOLUTIONS-DETAIL/////////////////////////
-
-.solutions-detail{
-	h1{ 
-		color: transparentize($lime-green, 0.3);
-		padding: 0;
-		float: right;
-		margin: -9vh 3rem 0 0;
-		font-size: 110px;
-
-	}
-
-	h2{
-		margin-top: 0.3rem;
-	}
-}
 
 
 
-/////Organizational-changes///////////
+
+/////Organizational-changes/ flow-changes///////////
 
 
 
-.map-section,
-.flow-section {
+.site-map-imgs,
+.flow-imgs {
 	margin-top: 3vh;
 
 	img{
@@ -248,11 +293,30 @@ h2.after-pic1{
 }
 
 
+.new-features-section{
+	margin-top: 4vh;
+
+
+// // 	@media #{$small-only}{
+// // 		img{
+// // 			max-width: none;
+// // 			width: 700px;
+// // 		}
+// // 	}
+}
 
 
 
 
-///////////flow changes////////////
+///////////////////////
+
+.form-structure{
+	padding-bottom: 25vh;
+}
+
+
+
+
 
 
 
