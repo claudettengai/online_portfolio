@@ -90,7 +90,7 @@ $menu-side-padding-med: ($menu-push-percent-med - $menu-text-width-percent)/2;
 }
 
 .right-off-canvas-menu {
-  background: $jet;
+  background: #a926f5;
   padding: 3rem percentage($menu-side-padding-small);
   // text-align: center;
 
@@ -110,7 +110,7 @@ $menu-side-padding-med: ($menu-push-percent-med - $menu-text-width-percent)/2;
     font-style: normal;
     font-size: 3rem;
     padding-top: 1rem;
-    color: $lime-green;
+    color: $jet;
     text-transform: capitalize;
     .is-active, &:hover {
       color: #f1f3f3;

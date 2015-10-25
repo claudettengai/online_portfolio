@@ -58,7 +58,7 @@
 
 	margin-top: 12vh;
 	transform: skew(0deg, 175deg);
-	padding-bottom: 10vh;
+	padding: 7vh 0 15vh 0;
 
 	.fe-solution-section-new{
 		margin-top: 12vh;
@@ -78,12 +78,28 @@
 
 }
 
+
+.in-depth-alt-background{
+	@extend .solution-alt-background;
+
+
+
+}
+
+
+
+
+
 p.smallnote-text{
 	font-size: 92%;
 	margin-top: 0.5rem;
 
 
 }
+
+
+
+
 
 
 
@@ -153,6 +169,14 @@ p.smallnote-text{
 	display:none;
 	line-height: 2rem;
 
+}
+
+
+////////////////////////IN DEPTH///////////////////
+.current-probs,
+.redesign {
+
+	margin-top: 7vh;
 }
 
 

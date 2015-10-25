@@ -101,6 +101,16 @@ h2.after-pic3{
 }
 
 
+#fe-pic4{
+	@extend #fe-pic3;
+	background-image: url("../img/fe-pic4.jpg");
+	background-size: cover;
+	margin-top: 0;
+	background-position: top center;
+
+
+}
+
 
 ////////////////////////PERSONAS///////////////////////////
 
@@ -249,13 +259,21 @@ h2.after-pic3{
 				color: transparentize(white, 0.1);
 				display: block;
 			}
-
 		}
 	
 	}
 
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
