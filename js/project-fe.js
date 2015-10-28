@@ -19,9 +19,9 @@ $('.solutions-detail img').mouseleave(function(){
 
 
 
-
-
-
+$.get("nav.html", function(data){
+    $(this).children.html(data);
+});
 
 
 });

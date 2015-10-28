@@ -10241,7 +10241,7 @@ th.hide-for-touch {
 
 /* line 92, ../scss/_nav.scss */
 .right-off-canvas-menu {
-  background: #a926f5;
+  background: #26c8f5;
   padding: 3rem 17%;
 }
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
@@ -10629,7 +10629,7 @@ h3 {
   color: rgba(200, 245, 38, 0.9);
   padding: 0;
   float: right;
-  margin: -9vh 3rem 0 0;
+  margin: -14vh 3rem 0 0;
   font-size: 110px;
 }
 /* line 41, ../scss/_proj-fe-global.scss */
