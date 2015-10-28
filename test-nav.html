@@ -33,8 +33,15 @@
 
   <body>
     
-   
 
+
+
+
+
+
+
+    <!-- main content goes here -->
+ 
 <div class="off-canvas-wrap" data-offcanvas>
   <div class="inner-wrap">
 
@@ -45,6 +52,11 @@
         <div class="bottom-bar"></div>
       </div>
     </a>
+
+
+
+
+
 
     <!-- Off Canvas Menu -->
     <aside class=" right-off-canvas-menu">
@@ -62,6 +74,61 @@
           <li><i class="fi-social-twitter"></i></li>
         </ul>
     </aside>
+
+
+
+
+
+
+
+
+    <!-- Off Canvas Menu Left-->
+
+<!-- <div class= "move-right" data-offcanvas>
+  <div>
+
+    <a class="left-off-canvas-toggle" href="#"><i class="fi-list"></i></a> -->
+
+    <!-- Off Canvas Menu -->
+<!--     <aside class="left-off-canvas-menu">
+      
+      <div class="icon-bar vertical five-up">
+      <a class="item">
+        <div class= "circlemark"></div>
+        
+      </a>
+      <a class="item">
+       <div class= "circlemark"></div>
+      </a>
+      <a class="item">
+        <div class= "circlemark"></div>
+      </a>
+      <a class="item">
+        <div class= "circlemark"></div>
+      </a>
+      <a class="item">
+        <div class= "circlemark"></div>
+      </a>
+    </div>
+      
+    </aside>
+
+
+
+</div>
+
+
+
+
+ -->
+
+
+
+
+
+
+
+
 
 
 
@@ -91,14 +158,34 @@
 
 
 
-<!--     magellan sticky bar -->
 
-      <div data-magellan-expedition="fixed">
-        <dl class="sub-nav">
-          <dd data-magellan-arrival="build"><a href="#build">Build with HTML</a></dd>
-          <dd data-magellan-arrival="js"><a href="#js">Arrival 2</a></dd>
-        </dl>
-      </div>
+
+
+
+
+
+<!-- magellan -->
+<div data-magellan-expedition="fixed">
+  <dl class="sub-nav">
+    <dd data-magellan-arrival="background"><a href="#background">Background</a></dd>
+    <dd data-magellan-arrival="strategy-overview"><a href="#strategy-overview">Strategy overview</a></dd>
+  </dl>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -108,7 +195,11 @@
     <div class= "row">
       <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-offset-0 xlarge-12 columns small-indent">
         <div class= "fe-info-summary fe-intro">
-          <h2>Background</h2>
+          <a name="background"></a>
+          <h2 class= "section-title" data-magellan-destination="background">Background</h2>
+
+         <!--  <h2>Background</h2> -->
+     
           <p>Found Eats is a start-up ecommerce for specialty foods where small food makers can sell their products online to customers seeking artisanal foods. Food makers are directed to the vendor-facing side of the site where they must complete the set-up process to become an active seller on Found Eats. After the initial set-up is complete, vendor accounts will be used to manage orders, update products details and manage shipping and payment. This project is a redesign of the current Found Eats Vendor Account website.</p>  
         
 
@@ -142,7 +233,7 @@
       </div>
     </div>
 
-
+    
 
      <div id= "fe-pic1"></div>
       <div class= "row">
@@ -151,8 +242,10 @@
 
 
 
+            <a name="strategy-overview"></a>
+    <!--         <h1 class= "section-title after-pic1" data-magellan-destination="strategy-overview">Strategy Overview</h1> -->
+           <h2 class= "after-pic1" data-magellan-destination="strategy-overview">Problems with the Current Site</h2>
 
-           <h2 class= "after-pic1">Problems with the Current Site</h2>
            <ol class= "current-problems">
             <li>Vendors are unclear what sections they are required to complete in order to finish the sign up process.</li>
             <li> Vendors are unclear what information goes into the input fields.</li>
@@ -166,52 +259,50 @@
 
           <div class= "solutions">
             <h2>My Solutions</h2>
-            <ul>
+            <div class= "row medium-uncollapse" data-equalizer>
 
-              <div class= "row">
-                <div class= "small-12 columns panel">
-                  <a href= "#">
-                    <li id= "solution-1" class= "solution-num">                
-                      <h1>1</h1>
-                      <div class= "solution-text">
-                      <h3>Organizational Changes</h3>
+            <ol class= "solution-numbers">
+              <div class= "xlarge-3 small-12 columns panel" data-equalizer-watch>
+                
+              <li class= "solution-number">
+
+              <div class= "solution-text"> 
+                
+                      <p>Organizational Changes</p>
                       <ol>
                         <li>Reduced Number of Sections</li>
                         <li>Reduced Number of clickaway pages</li>
                       </ol>
                     </div>
-                   </li>
-                  </a>
-                </div>
-              </div>
+                  
+            </li>
+          
+          </div>
 
 
-              <div class= "row">
-                <div class= "small-12 columns panel">
-                  <a href= "#">
-                    <li id= "solution-2" class= "solution-num">
-                      <h1>2</h1>
+             
+                    <div class= "xlarge-3 small-12 columns panel"data-equalizer-watch>
+                    <li class= "solution-number">
+                      <!-- <h1>2</h1> -->
                       <div class= "solution-text">
-                        <h3>Changes in the User Flow</h3>
+                        <p>Changes in the User Flow</p>
                         <ol>
                           <li>Walk-Through Tutorial</li>
                           <li>Site Separation between Set-up Process and Managing a live account</li>
                         </ol>
                       </div>  
                     </li>
-                  </a>
-                </div>
-              </div>
+                  </div>
+     
+               
 
 
 
-              <div class= "row">
-                <div class= "small-12 columns panel">
-                  <a href= "#">
-                    <li id= "solution-3" class= "solution-num">
-                      <h1>3</h1>
+                    <div class= "xlarge-3 small-12 columns panel" data-equalizer-watch>
+                    <li class= "solution-number">
+                     
                         <div class= "solution-text">
-                          <h3>Consistent and Recurrent Features</h3>
+                          <p>Consistent and Recurrent Features</p>
                           <ol>
                             <li>Site-wide Progress Bar/ Navigation System</li>
                             <li>Page Specific Checklist/ Navigation System </li>
@@ -219,29 +310,22 @@
                           </ol>
                         </div>
                       </li>
-                    </a>
-                  </div>
-                </div>
-
-
-              <div class= "row">
-                <div class= "small-12 columns panel">
-                  <a href= "#">
-                    <li id= "solution-4" class= "solution-num">
-                      <h1>4</h1>
+                    </div>
+                   
+                 
+                    <div class= "xlarge-3 small-12 columns panel" data-equalizer-watch>
+                    <li class= "solution-number">
+                    
                         <div class= "solution-text">
-                          <h3>Changing the Form Entry Structure</h3>
+                          <p>Changing the Form Entry Structure</p>
                           <ol>
                             <li>Mimicking the Customer-facing Live Marketplace</li>
                           </ol>
                         </div>
                       </li>
-                    </a>
-                  </div>
-                </div>
-
-
-            </ul>
+                    </div>
+                  
+            </ol>
           </div>
     
 
@@ -270,15 +354,11 @@
         </div> 
       </div>
     </div>
+  </div>
 
 
 
      <div id= "fe-pic2"></div>
-
-
-
-
-
 
 
  <!--     SOLUTIONS IN DETAIL SOLUTIONS IN DETAIL SOLUTIONS IN DETAIL   -->
@@ -964,48 +1044,14 @@
 
 
 
+    <!-- close the off-canvas menu -->
+    <a class="exit-off-canvas"></a>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- close the off-canvas menu -->
-  <a class="exit-off-canvas"></a>
 
   </div>
 </div>
+r
 
-
-
-
-
-
-
-
-
-      
 
 
 

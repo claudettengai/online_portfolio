@@ -6341,10 +6341,10 @@ ul.pagination li {
 .panel {
   border-style: solid;
   border-width: 1px;
-  border-color: #C8F526;
+  border-color: #d8d8d8;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: white;
+  background: #f2f2f2;
   color: #333333;
 }
 /* line 61, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -6372,7 +6372,7 @@ ul.pagination li {
 .panel.callout {
   border-style: solid;
   border-width: 1px;
-  border-color: #C8F526;
+  border-color: #d8d8d8;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
   background: #ecfaff;
@@ -10850,11 +10850,6 @@ h2.after-pic3 {
   display: inline-block;
   width: 100%;
 }
-/* line 217, ../scss/_proj-fe.scss */
-.solutions .panel {
-  padding: 0;
-  background-color: transparent;
-}
 /* line 225, ../scss/_proj-fe.scss */
 .solutions h1 {
   color: rgba(200, 245, 38, 0.9);
@@ -10908,4 +10903,117 @@ h2.after-pic3 {
 /* line 331, ../scss/_proj-fe.scss */
 .form-structure {
   padding-bottom: 25vh;
+}
+
+/* line 1, ../scss/_test-nav.scss */
+h1.section-title {
+  color: #C8F526;
+  overflow: auto;
+  text-align: right;
+}
+
+/* line 9, ../scss/_test-nav.scss */
+.solution-numbers {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+  counter-reset: step-counter;
+}
+
+/* line 17, ../scss/_test-nav.scss */
+.solution-numbers li.solution-number {
+  counter-increment: step-counter;
+}
+
+/* line 21, ../scss/_test-nav.scss */
+.solution-numbers li.solution-number::before {
+  content: counter(step-counter);
+  margin-right: 5px;
+  font-size: 80%;
+  background-color: #c8c8c8;
+  color: white;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+/* line 48, ../scss/_test-nav.scss */
+.right-off-canvas-toggle .menu {
+  float: left;
+  display: block;
+  margin: 2.5rem 2.5rem;
+  position: absolute;
+  z-index: 1;
+}
+@media (max-width: 399px) {
+  /* line 48, ../scss/_test-nav.scss */
+  .right-off-canvas-toggle .menu {
+    margin: 2rem;
+    margin-left: 80%;
+  }
+}
+@media only screen and (min-width: 40.0625em) and (max-width: 64em) {
+  /* line 48, ../scss/_test-nav.scss */
+  .right-off-canvas-toggle .menu {
+    margin-left: 90%;
+  }
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 48, ../scss/_test-nav.scss */
+  .right-off-canvas-toggle .menu {
+    margin-left: 92%;
+  }
+}
+@media only screen and (min-width: 80.0625em) {
+  /* line 48, ../scss/_test-nav.scss */
+  .right-off-canvas-toggle .menu {
+    margin-left: 94%;
+  }
+}
+
+/* line 84, ../scss/_test-nav.scss */
+.solutions ul {
+  list-style-type: circle;
+}
+/* line 88, ../scss/_test-nav.scss */
+.solutions ol p {
+  font-weight: bold;
+}
+/* line 94, ../scss/_test-nav.scss */
+.solutions .solution-num {
+  display: inline-block;
+  width: 100%;
+}
+/* line 103, ../scss/_test-nav.scss */
+.solutions h1 {
+  color: rgba(200, 245, 38, 0.9);
+  margin: 1.2rem;
+  padding: 0;
+  float: none;
+}
+/* line 115, ../scss/_test-nav.scss */
+.solutions .solution-text {
+  float: none;
+  margin-top: 1.5rem;
+}
+/* line 122, ../scss/_test-nav.scss */
+.solutions h3 {
+  margin: 0 0 1rem 0;
+}
+/* line 127, ../scss/_test-nav.scss */
+.solutions a {
+  display: inline-block;
+  padding: 1.25rem;
+  width: 100%;
+  transition: background-color .2s linear;
+  -webkit-transition: background-color .2s linear;
+}
+/* line 134, ../scss/_test-nav.scss */
+.solutions a:hover {
+  background-color: white;
+}
+/* line 136, ../scss/_test-nav.scss */
+.solutions a:hover h1 {
+  color: #C8F526;
+  display: block;
 }
