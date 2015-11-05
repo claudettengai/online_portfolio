@@ -858,6 +858,12 @@ $paragraph-line-height: 1.8;
 // $magellan-bg: $white;
 // $magellan-padding: 10px;
 
+$magellan-padding: 0;
+$magellan-bg: white;
+
+
+
+
 // 18. Off-canvas
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -1286,6 +1292,13 @@ $reveal-position-top: rem-calc(20);
 // $sub-nav-list-margin: rem-calc(-4 0 18);
 // $sub-nav-list-padding-top: rem-calc(4);
 
+
+
+
+
+
+
+
 // We use this to control the definition
 // $sub-nav-font-family: $body-font-family;
 // $sub-nav-font-size: rem-calc(14);
@@ -1295,6 +1308,10 @@ $reveal-position-top: rem-calc(20);
 // $sub-nav-padding: rem-calc(3 16);
 // $sub-nav-border-radius: 3px;
 // $sub-nav-font-color-hover: scale-color($sub-nav-font-color, $lightness: -25%);
+
+
+$sub-nav-font-color: #555;
+
 
 
 // We use these to control the active item styles
@@ -1308,6 +1325,12 @@ $reveal-position-top: rem-calc(20);
 
 // $sub-nav-item-divider: "";
 // $sub-nav-item-divider-margin: rem-calc(12);
+
+$sub-nav-active-bg: $lime-green;
+$sub-nav-active-color: #555;
+
+
+
 
 // 29. Switch
 // - - - - - - - - - - - - - - - - - - - - - - - - -

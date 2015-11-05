@@ -1,0 +1,45 @@
+$sub-nav-height: 4rem;
+
+// [data-magellan-expedition-clone] { visibility:hsssssidden; }
+
+
+
+div#magellan-bar{
+	transform: skewY(175deg);
+	margin-top: -8vh;
+	// visibility: hidden;
+	// border-bottom: 2px solid $lime-green;
+	// background-color: purple;
+
+
+}
+
+.sub-nav{
+	line-height: $sub-nav-height;
+
+	padding:0;
+
+	// margin-top: -8vh;
+
+
+	dd a, dt.active a, dd.active a, li.active a{
+		line-height: $sub-nav-height;
+		display: inline-block;
+		border-radius: 0;
+
+
+
+		p{
+			margin-top: $sub-nav-height;
+			// line-height: $sub-nav-height;
+			transform: skewY(5deg);
+			font-size: 0.825rem;
+		}
+
+	}
+
+
+
+		
+	
+}

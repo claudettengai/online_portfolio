@@ -8,7 +8,7 @@
 
     settings : {
       active_class : 'active',
-      threshold : 0, // pixels from the top of the expedition for it to become fixes
+      threshold : 0;, // pixels from the top of the expedition for it to become fixes
       destination_threshold : 20, // pixels from the top of destination for it to be considered active
       throttle_delay : 30, // calculation throttling to increase framerate
       fixed_top : 0, // top distance in pixels assigend to the fixed element on scroll
@@ -16,6 +16,8 @@
       duration : 700, // animation duration time
       easing : 'swing' // animation easing
     },
+
+    console.log("hello");
 
     init : function (scope, method, options) {
       Foundation.inherit(this, 'throttle');

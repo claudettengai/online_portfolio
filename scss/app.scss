@@ -10,9 +10,14 @@
 @import "about";
 @import "contact";
 @import "footer";
-@import "proj-fe-global";
-@import "proj-fe";
+// @import "proj-fe-global";
+// @import "proj-fe";
 // @import "test-nav";
+@import "proj_fe/globals";
+@import "proj_fe/header";
+@import "proj_fe/magellan";
+@import "proj_fe/background";
+
 
 // Or selectively include components
 // @import

@@ -225,13 +225,19 @@ h2.after-pic3{
 
 
 
+.sub-nav a{
+  margin: 0;
+}
 
 
 
 
 
+.content-columns{
+  @extend .small-offset-0, .medium-10, .medium-offset-1, .xlarge-offset-0, .xlarge-12, .columns, .small-indent
 
 
+}
 
 
 
