@@ -1,29 +1,28 @@
-$sub-nav-height: 4rem;
+$sub-nav-height: 5.2rem;
 
-// [data-magellan-expedition-clone] { visibility:hsssssidden; }
+[data-magellan-expedition-clone] { visibility: visible; }
 
 
 
 div#magellan-bar{
-	transform: skewY(175deg);
+	transform: skewY(176deg);
 	margin-top: -8vh;
-	// visibility: hidden;
-	// border-bottom: 2px solid $lime-green;
-	// background-color: purple;
+	border-bottom: 1px solid $lime-green;
+	// background-color: transparentize(purple,0.3);
+
 
 
 }
 
 .sub-nav{
-	line-height: $sub-nav-height;
+	// line-height: $sub-nav-height;
 
 	padding:0;
 
-	// margin-top: -8vh;
 
 
 	dd a, dt.active a, dd.active a, li.active a{
-		line-height: $sub-nav-height;
+		// line-height: $sub-nav-height;
 		display: inline-block;
 		border-radius: 0;
 
@@ -32,7 +31,7 @@ div#magellan-bar{
 		p{
 			margin-top: $sub-nav-height;
 			// line-height: $sub-nav-height;
-			transform: skewY(5deg);
+			transform: skewY(4deg);
 			font-size: 0.825rem;
 		}
 

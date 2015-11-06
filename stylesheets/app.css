@@ -7065,7 +7065,7 @@ ul.pagination li {
   display: block;
   margin: -0.25rem 0 1.125rem;
   overflow: hidden;
-  padding-top: 0.25rem;
+  padding-top: 0;
   width: auto;
 }
 /* line 67, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
@@ -10695,31 +10695,35 @@ h3 {
   text-align: center;
 }
 
+/* line 3, ../scss/proj_fe/_magellan.scss */
+[data-magellan-expedition-clone] {
+  visibility: visible;
+}
+
 /* line 7, ../scss/proj_fe/_magellan.scss */
 div#magellan-bar {
-  transform: skewY(175deg);
+  transform: skewY(176deg);
   margin-top: -8vh;
+  border-bottom: 1px solid #C8F526;
 }
 
 /* line 17, ../scss/proj_fe/_magellan.scss */
 .sub-nav {
-  line-height: 4rem;
   padding: 0;
 }
-/* line 25, ../scss/proj_fe/_magellan.scss */
+/* line 24, ../scss/proj_fe/_magellan.scss */
 .sub-nav dd a, .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
-  line-height: 4rem;
   display: inline-block;
   border-radius: 0;
 }
-/* line 32, ../scss/proj_fe/_magellan.scss */
+/* line 31, ../scss/proj_fe/_magellan.scss */
 .sub-nav dd a p, .sub-nav dt.active a p, .sub-nav dd.active a p, .sub-nav li.active a p {
-  margin-top: 4rem;
-  transform: skewY(5deg);
+  margin-top: 5.2rem;
+  transform: skewY(4deg);
   font-size: 0.825rem;
 }
 
-/* line 3, ../scss/proj_fe/_background.scss */
-.section-title {
-  margin-top: 10vh;
+/* line 7, ../scss/proj_fe/_background.scss */
+h2.after-fixed-nav {
+  margin-top: 26vh;
 }
