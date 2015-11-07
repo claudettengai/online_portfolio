@@ -1,3 +1,39 @@
+#project-fe-page{
+
+
+
+// grid
 .content-columns{
   @extend .small-offset-0, .medium-10, .medium-offset-1, .xlarge-offset-0, .xlarge-12, .columns, .small-indent
+}
+
+
+
+// lime-green right floating title
+.section-init-title{
+	color: $lime-green;
+	float: right;
+	margin: -15vh 0 0 0;
+	width: 70%;
+	text-align: right;
+	line-height: 1.1;
+
+}
+
+
+// margin between main sections
+.section-init{
+	margin-top: 14vh;
+}
+
+
+// margin between sub-sections
+.sub-section-init{
+	margin-top: 7vh;
+
+	h2{
+		margin-bottom: 1.5rem;
+	}
+}
+
 }

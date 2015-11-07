@@ -1,0 +1,119 @@
+#project-fe-page{
+
+.user-research{
+	ol{
+		margin: 1.8rem 0 2.4rem 1rem;
+	}
+
+	ol li{
+		margin-bottom: .8rem;
+	}
+
+
+
+
+
+	.understanding-users{
+	position: relative;
+
+
+
+		img{
+			width: 50%;
+			
+		}
+
+
+
+
+		img:nth-child(1){
+			position: absolute;
+			z-index:1;
+			float: left;
+			margin-left: 25%;
+			margin-top: 6%;
+			display: block;
+			// margin: -10% auto 0 auto;
+			border: 1px solid #39B54A;
+
+		}
+
+		img:nth-child(2){
+			position: absolute;
+			z-index:0;
+			float:left;
+			// transform: rotate(340deg);
+			margin-top: 0;
+			border: 1px solid #D50000;
+
+		}
+
+		img:nth-child(3){
+			position: relative;
+			z-index:2;
+			float: right;
+			// transform: rotate(12deg);
+			margin-top: 12%;
+			border: 1px solid #0071BC;
+		}
+
+
+	}
+
+
+.img-personas-row{
+	margin-top: 7vh;
+	padding-bottom: 10%;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

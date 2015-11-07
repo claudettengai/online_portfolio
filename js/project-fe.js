@@ -37,7 +37,7 @@ $window.scroll(function(){
 	if ($(window).scrollTop() >= magellanPositionScroll) {
 		$("#magellan-bar").addClass("fixed");
 		// $("div#magellan-bar").css({
-		// 	"background-color": "rgba(0, 0, 0, 0.8)",
+		// 	"background-color": "#C8F526",
 		// });
 
 		$("h2.after-fixed-nav").css("margin-top", headMarginEqualizer);
@@ -52,19 +52,6 @@ $window.scroll(function(){
 	}
 });
 
-
-// $(document).foundation({
-// "magellan-expedition": {
-  
-//   threshold: 400, // how many pixels until the magellan bar sticks, 0 = auto
-//   offset_by_height : false,  // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
-//    destination_threshold : 400, // pixels from the top of destination for it to be considered active
-//    fixed_top : 0, // top distance in pixels assigend to the fixed element on scroll
-
-// }
-// });
-
-console.log("hello");
 
 
 

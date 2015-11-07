@@ -1,0 +1,20 @@
+#fe-pic1{
+	background: url("../img/fe-pic1.jpg") top left;
+	background-attachment: fixed;
+	margin: 20vh 0 25vh 0;
+
+	height: 47vh;
+	// -webkit-clip-path: polygon(0 53%, 100% 0%, 100% 47%, 0% 100%);
+	transform: skewY(176deg);
+
+	@media #{$xlarge-up}{
+		background-size: cover;
+	}
+
+}
+
+#fe-pic2{
+	@extend #fe-pic1;
+	background-image: url("../img/fe-pic2.jpg");
+	margin-bottom: 29vh;
+}

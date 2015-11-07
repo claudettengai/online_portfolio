@@ -1,9 +1,101 @@
 // section one background info 
 
-// div.background{
-// 	margin-top: -8vh;
-// }
+#project-fe-page{
 
-h2.after-fixed-nav{
-	margin-top: 26vh;
+
+
+
+
+//////// MY PROCESS SUBSECTION////////
+
+$triangle-width: 1.3rem; 
+$p-title-size: 1.25rem;
+$p-title-line-height: $paragraph-line-height + ($p-title-size - $paragraph-font-size);
+
+.my-process{
+	h2{
+		margin-bottom: 0;
+	}
+
+	ul{
+		margin: 0;
+		list-style: none;
+
+	}
+
+
+	///////TRIANGLE BULLET POINTS/////////////
+
+	ul > li{
+		margin: 0 0 0 $triangle-width*2.5 ;
+		display: inline-block;
+	}
+
+
+	ul > li::before{
+	content: "";
+    border-color: transparent $lime-green;
+    border-style: solid;
+    border-width: 0.7rem 0 0.7rem $triangle-width;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -$triangle-width *2.5;
+    top: $p-title-line-height;
+    position: relative;
+    margin: 0rem;
+
+	}
+
+
+
+	ol > li{
+		margin-left: 1rem;
+	}
+	
+
+	p.list-head{
+		font-size: $p-title-size;
+		font-weight: 500;
+		margin-bottom: 0.5rem;
+	}
+
 }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

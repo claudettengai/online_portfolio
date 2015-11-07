@@ -201,7 +201,7 @@ select {
 /* line 232, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .row.collapse > .column,
 .row.collapse > .columns,
-.row.collapse > .content-columns {
+#project-fe-page .row.collapse > .content-columns {
   padding-left: 0;
   padding-right: 0;
 }
@@ -244,7 +244,7 @@ select {
 /* line 243, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .column,
 .columns,
-.content-columns {
+#project-fe-page .content-columns {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
@@ -254,33 +254,27 @@ select {
 /* line 248, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .column + .column:last-child,
 .columns + .column:last-child,
-.content-columns + .column:last-child, .column +
-.columns:last-child, .column +
-.content-columns:last-child,
+#project-fe-page .content-columns + .column:last-child, .column +
+.columns:last-child, #project-fe-page .column + .content-columns:last-child,
 .columns +
 .columns:last-child,
-.content-columns +
+#project-fe-page .content-columns +
 .columns:last-child,
-.columns +
-.content-columns:last-child,
-.content-columns +
-.content-columns:last-child {
+#project-fe-page .columns + .content-columns:last-child,
+#project-fe-page .content-columns + .content-columns:last-child {
   float: right;
 }
 /* line 251, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .column + .column.end,
 .columns + .column.end,
-.content-columns + .column.end, .column +
-.columns.end, .column +
-.end.content-columns,
+#project-fe-page .content-columns + .column.end, .column +
+.columns.end, #project-fe-page .column + .end.content-columns,
 .columns +
 .columns.end,
-.content-columns +
+#project-fe-page .content-columns +
 .columns.end,
-.columns +
-.end.content-columns,
-.content-columns +
-.end.content-columns {
+#project-fe-page .columns + .end.content-columns,
+#project-fe-page .content-columns + .end.content-columns {
   float: left;
 }
 
@@ -456,7 +450,7 @@ select {
   /* line 163, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column,
   .columns,
-  .content-columns {
+  #project-fe-page .content-columns {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -524,7 +518,7 @@ select {
   }
 
   /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .small-offset-0, .content-columns {
+  .small-offset-0, #project-fe-page .content-columns {
     margin-left: 0 !important;
   }
 
@@ -595,7 +589,7 @@ select {
   /* line 183, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-centered,
   .columns.small-centered,
-  .small-centered.content-columns {
+  #project-fe-page .small-centered.content-columns {
     margin-left: auto;
     margin-right: auto;
     float: none;
@@ -604,7 +598,7 @@ select {
   /* line 186, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-uncentered,
   .columns.small-uncentered,
-  .small-uncentered.content-columns {
+  #project-fe-page .small-uncentered.content-columns {
     float: left;
     margin-left: 0;
     margin-right: 0;
@@ -613,28 +607,28 @@ select {
   /* line 194, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-centered:last-child,
   .columns.small-centered:last-child,
-  .small-centered.content-columns:last-child {
+  #project-fe-page .small-centered.content-columns:last-child {
     float: none;
   }
 
   /* line 200, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-uncentered:last-child,
   .columns.small-uncentered:last-child,
-  .small-uncentered.content-columns:last-child {
+  #project-fe-page .small-uncentered.content-columns:last-child {
     float: left;
   }
 
   /* line 205, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-uncentered.opposite,
   .columns.small-uncentered.opposite,
-  .small-uncentered.opposite.content-columns {
+  #project-fe-page .small-uncentered.opposite.content-columns {
     float: right;
   }
 
   /* line 212, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.small-collapse > .column,
   .row.small-collapse > .columns,
-  .row.small-collapse > .content-columns {
+  #project-fe-page .row.small-collapse > .content-columns {
     padding-left: 0;
     padding-right: 0;
   }
@@ -646,7 +640,7 @@ select {
   /* line 218, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.small-uncollapse > .column,
   .row.small-uncollapse > .columns,
-  .row.small-uncollapse > .content-columns {
+  #project-fe-page .row.small-uncollapse > .content-columns {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     float: left;
@@ -824,7 +818,7 @@ select {
   /* line 163, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column,
   .columns,
-  .content-columns {
+  #project-fe-page .content-columns {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -877,7 +871,7 @@ select {
   }
 
   /* line 168, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .medium-10, .content-columns {
+  .medium-10, #project-fe-page .content-columns {
     width: 83.33333%;
   }
 
@@ -897,7 +891,7 @@ select {
   }
 
   /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .medium-offset-1, .content-columns {
+  .medium-offset-1, #project-fe-page .content-columns {
     margin-left: 8.33333% !important;
   }
 
@@ -963,7 +957,7 @@ select {
   /* line 183, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-centered,
   .columns.medium-centered,
-  .medium-centered.content-columns {
+  #project-fe-page .medium-centered.content-columns {
     margin-left: auto;
     margin-right: auto;
     float: none;
@@ -972,7 +966,7 @@ select {
   /* line 186, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-uncentered,
   .columns.medium-uncentered,
-  .medium-uncentered.content-columns {
+  #project-fe-page .medium-uncentered.content-columns {
     float: left;
     margin-left: 0;
     margin-right: 0;
@@ -981,28 +975,28 @@ select {
   /* line 194, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-centered:last-child,
   .columns.medium-centered:last-child,
-  .medium-centered.content-columns:last-child {
+  #project-fe-page .medium-centered.content-columns:last-child {
     float: none;
   }
 
   /* line 200, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-uncentered:last-child,
   .columns.medium-uncentered:last-child,
-  .medium-uncentered.content-columns:last-child {
+  #project-fe-page .medium-uncentered.content-columns:last-child {
     float: left;
   }
 
   /* line 205, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-uncentered.opposite,
   .columns.medium-uncentered.opposite,
-  .medium-uncentered.opposite.content-columns {
+  #project-fe-page .medium-uncentered.opposite.content-columns {
     float: right;
   }
 
   /* line 212, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.medium-collapse > .column,
   .row.medium-collapse > .columns,
-  .row.medium-collapse > .content-columns {
+  #project-fe-page .row.medium-collapse > .content-columns {
     padding-left: 0;
     padding-right: 0;
   }
@@ -1014,7 +1008,7 @@ select {
   /* line 218, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.medium-uncollapse > .column,
   .row.medium-uncollapse > .columns,
-  .row.medium-uncollapse > .content-columns {
+  #project-fe-page .row.medium-uncollapse > .content-columns {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     float: left;
@@ -1360,7 +1354,7 @@ select {
   /* line 163, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column,
   .columns,
-  .content-columns {
+  #project-fe-page .content-columns {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -1499,7 +1493,7 @@ select {
   /* line 183, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-centered,
   .columns.large-centered,
-  .large-centered.content-columns {
+  #project-fe-page .large-centered.content-columns {
     margin-left: auto;
     margin-right: auto;
     float: none;
@@ -1508,7 +1502,7 @@ select {
   /* line 186, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-uncentered,
   .columns.large-uncentered,
-  .large-uncentered.content-columns {
+  #project-fe-page .large-uncentered.content-columns {
     float: left;
     margin-left: 0;
     margin-right: 0;
@@ -1517,28 +1511,28 @@ select {
   /* line 194, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-centered:last-child,
   .columns.large-centered:last-child,
-  .large-centered.content-columns:last-child {
+  #project-fe-page .large-centered.content-columns:last-child {
     float: none;
   }
 
   /* line 200, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-uncentered:last-child,
   .columns.large-uncentered:last-child,
-  .large-uncentered.content-columns:last-child {
+  #project-fe-page .large-uncentered.content-columns:last-child {
     float: left;
   }
 
   /* line 205, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-uncentered.opposite,
   .columns.large-uncentered.opposite,
-  .large-uncentered.opposite.content-columns {
+  #project-fe-page .large-uncentered.opposite.content-columns {
     float: right;
   }
 
   /* line 212, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.large-collapse > .column,
   .row.large-collapse > .columns,
-  .row.large-collapse > .content-columns {
+  #project-fe-page .row.large-collapse > .content-columns {
     padding-left: 0;
     padding-right: 0;
   }
@@ -1550,7 +1544,7 @@ select {
   /* line 218, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.large-uncollapse > .column,
   .row.large-uncollapse > .columns,
-  .row.large-uncollapse > .content-columns {
+  #project-fe-page .row.large-uncollapse > .content-columns {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     float: left;
@@ -1896,7 +1890,7 @@ select {
   /* line 163, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column,
   .columns,
-  .content-columns {
+  #project-fe-page .content-columns {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -1959,12 +1953,12 @@ select {
   }
 
   /* line 168, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .xlarge-12, .content-columns {
+  .xlarge-12, #project-fe-page .content-columns {
     width: 100%;
   }
 
   /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .xlarge-offset-0, .content-columns {
+  .xlarge-offset-0, #project-fe-page .content-columns {
     margin-left: 0 !important;
   }
 
@@ -2035,7 +2029,7 @@ select {
   /* line 183, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xlarge-centered,
   .columns.xlarge-centered,
-  .xlarge-centered.content-columns {
+  #project-fe-page .xlarge-centered.content-columns {
     margin-left: auto;
     margin-right: auto;
     float: none;
@@ -2044,7 +2038,7 @@ select {
   /* line 186, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xlarge-uncentered,
   .columns.xlarge-uncentered,
-  .xlarge-uncentered.content-columns {
+  #project-fe-page .xlarge-uncentered.content-columns {
     float: left;
     margin-left: 0;
     margin-right: 0;
@@ -2053,28 +2047,28 @@ select {
   /* line 194, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xlarge-centered:last-child,
   .columns.xlarge-centered:last-child,
-  .xlarge-centered.content-columns:last-child {
+  #project-fe-page .xlarge-centered.content-columns:last-child {
     float: none;
   }
 
   /* line 200, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xlarge-uncentered:last-child,
   .columns.xlarge-uncentered:last-child,
-  .xlarge-uncentered.content-columns:last-child {
+  #project-fe-page .xlarge-uncentered.content-columns:last-child {
     float: left;
   }
 
   /* line 205, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xlarge-uncentered.opposite,
   .columns.xlarge-uncentered.opposite,
-  .xlarge-uncentered.opposite.content-columns {
+  #project-fe-page .xlarge-uncentered.opposite.content-columns {
     float: right;
   }
 
   /* line 212, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.xlarge-collapse > .column,
   .row.xlarge-collapse > .columns,
-  .row.xlarge-collapse > .content-columns {
+  #project-fe-page .row.xlarge-collapse > .content-columns {
     padding-left: 0;
     padding-right: 0;
   }
@@ -2086,7 +2080,7 @@ select {
   /* line 218, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.xlarge-uncollapse > .column,
   .row.xlarge-uncollapse > .columns,
-  .row.xlarge-uncollapse > .content-columns {
+  #project-fe-page .row.xlarge-uncollapse > .content-columns {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     float: left;
@@ -2264,7 +2258,7 @@ select {
   /* line 163, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column,
   .columns,
-  .content-columns {
+  #project-fe-page .content-columns {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -2403,7 +2397,7 @@ select {
   /* line 183, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xxlarge-centered,
   .columns.xxlarge-centered,
-  .xxlarge-centered.content-columns {
+  #project-fe-page .xxlarge-centered.content-columns {
     margin-left: auto;
     margin-right: auto;
     float: none;
@@ -2412,7 +2406,7 @@ select {
   /* line 186, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xxlarge-uncentered,
   .columns.xxlarge-uncentered,
-  .xxlarge-uncentered.content-columns {
+  #project-fe-page .xxlarge-uncentered.content-columns {
     float: left;
     margin-left: 0;
     margin-right: 0;
@@ -2421,28 +2415,28 @@ select {
   /* line 194, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xxlarge-centered:last-child,
   .columns.xxlarge-centered:last-child,
-  .xxlarge-centered.content-columns:last-child {
+  #project-fe-page .xxlarge-centered.content-columns:last-child {
     float: none;
   }
 
   /* line 200, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xxlarge-uncentered:last-child,
   .columns.xxlarge-uncentered:last-child,
-  .xxlarge-uncentered.content-columns:last-child {
+  #project-fe-page .xxlarge-uncentered.content-columns:last-child {
     float: left;
   }
 
   /* line 205, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xxlarge-uncentered.opposite,
   .columns.xxlarge-uncentered.opposite,
-  .xxlarge-uncentered.opposite.content-columns {
+  #project-fe-page .xxlarge-uncentered.opposite.content-columns {
     float: right;
   }
 
   /* line 212, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.xxlarge-collapse > .column,
   .row.xxlarge-collapse > .columns,
-  .row.xxlarge-collapse > .content-columns {
+  #project-fe-page .row.xxlarge-collapse > .content-columns {
     padding-left: 0;
     padding-right: 0;
   }
@@ -2454,7 +2448,7 @@ select {
   /* line 218, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.xxlarge-uncollapse > .column,
   .row.xxlarge-uncollapse > .columns,
-  .row.xxlarge-uncollapse > .content-columns {
+  #project-fe-page .row.xxlarge-uncollapse > .content-columns {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     float: left;
@@ -4767,7 +4761,8 @@ form .row .row {
 /* line 94, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .row .column,
 form .row .row .columns,
-form .row .row .content-columns {
+form .row .row #project-fe-page .content-columns,
+#project-fe-page form .row .row .content-columns {
   padding: 0 0.5rem;
 }
 /* line 98, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -4777,7 +4772,8 @@ form .row .row.collapse {
 /* line 100, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .row.collapse .column,
 form .row .row.collapse .columns,
-form .row .row.collapse .content-columns {
+form .row .row.collapse #project-fe-page .content-columns,
+#project-fe-page form .row .row.collapse .content-columns {
   padding: 0;
 }
 /* line 102, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -4790,10 +4786,12 @@ form .row .row.collapse input {
 /* line 108, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row input.column,
 form .row input.columns,
-form .row input.content-columns,
+form .row #project-fe-page input.content-columns,
+#project-fe-page form .row input.content-columns,
 form .row textarea.column,
 form .row textarea.columns,
-form .row textarea.content-columns {
+form .row #project-fe-page textarea.content-columns,
+#project-fe-page form .row textarea.content-columns {
   padding-left: 0.5rem;
 }
 
@@ -6733,7 +6731,7 @@ ul.pagination li {
   }
 }
 /* line 89, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
-.reveal-modal .column, .reveal-modal .columns, .reveal-modal .content-columns {
+.reveal-modal .column, .reveal-modal .columns, .reveal-modal #project-fe-page .content-columns, #project-fe-page .reveal-modal .content-columns {
   min-width: 0;
 }
 /* line 92, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
@@ -7065,7 +7063,7 @@ ul.pagination li {
   display: block;
   margin: -0.25rem 0 1.125rem;
   overflow: hidden;
-  padding-top: 0;
+  padding-top: 0.25rem;
   width: auto;
 }
 /* line 67, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
@@ -10223,7 +10221,7 @@ th.hide-for-touch {
 }
 @media only screen and (max-width: 40em) {
   /* line 1, ../scss/_global.scss */
-  .small-indent, .content-columns {
+  .small-indent, #project-fe-page .content-columns {
     margin-left: 4%;
     width: 96%;
   }
@@ -10664,28 +10662,49 @@ h3 {
   float: right;
 }
 
-/* line 1, ../scss/proj_fe/_header.scss */
-#FE-head-top {
+/* line 13, ../scss/proj_fe/_globals.scss */
+#project-fe-page .section-init-title {
+  color: #C8F526;
+  float: right;
+  margin: -15vh 0 0 0;
+  width: 70%;
+  text-align: right;
+  line-height: 1.1;
+}
+/* line 25, ../scss/proj_fe/_globals.scss */
+#project-fe-page .section-init {
+  margin-top: 14vh;
+}
+/* line 31, ../scss/proj_fe/_globals.scss */
+#project-fe-page .sub-section-init {
+  margin-top: 7vh;
+}
+/* line 34, ../scss/proj_fe/_globals.scss */
+#project-fe-page .sub-section-init h2 {
+  margin-bottom: 1.5rem;
+}
+
+/* line 3, ../scss/proj_fe/_header.scss */
+#project-fe-page #FE-head-top {
   background-color: #C8F526;
   height: 60vh;
   width: 100%;
   -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 51%, 0% 100%);
   overflow: hidden;
 }
-/* line 8, ../scss/proj_fe/_header.scss */
-#FE-head-top h1 {
+/* line 10, ../scss/proj_fe/_header.scss */
+#project-fe-page #FE-head-top h1 {
   margin-top: 15vh;
   line-height: 1.4;
 }
 @media only screen and (max-width: 40em) {
-  /* line 8, ../scss/proj_fe/_header.scss */
-  #FE-head-top h1 {
+  /* line 10, ../scss/proj_fe/_header.scss */
+  #project-fe-page #FE-head-top h1 {
     margin-top: 14vh;
   }
 }
-
-/* line 22, ../scss/proj_fe/_header.scss */
-#FE-head-back {
+/* line 24, ../scss/proj_fe/_header.scss */
+#project-fe-page #FE-head-back {
   background: url("../img/proj-fe-header4.jpg") center center;
   background-size: cover;
   background-attachment: fixed;
@@ -10695,35 +10714,145 @@ h3 {
   text-align: center;
 }
 
-/* line 3, ../scss/proj_fe/_magellan.scss */
-[data-magellan-expedition-clone] {
+/* line 5, ../scss/proj_fe/_magellan.scss */
+#project-fe-page [data-magellan-expedition-clone] {
   visibility: visible;
 }
-
-/* line 7, ../scss/proj_fe/_magellan.scss */
-div#magellan-bar {
+/* line 9, ../scss/proj_fe/_magellan.scss */
+#project-fe-page div#magellan-bar {
   transform: skewY(176deg);
   margin-top: -8vh;
-  border-bottom: 1px solid #C8F526;
+  border-bottom: 2px solid #C8F526;
 }
-
-/* line 17, ../scss/proj_fe/_magellan.scss */
-.sub-nav {
+/* line 19, ../scss/proj_fe/_magellan.scss */
+#project-fe-page .sub-nav {
   padding: 0;
 }
-/* line 24, ../scss/proj_fe/_magellan.scss */
-.sub-nav dd a, .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+/* line 26, ../scss/proj_fe/_magellan.scss */
+#project-fe-page .sub-nav dd a, #project-fe-page .sub-nav dt.active a, #project-fe-page .sub-nav dd.active a, #project-fe-page .sub-nav li.active a {
   display: inline-block;
   border-radius: 0;
 }
-/* line 31, ../scss/proj_fe/_magellan.scss */
-.sub-nav dd a p, .sub-nav dt.active a p, .sub-nav dd.active a p, .sub-nav li.active a p {
+/* line 33, ../scss/proj_fe/_magellan.scss */
+#project-fe-page .sub-nav dd a p, #project-fe-page .sub-nav dt.active a p, #project-fe-page .sub-nav dd.active a p, #project-fe-page .sub-nav li.active a p {
   margin-top: 5.2rem;
   transform: skewY(4deg);
   font-size: 0.825rem;
 }
+/* line 42, ../scss/proj_fe/_magellan.scss */
+#project-fe-page .sub-nav dd:first-child {
+  margin-left: 5vw;
+}
 
-/* line 7, ../scss/proj_fe/_background.scss */
-h2.after-fixed-nav {
-  margin-top: 26vh;
+/* line 16, ../scss/proj_fe/_background.scss */
+#project-fe-page .my-process h2 {
+  margin-bottom: 0;
+}
+/* line 20, ../scss/proj_fe/_background.scss */
+#project-fe-page .my-process ul {
+  margin: 0;
+  list-style: none;
+}
+/* line 29, ../scss/proj_fe/_background.scss */
+#project-fe-page .my-process ul > li {
+  margin: 0 0 0 3.25rem;
+  display: inline-block;
+}
+/* line 35, ../scss/proj_fe/_background.scss */
+#project-fe-page .my-process ul > li::before {
+  content: "";
+  border-color: transparent #C8F526;
+  border-style: solid;
+  border-width: 0.7rem 0 0.7rem 1.3rem;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -3.25rem;
+  top: 1.9875rem;
+  position: relative;
+  margin: 0rem;
+}
+/* line 52, ../scss/proj_fe/_background.scss */
+#project-fe-page .my-process ol > li {
+  margin-left: 1rem;
+}
+/* line 57, ../scss/proj_fe/_background.scss */
+#project-fe-page .my-process p.list-head {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+/* line 1, ../scss/proj_fe/_divider-images.scss */
+#fe-pic1, #fe-pic2 {
+  background: url("../img/fe-pic1.jpg") top left;
+  background-attachment: fixed;
+  margin: 20vh 0 25vh 0;
+  height: 47vh;
+  transform: skewY(176deg);
+}
+@media only screen and (min-width: 80.0625em) {
+  /* line 1, ../scss/proj_fe/_divider-images.scss */
+  #fe-pic1, #fe-pic2 {
+    background-size: cover;
+  }
+}
+
+/* line 16, ../scss/proj_fe/_divider-images.scss */
+#fe-pic2 {
+  background-image: url("../img/fe-pic2.jpg");
+  margin-bottom: 29vh;
+}
+
+/* line 4, ../scss/proj_fe/_user-research.scss */
+#project-fe-page .user-research ol {
+  margin: 1.8rem 0 2.4rem 1rem;
+}
+/* line 8, ../scss/proj_fe/_user-research.scss */
+#project-fe-page .user-research ol li {
+  margin-bottom: .8rem;
+}
+/* line 16, ../scss/proj_fe/_user-research.scss */
+#project-fe-page .user-research .understanding-users {
+  position: relative;
+}
+/* line 21, ../scss/proj_fe/_user-research.scss */
+#project-fe-page .user-research .understanding-users img {
+  width: 50%;
+}
+/* line 29, ../scss/proj_fe/_user-research.scss */
+#project-fe-page .user-research .understanding-users img:nth-child(1) {
+  position: absolute;
+  z-index: 1;
+  float: left;
+  margin-left: 25%;
+  margin-top: 6%;
+  display: block;
+  border: 1px solid #39B54A;
+}
+/* line 41, ../scss/proj_fe/_user-research.scss */
+#project-fe-page .user-research .understanding-users img:nth-child(2) {
+  position: absolute;
+  z-index: 0;
+  float: left;
+  margin-top: 0;
+  border: 1px solid #D50000;
+}
+/* line 51, ../scss/proj_fe/_user-research.scss */
+#project-fe-page .user-research .understanding-users img:nth-child(3) {
+  position: relative;
+  z-index: 2;
+  float: right;
+  margin-top: 12%;
+  border: 1px solid #0071BC;
+}
+/* line 64, ../scss/proj_fe/_user-research.scss */
+#project-fe-page .user-research .img-personas-row {
+  margin-top: 7vh;
+  padding-bottom: 10%;
+}
+
+/* line 5, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .section-init-title {
+  margin-top: -21vh;
 }

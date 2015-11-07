@@ -1,5 +1,7 @@
 $sub-nav-height: 5.2rem;
 
+#project-fe-page{
+
 [data-magellan-expedition-clone] { visibility: visible; }
 
 
@@ -7,7 +9,7 @@ $sub-nav-height: 5.2rem;
 div#magellan-bar{
 	transform: skewY(176deg);
 	margin-top: -8vh;
-	border-bottom: 1px solid $lime-green;
+	border-bottom: 2px solid $lime-green;
 	// background-color: transparentize(purple,0.3);
 
 
@@ -37,8 +39,15 @@ div#magellan-bar{
 
 	}
 
+	dd:first-child{
+		margin-left: 5vw;
+	}
+
 
 
 		
 	
+}
+
+
 }
