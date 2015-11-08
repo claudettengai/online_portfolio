@@ -14,6 +14,7 @@ div#magellan-bar{
 
 
 
+
 }
 
 .sub-nav{
@@ -30,6 +31,7 @@ div#magellan-bar{
 
 
 
+
 		p{
 			margin-top: $sub-nav-height;
 			// line-height: $sub-nav-height;
@@ -41,6 +43,21 @@ div#magellan-bar{
 
 	dd:first-child{
 		margin-left: 5vw;
+
+		@media (max-width: 860px){
+			margin-left: 0;
+	
+		}
+
+	}
+
+
+	dd{
+
+		@media (max-width: 860px){
+			margin-left: 0;
+	
+		}
 	}
 
 

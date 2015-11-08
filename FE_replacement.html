@@ -97,12 +97,12 @@
 
 
     <!-- magellan -->
-    <div data-magellan-expedition id= "magellan-bar">
+    <div data-magellan-expedition id= "magellan-bar" class= "hide-for-small-only">
       <dl class="sub-nav">
         <dd data-magellan-arrival="background"><a href="#background"><p>background</p></a></dd>
         <dd data-magellan-arrival="user-research"><a href="#user-research"><p>user research</p></a></dd>
         <dd data-magellan-arrival="strategy"><a href="#strategy"><p>strategy</p></a></dd>
-        <dd data-magellan-arrival="broad-changes"><a href="#broad-changes"><p>broad-changes</p></a></dd>
+        <dd data-magellan-arrival="broad-solutions"><a href="#broad-solutions"><p>broad solutions</p></a></dd>
         <dd data-magellan-arrival="detailed-changes"><a href="#detailed-changes"><p>detailed changes</p></a></dd>
          <dd data-magellan-arrival="design-develop"><a href="#design-develop"><p>design and development</p></a></dd>
 
@@ -189,7 +189,10 @@
 
 
 
-    <div id= "fe-pic1"></div>
+    <div id= "fe-pic1">
+      <div class= "image-clip"></div>
+
+    </div>
 
 
 
@@ -240,19 +243,133 @@
 
 
 
-<!--         background  summary info  -->
+<!--         ideation and strategy info  -->
     <div class= "strategy section-init">
       <div class= "sub-section-init current-problems row">
         <div class= "content-columns">
           <a name="strategy"></a>
-          <h1 data-magellan-destination="strategy" class= "section-init-title">ideation and<br>strategizing</h1>
+          <h1 data-magellan-destination="strategy" class= "section-init-title">ideation and strategizing</h1>
           <h2>Problems with the Current Site</h2>
 
      
-          <p>Found Eats is a start-up ecommerce for specialty foods where small food makers can sell their products online to customers seeking artisanal foods. Food makers are directed to the vendor-facing side of the site where they must complete the set-up process to become an active seller on Found Eats. After the initial set-up is complete, vendor accounts will be used to manage orders, update products details and manage shipping and payment. This project is a redesign of the current Found Eats Vendor Account website.</p>  
+           <ol>
+            <li>Vendors are unclear what sections they are required to complete in order to finish the sign up process.</li>
+            <li> Vendors are unclear what information goes into the input fields.</li>
+            <li>Vendors are becoming sloppy with their product and company descriptions as they rush through  it due to how long and involved it seems.</li>
+            <li>Vendors are not completing the sign up process due to frustration with the process and waning interest.</li>
+          </ol>
+
+          <p>These problems should all be considered in the context that Found Eats is new to the food space, and the website has only recently launched. Because it is still in it's early stages, the website itself has not been able to fully embody the look, feel and functionality that its idea was founded on. A large portion of vendors are therefore already skeptical about committing time and effort into Found Eats, and generally speaking prioritize cultivating other relationships with more established companies higher than this one. There is little to no true precedent for the ideal style and structure for the vendors to follow when setting up their company accounts.</p>
 
         </div>
       </div>
+
+
+
+
+
+
+
+<!--       subsection- solutions
+ -->
+      <div class= "sub-section-init solutions row">
+        <div class= "content-columns">
+          <h2>My Solutions</h2>
+
+          <div class= "row" data-equalizer>
+
+
+
+            <div class= "large-3 columns solution-panel-1" data-equalizer-watch>
+              <div class= "panel-num"><h4>1</h4></div>   
+              <div class= "solution-panel-text"> 
+                <p class= "panel-title">Organizational Changes</p>
+                <ol>
+                  <li>Reduced number of sections</li>
+                  <li>Reduced number of clickaway pages</li>
+                </ol>
+              </div>    
+            </div>
+
+
+  
+            <div class= "large-3 columns alt2-solution-panel" data-equalizer-watch>
+              <div class= "panel-num"><h4>2</h4></div>   
+              <div class= "solution-panel-text"> 
+                <p class= "panel-title">Changes in the User Flow</p>
+                <ol>
+                  <li>Walk-Through Tutorial</li>
+                  <li>Site Separation between Set-up Process and Managing a live account</li>
+                </ol>
+              </div>    
+            </div>
+
+            <div class= "large-3 columns alt-solution-panel" data-equalizer-watch>
+              <div class= "panel-num"><h4>3</h4></div>   
+              <div class= "solution-panel-text"> 
+                <p class= "panel-title">Consistent and Recurring Features</p>
+                <ol>
+                  <li> Site-wide Progress Bar/ Navigation System</li>
+                  <li>Page Specific Checklist/ Navigation System</li>
+                  <li>FAQs and In-Place Explanations</li>
+                </ol>
+              </div>    
+            </div>
+
+            <div class= "large-3 columns solution-panel" data-equalizer-watch>
+              <div class= "panel-num"><h4>4</h4></div>   
+              <div class= "solution-panel-text"> 
+                <p class= "panel-title">Changing the Form Entry Structure</p>
+                <ol>
+                  <li>Mimicking the Customer-facing Live Marketplace </li>
+                  <li>Sortable Organization</li>
+                </ol>
+              </div>    
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <!-- subsection my goals -->
+
+       <div class= "sub-section-init my-goals row">
+        <div class= "content-columns">
+          <h2>My Goals</h2>
+
+     
+          <h3>creating a short, direct path to completion</h3>
+          <p>My efforts were directed firstly at creating a clear trajectory of actions that a vendor must take before their account is complete. The pop-up walkthrough behaves like a tour guide that directs the user to each subsequent step of the set-up process. The presence of a virtual authority diffuses the illusion of the users' decision-making responsibilities. This portrays a confident company image allowing the user to trust the error validation system, minimizing opportunities to linger, second-guess and re-interpret what each question is asking for. My goal is to create a short, clear path for the user. By combining thematically similar sections, and replacing click away pages with accordian tabs that can be edited on the same page, the perceived number of steps to complete is greatly reduced. This reduced number of steps is reflected on the progress bar that appears on every page. The overall effect should make the user feel more oriented in their location of the site and confident in an shorter, easier set-up process. </p>
+
+          <br>
+
+          <h3>building excitement</h3>
+          <p>The second major priority was to create a sense of excitement as the user progresses through the set-up process. The global progress bar and local checklist mark each completed page and entry-field as an accomplishment and additional step towards the finish. However, mimicking the customer-facing marketplace more than anything, should ideally ellicit an emotional response from the user. As the vendors work through each entry field and upload each picture, they can see its significance in how they are cultivating their company's image on the live site; By having in-place click-to-edit elements, they can see exactly how they are telling their story. Completing the vendor account no longer seems like a necessary and daunting chore, but instead a means by which they can communicate with the foodie community.</p>
+
+          <br>
+
+          <h3>reducing errors</h3>
+          <p>My last main priority was to reduce the number of errors that were occuring from vendors filling in incorrect information. Using the fixed right panel underneath the local checklist, as a place for FAQ's, and utilizing in place hover explanations on each given element should accomplish this. Mimicking the live marketplace, and using answer validation should additionally help solve this problem. </p>
+
+          <br>
+
+
+          <h3>side-note: business objectives</h3>
+          <p>The broad business objectives of my redesign are to increase profits and to reduce cost. This is achieved by reducing the number of problems occurring from the current design, further automating the vendor sign-up process and using the new website as an opportunity to implement a new shipping policy. The resulting product requires minimal maintenance allowing the company to handle a much larger influx of vendors, meanwhile reducing the staff budget. On the customer- facing marketplace, the changes to the vendor account website will increase the conversion rate of customers browsing through products to customers actively buying products on Found Eats, and will increase profits from individual sales.</p>
+
+        </div>
+      </div>
+
+      <div id= "fe-pic3"></div>
+
+
+
+
+
 
 
 

@@ -6401,10 +6401,10 @@ ul.pagination li {
 .panel {
   border-style: solid;
   border-width: 1px;
-  border-color: #e3fa8f;
+  border-color: #cff642;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #effcbe;
+  background: #d9f867;
   color: #333333;
 }
 /* line 61, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -6432,7 +6432,7 @@ ul.pagination li {
 .panel.callout {
   border-style: solid;
   border-width: 1px;
-  border-color: #e3fa8f;
+  border-color: #cff642;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
   background: #ecfaff;
@@ -10669,7 +10669,7 @@ h3 {
   margin: -15vh 0 0 0;
   width: 70%;
   text-align: right;
-  line-height: 1.1;
+  line-height: 1.3;
 }
 /* line 25, ../scss/proj_fe/_globals.scss */
 #project-fe-page .section-init {
@@ -10724,24 +10724,36 @@ h3 {
   margin-top: -8vh;
   border-bottom: 2px solid #C8F526;
 }
-/* line 19, ../scss/proj_fe/_magellan.scss */
+/* line 20, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav {
   padding: 0;
 }
-/* line 26, ../scss/proj_fe/_magellan.scss */
+/* line 27, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav dd a, #project-fe-page .sub-nav dt.active a, #project-fe-page .sub-nav dd.active a, #project-fe-page .sub-nav li.active a {
   display: inline-block;
   border-radius: 0;
 }
-/* line 33, ../scss/proj_fe/_magellan.scss */
+/* line 35, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav dd a p, #project-fe-page .sub-nav dt.active a p, #project-fe-page .sub-nav dd.active a p, #project-fe-page .sub-nav li.active a p {
   margin-top: 5.2rem;
   transform: skewY(4deg);
   font-size: 0.825rem;
 }
-/* line 42, ../scss/proj_fe/_magellan.scss */
+/* line 44, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav dd:first-child {
   margin-left: 5vw;
+}
+@media (max-width: 860px) {
+  /* line 44, ../scss/proj_fe/_magellan.scss */
+  #project-fe-page .sub-nav dd:first-child {
+    margin-left: 0;
+  }
+}
+@media (max-width: 860px) {
+  /* line 55, ../scss/proj_fe/_magellan.scss */
+  #project-fe-page .sub-nav dd {
+    margin-left: 0;
+  }
 }
 
 /* line 16, ../scss/proj_fe/_background.scss */
@@ -10784,24 +10796,43 @@ h3 {
 }
 
 /* line 1, ../scss/proj_fe/_divider-images.scss */
-#fe-pic1, #fe-pic2 {
+#fe-pic1, #fe-pic2, #fe-pic3 {
   background: url("../img/fe-pic1.jpg") top left;
   background-attachment: fixed;
   margin: 20vh 0 25vh 0;
-  height: 47vh;
-  transform: skewY(176deg);
+  height: 87vh;
 }
 @media only screen and (min-width: 80.0625em) {
   /* line 1, ../scss/proj_fe/_divider-images.scss */
-  #fe-pic1, #fe-pic2 {
+  #fe-pic1, #fe-pic2, #fe-pic3 {
     background-size: cover;
   }
 }
 
-/* line 16, ../scss/proj_fe/_divider-images.scss */
+/* line 21, ../scss/proj_fe/_divider-images.scss */
+.image-clip {
+  height: 20vh;
+  background-color: rgba(255, 0, 0, 0.6);
+  width: 100%;
+  transform: skewY(176deg);
+  position: absolute;
+}
+
+/* line 83, ../scss/proj_fe/_divider-images.scss */
 #fe-pic2 {
   background-image: url("../img/fe-pic2.jpg");
   margin-bottom: 29vh;
+}
+
+/* line 90, ../scss/proj_fe/_divider-images.scss */
+#fe-pic3 {
+  background-image: url("../img/fe-pic3.jpg");
+}
+@media only screen and (min-width: 80.0625em) {
+  /* line 90, ../scss/proj_fe/_divider-images.scss */
+  #fe-pic3 {
+    background-size: 102%;
+  }
 }
 
 /* line 4, ../scss/proj_fe/_user-research.scss */
@@ -10855,4 +10886,70 @@ h3 {
 /* line 5, ../scss/proj_fe/_strategy.scss */
 #project-fe-page .strategy .section-init-title {
   margin-top: -21vh;
+}
+/* line 9, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .current-problems h2 {
+  margin-top: 4vh;
+}
+/* line 14, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy ol li {
+  margin-bottom: .8rem;
+}
+/* line 21, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .solutions .row {
+  margin-bottom: 7vh;
+}
+/* line 24, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .solution-panel, #project-fe-page .strategy .alt-solution-panel, #project-fe-page .strategy .alt2-solution-panel, #project-fe-page .strategy .solution-panel-1 {
+  padding: 0;
+  margin: 0 0.2rem;
+  background-color: rgba(200, 245, 38, 0.7);
+  border-top: none;
+  width: 24.3%;
+}
+/* line 37, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .solution-panel-text {
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  margin: 0;
+}
+/* line 46, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .panel-title {
+  font-weight: bold;
+}
+/* line 52, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .panel-num {
+  background-color: #222222;
+  padding: 1rem 1rem 2rem 1rem;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 15%);
+}
+/* line 62, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .panel-num h4 {
+  color: white;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+/* line 71, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .alt-solution-panel, #project-fe-page .strategy .alt2-solution-panel {
+  background-color: white;
+  border: 3px solid #C8F526;
+}
+/* line 76, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .alt-solution-panel .panel-num, #project-fe-page .strategy .alt2-solution-panel .panel-num {
+  background-color: #c7f524;
+}
+/* line 85, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .alt2-solution-panel {
+  border: 3px solid #222222;
+}
+/* line 91, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .alt2-solution-panel .panel-num {
+  background-color: #222222;
+}
+/* line 93, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .alt2-solution-panel .panel-num h4 {
+  color: #C8F526;
+}
+/* line 103, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .solution-panel-1 .panel-num {
+  background-color: #86aa00;
 }

@@ -3,7 +3,13 @@ $(document).ready(function(){
 
 ////////////magellan//////////////////////
 
-
+$(document).foundation({
+"magellan-expedition": {
+ 
+  destination_threshold: 50, // pixels from the top of destination for it to be considered active
+   
+}
+});
 // fixing the jumpiness
 
 
@@ -56,6 +62,24 @@ $window.scroll(function(){
 
 
 
+
+
+///////////////////////BACKGROUND PICTURE SKEW/////////////////////////
+
+
+
+function skewAdjust(){
+
+	var imgSkewAdjust = $('#fe-pic1').offset().top- $('.image-clip').offset().top;
+	$(".image-clip").css("margin-top", -imgSkewAdjust);
+};
+
+
+skewAdjust();
+
+$(window).resize(function(){
+	console.log(imgSkewAdjust);
+});
 
 
 
