@@ -27,7 +27,24 @@
 		background-color: transparentize($lime-green, 0.3);
 		// border: 0.4rem solid white;
 		border-top: none;
-		width: 24.3%;
+		margin-bottom: 7vh;
+
+		@media #{$small-only}{
+			margin: 0;
+			width: 100%;
+			margin-left: 0.5rem;
+			margin-bottom: 3vh;
+			border-left: 8px solid white;
+
+		}
+
+		@media #{$medium-only}{
+			width: 48%;
+		}
+
+		@media #{$large-up}{
+		width: 24.2%;
+	};
 
 
 	}
@@ -83,13 +100,15 @@
 
 
 	.alt2-solution-panel{
-		@extend .alt-solution-panel;
+		@extend .solution-panel;
 		border: 3px solid $jet;
+		background-color: white;
 	
 
 
 		.panel-num{
 			background-color: $jet;
+			margin-top: -1px;
 			h4{
 				color: $lime-green;
 			}

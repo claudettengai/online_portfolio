@@ -5,16 +5,32 @@
 
 
 
-
+.background-main{
+	margin-top: 14vh;
+}
 //////// MY PROCESS SUBSECTION////////
 
-$triangle-width: 1.3rem; 
-$p-title-size: 1.25rem;
-$p-title-line-height: $paragraph-line-height + ($p-title-size - $paragraph-font-size);
+$triangle-width: 1.1rem; 
+// $p-title-size: 1.25rem;
+// $p-title-line-height: $paragraph-line-height + ($p-title-size - $paragraph-font-size);
+
+
+$p-title-size: $h5-font-size;
+$p-title-line-height: $header-line-height + ($h5-font-size - $paragraph-font-size) + 0.24;
 
 .my-process{
 	h2{
 		margin-bottom: 0;
+	}
+
+	h5{
+		// font-size: 1.25rem;
+		margin-right: 2rem;
+	}
+
+
+	.my-process-descript{
+		margin-left: 0.3rem;
 	}
 
 	ul{
@@ -44,21 +60,30 @@ $p-title-line-height: $paragraph-line-height + ($p-title-size - $paragraph-font-
     top: $p-title-line-height;
     position: relative;
     margin: 0rem;
+    transform: rotate(15deg);
 
 	}
+
+
+
+	 @for $i from 2 through 5 {
+      ul > li:nth-child(#{$i})::before { 
+       transform: rotate($i * 45deg); 
+      }
+    }
 
 
 
 	ol > li{
-		margin-left: 1rem;
+		margin-left: 0.5rem;
+		color: $oil;
+		list-style-type: none;
+		// display: inline-block;
+		// float: left;
+		// display: none;
+		font-size: 95%;
 	}
 	
-
-	p.list-head{
-		font-size: $p-title-size;
-		font-weight: 500;
-		margin-bottom: 0.5rem;
-	}
 
 }
 

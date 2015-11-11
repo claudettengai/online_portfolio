@@ -6698,7 +6698,7 @@ ul.pagination li {
 /* line 169, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
 .reveal-modal-bg {
   background: #000000;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(200, 245, 38, 0.5);
   bottom: 0;
   display: none;
   left: 0;
@@ -6721,7 +6721,7 @@ ul.pagination li {
   left: 0;
   background-color: #FFFFFF;
   padding: 1.875rem;
-  border: solid 1px #666666;
+  border: solid 1px #C8F526;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 @media only screen and (max-width: 40em) {
@@ -10662,7 +10662,17 @@ h3 {
   float: right;
 }
 
-/* line 13, ../scss/proj_fe/_globals.scss */
+/* line 11, ../scss/proj_fe/_globals.scss */
+#project-fe-page .right-off-canvas-toggle .menu {
+  margin-top: 4rem;
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 11, ../scss/proj_fe/_globals.scss */
+  #project-fe-page .right-off-canvas-toggle .menu {
+    margin-top: 2.5rem;
+  }
+}
+/* line 25, ../scss/proj_fe/_globals.scss */
 #project-fe-page .section-init-title {
   color: #C8F526;
   float: right;
@@ -10671,17 +10681,41 @@ h3 {
   text-align: right;
   line-height: 1.3;
 }
-/* line 25, ../scss/proj_fe/_globals.scss */
+/* line 37, ../scss/proj_fe/_globals.scss */
 #project-fe-page .section-init {
-  margin-top: 14vh;
+  margin-top: -3vh;
 }
-/* line 31, ../scss/proj_fe/_globals.scss */
+/* line 43, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init {
   margin-top: 7vh;
 }
-/* line 34, ../scss/proj_fe/_globals.scss */
+/* line 46, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init h2 {
   margin-bottom: 1.5rem;
+}
+/* line 50, ../scss/proj_fe/_globals.scss */
+#project-fe-page .sub-section-init .img-click img {
+  border: 1px solid #888888;
+}
+/* line 56, ../scss/proj_fe/_globals.scss */
+#project-fe-page .alt-sub-section-init {
+  background-color: #d9f867;
+  margin: 14vh 0;
+  padding: 6vh 0 12vh 0;
+  transform: skewY(176deg);
+}
+/* line 63, ../scss/proj_fe/_globals.scss */
+#project-fe-page .alt-sub-section-init .sub-section-init {
+  transform: skewY(-176deg);
+}
+/* line 66, ../scss/proj_fe/_globals.scss */
+#project-fe-page .alt-sub-section-init .sub-section-init .img-click img {
+  border: none;
+}
+/* line 78, ../scss/proj_fe/_globals.scss */
+#project-fe-page .img-click a img,
+#project-fe-page .img-click a {
+  cursor: url(../img/magnify-cursor-2.png), zoom-in;
 }
 
 /* line 3, ../scss/proj_fe/_header.scss */
@@ -10724,115 +10758,182 @@ h3 {
   margin-top: -8vh;
   border-bottom: 2px solid #C8F526;
 }
-/* line 20, ../scss/proj_fe/_magellan.scss */
+/* line 22, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav {
   padding: 0;
 }
-/* line 27, ../scss/proj_fe/_magellan.scss */
+/* line 29, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav dd a, #project-fe-page .sub-nav dt.active a, #project-fe-page .sub-nav dd.active a, #project-fe-page .sub-nav li.active a {
   display: inline-block;
   border-radius: 0;
 }
-/* line 35, ../scss/proj_fe/_magellan.scss */
+/* line 37, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav dd a p, #project-fe-page .sub-nav dt.active a p, #project-fe-page .sub-nav dd.active a p, #project-fe-page .sub-nav li.active a p {
   margin-top: 5.2rem;
   transform: skewY(4deg);
   font-size: 0.825rem;
 }
-/* line 44, ../scss/proj_fe/_magellan.scss */
+/* line 46, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav dd:first-child {
   margin-left: 5vw;
 }
-@media (max-width: 860px) {
-  /* line 44, ../scss/proj_fe/_magellan.scss */
+@media (max-width: 890px) {
+  /* line 46, ../scss/proj_fe/_magellan.scss */
   #project-fe-page .sub-nav dd:first-child {
     margin-left: 0;
   }
 }
 @media (max-width: 860px) {
-  /* line 55, ../scss/proj_fe/_magellan.scss */
+  /* line 57, ../scss/proj_fe/_magellan.scss */
   #project-fe-page .sub-nav dd {
     margin-left: 0;
   }
 }
 
-/* line 16, ../scss/proj_fe/_background.scss */
+/* line 8, ../scss/proj_fe/_background.scss */
+#project-fe-page .background-main {
+  margin-top: 14vh;
+}
+/* line 22, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process h2 {
   margin-bottom: 0;
 }
-/* line 20, ../scss/proj_fe/_background.scss */
+/* line 26, ../scss/proj_fe/_background.scss */
+#project-fe-page .my-process h5 {
+  margin-right: 2rem;
+}
+/* line 32, ../scss/proj_fe/_background.scss */
+#project-fe-page .my-process .my-process-descript {
+  margin-left: 0.3rem;
+}
+/* line 36, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process ul {
   margin: 0;
   list-style: none;
 }
-/* line 29, ../scss/proj_fe/_background.scss */
+/* line 45, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process ul > li {
-  margin: 0 0 0 3.25rem;
+  margin: 0 0 0 2.75rem;
   display: inline-block;
 }
-/* line 35, ../scss/proj_fe/_background.scss */
+/* line 51, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process ul > li::before {
   content: "";
   border-color: transparent #C8F526;
   border-style: solid;
-  border-width: 0.7rem 0 0.7rem 1.3rem;
+  border-width: 0.7rem 0 0.7rem 1.1rem;
   display: block;
   height: 0;
   width: 0;
-  left: -3.25rem;
-  top: 1.9875rem;
+  left: -2.75rem;
+  top: 1.7025rem;
   position: relative;
   margin: 0rem;
+  transform: rotate(15deg);
 }
-/* line 52, ../scss/proj_fe/_background.scss */
+/* line 70, ../scss/proj_fe/_background.scss */
+#project-fe-page .my-process ul > li:nth-child(2)::before {
+  transform: rotate(90deg);
+}
+/* line 70, ../scss/proj_fe/_background.scss */
+#project-fe-page .my-process ul > li:nth-child(3)::before {
+  transform: rotate(135deg);
+}
+/* line 70, ../scss/proj_fe/_background.scss */
+#project-fe-page .my-process ul > li:nth-child(4)::before {
+  transform: rotate(180deg);
+}
+/* line 70, ../scss/proj_fe/_background.scss */
+#project-fe-page .my-process ul > li:nth-child(5)::before {
+  transform: rotate(225deg);
+}
+/* line 77, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process ol > li {
-  margin-left: 1rem;
-}
-/* line 57, ../scss/proj_fe/_background.scss */
-#project-fe-page .my-process p.list-head {
-  font-size: 1.25rem;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  color: #333333;
+  list-style-type: none;
+  font-size: 95%;
 }
 
 /* line 1, ../scss/proj_fe/_divider-images.scss */
-#fe-pic1, #fe-pic2, #fe-pic3 {
+#fe-pic1, #fe-pic2, #fe-pic3, #fe-pic4, #fe-pic5 {
   background: url("../img/fe-pic1.jpg") top left;
   background-attachment: fixed;
-  margin: 20vh 0 25vh 0;
-  height: 87vh;
+  margin: 20vh 0 20vh 0;
 }
 @media only screen and (min-width: 80.0625em) {
   /* line 1, ../scss/proj_fe/_divider-images.scss */
-  #fe-pic1, #fe-pic2, #fe-pic3 {
+  #fe-pic1, #fe-pic2, #fe-pic3, #fe-pic4, #fe-pic5 {
     background-size: cover;
   }
 }
 
-/* line 21, ../scss/proj_fe/_divider-images.scss */
+/* line 36, ../scss/proj_fe/_divider-images.scss */
 .image-clip {
-  height: 20vh;
-  background-color: rgba(255, 0, 0, 0.6);
+  height: 42vh;
   width: 100%;
-  transform: skewY(176deg);
-  position: absolute;
+  background-color: transparent;
 }
 
-/* line 83, ../scss/proj_fe/_divider-images.scss */
+/* line 46, ../scss/proj_fe/_divider-images.scss */
+.image-clip-before {
+  background-color: white;
+  width: 100%;
+  display: block;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 100%);
+  border: 5px solid white;
+  margin-top: -5vh;
+}
+
+/* line 69, ../scss/proj_fe/_divider-images.scss */
+.image-clip-after {
+  background-color: white;
+  width: 100%;
+  display: block;
+  -webkit-clip-path: polygon(0 100%, 100% 0, 100% 101%);
+  border: 5px solid white;
+  margin-top: -5vh;
+}
+
+/* line 97, ../scss/proj_fe/_divider-images.scss */
 #fe-pic2 {
   background-image: url("../img/fe-pic2.jpg");
-  margin-bottom: 29vh;
 }
 
-/* line 90, ../scss/proj_fe/_divider-images.scss */
-#fe-pic3 {
+/* line 104, ../scss/proj_fe/_divider-images.scss */
+#fe-pic3, #fe-pic4 {
   background-image: url("../img/fe-pic3.jpg");
 }
 @media only screen and (min-width: 80.0625em) {
-  /* line 90, ../scss/proj_fe/_divider-images.scss */
-  #fe-pic3 {
+  /* line 104, ../scss/proj_fe/_divider-images.scss */
+  #fe-pic3, #fe-pic4 {
     background-size: 102%;
   }
+}
+
+/* line 115, ../scss/proj_fe/_divider-images.scss */
+#fe-pic4 {
+  background-image: url("../img/fe-pic4.jpg");
+  background-size: cover;
+  background-position: top center;
+  margin-top: -20vh;
+}
+/* line 123, ../scss/proj_fe/_divider-images.scss */
+#fe-pic4 .image-clip-before {
+  background-color: #d9f867;
+  border: 5px solid #d9f867;
+}
+
+/* line 132, ../scss/proj_fe/_divider-images.scss */
+#fe-pic4-corrector {
+  height: 35vh;
+  background-color: #d9f867;
+  margin-top: -22vh;
+}
+
+/* line 140, ../scss/proj_fe/_divider-images.scss */
+#fe-pic5 {
+  background-image: url("../img/fe-pic5.jpg");
 }
 
 /* line 4, ../scss/proj_fe/_user-research.scss */
@@ -10843,15 +10944,23 @@ h3 {
 #project-fe-page .user-research ol li {
   margin-bottom: .8rem;
 }
+/* line 11, ../scss/proj_fe/_user-research.scss */
+#project-fe-page .user-research ol li:first-child {
+  font-weight: 600;
+}
 /* line 16, ../scss/proj_fe/_user-research.scss */
+#project-fe-page .user-research .semi-bold {
+  font-weight: 600;
+}
+/* line 26, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .understanding-users {
   position: relative;
 }
-/* line 21, ../scss/proj_fe/_user-research.scss */
+/* line 31, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .understanding-users img {
   width: 50%;
 }
-/* line 29, ../scss/proj_fe/_user-research.scss */
+/* line 39, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .understanding-users img:nth-child(1) {
   position: absolute;
   z-index: 1;
@@ -10861,7 +10970,7 @@ h3 {
   display: block;
   border: 1px solid #39B54A;
 }
-/* line 41, ../scss/proj_fe/_user-research.scss */
+/* line 51, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .understanding-users img:nth-child(2) {
   position: absolute;
   z-index: 0;
@@ -10869,7 +10978,7 @@ h3 {
   margin-top: 0;
   border: 1px solid #D50000;
 }
-/* line 51, ../scss/proj_fe/_user-research.scss */
+/* line 61, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .understanding-users img:nth-child(3) {
   position: relative;
   z-index: 2;
@@ -10877,7 +10986,7 @@ h3 {
   margin-top: 12%;
   border: 1px solid #0071BC;
 }
-/* line 64, ../scss/proj_fe/_user-research.scss */
+/* line 74, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .img-personas-row {
   margin-top: 7vh;
   padding-bottom: 10%;
@@ -10905,51 +11014,139 @@ h3 {
   margin: 0 0.2rem;
   background-color: rgba(200, 245, 38, 0.7);
   border-top: none;
-  width: 24.3%;
+  margin-bottom: 7vh;
 }
-/* line 37, ../scss/proj_fe/_strategy.scss */
+@media only screen and (max-width: 40em) {
+  /* line 24, ../scss/proj_fe/_strategy.scss */
+  #project-fe-page .strategy .solution-panel, #project-fe-page .strategy .alt-solution-panel, #project-fe-page .strategy .alt2-solution-panel, #project-fe-page .strategy .solution-panel-1 {
+    margin: 0;
+    width: 100%;
+    margin-left: 0.5rem;
+    margin-bottom: 3vh;
+    border-left: 8px solid white;
+  }
+}
+@media only screen and (min-width: 40.0625em) and (max-width: 64em) {
+  /* line 24, ../scss/proj_fe/_strategy.scss */
+  #project-fe-page .strategy .solution-panel, #project-fe-page .strategy .alt-solution-panel, #project-fe-page .strategy .alt2-solution-panel, #project-fe-page .strategy .solution-panel-1 {
+    width: 48%;
+  }
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 24, ../scss/proj_fe/_strategy.scss */
+  #project-fe-page .strategy .solution-panel, #project-fe-page .strategy .alt-solution-panel, #project-fe-page .strategy .alt2-solution-panel, #project-fe-page .strategy .solution-panel-1 {
+    width: 24.2%;
+  }
+}
+/* line 54, ../scss/proj_fe/_strategy.scss */
 #project-fe-page .strategy .solution-panel-text {
   padding: 0.5rem 0.5rem 0 0.5rem;
   margin: 0;
 }
-/* line 46, ../scss/proj_fe/_strategy.scss */
+/* line 63, ../scss/proj_fe/_strategy.scss */
 #project-fe-page .strategy .panel-title {
   font-weight: bold;
 }
-/* line 52, ../scss/proj_fe/_strategy.scss */
+/* line 69, ../scss/proj_fe/_strategy.scss */
 #project-fe-page .strategy .panel-num {
   background-color: #222222;
   padding: 1rem 1rem 2rem 1rem;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 15%);
 }
-/* line 62, ../scss/proj_fe/_strategy.scss */
+/* line 79, ../scss/proj_fe/_strategy.scss */
 #project-fe-page .strategy .panel-num h4 {
   color: white;
   text-align: right;
   padding-right: 0.5rem;
 }
-/* line 71, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .alt-solution-panel, #project-fe-page .strategy .alt2-solution-panel {
+/* line 88, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .alt-solution-panel {
   background-color: white;
   border: 3px solid #C8F526;
 }
-/* line 76, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .alt-solution-panel .panel-num, #project-fe-page .strategy .alt2-solution-panel .panel-num {
+/* line 93, ../scss/proj_fe/_strategy.scss */
+#project-fe-page .strategy .alt-solution-panel .panel-num {
   background-color: #c7f524;
 }
-/* line 85, ../scss/proj_fe/_strategy.scss */
+/* line 102, ../scss/proj_fe/_strategy.scss */
 #project-fe-page .strategy .alt2-solution-panel {
   border: 3px solid #222222;
+  background-color: white;
 }
-/* line 91, ../scss/proj_fe/_strategy.scss */
+/* line 109, ../scss/proj_fe/_strategy.scss */
 #project-fe-page .strategy .alt2-solution-panel .panel-num {
   background-color: #222222;
+  margin-top: -1px;
 }
-/* line 93, ../scss/proj_fe/_strategy.scss */
+/* line 112, ../scss/proj_fe/_strategy.scss */
 #project-fe-page .strategy .alt2-solution-panel .panel-num h4 {
   color: #C8F526;
 }
-/* line 103, ../scss/proj_fe/_strategy.scss */
+/* line 122, ../scss/proj_fe/_strategy.scss */
 #project-fe-page .strategy .solution-panel-1 .panel-num {
   background-color: #86aa00;
+}
+
+/* line 7, ../scss/proj_fe/_broad-changes.scss */
+#project-fe-page .broad-solutions ol.top-text-section {
+  margin-bottom: 7vh;
+}
+/* line 10, ../scss/proj_fe/_broad-changes.scss */
+#project-fe-page .broad-solutions ol.top-text-section > li {
+  font-weight: 600;
+}
+/* line 17, ../scss/proj_fe/_broad-changes.scss */
+#project-fe-page .broad-solutions .img-click img {
+  border: 1px solid #C8F526;
+}
+/* line 23, ../scss/proj_fe/_broad-changes.scss */
+#project-fe-page .broad-solutions .img-click a img {
+  cursor: url(../img/magnify-cursor-2.png), zoom-in;
+}
+
+/* line 9, ../scss/proj_fe/_specific-changes.scss */
+#project-fe-page .specific-changes .probs-redesign-cols {
+  margin-top: 7vh;
+}
+/* line 14, ../scss/proj_fe/_specific-changes.scss */
+#project-fe-page .specific-changes .probs-redesign-cols .wireframe {
+  font-size: 60%;
+  margin-left: 0.7rem;
+}
+/* line 19, ../scss/proj_fe/_specific-changes.scss */
+#project-fe-page .specific-changes .probs-redesign-cols h4 {
+  margin-bottom: 1rem;
+}
+/* line 23, ../scss/proj_fe/_specific-changes.scss */
+#project-fe-page .specific-changes .probs-redesign-cols h5 {
+  margin: 0.7rem 0 1.5rem 0;
+  font-size: 120%;
+}
+/* line 34, ../scss/proj_fe/_specific-changes.scss */
+#project-fe-page .specific-changes .redesign-section {
+  margin-top: 14vh;
+}
+/* line 50, ../scss/proj_fe/_specific-changes.scss */
+#project-fe-page .specific-changes #current-individual-product-crop, #project-fe-page .specific-changes #individual-product-redesign-crop, #project-fe-page .specific-changes #edit-warehouse-crop {
+  background-image: url("../img/current-individual-product.jpg");
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+}
+/* line 58, ../scss/proj_fe/_specific-changes.scss */
+#project-fe-page .specific-changes #individual-product-redesign-crop {
+  background-image: url("../img/individual-product-redesign.jpg");
+}
+/* line 65, ../scss/proj_fe/_specific-changes.scss */
+#project-fe-page .specific-changes #edit-warehouse-crop {
+  background-image: url("../img/edit-warehouse-redesign.jpg");
+}
+
+/* line 3, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .mocks img {
+  border: 1px solid #888888;
+}
+/* line 25, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .development a {
+  width: 90%;
 }

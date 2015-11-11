@@ -7,7 +7,17 @@
 
 	ol li{
 		margin-bottom: .8rem;
+
+		&:first-child{
+			font-weight: 600;
+		}
 	}
+
+	.semi-bold{
+		font-weight: 600;
+	}
+
+
 
 
 

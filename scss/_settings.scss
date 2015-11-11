@@ -1172,6 +1172,9 @@ $panel-bg: scale-color($lime-green, $lightness: 30%);
 // $reveal-overlay-bg: rgba($black, .45);
 // $reveal-overlay-bg-old: $black;
 
+$reveal-overlay-bg: rgba($lime-green, .5);
+
+
 
 // We use these to control the style of the modal itself.
 // $reveal-modal-bg: $white;
@@ -1180,6 +1183,8 @@ $panel-bg: scale-color($lime-green, $lightness: 30%);
 // $reveal-max-width: $row-width;
 // $reveal-modal-padding: rem-calc(20);
 // $reveal-box-shadow: 0 0 10px rgba($black,.4);
+
+
 
 
 $reveal-position-top: rem-calc(20);
@@ -1192,6 +1197,12 @@ $reveal-position-top: rem-calc(20);
 // $reveal-close-color: $base;
 // $reveal-close-weight: $font-weight-bold;
 
+
+
+
+
+
+
 // We use this to set the default radius used throughout the core.
 // $reveal-radius: $global-radius;
 // $reveal-round: $global-rounded;
@@ -1200,6 +1211,8 @@ $reveal-position-top: rem-calc(20);
 // $reveal-border-style: solid;
 // $reveal-border-width: 1px;
 // $reveal-border-color: $steel;
+
+$reveal-border-color: $lime-green;
 
 
 

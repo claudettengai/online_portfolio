@@ -7,6 +7,18 @@
   @extend .small-offset-0, .medium-10, .medium-offset-1, .xlarge-offset-0, .xlarge-12, .columns, .small-indent
 }
 
+.right-off-canvas-toggle {
+  .menu {
+  	margin-top: 4rem;
+
+  	@media #{$large-up}{
+  		margin-top: 2.5rem;
+  	}
+  }  
+}
+
+
+
 
 
 // lime-green right floating title
@@ -23,7 +35,7 @@
 
 // margin between main sections
 .section-init{
-	margin-top: 14vh;
+	margin-top: -3vh;;
 }
 
 
@@ -34,6 +46,47 @@
 	h2{
 		margin-bottom: 1.5rem;
 	}
+
+	.img-click img{
+		border: 1px solid $jumbo;
+	}
 }
 
+
+.alt-sub-section-init{
+	background-color: mix($lime-green, white, 70%);
+	margin: 14vh 0;
+	padding: 6vh 0 12vh 0;
+	transform: skewY(176deg);
+
+
+	.sub-section-init{
+		transform: skewY(-176deg);
+
+		.img-click img{
+			border: none;
+		}
+	}
 }
+
+
+
+
+
+
+////////////magnifying glass--- modal/////////
+.img-click a img,
+.img-click a{
+		cursor: url(../img/magnify-cursor-2.png), zoom-in;
+	// 	cursor: zoom-in;
+	}
+
+
+
+
+
+}
+
+
+
+
