@@ -34,7 +34,7 @@
 // }
 
 .image-clip{
-	height:42vh;
+	height:45vh;
 	width: 100%;
 	// background-color: transparentize(blue, 0.4);
 	background-color: transparent;
@@ -97,7 +97,7 @@
 #fe-pic2{
 	@extend #fe-pic1;
 	background-image: url("../img/fe-pic2.jpg");
-	// margin-bottom: 29vh;
+	margin-top: 15vh;
 }
 
 

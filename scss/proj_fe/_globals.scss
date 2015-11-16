@@ -4,7 +4,10 @@
 
 // grid
 .content-columns{
-  @extend .small-offset-0, .medium-10, .medium-offset-1, .xlarge-offset-0, .xlarge-12, .columns, .small-indent
+  @extend .small-offset-0, .medium-10, .medium-offset-1, .xlarge-offset-0, .xlarge-12, .columns, .small-indent;
+  @media #{$small-only}{
+  	margin-left: 2% !important;
+  }
 }
 
 .right-off-canvas-toggle {
@@ -16,8 +19,6 @@
   	}
   }  
 }
-
-
 
 
 
@@ -79,12 +80,141 @@
 .img-click a{
 		cursor: url(../img/magnify-cursor-2.png), zoom-in;
 	// 	cursor: zoom-in;
+		
 	}
 
 
 
 
 
+//////////////////PANELS - PANEL TRIANGLES///////////////
+
+// <div class= "panel-num-shape">
+//	 <div class= "num-triangle">
+//		<h4>1</h4>
+//	 </div>
+// </div>
+
+
+
+
+// white triangle, black number
+.panel-num-shape{
+	text-align: center;
+	margin-top: -1.6rem * $header-line-height;
+
+}
+
+// .num-triangle{
+// 	h4, h5{
+	
+// 		margin-top: -0.5rem
+// 	}
+
+// 	background-color: white;
+// 	-webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
+// 	padding: 1rem 2rem;
+// 	display: inline-block;
+// }
+
+
+
+@mixin num-triangle-color($num-color, $background-color){
+	h4, h5{
+		margin-top: -0.5rem;
+		color: $num-color;
+		// transform: rotate(-$rotate);
+	}
+
+	-webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
+	display: inline-block;
+	padding: 1rem 2rem;
+	// padding: (1rem * $padding-multiplier) (2rem * $padding-multiplier);
+	background-color: $background-color;
+	// transform: rotate($rotate);
+}
+
+
+
+////////////////////////////////////
+.num-triangle-white{
+	@include num-triangle-color($jet, white);
+}
+
+
+
+
+.num-triangle-black{
+	@include num-triangle-color($lime-green, $jet)
+}
+
+.num-triangle-black-white{
+	@include num-triangle-color(white, $jet)
+}
+.num-triangle-green{
+	@include num-triangle-color($jet, $lime-green);
+}
+
+.tilt2{
+	h4, h5{
+		transform: rotate(-35deg);
+		margin-left: -0.3rem; 
+    	margin-top: 0.2rem;
+
+	}
+
+	transform:rotate(35deg);
+	margin-top: -0.4rem;
+
+}
+
+.tilt3{
+	h4, h5{
+		transform: rotate(-165deg);
+    	margin-left: -0.2rem; 
+    	margin-top: -0.2rem;
+	}
+
+ 	transform: rotate(165deg);
+ 	margin-top: -0.7rem;
+}
+
+
+.tilt4{
+	h4, h5{
+		transform: rotate(-335deg);
+    	margin-left: 0.2rem; 
+    	margin-top: -0.2rem;
+	}
+
+	transform: rotate(335deg);
+ 	margin-top: -1rem;
+
+
+}
+
+
+.tilt5{
+	h4, h5{
+		transform: rotate(-65deg);
+    	margin-left: -0.2rem; 
+    	margin-top: -0.2rem;
+	}
+
+	transform: rotate(65deg);
+ 	margin-top: 0rem;
+
+
+}
+
+
+.num-triangle-small{
+	padding: 0.6rem 1.6rem;
+}
+
+
+
+///////fe page
 }
 
 

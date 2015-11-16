@@ -26,11 +26,15 @@ Math.radians = function(deg)
 ////////////magellan//////////////////////
 
 $(document).foundation({
+
 "magellan-expedition": {
  
-  destination_threshold: 70, // pixels from the top of destination for it to be considered active
+  destination_threshold: 350, // pixels from the top of destination for it to be considered active
    
 }
+
+
+
 });
 
 
@@ -59,8 +63,12 @@ console.log($('#magellan-bar').offset().top);
 // console.log(headMarginEqualizer);
 
 var headMarginInit = $("h2.after-fixed-nav").css("margin-top");
+var headMarginInitTitle = $("h1.after-fixed-nav").css("margin-top");
+
 
 var headMarginEqualizer = parseInt($("div#magellan-bar").outerHeight(true))+ parseInt($("h2.after-fixed-nav").css("margin-top")) + "px";
+// console.log(headMarginEqualizer);
+var headMarginEqualizerTitle = parseInt($("div#magellan-bar").outerHeight(true))+ parseInt($("h1.after-fixed-nav").css("margin-top")) + "px";
 // console.log(headMarginEqualizer);
 
 $window.scroll(function(){
@@ -71,12 +79,16 @@ $window.scroll(function(){
 		// });
 
 		$("h2.after-fixed-nav").css("margin-top", headMarginEqualizer);
+		$("h1.after-fixed-nav").css("margin-top", headMarginEqualizerTitle);
+
 
 
 
 	} else {
 		$("div#magellan-bar").removeClass("fixed");
 		$("h2.after-fixed-nav").css("margin-top", headMarginInit);
+		$("h1.after-fixed-nav").css("margin-top", headMarginInitTitle);
+
 
 		
 	}
