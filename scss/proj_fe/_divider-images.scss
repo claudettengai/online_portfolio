@@ -103,11 +103,12 @@
 
 #fe-pic3{
 	@extend #fe-pic1;
-	background-image: url("../img/fe-pic3.jpg");
+	background-image: url("../img/fe-pic5.jpg");
+	margin-top: 10vh;
 
-	@media #{$xlarge-up}{
-		background-size: 102%;
-	}
+	// @media #{$xlarge-up}{
+	// 	background-size: 102%;
+	// }
 
 
 }

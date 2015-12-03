@@ -8,7 +8,12 @@ $sub-nav-height: 5.2rem;
 
 div#magellan-bar{
 	transform: skewY(176deg);
-	margin-top: -8vh;
+	margin-top: -4rem;
+
+	@media#{$xlarge-up}{
+		margin-top: -4.2rem;
+	}
+
 	border-bottom: 2px solid $lime-green;
 	// background-color: transparentize(purple,0.3);
 
@@ -54,7 +59,7 @@ div#magellan-bar{
 		}
 
 		@media (max-width: 890px){
-			margin-left: 5vw;
+			margin-left: 3vw;
 	
 		}
 

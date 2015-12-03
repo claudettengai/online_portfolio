@@ -10,11 +10,10 @@
 
 
 
-		
-
+	
 		ul{
 			list-style-type: none;
-			margin: 4rem 0 1.5rem 0;
+			margin: 2rem 0 1.5rem 0;
 			display: inline-block;
 		}
 
@@ -185,109 +184,12 @@
 
 
 //////////////////////////PROBLEMS WITH CURRENT SITE////////////////////
+
 .identify-probs{
-
-	padding-top: 2vh;
-	h4{
-		margin-top: -0.7rem;
-	}
-
-//////
-
-ol.obs-and-cause{
-	margin: 6vh 0 2vh 0;
-
-}
-
-
-ol.obs-and-cause > li{
-	width: 48%;
-	@media #{$large-up}{
-		width: 23%;
-	}
-
-	float: left;
-	// background-color: red;
-	list-style-type: none;
-	.panel{
-		margin-bottom:0;
-		@media #{$large-up}{
-			margin-bottom: 1.25rem;
-		};
-	}
-
-
-	&:nth-child(1),
-	&:nth-child(4) {
-		.panel{
-		background-color: mix($lime-green, white, 85%);
-		border: none;
-		}
-	}
-
-	&:nth-child(2){
-		margin: 0 0 7vh 2%;
-
-	
-		border: 2px solid $lime-green;
-
-		@media #{$large-up}{
-			margin: 0 1% 0 2%;
-			background-color: none;
-			border: none;
-		}
-
-
-
-		.panel{
-			background-color: white;
-			border: none;
-			@media #{$large-up}{
-				border: 2px solid $lime-green;
-
-			}
-		}
-	}
-
-	&:nth-child(3){
-		margin: 0 2% 0 0;
-
-		@media #{$large-up}{
-			margin: 0 2% 0 1%;
-		}
-
-		.panel{
-			background-color: $oil;
-			border: none;
-			p{
-				color: white;
-				font-weight: 300;
-			}
-		}
+	li{
+		margin-bottom: 0.6rem;
 	}
 }
-
-
-
-
-ul.obs-and-cause-parts{
-	list-style-type: none;
-	margin: 0;
-	text-align: center;
-
-}
-
-
-
-
-
-
-/////
-
-}
-
-
-
 
 
 
