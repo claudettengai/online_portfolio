@@ -21,6 +21,11 @@
 }
 
 
+//bolded text
+.text-bold{
+	font-weight: 600;
+}
+
 
 // lime-green right floating title
 .section-init-title{
@@ -101,7 +106,7 @@
 // white triangle, black number
 .panel-num-shape{
 	text-align: center;
-	margin-top: -1.6rem * $header-line-height;
+	margin-top: -1.8rem * $header-line-height;
 
 }
 
@@ -145,7 +150,10 @@
 
 
 .num-triangle-black{
-	@include num-triangle-color($lime-green, $jet)
+	@include num-triangle-color($lime-green, $jet);
+	h4{
+		color: white;
+	}
 }
 
 .num-triangle-black-white{

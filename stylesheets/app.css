@@ -10678,7 +10678,11 @@ h3 {
     margin-top: 2.5rem;
   }
 }
-/* line 26, ../scss/proj_fe/_globals.scss */
+/* line 25, ../scss/proj_fe/_globals.scss */
+#project-fe-page .text-bold {
+  font-weight: 600;
+}
+/* line 31, ../scss/proj_fe/_globals.scss */
 #project-fe-page .section-init-title {
   color: #C8F526;
   float: right;
@@ -10687,140 +10691,144 @@ h3 {
   text-align: right;
   line-height: 1.3;
 }
-/* line 38, ../scss/proj_fe/_globals.scss */
+/* line 43, ../scss/proj_fe/_globals.scss */
 #project-fe-page .section-init {
   margin-top: -3vh;
 }
-/* line 44, ../scss/proj_fe/_globals.scss */
+/* line 49, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init {
   margin-top: 7vh;
 }
-/* line 47, ../scss/proj_fe/_globals.scss */
+/* line 52, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init h2 {
   margin-bottom: 1.5rem;
 }
-/* line 51, ../scss/proj_fe/_globals.scss */
+/* line 56, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init .img-click img {
   border: 1px solid #888888;
 }
-/* line 57, ../scss/proj_fe/_globals.scss */
+/* line 62, ../scss/proj_fe/_globals.scss */
 #project-fe-page .alt-sub-section-init {
   background-color: #d9f867;
   margin: 14vh 0;
   padding: 6vh 0 12vh 0;
   transform: skewY(176deg);
 }
-/* line 64, ../scss/proj_fe/_globals.scss */
+/* line 69, ../scss/proj_fe/_globals.scss */
 #project-fe-page .alt-sub-section-init .sub-section-init {
   transform: skewY(-176deg);
 }
-/* line 67, ../scss/proj_fe/_globals.scss */
+/* line 72, ../scss/proj_fe/_globals.scss */
 #project-fe-page .alt-sub-section-init .sub-section-init .img-click img {
   border: none;
 }
-/* line 79, ../scss/proj_fe/_globals.scss */
+/* line 84, ../scss/proj_fe/_globals.scss */
 #project-fe-page .img-click a img,
 #project-fe-page .img-click a {
   cursor: url(../img/magnify-cursor-2.png), zoom-in;
 }
-/* line 102, ../scss/proj_fe/_globals.scss */
+/* line 107, ../scss/proj_fe/_globals.scss */
 #project-fe-page .panel-num-shape {
   text-align: center;
-  margin-top: -2.24rem;
+  margin-top: -2.52rem;
 }
-/* line 140, ../scss/proj_fe/_globals.scss */
+/* line 145, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-white {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   display: inline-block;
   padding: 1rem 2rem;
   background-color: white;
 }
-/* line 123, ../scss/proj_fe/_globals.scss */
+/* line 128, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-white h4, #project-fe-page .num-triangle-white h5 {
   margin-top: -0.5rem;
   color: #222222;
 }
-/* line 147, ../scss/proj_fe/_globals.scss */
+/* line 152, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   display: inline-block;
   padding: 1rem 2rem;
   background-color: #222222;
 }
-/* line 123, ../scss/proj_fe/_globals.scss */
+/* line 128, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black h4, #project-fe-page .num-triangle-black h5 {
   margin-top: -0.5rem;
   color: #C8F526;
 }
-/* line 151, ../scss/proj_fe/_globals.scss */
+/* line 154, ../scss/proj_fe/_globals.scss */
+#project-fe-page .num-triangle-black h4 {
+  color: white;
+}
+/* line 159, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black-white {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   display: inline-block;
   padding: 1rem 2rem;
   background-color: #222222;
 }
-/* line 123, ../scss/proj_fe/_globals.scss */
+/* line 128, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black-white h4, #project-fe-page .num-triangle-black-white h5 {
   margin-top: -0.5rem;
   color: white;
 }
-/* line 154, ../scss/proj_fe/_globals.scss */
+/* line 162, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-green {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   display: inline-block;
   padding: 1rem 2rem;
   background-color: #C8F526;
 }
-/* line 123, ../scss/proj_fe/_globals.scss */
+/* line 128, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-green h4, #project-fe-page .num-triangle-green h5 {
   margin-top: -0.5rem;
   color: #222222;
 }
-/* line 158, ../scss/proj_fe/_globals.scss */
+/* line 166, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt2 {
   transform: rotate(35deg);
   margin-top: -0.4rem;
 }
-/* line 159, ../scss/proj_fe/_globals.scss */
+/* line 167, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt2 h4, #project-fe-page .tilt2 h5 {
   transform: rotate(-35deg);
   margin-left: -0.3rem;
   margin-top: 0.2rem;
 }
-/* line 171, ../scss/proj_fe/_globals.scss */
+/* line 179, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt3 {
   transform: rotate(165deg);
   margin-top: -0.7rem;
 }
-/* line 172, ../scss/proj_fe/_globals.scss */
+/* line 180, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt3 h4, #project-fe-page .tilt3 h5 {
   transform: rotate(-165deg);
   margin-left: -0.2rem;
   margin-top: -0.2rem;
 }
-/* line 183, ../scss/proj_fe/_globals.scss */
+/* line 191, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt4 {
   transform: rotate(335deg);
   margin-top: -1rem;
 }
-/* line 184, ../scss/proj_fe/_globals.scss */
+/* line 192, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt4 h4, #project-fe-page .tilt4 h5 {
   transform: rotate(-335deg);
   margin-left: 0.2rem;
   margin-top: -0.2rem;
 }
-/* line 197, ../scss/proj_fe/_globals.scss */
+/* line 205, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt5 {
   transform: rotate(65deg);
   margin-top: 0rem;
 }
-/* line 198, ../scss/proj_fe/_globals.scss */
+/* line 206, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt5 h4, #project-fe-page .tilt5 h5 {
   transform: rotate(-65deg);
   margin-left: -0.2rem;
   margin-top: -0.2rem;
 }
-/* line 211, ../scss/proj_fe/_globals.scss */
+/* line 219, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-small {
   padding: 0.6rem 1.6rem;
 }
@@ -10865,33 +10873,39 @@ h3 {
   margin-top: -8vh;
   border-bottom: 2px solid #C8F526;
 }
-/* line 22, ../scss/proj_fe/_magellan.scss */
+/* line 24, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav {
   padding: 0;
 }
-/* line 29, ../scss/proj_fe/_magellan.scss */
+/* line 31, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav dd a, #project-fe-page .sub-nav dt.active a, #project-fe-page .sub-nav dd.active a, #project-fe-page .sub-nav li.active a {
   display: inline-block;
   border-radius: 0;
 }
-/* line 37, ../scss/proj_fe/_magellan.scss */
+/* line 39, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav dd a p, #project-fe-page .sub-nav dt.active a p, #project-fe-page .sub-nav dd.active a p, #project-fe-page .sub-nav li.active a p {
   margin-top: 5.2rem;
   transform: skewY(4deg);
   font-size: 0.825rem;
 }
-/* line 46, ../scss/proj_fe/_magellan.scss */
+/* line 48, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav dd:first-child {
-  margin-left: 5vw;
+  margin-left: 13vw;
+}
+@media (max-width: 1160px) {
+  /* line 48, ../scss/proj_fe/_magellan.scss */
+  #project-fe-page .sub-nav dd:first-child {
+    margin-left: 10vw;
+  }
 }
 @media (max-width: 890px) {
-  /* line 46, ../scss/proj_fe/_magellan.scss */
+  /* line 48, ../scss/proj_fe/_magellan.scss */
   #project-fe-page .sub-nav dd:first-child {
-    margin-left: 0;
+    margin-left: 5vw;
   }
 }
 @media (max-width: 860px) {
-  /* line 57, ../scss/proj_fe/_magellan.scss */
+  /* line 66, ../scss/proj_fe/_magellan.scss */
   #project-fe-page .sub-nav dd {
     margin-left: 0;
   }
@@ -11049,111 +11063,93 @@ h3 {
   background-image: url("../img/fe-pic5.jpg");
 }
 
-/* line 9, ../scss/proj_fe/_user-research.scss */
-#project-fe-page .user-research .use-cases {
-  background-image: url("../img/proj-fe/use-case-back7.jpg");
-  background-size: cover;
-}
-/* line 13, ../scss/proj_fe/_user-research.scss */
-#project-fe-page .user-research .use-cases h2 {
-  color: white;
-  margin-top: 3rem;
-}
-/* line 19, ../scss/proj_fe/_user-research.scss */
+/* line 15, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .use-cases ul {
   list-style-type: none;
-  margin: 2rem 0;
+  margin: 4rem 0 1.5rem 0;
   display: inline-block;
 }
-/* line 25, ../scss/proj_fe/_user-research.scss */
+/* line 21, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .use-cases ul li {
   width: 31%;
   float: left;
 }
 @media only screen and (max-width: 40em) {
-  /* line 25, ../scss/proj_fe/_user-research.scss */
+  /* line 21, ../scss/proj_fe/_user-research.scss */
   #project-fe-page .user-research .use-cases ul li {
     width: 100%;
   }
 }
-/* line 34, ../scss/proj_fe/_user-research.scss */
+/* line 30, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .use-cases ul li:nth-child(2) {
   margin: auto 3.5%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 34, ../scss/proj_fe/_user-research.scss */
+  /* line 30, ../scss/proj_fe/_user-research.scss */
   #project-fe-page .user-research .use-cases ul li:nth-child(2) {
     margin: 1.25rem 0 2.5rem 0;
   }
 }
-/* line 43, ../scss/proj_fe/_user-research.scss */
+/* line 39, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .use-cases p#bottom-text {
   margin-bottom: 4rem;
-  color: white;
   font-size: 18px;
   font-weight: 300;
 }
-/* line 52, ../scss/proj_fe/_user-research.scss */
-#project-fe-page .user-research .use-cases .tinted-overlay {
-  background-color: rgba(0, 0, 0, 0.1);
-  width: 100%;
-}
-/* line 60, ../scss/proj_fe/_user-research.scss */
+/* line 51, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research #use-case-1-words {
-  background-color: rgba(200, 245, 38, 0.97);
   color: black;
   padding: 0.4rem;
-  font-weight: 400;
+  font-weight: 600;
+  background-color: #C8F526;
 }
-/* line 67, ../scss/proj_fe/_user-research.scss */
+/* line 58, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research #use-case-2-words {
-  border: 2px solid #C8F526;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 0.4rem;
   font-weight: 400;
+  color: white;
 }
-/* line 74, ../scss/proj_fe/_user-research.scss */
+/* line 66, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research #use-case-3-words {
-  background-color: rgba(255, 255, 255, 0.5);
   color: black;
   padding: 0.4rem;
   font-weight: 400;
+  border: 2px solid #C8F526;
 }
-/* line 91, ../scss/proj_fe/_user-research.scss */
-#project-fe-page .user-research .use-cases .panel:first-child {
-  background-color: rgba(200, 245, 38, 0.9);
-}
-/* line 96, ../scss/proj_fe/_user-research.scss */
-#project-fe-page .user-research .use-cases .panel p {
-  font-weight: 500;
-}
-/* line 103, ../scss/proj_fe/_user-research.scss */
+/* line 87, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .use-cases .panel:nth-child(2) {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
 }
-/* line 119, ../scss/proj_fe/_user-research.scss */
+/* line 92, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .use-cases .panel:nth-child(2) p {
   color: white;
   font-weight: 300;
 }
-/* line 129, ../scss/proj_fe/_user-research.scss */
+/* line 102, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .use-cases .panel:nth-child(3) {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: none;
+  background-color: white;
+  border: 2px solid #C8F526;
 }
-/* line 148, ../scss/proj_fe/_user-research.scss */
+/* line 105, ../scss/proj_fe/_user-research.scss */
+#project-fe-page .user-research .use-cases .panel:nth-child(3) h4 {
+  color: #C8F526;
+}
+/* line 110, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .use-cases .panel:nth-child(3) p {
   font-weight: normal;
 }
-/* line 168, ../scss/proj_fe/_user-research.scss */
+/* line 128, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .understanding-users {
   position: relative;
   padding-bottom: 10vh;
 }
-/* line 174, ../scss/proj_fe/_user-research.scss */
+/* line 134, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .understanding-users img {
   width: 50%;
 }
-/* line 182, ../scss/proj_fe/_user-research.scss */
+/* line 142, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .understanding-users img:nth-child(1) {
   position: absolute;
   z-index: 1;
@@ -11163,7 +11159,7 @@ h3 {
   display: block;
   border: 1px solid #39B54A;
 }
-/* line 194, ../scss/proj_fe/_user-research.scss */
+/* line 154, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .understanding-users img:nth-child(2) {
   position: absolute;
   z-index: 0;
@@ -11171,7 +11167,7 @@ h3 {
   margin-top: 0;
   border: 1px solid #D50000;
 }
-/* line 204, ../scss/proj_fe/_user-research.scss */
+/* line 164, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .understanding-users img:nth-child(3) {
   position: relative;
   z-index: 2;
@@ -11179,194 +11175,99 @@ h3 {
   margin-top: 12%;
   border: 1px solid #0071BC;
 }
-/* line 217, ../scss/proj_fe/_user-research.scss */
+/* line 177, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .img-personas-row {
   margin-top: 7vh;
   padding-bottom: 10%;
 }
-/* line 228, ../scss/proj_fe/_user-research.scss */
+/* line 188, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .identify-probs {
   padding-top: 2vh;
 }
-/* line 231, ../scss/proj_fe/_user-research.scss */
+/* line 191, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .identify-probs h4 {
   margin-top: -0.7rem;
 }
-/* line 237, ../scss/proj_fe/_user-research.scss */
+/* line 197, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .identify-probs ol.obs-and-cause {
   margin: 6vh 0 2vh 0;
 }
-/* line 243, ../scss/proj_fe/_user-research.scss */
+/* line 203, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .identify-probs ol.obs-and-cause > li {
   width: 48%;
   float: left;
   list-style-type: none;
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 243, ../scss/proj_fe/_user-research.scss */
+  /* line 203, ../scss/proj_fe/_user-research.scss */
   #project-fe-page .user-research .identify-probs ol.obs-and-cause > li {
     width: 23%;
   }
 }
-/* line 252, ../scss/proj_fe/_user-research.scss */
+/* line 212, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .identify-probs ol.obs-and-cause > li .panel {
   margin-bottom: 0;
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 252, ../scss/proj_fe/_user-research.scss */
+  /* line 212, ../scss/proj_fe/_user-research.scss */
   #project-fe-page .user-research .identify-probs ol.obs-and-cause > li .panel {
     margin-bottom: 1.25rem;
   }
 }
-/* line 262, ../scss/proj_fe/_user-research.scss */
+/* line 222, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .identify-probs ol.obs-and-cause > li:nth-child(1) .panel, #project-fe-page .user-research .identify-probs ol.obs-and-cause > li:nth-child(4) .panel {
   background-color: #d0f747;
   border: none;
 }
-/* line 268, ../scss/proj_fe/_user-research.scss */
+/* line 228, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .identify-probs ol.obs-and-cause > li:nth-child(2) {
   margin: 0 0 7vh 2%;
   border: 2px solid #C8F526;
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 268, ../scss/proj_fe/_user-research.scss */
+  /* line 228, ../scss/proj_fe/_user-research.scss */
   #project-fe-page .user-research .identify-probs ol.obs-and-cause > li:nth-child(2) {
     margin: 0 1% 0 2%;
     background-color: none;
     border: none;
   }
 }
-/* line 282, ../scss/proj_fe/_user-research.scss */
+/* line 242, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .identify-probs ol.obs-and-cause > li:nth-child(2) .panel {
   background-color: white;
   border: none;
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 282, ../scss/proj_fe/_user-research.scss */
+  /* line 242, ../scss/proj_fe/_user-research.scss */
   #project-fe-page .user-research .identify-probs ol.obs-and-cause > li:nth-child(2) .panel {
     border: 2px solid #C8F526;
   }
 }
-/* line 292, ../scss/proj_fe/_user-research.scss */
+/* line 252, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .identify-probs ol.obs-and-cause > li:nth-child(3) {
   margin: 0 2% 0 0;
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 292, ../scss/proj_fe/_user-research.scss */
+  /* line 252, ../scss/proj_fe/_user-research.scss */
   #project-fe-page .user-research .identify-probs ol.obs-and-cause > li:nth-child(3) {
     margin: 0 2% 0 1%;
   }
 }
-/* line 299, ../scss/proj_fe/_user-research.scss */
+/* line 259, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .identify-probs ol.obs-and-cause > li:nth-child(3) .panel {
   background-color: #333333;
   border: none;
 }
-/* line 302, ../scss/proj_fe/_user-research.scss */
+/* line 262, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .identify-probs ol.obs-and-cause > li:nth-child(3) .panel p {
   color: white;
   font-weight: 300;
 }
-/* line 313, ../scss/proj_fe/_user-research.scss */
+/* line 273, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .identify-probs ul.obs-and-cause-parts {
   list-style-type: none;
   margin: 0;
   text-align: center;
-}
-
-/* line 5, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .section-init-title {
-  margin-top: -21vh;
-}
-/* line 9, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .current-problems h2 {
-  margin-top: 4vh;
-}
-/* line 14, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy ol li {
-  margin-bottom: .8rem;
-}
-/* line 21, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .solutions .row {
-  margin-bottom: 7vh;
-}
-/* line 24, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .solution-panel, #project-fe-page .strategy .alt-solution-panel, #project-fe-page .strategy .alt2-solution-panel, #project-fe-page .strategy .solution-panel-1 {
-  padding: 0;
-  margin: 0 0.2rem;
-  background-color: rgba(200, 245, 38, 0.7);
-  border-top: none;
-  margin-bottom: 7vh;
-}
-@media only screen and (max-width: 40em) {
-  /* line 24, ../scss/proj_fe/_strategy.scss */
-  #project-fe-page .strategy .solution-panel, #project-fe-page .strategy .alt-solution-panel, #project-fe-page .strategy .alt2-solution-panel, #project-fe-page .strategy .solution-panel-1 {
-    margin: 0;
-    width: 100%;
-    margin-left: 0.5rem;
-    margin-bottom: 3vh;
-    border-left: 8px solid white;
-  }
-}
-@media only screen and (min-width: 40.0625em) and (max-width: 64em) {
-  /* line 24, ../scss/proj_fe/_strategy.scss */
-  #project-fe-page .strategy .solution-panel, #project-fe-page .strategy .alt-solution-panel, #project-fe-page .strategy .alt2-solution-panel, #project-fe-page .strategy .solution-panel-1 {
-    width: 48%;
-  }
-}
-@media only screen and (min-width: 64.0625em) {
-  /* line 24, ../scss/proj_fe/_strategy.scss */
-  #project-fe-page .strategy .solution-panel, #project-fe-page .strategy .alt-solution-panel, #project-fe-page .strategy .alt2-solution-panel, #project-fe-page .strategy .solution-panel-1 {
-    width: 24.2%;
-  }
-}
-/* line 54, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .solution-panel-text {
-  padding: 0.5rem 0.5rem 0 0.5rem;
-  margin: 0;
-}
-/* line 63, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .panel-title {
-  font-weight: bold;
-}
-/* line 69, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .panel-num {
-  background-color: #222222;
-  padding: 1rem 1rem 2rem 1rem;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 15%);
-}
-/* line 79, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .panel-num h4 {
-  color: white;
-  text-align: right;
-  padding-right: 0.5rem;
-}
-/* line 88, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .alt-solution-panel {
-  background-color: white;
-  border: 3px solid #C8F526;
-}
-/* line 93, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .alt-solution-panel .panel-num {
-  background-color: #c7f524;
-}
-/* line 102, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .alt2-solution-panel {
-  border: 3px solid #222222;
-  background-color: white;
-}
-/* line 109, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .alt2-solution-panel .panel-num {
-  background-color: #222222;
-  margin-top: -1px;
-}
-/* line 112, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .alt2-solution-panel .panel-num h4 {
-  color: #C8F526;
-}
-/* line 122, ../scss/proj_fe/_strategy.scss */
-#project-fe-page .strategy .solution-panel-1 .panel-num {
-  background-color: #86aa00;
 }
 
 /* line 7, ../scss/proj_fe/_broad-changes.scss */
@@ -11431,4 +11332,131 @@ h3 {
 /* line 25, ../scss/proj_fe/_design-develop.scss */
 #project-fe-page .development a {
   width: 90%;
+}
+
+/* line 3, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .mocks img {
+  border: 1px solid #888888;
+}
+/* line 25, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .development a {
+  width: 90%;
+}
+
+/* line 7, ../scss/proj_fe/_my-vision.scss */
+#project-fe-page .game-plan .vision-key-words {
+  font-weight: 600;
+}
+/* line 18, ../scss/proj_fe/_my-vision.scss */
+#project-fe-page .game-plan ul {
+  list-style-type: none;
+  display: inline-block;
+}
+/* line 21, ../scss/proj_fe/_my-vision.scss */
+#project-fe-page .game-plan ul h4 {
+  text-align: center;
+}
+/* line 28, ../scss/proj_fe/_my-vision.scss */
+#project-fe-page .game-plan .panel > h4 {
+  margin: 1.5rem 0 2rem 0;
+}
+/* line 32, ../scss/proj_fe/_my-vision.scss */
+#project-fe-page .game-plan .panel ul li {
+  margin-bottom: 0.7rem;
+}
+/* line 39, ../scss/proj_fe/_my-vision.scss */
+#project-fe-page .game-plan #game-plan-all-panels {
+  margin: 4vh 0;
+}
+/* line 43, ../scss/proj_fe/_my-vision.scss */
+#project-fe-page .game-plan .game-plan-first-row,
+#project-fe-page .game-plan .game-plan-second-row {
+  margin: 3vh 0;
+  display: inline-block;
+}
+@media only screen and (min-width: 40.0625em) and (max-width: 64em) {
+  /* line 43, ../scss/proj_fe/_my-vision.scss */
+  #project-fe-page .game-plan .game-plan-first-row,
+  #project-fe-page .game-plan .game-plan-second-row {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 43, ../scss/proj_fe/_my-vision.scss */
+  #project-fe-page .game-plan .game-plan-first-row,
+  #project-fe-page .game-plan .game-plan-second-row {
+    margin: 0;
+  }
+}
+/* line 58, ../scss/proj_fe/_my-vision.scss */
+#project-fe-page .game-plan .panel {
+  width: 31%;
+  float: left;
+}
+@media only screen and (min-width: 40.0625em) and (max-width: 64em) {
+  /* line 58, ../scss/proj_fe/_my-vision.scss */
+  #project-fe-page .game-plan .panel {
+    width: 49%;
+  }
+}
+/* line 74, ../scss/proj_fe/_my-vision.scss */
+#project-fe-page .game-plan .game-plan-first-row .panel:first-child h4:nth-child(2) {
+  margin-top: 2.8rem;
+}
+/* line 80, ../scss/proj_fe/_my-vision.scss */
+#project-fe-page .game-plan .game-plan-first-row .panel:nth-child(2) {
+  background-color: white;
+  border: 4px solid #333333;
+  margin: auto 3.5%;
+}
+@media only screen and (min-width: 40.0625em) and (max-width: 64em) {
+  /* line 80, ../scss/proj_fe/_my-vision.scss */
+  #project-fe-page .game-plan .game-plan-first-row .panel:nth-child(2) {
+    margin: auto 0 auto 1%;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 80, ../scss/proj_fe/_my-vision.scss */
+  #project-fe-page .game-plan .game-plan-first-row .panel:nth-child(2) {
+    margin: 0 2%;
+  }
+}
+/* line 92, ../scss/proj_fe/_my-vision.scss */
+#project-fe-page .game-plan .game-plan-first-row .panel:nth-child(3) {
+  background-color: #333333;
+}
+/* line 94, ../scss/proj_fe/_my-vision.scss */
+#project-fe-page .game-plan .game-plan-first-row .panel:nth-child(3) h4:nth-child(2), #project-fe-page .game-plan .game-plan-first-row .panel:nth-child(3) ul li {
+  color: white;
+}
+/* line 107, ../scss/proj_fe/_my-vision.scss */
+#project-fe-page .game-plan .game-plan-second-row .panel:first-child {
+  background-color: white;
+  border: 4px solid #C8F526;
+  margin: auto 3.5% auto 0;
+}
+@media only screen and (min-width: 40.0625em) and (max-width: 64em) {
+  /* line 107, ../scss/proj_fe/_my-vision.scss */
+  #project-fe-page .game-plan .game-plan-second-row .panel:first-child {
+    margin: auto 2% auto 0;
+    float: left;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 107, ../scss/proj_fe/_my-vision.scss */
+  #project-fe-page .game-plan .game-plan-second-row .panel:first-child {
+    margin: 0 2%;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 125, ../scss/proj_fe/_my-vision.scss */
+  #project-fe-page .game-plan .panel {
+    margin: 2rem 2%;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 125, ../scss/proj_fe/_my-vision.scss */
+  #project-fe-page .game-plan .panel {
+    width: 96%;
+  }
 }

@@ -1,0 +1,138 @@
+#project-fe-page{
+.game-plan{
+/////////////////
+
+
+
+.vision-key-words{
+	// font-size: 125%;
+	font-weight: 600;
+
+}
+
+///////////////
+
+
+/////////////////////GAME PLAN//////////////////////
+
+ul{
+	list-style-type: none;
+	display: inline-block;
+	h4{
+		text-align: center;
+	}
+}
+
+
+
+.panel > h4{
+	margin: 1.5rem 0 2rem 0;
+}
+
+.panel ul li{
+	margin-bottom: 0.7rem;
+}
+
+
+
+
+#game-plan-all-panels{
+	margin: 4vh 0;
+}
+
+.game-plan-first-row,
+.game-plan-second-row{
+	margin: 3vh 0;
+	display: inline-block;
+	@media #{$medium-only}{
+		margin: auto;
+	}
+	@media #{$small-only}{
+		margin: 0;
+	}
+
+}
+
+
+
+.panel{
+	width: 31%;
+	float: left;
+	@media #{$medium-only}{
+		width: 49%;
+	}
+	
+}
+
+
+.game-plan-first-row .panel{
+
+	&:first-child{
+		//////fixing for the fact that panel1 has a one line header 
+		////add to 1.5rem
+
+		h4:nth-child(2){
+			margin-top: 2.8rem;
+		}
+	}
+
+
+	&:nth-child(2){
+		background-color: white;
+		border: 4px solid $oil;
+		margin: auto 3.5%;
+		@media #{$medium-only}{
+			margin: auto 0 auto 1%; 
+		}
+		@media #{$small-only}{
+			margin: 0 2%;
+	}
+	}
+
+	&:nth-child(3){
+		background-color: $oil;
+		h4:nth-child(2), ul li{
+			color: white;
+		}	
+	}
+
+}
+
+
+
+
+
+.game-plan-second-row .panel{
+
+		&:first-child{
+			background-color: white;
+			border: 4px solid $lime-green;
+			margin: auto 3.5% auto 0;
+			@media #{$medium-only}{
+				margin: auto 2% auto 0;
+				float: left;
+			}
+			@media #{$small-only}{
+			margin: 0 2%;
+	}
+
+		}
+
+}
+
+
+
+.panel{
+	@media #{$small-only}{
+		margin: 2rem 2%;
+	}
+	@media #{$small-only}{
+		width: 96%;
+	}
+}
+
+
+
+//////////
+}
+}

@@ -6,8 +6,7 @@
     <title>Foundation</title>
 
 <!--     fonts -->
- 
-<!--     <link href='https://fonts.googleapis.com/css?family=Syncopate:700,400' rel='stylesheet' type='text/css'> -->
+
 
 
     <link href='https://fonts.googleapis.com/css?family=Varela|Sarala:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -15,8 +14,6 @@
    <!-- <link href='https://fonts.googleapis.com/css?family=Numans' rel='stylesheet' type='text/css'> -->
 
 
-<!--     <link href='https://fonts.googleapis.com/css?family=Days+One|Julius+Sans+One|Work+Sans:400,300,600,700|Gruppo|Yantramanav|Voces|Cambay:400,700' rel='stylesheet' type='text/css'> -->
-<!--   <link href='https://fonts.googleapis.com/css?family=Play:400,700|Maven+Pro:400,500,700,900|Hammersmith+One' rel='stylesheet' type='text/css'> -->
 
 
 
@@ -31,10 +28,17 @@
   </head>
 
 
-  <body>
+  <body id= "project-fe-page">
     
-   
 
+
+
+
+
+
+
+    <!-- main content goes here -->
+ 
 <div class="off-canvas-wrap" data-offcanvas>
   <div class="inner-wrap">
 
@@ -45,6 +49,11 @@
         <div class="bottom-bar"></div>
       </div>
     </a>
+
+
+
+
+
 
     <!-- Off Canvas Menu -->
     <aside class=" right-off-canvas-menu">
@@ -66,23 +75,19 @@
 
 
 
-
-
-
 <!--         header    -->
     <header id = "FE-head">
       <div id= "FE-head-top">
         <div class= "row">
-          <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-offset-0 columns small-indent">
+          <div class= "content-columns">
             <h1>Found Eats</h1>
             <h3>Vendor Account Website</h3>
           </div>
         </div>
       </div>
 
-      <div id= "FE-back">
-
-        <h4>
+      <div id= "FE-head-back">
+        <div id= "FE-head-bottom"></div>
       </div>
 
 
@@ -91,877 +96,151 @@
 
 
 
-<!--     magellan sticky bar -->
+    <!-- magellan -->
+    <div data-magellan-expedition id= "magellan-bar" class= "hide-for-small-only">
+      <dl class="sub-nav">
+        <dd data-magellan-arrival="intro"><a href="#intro"><p>intro</p></a></dd>
+        <dd data-magellan-arrival="ux-research"><a href="#ux-research"><p>ux research</p></a></dd>
+        <dd data-magellan-arrival="strategy"><a href="#strategy"><p>strategy</p></a></dd>
+        <dd data-magellan-arrival="one"><a href="#broad-solutions"><p>1</p></a></dd>
+        <dd data-magellan-arrival="specific-changes"><a href="#specific-changes"><p>2</p></a></dd>
+         <dd data-magellan-arrival="specific-changes"><a href="#specific-changes"><p>3</p></a></dd>
+          <dd data-magellan-arrival="specific-changes"><a href="#specific-changes"><p>4</p></a></dd>
+           <dd data-magellan-arrival="specific-changes"><a href="#specific-changes"><p>5</p></a></dd>
+         <dd data-magellan-arrival="design-develop"><a href="#design-develop"><p>design and development</p></a></dd>
 
-      <div data-magellan-expedition="fixed">
-        <dl class="sub-nav">
-          <dd data-magellan-arrival="build"><a href="#build">Build with HTML</a></dd>
-          <dd data-magellan-arrival="js"><a href="#js">Arrival 2</a></dd>
-        </dl>
-      </div>
+
+         
+      </dl>
+    </div>
 
 
 
 
-  
+
+
+
 <!--         background  summary info  -->
-    <div class= "row">
-      <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-offset-0 xlarge-12 columns small-indent">
-        <div class= "fe-info-summary fe-intro">
-          <h2>Background</h2>
-          <p>Found Eats is a start-up ecommerce for specialty foods where small food makers can sell their products online to customers seeking artisanal foods. Food makers are directed to the vendor-facing side of the site where they must complete the set-up process to become an active seller on Found Eats. After the initial set-up is complete, vendor accounts will be used to manage orders, update products details and manage shipping and payment. This project is a redesign of the current Found Eats Vendor Account website.</p>  
-        
+    <div class= "background-main section-init">
+      <div class= "sub-section-init background row">
+        <div class= "content-columns">
+          <a name="intro"></a>
+          <h1 class= "section-init-title after-fixed-nav" data-magellan-destination="intro">background</h1>
+          <h2 class= "after-fixed-nav">What am I doing?</h2>
 
-          <h2>Use Cases</h2>
-          <ol class= "use-cases">
-            <li><strong>I am a new vendor who is going through the set-up process the first time.</strong></li>
-            <li>I am a vendor who is already up and live on the site, and am visiting the site to modify my information or products.</li>
-            <li>I am a live vendor checking my account to maintain the orders that come in through the site.</li>
-          </ol>
+     
+          <p>Found Eats is an online marketplace for specialty foods where users can browse the latest products , discover the newest food makers, and purchase their favorite artisanal foods. Food makers looking to sell their products are directed to a vendor-facing  website where they can set-up their company to become an active vendor on the online marketplace. After the vendor set-up is complete,  this website will be used to manage incoming orders, update product or company details and coordinate product shipping and payment. <span class= "text-bold">This project is an optimized redesign of the current Found Eats Vendor Account website.</span></p>  
 
-          <p>My redesign centers around fixing the problems created by <strong>Use Case #1</strong>. Ultimately the redesign creates more separation between the different use cases, clarifying both the set-up process and site management,  but because Found Eats is in its early stages, successfully signing on new vendors is the main priority. </p>
-
-
-
-
-
-          <div class= "personas">   
-            <h2>Understanding the User</h2>
-            <p>The first step to designing a user-friendly site is to get to know the user. Significant amounts of time have been dedicated to not only walking vendors through the set-up process, allowing me to observe how they interact with the website, but also talking talking to the vendors about their hopes for their companies and what role they see Found Eats playing in achieving their goals. Through this process, I was able connect with my users' personal stories and understand their daily routines. I was soon able to identify how subtle differences in communication distinguished between the vendors feeling comforted and reassured, versus skeptical or intimidated. From there, I began brainstorming  underlying reasons for the problems we were seeing with the current website.</p>
-          
-
-            <div class= "img-personas-row"> 
-              <img src= "img/persona1.jpg">  
-              <img src= "img/persona2.jpg">
-              <img src= "img/persona3.jpg">
-              
-            </div>
-          </div>
-
-        </div> 
+        </div>
       </div>
-    </div>
-
-
-
-     <div id= "fe-pic1"></div>
-      <div class= "row">
-        <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-offset-0 xlarge-12 columns small-indent">
-          <div class= "fe-info-summary fe-intro">
-
-
-
-
-           <h2 class= "after-pic1">Problems with the Current Site</h2>
-           <ol class= "current-problems">
-            <li>Vendors are unclear what sections they are required to complete in order to finish the sign up process.</li>
-            <li> Vendors are unclear what information goes into the input fields.</li>
-            <li>Vendors are becoming sloppy with their product and company descriptions as they rush through  it due to how long and involved it seems.</li>
-            <li>Vendors are not completing the sign up process due to frustration with the process and waning interest.</li>
-          </ol>
-
-          <p>These problems should all be considered in the context that Found Eats is new to the food space, and the website has only recently launched. Because it is still in it's early stages, the website itself has not been able to fully embody the look, feel and functionality that its idea was founded on. A large portion of vendors are therefore already skeptical about committing time and effort into Found Eats, and generally speaking prioritize cultivating other relationships with more established companies higher than this one. There is little to no true precedent for the ideal style and structure for the vendors to follow when setting up their company accounts.</p>
-
-        
-
-          <div class= "solutions">
-            <h2>My Solutions</h2>
-            <ul>
-
-              <div class= "row">
-                <div class= "small-12 columns panel">
-                  <a href= "#">
-                    <li id= "solution-1" class= "solution-num">                
-                      <h1>1</h1>
-                      <div class= "solution-text">
-                      <h3>Organizational Changes</h3>
-                      <ol>
-                        <li>Reduced Number of Sections</li>
-                        <li>Reduced Number of clickaway pages</li>
-                      </ol>
-                    </div>
-                   </li>
-                  </a>
-                </div>
-              </div>
-
-
-              <div class= "row">
-                <div class= "small-12 columns panel">
-                  <a href= "#">
-                    <li id= "solution-2" class= "solution-num">
-                      <h1>2</h1>
-                      <div class= "solution-text">
-                        <h3>Changes in the User Flow</h3>
-                        <ol>
-                          <li>Walk-Through Tutorial</li>
-                          <li>Site Separation between Set-up Process and Managing a live account</li>
-                        </ol>
-                      </div>  
-                    </li>
-                  </a>
-                </div>
-              </div>
-
-
-
-              <div class= "row">
-                <div class= "small-12 columns panel">
-                  <a href= "#">
-                    <li id= "solution-3" class= "solution-num">
-                      <h1>3</h1>
-                        <div class= "solution-text">
-                          <h3>Consistent and Recurrent Features</h3>
-                          <ol>
-                            <li>Site-wide Progress Bar/ Navigation System</li>
-                            <li>Page Specific Checklist/ Navigation System </li>
-                            <li>FAQs and In-Place Explanations</li>
-                          </ol>
-                        </div>
-                      </li>
-                    </a>
-                  </div>
-                </div>
-
-
-              <div class= "row">
-                <div class= "small-12 columns panel">
-                  <a href= "#">
-                    <li id= "solution-4" class= "solution-num">
-                      <h1>4</h1>
-                        <div class= "solution-text">
-                          <h3>Changing the Form Entry Structure</h3>
-                          <ol>
-                            <li>Mimicking the Customer-facing Live Marketplace</li>
-                          </ol>
-                        </div>
-                      </li>
-                    </a>
-                  </div>
-                </div>
-
-
-            </ul>
-          </div>
-    
-
-
-          <h2>My Goals</h2>
-
-          <h3>creating a short, direct path to completion</h3>
-          <p>My efforts were directed firstly at creating a clear trajectory of actions that a vendor must take before their account is complete. The pop-up walkthrough behaves like a tour guide that directs the user to each subsequent step of the set-up process. The presence of a virtual authority diffuses the illusion of the users' decision-making responsibilities. This portrays a confident company image allowing the user to trust the error validation system, minimizing opportunities to linger, second-guess and re-interpret what each question is asking for. My goal is to create a short, clear path for the user. By combining thematically similar sections, and replacing click away pages with accordian tabs that can be edited on the same page, the perceived number of steps to complete is greatly reduced. This reduced number of steps is reflected on the progress bar that appears on every page. The overall effect should make the user feel more oriented in their location of the site and confident in an shorter, easier set-up process. </p>
-
-          <br>
-
-          <h3>building excitement</h3>
-          <p>The second major priority was to create a sense of excitement as the user progresses through the set-up process. The global progress bar and local checklist mark each completed page and entry-field as an accomplishment and additional step towards the finish. However, mimicking the customer-facing marketplace more than anything, should ideally ellicit an emotional response from the user. As the vendors work through each entry field and upload each picture, they can see its significance in how they are cultivating their company's image on the live site; By having in-place click-to-edit elements, they can see exactly how they are telling their story. Completing the vendor account no longer seems like a necessary and daunting chore, but instead a means by which they can communicate with the foodie community.</p>
-
-          <br>
-
-          <h3>reducing errors</h3>
-          <p>My last main priority was to reduce the number of errors that were occuring from vendors filling in incorrect information. Using the fixed right panel underneath the local checklist, as a place for FAQ's, and utilizing in place hover explanations on each given element should accomplish this. Mimicking the live marketplace, and using answer validation should additionally help solve this problem. </p>
-
-          <br>
-
-
-          <h3>side-note: business objectives</h3>
-          <p>The broad business objectives of my redesign are to increase profits and to reduce cost. This is achieved by reducing the number of problems occurring from the current design, further automating the vendor sign-up process and using the new website as an opportunity to implement a new shipping policy. The resulting product requires minimal maintenance allowing the company to handle a much larger influx of vendors, meanwhile reducing the staff budget. On the customer- facing marketplace, the changes to the vendor account website will increase the conversion rate of customers browsing through products to customers actively buying products on Found Eats, and will increase profits from individual sales.</p>
-
-        </div> 
-      </div>
-    </div>
-
-
-
-     <div id= "fe-pic2"></div>
-
-
-
-
-
-
-
- <!--     SOLUTIONS IN DETAIL SOLUTIONS IN DETAIL SOLUTIONS IN DETAIL   -->
-    <div class= "solutions-detail">
-
-
-
-
-
- <!--      organizational changes -->
-
-      <!-- main container initiate  -->
-      <div class= "row">
-        <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-offset-0 xlarge-12 columns small-indent">
-          <div class= "fe-info-summary">
-           <!--  container init end -->
-
-
-
-       <!--      organizational changes content-->
-
-            <div class= "organizational-changes">
-              <h1>1<h1>
-              <h2 class= "after-pic1">Organizational Changes</h2>
-
-              <ol type= "A">
-                <li>Reduced Number of Sections</li>
-                  
-                    <p>I condensed the number of sections on the site, grouping the sections that thematically worked together to create more unity within a fewer number of steps.</p>
-
-
-                  
-                  <li>Reduced number of clickaway pages</li>
-                  
-                    <p> I reduced the number of clickaway pages, by allowing the user to edit information directly on pages previously used only for the organization of many separate pages. Accordian tabs make it possible to manage a large amount of information in a condensed and organized fashion.</p>
-
-                </ol>
-
-               <div class= "site-map-imgs row">
-                 <div class= "small-12 large-6 columns">
-                  <h3>current site map</h3>
-
-                  <img class= "hide-for-large-up" src= "img/fe-current-site-map.jpg">
-
-                  <a href="#" data-reveal-id="current-site-map" class= "modal-click show-for-large-up"><img src= "img/fe-current-site-map.jpg"></a>
-
-                  <div id="current-site-map" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-
-                    <h3 class= "modalTitle">current site map</h3>
-                    <img src= "img/fe-current-site-map.jpg">
-                    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-                  </div>
-
-                </div>
-
-
-
-
-
-                <div class= "small-12 large-6 columns">
-                  <h3>site map redesign</h3>
-                  <img class= "hide-for-large-up" src= "img/fe-site-map-redesign.jpg">
-
-
-                 <a data-reveal-id="site-map-redesign" class= "modal-click show-for-large-up">
-              
-                    <h1 id= "hover-expand">+</h1>
-                    <img src= "img/fe-site-map-redesign.jpg">
-               
-                 </a>
-
-                <div id="site-map-redesign" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-
-                  <h3 class= "modalTitle">site map redesign</h3>
-                  <img src= "img/fe-site-map-redesign.jpg">
-                  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-                </div>
-
-
-                </div>
-              </div>   
-           </div>
-
-
-                 <!--   main container close -->
-         </div>
-       </div>
-     </div>
-    <!--  container close end -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-           <!-- flow changes -->
-
-           <!-- main container initiate  -->
-
-      <div class= "solution-alt-background">     
-        <div class= "row">
-          <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-offset-0 xlarge-12 columns small-indent">
-            <div class= "fe-info-summary">
-             <!--  container init end -->
-
-
-
-             <div class= "flow-changes fe-solution-section-new">
-
-              <h1>2<h1>
-              <h2>Changes in User Flow</h2>
-
-              <ol type= "A">
-                <li>Walk-Through Tutorial</li>
-                  
-                    <p>The set-up process is now a walk-through tutorial that guides you through each step of the process.</p>
-
-
-                  
-                  <li>Site Separation between Set-up Process and Managing a Live Account</li>
-                  
-                    <p> The Dashboard (current landing page), used to manage the orders and payment is only accessibly after the set-up process has been completed; this creates a clearer separation of vendor status (active and not active on the Found Eats marketplace), and reducing general confusion. </p>
-
-                </ol>
-
-               <div class= "flow-imgs row">
-                 <div class= "small-12 large-6 columns">
-                  <h3>current user flow</h3>
-                  <img src= "img/fe-current-user-flow.jpg">
-                </div>
-                <div class= "small-12 large-6 columns">
-                  <h3>user flow redesign</h3>
-                  <img src= "img/fe-user-flow-redesign.jpg">
-                </div>
-              </div>   
-             </div>
-
-
-        <!--   main container close -->
-           </div>
-         </div>
-       </div>
-     </div>
-      <!--  container close end -->
-
-
-
-
-
-           <!--  consistent and recurring features -->
-
-            <!-- main container initiate  -->
-      <div class= "row">
-        <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-offset-0 xlarge-12 columns small-indent">
-          <div class= "fe-info-summary">
-            <!--  container init end -->
-
-
-
-            <div class= "recurring-features fe-solution-section-new">
-              <h1>3<h1>
-              <h2>Consistent and Recurring Features</h2>
-              <ol type= "A">
-                <li>Site-wide Progress Bar/ Navigation System</li>
-                  
-                    <p>The chevron bar progress indicator, previously shown on the Dashboard, now appears at the top of every page of the set-up process; the bar also functions as navigation tabs. (Navigation tabs were originally conceived to be on the left panel but through many iterations, eventually was eventually changed to the chevron bar.)</p>
-
-
-                  
-                  <li> Page Specific Checklist/ Navigation System</li>
-                  
-                    <p> A progress checklist/ navigation system specific to the page (set-up step) the user is on appears on a fixed right panel of each page. This indicates what elements have been completed and what elements a vendor might have missed on the respective page. It also allows the vendor to prepare to access relevent information all at once, instead of on-by-one as they reach the individual form elements.  </p>
-
-                  
-                  <li> FAQs and In-Place Explanations</li>
-                  
-                    <p> FAQ’s and explanations related to the selected element appears on the fixed right panel</p>
-
-                </ol>
-
-
-                <div class= "new-features-section row">
-                  <div class= "small-12 small-indent">
-                    <h3>new features</h3>
-
-                  <img src= "img/fe-recurring-features.jpg">
-
-                    <div class= "row">
-                      <div class= "small-centered columns">
-                        <p class= "smallnote-text">(<strong>Note</strong>: The fixed left panel and the breadcrumbs were  redesigned in a later iteration to be a chevron navigation and progress bar.)</p>
-                    </div>
-                  </div>
-                   <!--  <a href="#" class= "modal-click show-for-medium-up" data-reveal-id="new-features"><img src= "img/fe-recurring-features.jpg"></a>
-
-                    <div id="new-features" class="reveal-modal full" data-reveal aria-labelledby="new-features" aria-hidden="true" role="dialog">
-                      <h3 id="modalTitle">new features</h3>
-                      <img src= "img/fe-recurring-features.jpg">
-
-                      <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-                    </div> -->
-
-                  </div>
-                </div>
-              </div>
-
-              <!--   main container close -->
-           </div>
-         </div>
-       </div>
-
-
-      <!--  container close end -->
-
-
-
-
-
-            <!-- Changing the Form Structure of the Website -->
-
-
-             <!-- main container initiate  -->
-
-       <div class= "solution-alt-background">   
-        <div class= "row">
-          <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-offset-0 xlarge-12 columns small-indent">
-            <div class= "fe-info-summary">
-             <!--  container init end -->     
-
-              <div class= "form-structure fe-solution-section-new">
-                <h1>4<h1>
-                <h2>Changing the Form Structure 
-                  <br> of the Website</h2>
-                <ol type= "A">
-                  <li>Mimicking the Customer-facing Live Marketplace</li>
-                    
-                      <p>The redesign is a switches from a traditional form-style with sequential information entry-fields to a set-up that mimicks the customer-facing live site. The information entry fields are click-to-edit, and when you click out of each element, they appear as they would live. </p>
-
-                  </ol>
-
-
-                  <div class= "row">
-                    <div class= "location-edit small-12 large-6 small-indent columns">         
-                      <h3>company page</h3>
-                      <img src= "img/example1-click-to-edit.jpg">
-                      <!-- <p class= "smallnote-text">(<strong>Note</strong>: The layout of the company page mimicks the live company page of the customer-facing online marketplace. The page populates as the user enters the relevent information. The picture shows someone filling in their company location.)</p> -->                     
-                    </div>
-                 
-
-                    <div class= "product-edit small-12 large-6 small-indent columns">       
-                      <h3>product page</h3>
-                      <img src= "img/example2-click-to-edit.jpg">
-                      <!-- <p class= "smallnote-text">(<strong>Note</strong>: The product page mimicks the customer-facing marketplace. This greatly reduces confusion about how a vendor should format and organize their products. The picture shows the unfocused and hover states of products with different statuses of completion.)</p> -->
-                        
-                    </div>
-
-                  </div>
-
    
-                </div>
-
-      <!--   main container close -->
-            </div>
-         </div>
-       </div>
-     </div>
-    <!--  container close end -->
-
-
-<!-- solutions-detail close -->
-   </div>
 
 
 
+<!--         background  summary info  -->
+      <div class= "my-process sub-section-init row">
+        <div class= "content-columns">
+          <h2 >My Process</h2>
+          <ul>
+            <li>
+              <h5>ux research : <span class= "my-process-descript">user insight and analysis</span></h5>
+              <ol>
+                <li>Creating Personas</li>
+                <li>Defining Use Cases</li>
+                <li>Analyzing Problems</li>
+              </ol>
+            </li>
+            <li>
+              <h5>strategy : <span class= "my-process-descript">cultivating a vision and formulating a plan</span></h5>
+              <ol>
+                <li>Defining the Vision</li>
+                <li>Forming my Game Plan</li>
+              </ol>
+            </li>
+            <li>
+              <h5>5 solutions : <span class= "my-process-descript">translating concepts into features</span></h5>
+              <ol class = "action-plans">
+                <li>Condensing the Site Map</li>
+                <li>Shepherding the User Through Set-up</li>
+                <li>Focusing and Orienting the User</li>
+                <li>Mirroring the Found Eats marketplace</li>
+                <li>Making Explanations Accessible</li>
+              </ol>
+            </li>
+           
+            <li>
+              <h5>design and development : <span  class= "my-process-descript">putting it all together</span></h5>
+              <ol>
+                <li>Creating Final Mock ups</li>
+                <li>Making a HTML/CSS/Javascript Prototype</li>
+              </ol>
+            </li>
+          </ul>
+           
 
-   <div id= "fe-pic3"></div>
-
-
-<!-- //////////////////////IN DEPTH COMPARISON ////////////////////////////-->
-
-
-
-
-   <!-- main container initiate  -->
-
-   <div class= "in-depth-comparison-list">   
-    <div class= "row">
-      <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-offset-0 xlarge-12 columns small-indent">
-        <div class= "fe-info-summary">
-         <!--  container init end -->   
-
-         <h2 class= "after-pic3">In-depth Comparison between the Current Design and my Redesign</h2>
-
-
-         <div class= "solutions">
-            <!-- <h2>Redesigned Pages</h2> -->
-            <ul>
-
-              <div class= "row">
-                <div class= "small-12 columns panel">
-                  <a href= "#">
-                    <li id= "solution-1" class= "solution-num">                
-                      <h1>1</h1>
-                      <div class= "solution-text">
-                      <h3>Dashboard/ Landing Page</h3>
-                    </div>
-                   </li>
-                  </a>
-                </div>
-              </div>
-
-
-              <div class= "row">
-                <div class= "small-12 columns panel">
-                  <a href= "#">
-                    <li id= "solution-2" class= "solution-num">
-                      <h1>2</h1>
-                      <div class= "solution-text">
-                        <h3>Company Page</h3>
-                       
-                      </div>  
-                    </li>
-                  </a>
-                </div>
-              </div>
-
-
-
-              <div class= "row">
-                <div class= "small-12 columns panel">
-                  <a href= "#">
-                    <li id= "solution-3" class= "solution-num">
-                      <h1>3</h1>
-                        <div class= "solution-text">
-                          <h3>Main Product Page</h3>
-                          
-                        </div>
-                      </li>
-                    </a>
-                  </div>
-                </div>
-
-
-              <div class= "row">
-                <div class= "small-12 columns panel">
-                  <a href= "#">
-                    <li id= "solution-4" class= "solution-num">
-                      <h1>4</h1>
-                        <div class= "solution-text">
-                          <h3>Individual Product Pages</h3>
-                         
-                        </div>
-                      </li>
-                    </a>
-                  </div>
-                </div>
-
-
-
-                <div class= "row">
-                  <div class= "small-12 columns panel">
-                    <a href= "#">
-                      <li id= "solution-3" class= "solution-num">
-                        <h1>5</h1>
-                          <div class= "solution-text">
-                            <h3>Users Page/ Shipping Section</h3>
-                            
-                          </div>
-                        </li>
-                      </a>
-                    </div>
-                  </div>
-
-
-            </ul>
-          </div>
-
-
-
-          <!--   main container close -->
-            </div>
-         </div>
-       </div>
-     </div>
-    <!--  container close end -->  
-
-
-   <div id= "fe-pic4"></div>
-
-
-
-<!-- ////////////////dashboard page////////////////////////  -->
-    <!-- main container initiate  -->
-
-   <div class= "in-depth-comparison">   
-    <div class= "row">
-      <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-offset-0 xlarge-12 columns small-indent">
-        <div class= "fe-info-summary">
-         <!--  container init end -->   
-
-
-         <div id= "landing">
-          <h1>1</h1>
-           <h2 class= "after-pic1">Landing Page/ Dashboard</h2>
-          
-
-           <p>When a user first logs into their account, they land on this dashboard. Currently, this page is the main page meant to be used for navigation during the set-up process since it shows the users progress and set-up trajectory. The problem with the current layout is that once the set-up is complete, the Dashboard does not convey any important information for a live vendor. </p>
-
-
-           <p>In this first section, I am redesigning the whole navigation system of the site upon first logging in. I am repurposing the Dashboard altogether and dispersing the components of its current design into other structural fixtures in the site. </p>
-
-
-           <div class= "current-probs">
-             <h3>current dashboard</h3>
-
-             <div class= "row">
-              <div class= "small-12 medium-6 columns">
-                <a href="#" data-reveal-id="current-dash"><img src= "img/current-dashboard.jpg"></a>
-                <br>
-
-                <div id="current-dash" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                  <h3 id="modalTitle">current dashboard</h2>
-                  <img src= "img/current-dashboard.jpg">   
-                  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-                </div>      
-              </div>        
-
-               <div class= "compare-detail-text row">
-                <div class= "small-12 medium-6 columns">
-                  <h4>Problems</h4>
-                  <ol>
-                    <li>This progress bar is the only feature on the whole site that indicates what needs to be filled out and what has been adequately filled out. Consequently, a user must go back to this page everytime they want to make sure a section has been completed. This bar also makes the process of setting up very daunting with many steps.</li>
-                    <li>This infographic is highlighting a step that is unrelated to any of the steps to set-up on this vendor account website. It is in a place of great prominence.</li>
-                    <li>This navigation bar does not delineate between sections of the set-up process, and sections that will be used once the vendor is up and live.</li>
-                    <li> This whole section contains video walkthroughs of each section in the set-up process. These videos do not appear on the actual pages that they are corresponded with, therefore vendors are not watching them.</li>
-                  </ol>
-
-                </div>
-               </div>
-             </div>
-           </div>
-
-
-           <div class= "redesign">
-            <h3>dashboard redesign</h3>
-            <div class= "row">
-              <div class= "small-12 medium-6 columns">
-
-
-                <h4><a href="#" data-reveal-id="dash-redesign"><h4>new features recap</a></h4>
-                <br>
-
-                <div id="dash-redesign" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                  <h3 id="modalTitle">features redesign</h2>
-                  <img src= "img/features-redesign.jpg">   
-                  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-                </div>
-
-                
-
-                <img src= "img/dashboard-redesign.jpg">
-               </div>
-              
-
-                <div class= "small-12 medium-6 columns">
-                  <h4>Solutions</h4>
-                  <ol>
-                    <li>Making the progress bar a general site-wide feature so that it appears on every page.</li>
-                    <li>Taking out the infographic from the site altogether and instead putting it in an automated email sent to new vendors. </li>
-                    <li>The new navigation bar separates the set-up process from live order management. The whole Dashboard set-up serves this purpose as well.</li>
-                    <li>The walkthrough video tutorials are now dropped into the pages that they are relevent to. (The information in the walk-through is also given in written form since people are not as inclined to watch videos even if they see it as an option.) </li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-
-           </div>
-
-           <!--   main container close -->
-          </div>
         </div>
       </div>
     </div>
-    <!--  container close end -->  
 
 
 
+<!--     first picture break -->
+
+    <div id= "fe-pic1">
+      <div class= "image-clip-before"></div>
+      <div class= "image-clip"></div>
+      <div class= "image-clip-after"></div>
+    </div>
 
 
 
-
-
-
-
-
-
-
-
-<!-- ////////////////dashboard page////////////////////////  -->
-    <!-- main container initiate  -->
-
-   <div class= "in-depth-comparison in-depth-alt-background">   
-    <div class= "row">
-      <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-offset-0 xlarge-12 columns small-indent">
-        <div class= "fe-info-summary">
-         <!--  container init end -->   
-
-
-         <div id= "company page">
-
-          <h1>2</h1>
-           <h2>Company Page</h2>
+<!--         user-research main section  -->
+    <div class= "user-research section-init">
+      <div class= "sub-section-init understanding-users row">
+        <div class= "content-columns">
+          <a name="ux-research"></a>
+          <h1 data-magellan-destination="ux-research" class= "section-init-title">ux research</h1>
           
+          <h2>Understanding the User</h2>
+          <p>The first step was getting to know the vendors that would be using the site. I familiarized myself with their stories, daily routines, and the role that they hoped Found Eats would play in their businesses.</p>
 
-           <p>Most of the problems on this page are due to misunderstanding what information is being asked, and misunderstanding the purpose for uploading this information.</p>
-
-
-           <p>These problems have been solved by changing the format to mimic the customer-facing side of the site and by the addition of element-by-element descriptions on the right hand side fixed panel. </p>
-
-
-           <div class= "current-probs">
-             <h3>current company page</h3>
-
-             <div class= "row">
-              <div class= "small-12 medium-6 columns">
-                <img src= "img/current-company.jpg">
-              </div>        
-
-               <div class= "compare-detail-text row">
-                <div class= "small-12 medium-6 columns">
-                  <h4>Problems</h4>
-                  <ol>
-                    <li>Nobody was clicking on “Preview Company Page” and therefore getting the benefits of seeing what their page would look like live.</li>
-                    <li>Users did not understand what a banner photo meant and even if they did, without any context, it was difficult for them to choose a picture that would look good and fit the dimensions.</li>
-                    <li> Vendors were rushing through this section or putting only one or two words here because they did not understand the purpose of what they entered.</li>
-                    <li>There was a change in Shipping Policy- the solutions to this are shown on the individual product pages.</li>
-                    <li>The set-up here is strange. It’s unclear what is being asked and it is unclear what “Heading” or “Description” means.</li>
-                  </ol>
-
-                </div>
-               </div>
-             </div>
-           </div>
-
-
-           <div class= "redesign">
-            <h3>company page redesign</h3>
-            <h5>wireframe</h5>
-            <div class= "row">
-              <div class= "small-12 medium-6 columns">
-
-                
-
-                <img src= "img/company-redesign.jpg">
-               </div>
-              
-
-                <div class= "small-12 medium-6 columns">
-                  <h4>Solutions</h4>
-                  <ol>
-                    <li>Making the progress bar a general site-wide feature so that it appears on every page.</li>
-                    <li>Taking out the infographic from the site altogether and instead putting it in an automated email sent to new vendors. </li>
-                    <li>The new navigation bar separates the set-up process from live order management. The whole Dashboard set-up serves this purpose as well.</li>
-                    <li>The walkthrough video tutorials are now dropped into the pages that they are relevent to. (The information in the walk-through is also given in written form since people are not as inclined to watch videos even if they see it as an option.) </li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-
-           </div>
-
-           <!--   main container close -->
+          <div class= "img-personas-row"> 
+            <img src= "img/persona1.jpg">  
+            <img src= "img/persona2.jpg">
+            <img src= "img/persona3.jpg">  
           </div>
+
         </div>
       </div>
-    </div>
-    <!--  container close end -->  
 
 
+<!--       subsection- use cases    -->
+     <div class= "sub-section-init use-cases row">        
+      <div class= "content-columns">
+        <h2>Use Cases</h2>
+          <ul data-equalizer>
+            <li class= "panel" data-equalizer-watch>
 
+              <div class= "panel-num-shape"><div class= "num-triangle-black"><h4>1</h4></div></div>
 
+              <p><span class= "text-bold">I am a new vendor who is going through the set-up process the first time.</span></p>
+            </li>
 
+            <li class = "panel" data-equalizer-watch>
+              <div class= "panel-num-shape"><div class= "num-triangle-green tilt2"><h4>2</h4></div></div>
 
-
-
-
-
-<!-- ////////////////MAIN PRODUCT PAGE////////////////////////  -->
-    <!-- main container initiate  -->
-
-   <div class= "in-depth-comparison">   
-    <div class= "row">
-      <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-offset-0 xlarge-12 columns small-indent">
-        <div class= "fe-info-summary">
-         <!--  container init end -->   
-
-
-         <div id= "main-product">
-          <h1>3</h1>
-           <h2>Main Product Page</h2>
-          
-
-           <p>This main product page directs you away to individual product pages where you can add products one by one. Overall this page is hard to read and contains confusing and largely irrelevent information. How variants are marked is confusing, with little distinction between original products. Listings are disorganized and hard to read.</p>
-
-
-           <p>Making the main product page mimic the customer- facing side of the site makes it much clearer what is live and what is still in draft form. Variants are easily defined.</p>
-
-
-           <div class= "current-probs">
-             <h3>current main product page</h3>
-
-             <div class= "row">
-              <div class= "small-12 medium-6 columns">
-                <a href="#" data-reveal-id="current-main-product"><img src= "img/current-main-product.jpg"></a>
-                <br>
-
-                <div id="current-main-product" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                  <h3 id="modalTitle">current main product page</h2>
-                  <img src= "img/current-main-product.png">   
-                  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-                </div>      
-              </div>        
-
-               <div class= "compare-detail-text row">
-                <div class= "small-12 medium-6 columns">
-                  <h4>Problems</h4>
-                  <ol>
-                    <li>There isn’t any clear delineation between between the status “Pending” (first 3) and  “Approved” (last 1) . It’s hard to tell what is up and live or not. (“Approved” itself is kind of ambiguous).</li>
-                    <li>This is a variant of a product 4 products down on the list. It’s unclear what is a variant or not and the listing order is disorganized.</li>
-                    
-                  </ol>
-
-                </div>
-               </div>
-             </div>
-           </div>
-
-
-           <div class= "redesign">
-            <h3>main product page redesign</h3>
-            <div class= "row">
-              <div class= "small-12 medium-6 columns">
-
-
-                <a href="#" data-reveal-id="main-product-redesign"><img src= "img/main-product-redesign.jpg"></a>
-                
-
-                <div id="main-product-redesign" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                  <h3 id="modalTitle">main product page redesign</h2>
-                  <img src= "img/main-product-redesign.jpg">   
-                  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-                </div>
-              </div>
-
-                
-
-                <div class= "small-12 medium-6 columns">
-                  <h4>Solutions</h4>
-                  <ol>
-                    <li>The status of a product is indicated in 3 areas. The first is on the navigation bar on the right panel. If a product is up and live, a checkmark appears next to its name indicating that it is completed. <br><br>If a product is not live, a “draft” overlay is placed over the picture of the drafted product. <br><br>In the left hand corner of each picture during its hover state also indicates whether a product is live or not. <br></li>
-                    <li>Variants are easily identified because they are listed right underneath the original pictures.</li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-
-           </div>
-
-           <!--   main container close -->
-          </div>
+              <p>I am a vendor who is already up and live on the site, and am visiting the site to modify my information or products.</p>
+            </li>
+            <li class= "panel" data-equalizer-watch>
+              <div class= "panel-num-shape"><div class= "num-triangle-black tilt3"><h4>3</h4></div></div>
+              <p>I am a live vendor checking my account to maintain the orders that come in through the site.</p>
+              </li>
+          </ul>
+           <p id= "bottom-text">My redesign centers mostly around fixing the problems created by the current design in <span id= "use-case-1-words">Use Case #1</span>. As a result, <span id= "use-case-2-words">Use Case #2</span> and <span id= "use-case-3-words">Use Case #3</span> are enhanced.</p>
+         
         </div>
-      </div>
+      </div>             
     </div>
-    <!--  container close end -->  
 
 
 
@@ -973,40 +252,14 @@
 
 
 
+    <!-- close the off-canvas menu -->
+    <a class="exit-off-canvas"></a>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- close the off-canvas menu -->
-  <a class="exit-off-canvas"></a>
 
   </div>
 </div>
 
 
-
-
-
-
-
-
-
-      
 
 
 
