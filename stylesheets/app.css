@@ -8711,17 +8711,17 @@ h3 {
 
 /* line 272, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h4 {
-  font-size: 1.125rem;
+  font-size: 1.375rem;
 }
 
 /* line 273, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h5 {
-  font-size: 1.125rem;
+  font-size: 1.4375rem;
 }
 
 /* line 274, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h6 {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 /* line 276, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -8961,17 +8961,17 @@ blockquote p {
 
   /* line 459, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h4 {
-    font-size: 1.4375rem;
+    font-size: 1.6875rem;
   }
 
   /* line 460, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h5 {
-    font-size: 1.125rem;
+    font-size: 1.4375rem;
   }
 
   /* line 461, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h6 {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 }
 /* line 386, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
@@ -9025,7 +9025,7 @@ blockquote p {
 }
 /* line 176, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4 {
-  font-size: 1.125rem;
+  font-size: 1.4375rem;
 }
 
 /* line 391, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
@@ -10524,7 +10524,7 @@ h3 {
   color: white;
 }
 /* line 70, ../scss/_work.scss */
-.image-overlay-content h4 {
+.image-overlay-content h5 {
   color: #C8F526;
 }
 
@@ -10586,7 +10586,7 @@ h3 {
   line-height: 2.2rem;
 }
 /* line 18, ../scss/_contact.scss */
-.contact h4 {
+.contact h5 {
   line-height: 2rem;
 }
 
@@ -10683,6 +10683,26 @@ h3 {
   font-weight: 600;
 }
 /* line 31, ../scss/proj_fe/_globals.scss */
+#project-fe-page p.img-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+/* line 37, ../scss/proj_fe/_globals.scss */
+#project-fe-page .wireframe, #project-fe-page .hidden-wireframe {
+  font-size: 70%;
+}
+@media only screen and (max-width: 40em) {
+  /* line 37, ../scss/proj_fe/_globals.scss */
+  #project-fe-page .wireframe, #project-fe-page .hidden-wireframe {
+    display: none;
+  }
+}
+/* line 47, ../scss/proj_fe/_globals.scss */
+#project-fe-page .hidden-wireframe {
+  visibility: hidden;
+}
+/* line 59, ../scss/proj_fe/_globals.scss */
 #project-fe-page .section-init-title {
   color: #C8F526;
   float: right;
@@ -10691,144 +10711,144 @@ h3 {
   text-align: right;
   line-height: 1.3;
 }
-/* line 43, ../scss/proj_fe/_globals.scss */
+/* line 71, ../scss/proj_fe/_globals.scss */
 #project-fe-page .section-init {
   margin-top: -3vh;
 }
-/* line 49, ../scss/proj_fe/_globals.scss */
+/* line 77, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init {
   margin-top: 7vh;
 }
-/* line 52, ../scss/proj_fe/_globals.scss */
+/* line 80, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init h2 {
   margin-bottom: 1.5rem;
 }
-/* line 56, ../scss/proj_fe/_globals.scss */
+/* line 84, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init .img-click img {
   border: 1px solid #888888;
 }
-/* line 62, ../scss/proj_fe/_globals.scss */
+/* line 90, ../scss/proj_fe/_globals.scss */
 #project-fe-page .alt-sub-section-init {
   background-color: #d9f867;
   margin: 14vh 0;
   padding: 6vh 0 12vh 0;
   transform: skewY(176deg);
 }
-/* line 69, ../scss/proj_fe/_globals.scss */
+/* line 97, ../scss/proj_fe/_globals.scss */
 #project-fe-page .alt-sub-section-init .sub-section-init {
   transform: skewY(-176deg);
 }
-/* line 72, ../scss/proj_fe/_globals.scss */
+/* line 100, ../scss/proj_fe/_globals.scss */
 #project-fe-page .alt-sub-section-init .sub-section-init .img-click img {
   border: none;
 }
-/* line 84, ../scss/proj_fe/_globals.scss */
+/* line 112, ../scss/proj_fe/_globals.scss */
 #project-fe-page .img-click a img,
 #project-fe-page .img-click a {
   cursor: url(../img/magnify-cursor-2.png), zoom-in;
 }
-/* line 107, ../scss/proj_fe/_globals.scss */
+/* line 135, ../scss/proj_fe/_globals.scss */
 #project-fe-page .panel-num-shape {
   text-align: center;
   margin-top: -2.52rem;
 }
-/* line 145, ../scss/proj_fe/_globals.scss */
+/* line 173, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-white {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   display: inline-block;
   padding: 1rem 2rem;
   background-color: white;
 }
-/* line 128, ../scss/proj_fe/_globals.scss */
-#project-fe-page .num-triangle-white h4, #project-fe-page .num-triangle-white h5 {
+/* line 156, ../scss/proj_fe/_globals.scss */
+#project-fe-page .num-triangle-white h5, #project-fe-page .num-triangle-white h6 {
   margin-top: -0.5rem;
   color: #222222;
 }
-/* line 152, ../scss/proj_fe/_globals.scss */
+/* line 180, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   display: inline-block;
   padding: 1rem 2rem;
   background-color: #222222;
 }
-/* line 128, ../scss/proj_fe/_globals.scss */
-#project-fe-page .num-triangle-black h4, #project-fe-page .num-triangle-black h5 {
+/* line 156, ../scss/proj_fe/_globals.scss */
+#project-fe-page .num-triangle-black h5, #project-fe-page .num-triangle-black h6 {
   margin-top: -0.5rem;
   color: #C8F526;
 }
-/* line 154, ../scss/proj_fe/_globals.scss */
-#project-fe-page .num-triangle-black h4 {
+/* line 182, ../scss/proj_fe/_globals.scss */
+#project-fe-page .num-triangle-black h5 {
   color: white;
 }
-/* line 159, ../scss/proj_fe/_globals.scss */
+/* line 187, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black-white {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   display: inline-block;
   padding: 1rem 2rem;
   background-color: #222222;
 }
-/* line 128, ../scss/proj_fe/_globals.scss */
-#project-fe-page .num-triangle-black-white h4, #project-fe-page .num-triangle-black-white h5 {
+/* line 156, ../scss/proj_fe/_globals.scss */
+#project-fe-page .num-triangle-black-white h5, #project-fe-page .num-triangle-black-white h6 {
   margin-top: -0.5rem;
   color: white;
 }
-/* line 162, ../scss/proj_fe/_globals.scss */
+/* line 190, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-green {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   display: inline-block;
   padding: 1rem 2rem;
   background-color: #C8F526;
 }
-/* line 128, ../scss/proj_fe/_globals.scss */
-#project-fe-page .num-triangle-green h4, #project-fe-page .num-triangle-green h5 {
+/* line 156, ../scss/proj_fe/_globals.scss */
+#project-fe-page .num-triangle-green h5, #project-fe-page .num-triangle-green h6 {
   margin-top: -0.5rem;
   color: #222222;
 }
-/* line 166, ../scss/proj_fe/_globals.scss */
+/* line 194, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt2 {
   transform: rotate(35deg);
   margin-top: -0.4rem;
 }
-/* line 167, ../scss/proj_fe/_globals.scss */
-#project-fe-page .tilt2 h4, #project-fe-page .tilt2 h5 {
+/* line 195, ../scss/proj_fe/_globals.scss */
+#project-fe-page .tilt2 h5, #project-fe-page .tilt2 h6 {
   transform: rotate(-35deg);
   margin-left: -0.3rem;
   margin-top: 0.2rem;
 }
-/* line 179, ../scss/proj_fe/_globals.scss */
+/* line 207, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt3 {
   transform: rotate(165deg);
   margin-top: -0.7rem;
 }
-/* line 180, ../scss/proj_fe/_globals.scss */
-#project-fe-page .tilt3 h4, #project-fe-page .tilt3 h5 {
+/* line 208, ../scss/proj_fe/_globals.scss */
+#project-fe-page .tilt3 h5, #project-fe-page .tilt3 h6 {
   transform: rotate(-165deg);
   margin-left: -0.2rem;
   margin-top: -0.2rem;
 }
-/* line 191, ../scss/proj_fe/_globals.scss */
+/* line 219, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt4 {
   transform: rotate(335deg);
   margin-top: -1rem;
 }
-/* line 192, ../scss/proj_fe/_globals.scss */
-#project-fe-page .tilt4 h4, #project-fe-page .tilt4 h5 {
+/* line 220, ../scss/proj_fe/_globals.scss */
+#project-fe-page .tilt4 h5, #project-fe-page .tilt4 h6 {
   transform: rotate(-335deg);
   margin-left: 0.2rem;
   margin-top: -0.2rem;
 }
-/* line 205, ../scss/proj_fe/_globals.scss */
+/* line 233, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt5 {
   transform: rotate(65deg);
   margin-top: 0rem;
 }
-/* line 206, ../scss/proj_fe/_globals.scss */
-#project-fe-page .tilt5 h4, #project-fe-page .tilt5 h5 {
+/* line 234, ../scss/proj_fe/_globals.scss */
+#project-fe-page .tilt5 h5, #project-fe-page .tilt5 h6 {
   transform: rotate(-65deg);
   margin-left: -0.2rem;
   margin-top: -0.2rem;
 }
-/* line 219, ../scss/proj_fe/_globals.scss */
+/* line 247, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-small {
   padding: 0.6rem 1.6rem;
 }
@@ -10926,7 +10946,7 @@ h3 {
   margin-bottom: 0;
 }
 /* line 26, ../scss/proj_fe/_background.scss */
-#project-fe-page .my-process h5 {
+#project-fe-page .my-process h6 {
   margin-right: 4rem;
 }
 /* line 32, ../scss/proj_fe/_background.scss */
@@ -11134,7 +11154,7 @@ h3 {
   border: 2px solid #C8F526;
 }
 /* line 104, ../scss/proj_fe/_user-research.scss */
-#project-fe-page .user-research .use-cases .panel:nth-child(3) h4 {
+#project-fe-page .user-research .use-cases .panel:nth-child(3) h5 {
   color: #C8F526;
 }
 /* line 109, ../scss/proj_fe/_user-research.scss */
@@ -11208,16 +11228,16 @@ h3 {
   margin-top: 7vh;
 }
 /* line 14, ../scss/proj_fe/_specific-changes.scss */
-#project-fe-page .specific-changes .probs-redesign-cols .wireframe {
+#project-fe-page .specific-changes .probs-redesign-cols .wireframe, #project-fe-page .specific-changes .probs-redesign-cols .hidden-wireframe {
   font-size: 60%;
   margin-left: 0.7rem;
 }
 /* line 19, ../scss/proj_fe/_specific-changes.scss */
-#project-fe-page .specific-changes .probs-redesign-cols h4 {
+#project-fe-page .specific-changes .probs-redesign-cols h5 {
   margin-bottom: 1rem;
 }
 /* line 23, ../scss/proj_fe/_specific-changes.scss */
-#project-fe-page .specific-changes .probs-redesign-cols h5 {
+#project-fe-page .specific-changes .probs-redesign-cols h6 {
   margin: 0.7rem 0 1.5rem 0;
   font-size: 120%;
 }
@@ -11274,11 +11294,11 @@ h3 {
   display: inline-block;
 }
 /* line 29, ../scss/proj_fe/_my-vision.scss */
-#project-fe-page .game-plan ul h4 {
+#project-fe-page .game-plan ul h5 {
   text-align: center;
 }
 /* line 36, ../scss/proj_fe/_my-vision.scss */
-#project-fe-page .game-plan .panel > h4 {
+#project-fe-page .game-plan .panel > h5 {
   margin: 1.5rem 0 2rem 0;
 }
 /* line 40, ../scss/proj_fe/_my-vision.scss */
@@ -11321,7 +11341,7 @@ h3 {
   }
 }
 /* line 82, ../scss/proj_fe/_my-vision.scss */
-#project-fe-page .game-plan .game-plan-first-row .panel:first-child h4:nth-child(2) {
+#project-fe-page .game-plan .game-plan-first-row .panel:first-child h5:nth-child(2) {
   margin-top: 2.8rem;
 }
 /* line 88, ../scss/proj_fe/_my-vision.scss */
@@ -11347,7 +11367,7 @@ h3 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 /* line 102, ../scss/proj_fe/_my-vision.scss */
-#project-fe-page .game-plan .game-plan-first-row .panel:nth-child(3) h4:nth-child(2), #project-fe-page .game-plan .game-plan-first-row .panel:nth-child(3) ul li {
+#project-fe-page .game-plan .game-plan-first-row .panel:nth-child(3) h5:nth-child(2), #project-fe-page .game-plan .game-plan-first-row .panel:nth-child(3) ul li {
   color: white;
 }
 /* line 115, ../scss/proj_fe/_my-vision.scss */
@@ -11380,4 +11400,39 @@ h3 {
   #project-fe-page .game-plan .panel {
     width: 96%;
   }
+}
+
+/* line 6, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 h6 {
+  margin: 0;
+}
+/* line 15, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 .sol1-1a {
+  width: 50%;
+  float: left;
+}
+/* line 18, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 .sol1-1a .hidden-wireframe {
+  font-size: 80%;
+  margin-left: 2rem;
+}
+@media (min-width: 745px) and (max-width: 800px) {
+  /* line 18, ../scss/proj_fe/_solution1.scss */
+  #project-fe-page .solution1 .sol1-1a .hidden-wireframe {
+    font-size: 100%;
+  }
+}
+/* line 28, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 .sol1-1b {
+  width: 35%;
+  float: right;
+}
+/* line 35, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 .arrow {
+  float: left;
+  width: 15%;
+}
+/* line 39, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 .arrow h2 {
+  text-align: center;
 }

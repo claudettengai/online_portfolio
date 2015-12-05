@@ -26,14 +26,14 @@
 ul{
 	list-style-type: none;
 	display: inline-block;
-	h4{
+	h5{
 		text-align: center;
 	}
 }
 
 
 
-.panel > h4{
+.panel > h5{
 	margin: 1.5rem 0 2rem 0;
 }
 
@@ -79,7 +79,7 @@ ul{
 		//////fixing for the fact that panel1 has a one line header 
 		////add to 1.5rem
 
-		h4:nth-child(2){
+		h5:nth-child(2){
 			margin-top: 2.8rem;
 		}
 	}
@@ -99,7 +99,7 @@ ul{
 
 	&:nth-child(3){
 		background-color: transparentize(black, 0.5);
-		h4:nth-child(2), ul li{
+		h5:nth-child(2), ul li{
 			color: white;
 		}	
 	}

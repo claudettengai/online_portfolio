@@ -56,7 +56,7 @@ var heroBottom = $('#FE-head-back').position().top+$('#FE').outerHeight(true)
 var magellanPositionScroll = $('#magellan-bar').offset().top + (Math.tan(Math.radians(4))* $(window).width()) + 16;
 	$window= $(window);
 
-console.log($('#magellan-bar').offset().top);
+// console.log($('#magellan-bar').offset().top);
 
 
 // var headMarginEqualizer =  parseInt($('.after-fixed-nav').css('margin-top')) + (0- parseInt($('#magellan-bar').css('margin-top'))) + "px";
@@ -132,24 +132,52 @@ $(window).resize(skewTriangles);
 
 
 
-////////hover expand///////////
-
-$('.solutions-detail img').mouseenter(function(){
-
-	$('#hover-expand').fadeIn();
-	
-});
 
 
-$('.solutions-detail img').mouseleave(function(){
-
-	$('#hover-expand').fadeOut();
-	
-});
+//////////////////SOLUTION SECTION-1 /////////////////////
+////centering text vertically////////
 
 
 
+function sideTextAlign(){
 
+		var arrowMarginTop= ($(".side-image-block img").height())/2 - ($(".arrow").height())/2;
+		
+		$(".arrow").css("margin-top", arrowMarginTop);
+
+
+	if ($(window).width() >= 1024){
+
+		var sidePicHeight= $(".side-image-block").height();
+		var sideTextHeight= $(".sol-text-left").height();
+		var sideTextMarginTop= sidePicHeight/2 - sideTextHeight/2 - 40;
+
+		// var arrowMarginTop= ($(".side-image-block img").height())/2 - ($(".arrow").height())/2;
+
+
+		$(".sol-text-left").css("margin-top", sideTextMarginTop);
+		// $(".arrow").css("margin-top", arrowMarginTop);
+
+	} else{
+		$(".sol-text-left").css("margin-top", 0);
+
+	}
+}
+
+
+sideTextAlign();
+
+$(window).resize(sideTextAlign);
+
+
+
+
+
+
+
+
+
+/////////////////////////////////
 
 
 
