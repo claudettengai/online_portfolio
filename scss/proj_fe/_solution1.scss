@@ -3,8 +3,18 @@
 .solution1{
 
 //////////////////////
+.fewer-sections{
+	margin-top: 3.5rem;
+}
+
+
 h6{
 	margin:0;
+}
+
+p.sub-title{
+	margin-bottom: 0.5rem;
+	font-size: 94%;
 }
 
 
@@ -43,14 +53,48 @@ h6{
 	
 }
 
-.sol-text-left{
 
+
+.fewer-pages{
+	margin-top: 7rem;
+
+	.arrow{
+		width:10%;		
+	}
+
+	.sol-text{
+		@media #{$large-up}{
+			float: right;
+			padding-left: 2rem;
+		}
+	}
 }
 
 
 
 
+.sol1-2a{
+	width: 45%;
+	float: left;
+}
 
+.sol1-2b{
+	@extend .sol1-2a;
+}
+
+
+
+
+.sol-summary{
+	margin-top: 7rem;
+
+	.site-maps{
+		margin-top: 2rem;
+		img{
+			border: 1px solid $oil;
+		}
+	}
+}
 
 
 

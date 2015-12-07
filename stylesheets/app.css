@@ -10683,10 +10683,8 @@ h3 {
   font-weight: 600;
 }
 /* line 31, ../scss/proj_fe/_globals.scss */
-#project-fe-page p.img-title {
+#project-fe-page h6.sol-img-title {
   font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 0;
 }
 /* line 37, ../scss/proj_fe/_globals.scss */
 #project-fe-page .wireframe, #project-fe-page .hidden-wireframe {
@@ -10702,7 +10700,7 @@ h3 {
 #project-fe-page .hidden-wireframe {
   visibility: hidden;
 }
-/* line 59, ../scss/proj_fe/_globals.scss */
+/* line 62, ../scss/proj_fe/_globals.scss */
 #project-fe-page .section-init-title {
   color: #C8F526;
   float: right;
@@ -10711,144 +10709,144 @@ h3 {
   text-align: right;
   line-height: 1.3;
 }
-/* line 71, ../scss/proj_fe/_globals.scss */
+/* line 74, ../scss/proj_fe/_globals.scss */
 #project-fe-page .section-init {
   margin-top: -3vh;
 }
-/* line 77, ../scss/proj_fe/_globals.scss */
+/* line 80, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init {
   margin-top: 7vh;
 }
-/* line 80, ../scss/proj_fe/_globals.scss */
+/* line 83, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init h2 {
   margin-bottom: 1.5rem;
 }
-/* line 84, ../scss/proj_fe/_globals.scss */
+/* line 87, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init .img-click img {
   border: 1px solid #888888;
 }
-/* line 90, ../scss/proj_fe/_globals.scss */
+/* line 93, ../scss/proj_fe/_globals.scss */
 #project-fe-page .alt-sub-section-init {
   background-color: #d9f867;
   margin: 14vh 0;
   padding: 6vh 0 12vh 0;
   transform: skewY(176deg);
 }
-/* line 97, ../scss/proj_fe/_globals.scss */
+/* line 100, ../scss/proj_fe/_globals.scss */
 #project-fe-page .alt-sub-section-init .sub-section-init {
   transform: skewY(-176deg);
 }
-/* line 100, ../scss/proj_fe/_globals.scss */
+/* line 103, ../scss/proj_fe/_globals.scss */
 #project-fe-page .alt-sub-section-init .sub-section-init .img-click img {
   border: none;
 }
-/* line 112, ../scss/proj_fe/_globals.scss */
+/* line 115, ../scss/proj_fe/_globals.scss */
 #project-fe-page .img-click a img,
 #project-fe-page .img-click a {
   cursor: url(../img/magnify-cursor-2.png), zoom-in;
 }
-/* line 135, ../scss/proj_fe/_globals.scss */
+/* line 138, ../scss/proj_fe/_globals.scss */
 #project-fe-page .panel-num-shape {
   text-align: center;
   margin-top: -2.52rem;
 }
-/* line 173, ../scss/proj_fe/_globals.scss */
+/* line 176, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-white {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   display: inline-block;
   padding: 1rem 2rem;
   background-color: white;
 }
-/* line 156, ../scss/proj_fe/_globals.scss */
+/* line 159, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-white h5, #project-fe-page .num-triangle-white h6 {
   margin-top: -0.5rem;
   color: #222222;
 }
-/* line 180, ../scss/proj_fe/_globals.scss */
+/* line 183, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   display: inline-block;
   padding: 1rem 2rem;
   background-color: #222222;
 }
-/* line 156, ../scss/proj_fe/_globals.scss */
+/* line 159, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black h5, #project-fe-page .num-triangle-black h6 {
   margin-top: -0.5rem;
   color: #C8F526;
 }
-/* line 182, ../scss/proj_fe/_globals.scss */
+/* line 185, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black h5 {
   color: white;
 }
-/* line 187, ../scss/proj_fe/_globals.scss */
+/* line 190, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black-white {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   display: inline-block;
   padding: 1rem 2rem;
   background-color: #222222;
 }
-/* line 156, ../scss/proj_fe/_globals.scss */
+/* line 159, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black-white h5, #project-fe-page .num-triangle-black-white h6 {
   margin-top: -0.5rem;
   color: white;
 }
-/* line 190, ../scss/proj_fe/_globals.scss */
+/* line 193, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-green {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   display: inline-block;
   padding: 1rem 2rem;
   background-color: #C8F526;
 }
-/* line 156, ../scss/proj_fe/_globals.scss */
+/* line 159, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-green h5, #project-fe-page .num-triangle-green h6 {
   margin-top: -0.5rem;
   color: #222222;
 }
-/* line 194, ../scss/proj_fe/_globals.scss */
+/* line 197, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt2 {
   transform: rotate(35deg);
   margin-top: -0.4rem;
 }
-/* line 195, ../scss/proj_fe/_globals.scss */
+/* line 198, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt2 h5, #project-fe-page .tilt2 h6 {
   transform: rotate(-35deg);
   margin-left: -0.3rem;
   margin-top: 0.2rem;
 }
-/* line 207, ../scss/proj_fe/_globals.scss */
+/* line 210, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt3 {
   transform: rotate(165deg);
   margin-top: -0.7rem;
 }
-/* line 208, ../scss/proj_fe/_globals.scss */
+/* line 211, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt3 h5, #project-fe-page .tilt3 h6 {
   transform: rotate(-165deg);
   margin-left: -0.2rem;
   margin-top: -0.2rem;
 }
-/* line 219, ../scss/proj_fe/_globals.scss */
+/* line 222, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt4 {
   transform: rotate(335deg);
   margin-top: -1rem;
 }
-/* line 220, ../scss/proj_fe/_globals.scss */
+/* line 223, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt4 h5, #project-fe-page .tilt4 h6 {
   transform: rotate(-335deg);
   margin-left: 0.2rem;
   margin-top: -0.2rem;
 }
-/* line 233, ../scss/proj_fe/_globals.scss */
+/* line 236, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt5 {
   transform: rotate(65deg);
   margin-top: 0rem;
 }
-/* line 234, ../scss/proj_fe/_globals.scss */
+/* line 237, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt5 h5, #project-fe-page .tilt5 h6 {
   transform: rotate(-65deg);
   margin-left: -0.2rem;
   margin-top: -0.2rem;
 }
-/* line 247, ../scss/proj_fe/_globals.scss */
+/* line 250, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-small {
   padding: 0.6rem 1.6rem;
 }
@@ -11054,32 +11052,17 @@ h3 {
 }
 
 /* line 104, ../scss/proj_fe/_divider-images.scss */
-#fe-pic3, #fe-pic4 {
+#fe-pic3 {
   background-image: url("../img/fe-pic5.jpg");
   margin-top: 10vh;
 }
 
-/* line 116, ../scss/proj_fe/_divider-images.scss */
+/* line 140, ../scss/proj_fe/_divider-images.scss */
 #fe-pic4 {
   background-image: url("../img/fe-pic4.jpg");
-  background-size: cover;
-  background-position: top center;
-  margin-top: -20vh;
-}
-/* line 124, ../scss/proj_fe/_divider-images.scss */
-#fe-pic4 .image-clip-before {
-  background-color: #d9f867;
-  border: 5px solid #d9f867;
 }
 
-/* line 133, ../scss/proj_fe/_divider-images.scss */
-#fe-pic4-corrector {
-  height: 35vh;
-  background-color: #d9f867;
-  margin-top: -22vh;
-}
-
-/* line 141, ../scss/proj_fe/_divider-images.scss */
+/* line 148, ../scss/proj_fe/_divider-images.scss */
 #fe-pic5 {
   background-image: url("../img/fe-pic5.jpg");
 }
@@ -11403,36 +11386,88 @@ h3 {
 }
 
 /* line 6, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 .fewer-sections {
+  margin-top: 3.5rem;
+}
+/* line 11, ../scss/proj_fe/_solution1.scss */
 #project-fe-page .solution1 h6 {
   margin: 0;
 }
 /* line 15, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 p.sub-title {
+  margin-bottom: 0.5rem;
+  font-size: 94%;
+}
+/* line 25, ../scss/proj_fe/_solution1.scss */
 #project-fe-page .solution1 .sol1-1a {
   width: 50%;
   float: left;
 }
-/* line 18, ../scss/proj_fe/_solution1.scss */
+/* line 28, ../scss/proj_fe/_solution1.scss */
 #project-fe-page .solution1 .sol1-1a .hidden-wireframe {
   font-size: 80%;
   margin-left: 2rem;
 }
 @media (min-width: 745px) and (max-width: 800px) {
-  /* line 18, ../scss/proj_fe/_solution1.scss */
+  /* line 28, ../scss/proj_fe/_solution1.scss */
   #project-fe-page .solution1 .sol1-1a .hidden-wireframe {
     font-size: 100%;
   }
 }
-/* line 28, ../scss/proj_fe/_solution1.scss */
+/* line 38, ../scss/proj_fe/_solution1.scss */
 #project-fe-page .solution1 .sol1-1b {
   width: 35%;
   float: right;
 }
-/* line 35, ../scss/proj_fe/_solution1.scss */
+/* line 45, ../scss/proj_fe/_solution1.scss */
 #project-fe-page .solution1 .arrow {
   float: left;
   width: 15%;
 }
-/* line 39, ../scss/proj_fe/_solution1.scss */
+/* line 49, ../scss/proj_fe/_solution1.scss */
 #project-fe-page .solution1 .arrow h2 {
   text-align: center;
+}
+/* line 58, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 .fewer-pages {
+  margin-top: 7rem;
+}
+/* line 61, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 .fewer-pages .arrow {
+  width: 10%;
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 65, ../scss/proj_fe/_solution1.scss */
+  #project-fe-page .solution1 .fewer-pages .sol-text {
+    float: right;
+    padding-left: 2rem;
+  }
+}
+/* line 76, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 .sol1-2a, #project-fe-page .solution1 .sol1-2b {
+  width: 45%;
+  float: left;
+}
+/* line 88, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 .sol-summary {
+  margin-top: 7rem;
+}
+/* line 91, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 .sol-summary .site-maps {
+  margin-top: 2rem;
+}
+/* line 93, ../scss/proj_fe/_solution1.scss */
+#project-fe-page .solution1 .sol-summary .site-maps img {
+  border: 1px solid #333333;
+}
+
+/* line 6, ../scss/proj_fe/_solution2.scss */
+#project-fe-page .solution2 .remove-dash {
+  margin-top: 3.5rem;
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 11, ../scss/proj_fe/_solution2.scss */
+  #project-fe-page .solution2 .sol2-1 h6 {
+    margin-left: 12%;
+  }
 }

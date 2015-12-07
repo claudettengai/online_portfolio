@@ -141,33 +141,66 @@ $(window).resize(skewTriangles);
 
 function sideTextAlign(){
 
-		var arrowMarginTop= ($(".side-image-block img").height())/2 - ($(".arrow").height())/2;
+	$(".sol-text").each(function(){
 		
-		$(".arrow").css("margin-top", arrowMarginTop);
+		if ($(window).width() >= 1024){
 
+			var sidePicHeight= $(this).parent().find($(".side-img-block")).height();
+			var sideTextHeight= $(this).height();
+			var sideTextMarginTop= sidePicHeight/2 - sideTextHeight/2;
 
-	if ($(window).width() >= 1024){
+			console.log(sideTextMarginTop);
 
-		var sidePicHeight= $(".side-image-block").height();
-		var sideTextHeight= $(".sol-text-left").height();
-		var sideTextMarginTop= sidePicHeight/2 - sideTextHeight/2 - 40;
+			$(this).css("margin-top", sideTextMarginTop);
 
-		// var arrowMarginTop= ($(".side-image-block img").height())/2 - ($(".arrow").height())/2;
+		} else {
+			$(this).css("margin-top", 0);
 
+		}
+	});
 
-		$(".sol-text-left").css("margin-top", sideTextMarginTop);
-		// $(".arrow").css("margin-top", arrowMarginTop);
-
-	} else{
-		$(".sol-text-left").css("margin-top", 0);
-
-	}
 }
 
 
 sideTextAlign();
 
 $(window).resize(sideTextAlign);
+
+
+
+
+
+
+function arrowAlign(){
+	$(".arrow").each(function(){
+		
+		var arrowImgs = $(this).parent().find($("img"));
+
+		var titleHeight= $(this).parent().find($(".sol-img-title")).height() + $(this).parent().find($(".sub-titles")).height();
+
+		var highest = 0;
+		for (i= 0; i < arrowImgs.length; i++ ){
+			if(arrowImgs[i].height > highest) { highest = arrowImgs[i].height; }
+		}
+
+		// arrowImgs.each(function(i, img) {
+		// 	if (img.height > highest) { highest = img.height; };
+		// });
+
+		arrowMarginTop= highest/2 - $(".arrow").height()/2 + titleHeight; 
+
+
+		$(this).css("margin-top", arrowMarginTop);
+
+
+	});
+
+	// var arrowMarginTop= $(".side-image-block img").height()/2 - $(".arrow").height()/2;
+	// $(".arrow").css("margin-top", arrowMarginTop);
+}
+
+arrowAlign();
+$(window).resize(arrowAlign);
 
 
 
