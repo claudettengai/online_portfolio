@@ -7,16 +7,24 @@
 	margin-top: 3.5rem;
 }
 
+
 .sol2-1{
 	h6{
-		@media #{$large-up}{
-			margin-left: 12%;
-		}
+		margin-left: 12%;
 	}
 }
 
+.pop-up{
+	margin-top: 5rem;
+}
 
 
+.sol-summary{
+	margin-top:4rem;
+	img{
+		border: 1px solid $oil;
+	}
+}
 
 
 

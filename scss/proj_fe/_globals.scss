@@ -33,7 +33,6 @@ h6.sol-img-title{
 }
 
 
-
 .wireframe{
 
 	font-size: 70%;
@@ -48,6 +47,12 @@ h6.sol-img-title{
 	@extend .wireframe;
 	visibility: hidden;
 
+}
+
+.sol-text{
+	@media (max-width: 1023px){
+		margin-bottom: 2rem;
+	}
 }
 
 

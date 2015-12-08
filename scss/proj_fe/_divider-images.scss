@@ -113,6 +113,14 @@
 
 }
 
+
+
+
+
+
+
+
+
 // #fe-pic4{
 // 	@extend #fe-pic3;
 // 	background-image: url("../img/fe-pic9.jpg");
@@ -147,8 +155,18 @@
 
 #fe-pic5{
 	@extend #fe-pic1;
-	background-image: url("../img/fe-pic5.jpg");
-	// margin-bottom: 29vh;
+	background-image: url("../img/fe-pic3.jpg");
+
+	@media #{$xlarge-up}{
+		background-size: 102%;
+	}
+
+}
+
+#fe-pic6{
+	@extend #fe-pic1;
+	background-image: url("../img/fe-pic6.jpg")
+
 }
 
 
