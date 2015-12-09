@@ -13,7 +13,7 @@
 	
 		ul{
 			list-style-type: none;
-			margin: 2rem 0 1.5rem 0;
+			margin: 2rem 0 2rem 0;
 			display: inline-block;
 		}
 
@@ -46,32 +46,36 @@
 }
 
 
+#bottom-text{
+	#use-case-1-words{
+		color: black;
+		padding: 0.4rem;
+		font-weight: 600;
+		background-color: $lime-green;
+	}
 
-#use-case-1-words{
-	color: black;
-	padding: 0.4rem;
-	font-weight: 600;
-	background-color: $lime-green;
+	#use-case-2-words{
+		background-color: transparentize(black, 0.5s);
+		padding: 0.4rem;
+		font-weight: 400;
+		color: white;
+
+	}
+
+	#use-case-3-words{
+		color: black;
+		padding: 0.4rem;
+		font-weight: 400;
+		border: 2px solid $lime-green;
+
+	}
 }
 
-#use-case-2-words{
-	background-color: transparentize(black, 0.5s);
-	padding: 0.4rem;
-	font-weight: 400;
-	color: white;
-
+#top-text{
+	#use-case-1-words{
+		font-weight: 700;
+	}
 }
-
-#use-case-3-words{
-	color: black;
-	padding: 0.4rem;
-	font-weight: 400;
-	border: 2px solid $lime-green;
-
-}
-
-
-
 
 
 
@@ -126,7 +130,7 @@
 /////////////UNDERSTANDING THE USER////////////////////////////
 .understanding-users{
 	position: relative;
-	padding-bottom: 10vh;
+	padding-bottom: 2vh;
 
 
 
@@ -174,8 +178,7 @@
 
 
 .img-personas-row{
-	margin-top: 7vh;
-	padding-bottom: 10%;
+	margin-top: 5vh;
 
 }
 
