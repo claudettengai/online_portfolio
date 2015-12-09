@@ -10917,25 +10917,26 @@ h3 {
   margin-top: 5.2rem;
   transform: skewY(4deg);
   font-size: 0.825rem;
+  margin-bottom: 0.8rem;
 }
-/* line 53, ../scss/proj_fe/_magellan.scss */
+/* line 54, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav dd:first-child {
   margin-left: 13vw;
 }
 @media (max-width: 1160px) {
-  /* line 53, ../scss/proj_fe/_magellan.scss */
+  /* line 54, ../scss/proj_fe/_magellan.scss */
   #project-fe-page .sub-nav dd:first-child {
     margin-left: 10vw;
   }
 }
 @media (max-width: 890px) {
-  /* line 53, ../scss/proj_fe/_magellan.scss */
+  /* line 54, ../scss/proj_fe/_magellan.scss */
   #project-fe-page .sub-nav dd:first-child {
     margin-left: 3vw;
   }
 }
 @media (max-width: 860px) {
-  /* line 71, ../scss/proj_fe/_magellan.scss */
+  /* line 72, ../scss/proj_fe/_magellan.scss */
   #project-fe-page .sub-nav dd {
     margin-left: 0;
   }
@@ -11012,14 +11013,14 @@ h3 {
 }
 
 /* line 1, ../scss/proj_fe/_divider-images.scss */
-#fe-pic1, #fe-pic2, #fe-pic3, #fe-pic4, #fe-pic5, #fe-pic6 {
+#fe-pic1, #fe-pic2, #fe-pic3, #fe-pic4, #fe-pic5, #fe-pic6, #fe-pic7, #fe-pic8 {
   background: url("../img/fe-pic1.jpg") top left;
   background-attachment: fixed;
   margin: 20vh 0 20vh 0;
 }
 @media only screen and (min-width: 80.0625em) {
   /* line 1, ../scss/proj_fe/_divider-images.scss */
-  #fe-pic1, #fe-pic2, #fe-pic3, #fe-pic4, #fe-pic5, #fe-pic6 {
+  #fe-pic1, #fe-pic2, #fe-pic3, #fe-pic4, #fe-pic5, #fe-pic6, #fe-pic7, #fe-pic8 {
     background-size: cover;
   }
 }
@@ -11082,6 +11083,16 @@ h3 {
 /* line 166, ../scss/proj_fe/_divider-images.scss */
 #fe-pic6 {
   background-image: url("../img/fe-pic6.jpg");
+}
+
+/* line 172, ../scss/proj_fe/_divider-images.scss */
+#fe-pic7 {
+  background-image: url("../img/fe-pic7.jpg");
+}
+
+/* line 178, ../scss/proj_fe/_divider-images.scss */
+#fe-pic8 {
+  background-image: url("../img/fe-pic8.jpg");
 }
 
 /* line 14, ../scss/proj_fe/_user-research.scss */
@@ -11204,79 +11215,6 @@ h3 {
 /* line 189, ../scss/proj_fe/_user-research.scss */
 #project-fe-page .user-research .identify-probs li {
   margin-bottom: 0.6rem;
-}
-
-/* line 7, ../scss/proj_fe/_broad-changes.scss */
-#project-fe-page .broad-solutions ol.top-text-section {
-  margin-bottom: 7vh;
-}
-/* line 10, ../scss/proj_fe/_broad-changes.scss */
-#project-fe-page .broad-solutions ol.top-text-section > li {
-  font-weight: 600;
-}
-/* line 17, ../scss/proj_fe/_broad-changes.scss */
-#project-fe-page .broad-solutions .img-click img {
-  border: 1px solid #C8F526;
-}
-/* line 23, ../scss/proj_fe/_broad-changes.scss */
-#project-fe-page .broad-solutions .img-click a img {
-  cursor: url(../img/magnify-cursor-2.png), zoom-in;
-}
-
-/* line 9, ../scss/proj_fe/_specific-changes.scss */
-#project-fe-page .specific-changes .probs-redesign-cols {
-  margin-top: 7vh;
-}
-/* line 14, ../scss/proj_fe/_specific-changes.scss */
-#project-fe-page .specific-changes .probs-redesign-cols .wireframe, #project-fe-page .specific-changes .probs-redesign-cols .hidden-wireframe {
-  font-size: 60%;
-  margin-left: 0.7rem;
-}
-/* line 19, ../scss/proj_fe/_specific-changes.scss */
-#project-fe-page .specific-changes .probs-redesign-cols h5 {
-  margin-bottom: 1rem;
-}
-/* line 23, ../scss/proj_fe/_specific-changes.scss */
-#project-fe-page .specific-changes .probs-redesign-cols h6 {
-  margin: 0.7rem 0 1.5rem 0;
-  font-size: 120%;
-}
-/* line 34, ../scss/proj_fe/_specific-changes.scss */
-#project-fe-page .specific-changes .redesign-section {
-  margin-top: 14vh;
-}
-/* line 50, ../scss/proj_fe/_specific-changes.scss */
-#project-fe-page .specific-changes #current-individual-product-crop, #project-fe-page .specific-changes #individual-product-redesign-crop, #project-fe-page .specific-changes #edit-warehouse-crop {
-  background-image: url("../img/current-individual-product.jpg");
-  width: 100%;
-  height: 50vh;
-  background-size: cover;
-}
-/* line 58, ../scss/proj_fe/_specific-changes.scss */
-#project-fe-page .specific-changes #individual-product-redesign-crop {
-  background-image: url("../img/individual-product-redesign.jpg");
-}
-/* line 65, ../scss/proj_fe/_specific-changes.scss */
-#project-fe-page .specific-changes #edit-warehouse-crop {
-  background-image: url("../img/edit-warehouse-redesign.jpg");
-}
-
-/* line 3, ../scss/proj_fe/_design-develop.scss */
-#project-fe-page .mocks img {
-  border: 1px solid #888888;
-}
-/* line 25, ../scss/proj_fe/_design-develop.scss */
-#project-fe-page .development a {
-  width: 90%;
-}
-
-/* line 3, ../scss/proj_fe/_design-develop.scss */
-#project-fe-page .mocks img {
-  border: 1px solid #888888;
-}
-/* line 25, ../scss/proj_fe/_design-develop.scss */
-#project-fe-page .development a {
-  width: 90%;
 }
 
 /* line 3, ../scss/proj_fe/_my-vision.scss */
@@ -11596,6 +11534,102 @@ h3 {
   border: 1px solid #808080;
 }
 /* line 80, ../scss/proj_fe/_solution4.scss */
-#project-fe-page .solution4 .conveying-significance {
+#project-fe-page .solution4 .revealing-context {
   margin-top: 7rem;
+}
+/* line 83, ../scss/proj_fe/_solution4.scss */
+#project-fe-page .solution4 .revealing-context .sol-text {
+  padding-left: 2rem;
+}
+/* line 90, ../scss/proj_fe/_solution4.scss */
+#project-fe-page .solution4 #sol4-3a img,
+#project-fe-page .solution4 #sol4-3b img {
+  border: 1px solid #808080;
+}
+/* line 95, ../scss/proj_fe/_solution4.scss */
+#project-fe-page .solution4 .sol-summary {
+  margin-top: 5rem;
+}
+
+/* line 7, ../scss/proj_fe/_solution5.scss */
+#project-fe-page .solution5 .un-hide {
+  margin-top: 3rem;
+}
+/* line 11, ../scss/proj_fe/_solution5.scss */
+#project-fe-page .solution5 .infographics {
+  margin-top: 1.5rem;
+}
+/* line 13, ../scss/proj_fe/_solution5.scss */
+#project-fe-page .solution5 .infographics h4 {
+  text-align: right;
+}
+/* line 19, ../scss/proj_fe/_solution5.scss */
+#project-fe-page .solution5 .unhide-info-imgs {
+  margin-top: 3rem;
+}
+/* line 23, ../scss/proj_fe/_solution5.scss */
+#project-fe-page .solution5 .FAQ {
+  margin-top: 4rem;
+}
+/* line 27, ../scss/proj_fe/_solution5.scss */
+#project-fe-page .solution5 .sol-summary {
+  margin-top: 3rem;
+}
+
+/* line 6, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .design-develop h1 {
+  width: 100%;
+  text-align: right;
+}
+/* line 11, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .design-develop h2 {
+  margin-top: 2rem;
+}
+/* line 15, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .design-develop .mocks img {
+  border: 1px solid #808080;
+  width: 60%;
+}
+/* line 23, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .design-develop .mocks img:first-child {
+  position: absolute;
+  z-index: 0;
+}
+/* line 28, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .design-develop .mocks img:nth-child(2) {
+  position: relative;
+  z-index: 1;
+  float: right;
+  margin-top: 25%;
+}
+/* line 37, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .design-develop .prototype, #project-fe-page .design-develop .prototype-small {
+  margin-top: 3rem;
+  color: #333333;
+  width: 100%;
+  text-align: right;
+  position: absolute;
+}
+/* line 46, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .design-develop .prototype a, #project-fe-page .design-develop .prototype-small a {
+  border: 3px solid #C8F526;
+  display: inline-block;
+  padding: 1rem 2rem 0.7rem 2rem;
+}
+/* line 57, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .design-develop .prototype a:hover, #project-fe-page .design-develop .prototype-small a:hover {
+  background-color: #C8F526;
+}
+/* line 64, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .design-develop .prototype h5, #project-fe-page .design-develop .prototype-small h5 {
+  font-size: 20px;
+}
+/* line 73, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .design-develop .prototype-small {
+  position: relative;
+  text-align: center;
+}
+/* line 77, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .design-develop .prototype-small a {
+  margin-top: 3rem;
 }
