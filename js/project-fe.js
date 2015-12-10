@@ -147,16 +147,23 @@ function sideTextAlign(){
 
 			var sidePicHeight= $(this).parent().find($(".side-img-block")).height();
 			var sideTextHeight= $(this).height();
-			var sideTextMarginTop= sidePicHeight/2 - sideTextHeight/2;
 
+			if ($(this).hasClass("sol-text-higher")){
+				var sideTextMarginTop = sidePicHeight/2 - sideTextHeight/2 -60;
+			}else{
+				var sideTextMarginTop= sidePicHeight/2 - sideTextHeight/2;
+			}
+			
+		
 			console.log(sideTextMarginTop);
 
-			$(this).css("margin-top", sideTextMarginTop);
+			$(this).css("margin-top", sideTextMarginTop);			
 
 		} else {
 			$(this).css("margin-top", 0);
-
 		}
+
+
 	});
 
 }
@@ -178,16 +185,20 @@ function arrowAlign(){
 
 		var titleHeight= $(this).parent().find($(".sol-img-title")).height() + $(this).parent().find($(".sub-titles")).height();
 
-		var highest = 0;
+		var highest = arrowImgs[0].height;
 		for (i= 0; i < arrowImgs.length; i++ ){
-			if(arrowImgs[i].height > highest) { highest = arrowImgs[i].height; }
+			if(arrowImgs[i].height > highest) { 
+				highest = arrowImgs[i].height; 
+			} else{
+				shortest= arrowImgs[i].height;
+			}
 		}
 
 		// arrowImgs.each(function(i, img) {
 		// 	if (img.height > highest) { highest = img.height; };
 		// });
 
-		arrowMarginTop= highest/2 - $(".arrow").height()/2 + titleHeight; 
+		arrowMarginTop= shortest/2 - $(".arrow").height()/2 + titleHeight; 
 
 
 		$(this).css("margin-top", arrowMarginTop);

@@ -15,12 +15,20 @@
 }
 
 .pop-up{
-	margin-top: 5rem;
+	margin-top: 3.5rem;
 }
 
 
 .sol-summary{
-	margin-top:4rem;
+	margin-top:6rem;
+
+	p{
+		margin-top: 1rem;
+	}
+
+	.user-flow{
+		margin-top: 3.5rem;
+	}
 	img{
 		border: 1px solid $oil;
 	}

@@ -13,7 +13,7 @@
 	
 		ul{
 			list-style-type: none;
-			margin: 2rem 0 2rem 0;
+			margin: 2rem 0 0 0;
 			display: inline-block;
 		}
 
@@ -130,12 +130,12 @@
 /////////////UNDERSTANDING THE USER////////////////////////////
 .understanding-users{
 	position: relative;
-	padding-bottom: 2vh;
+	// padding-bottom: 2vh;
 
 
 
 	img{
-		width: 50%;
+		width: 40%;
 		
 	}
 
@@ -146,8 +146,8 @@
 		position: absolute;
 		z-index:1;
 		float: left;
-		margin-left: 25%;
-		margin-top: 6%;
+		margin-left: 30%;
+		margin-top: 4%;
 		display: block;
 		// margin: -10% auto 0 auto;
 		border: 1px solid #39B54A;
@@ -169,7 +169,7 @@
 		z-index:2;
 		float: right;
 		// transform: rotate(12deg);
-		margin-top: 12%;
+		margin-top: 8%;
 		border: 1px solid #0071BC;
 	}
 

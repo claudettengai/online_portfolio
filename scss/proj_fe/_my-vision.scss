@@ -1,11 +1,62 @@
 #project-fe-page{
 
+	.strategy p{
+		margin-bottom: 0;
+	}
+
+
 	#vision-list{
-		margin-left: 4rem;
-		margin-top: -1.5rem;
+
+
+
+		margin-left: 2.4rem;
+		margin-top: -1rem;
+		list-style: none;
+		// text-align: center;
+	
+
 		li{
-			margin-bottom: 1rem;
+			display: inline-block;
 		}
+
+		li::before{
+			content: "";
+		    border-color: transparent $lime-green;
+		    border-style: solid;
+		    border-width: 0.4rem 0 0.4rem 0.8rem;
+		    display: block;
+		    height: 0;
+		    width: 0;
+		    left: -2rem;
+		    top: $paragraph-font-size + 0.24;
+		    position: relative;
+		    margin: 0rem;
+		    transform: rotate(15deg);
+
+		}
+
+		@for $i from 2 through 3 {
+      		li:nth-child(#{$i})::before { 
+       		transform: rotate($i * 45deg); 
+      }
+    }
+
+
+
+
+
+
+		.text-bold{
+			// @extend h6;
+			// margin-right: 1rem;
+			// font-weight: 500;
+		}
+
+	// 	margin-left: 4rem;
+	// 	margin-top: -1.5rem;
+	// 	li{
+	// 		margin-bottom: 1rem;
+	// 	}
 	}
 
 
@@ -44,12 +95,13 @@ ul{
 
 
 
-#game-plan-all-panels{
-	margin: 4vh 0;
-}
+// #game-plan-all-panels{
+// 	margin: 4vh 0;
+// }
 
 .game-plan-first-row,
 .game-plan-second-row{
+	width: 100%;
 	margin: 3vh 0;
 	display: inline-block;
 	@media #{$medium-only}{
@@ -111,6 +163,7 @@ ul{
 
 
 .game-plan-second-row .panel{
+
 
 		&:first-child{
 			background-color: white;

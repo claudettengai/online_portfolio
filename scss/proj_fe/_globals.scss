@@ -29,7 +29,8 @@
 ////wireframe smaller////
 
 h6.sol-img-title{
-	font-size: 20px;
+	// font-size: 20px;
+	color: #333;
 }
 
 
@@ -55,7 +56,11 @@ h6.sol-img-title{
 	}
 }
 
-
+.sol-summary{
+	p{
+		margin-top: 1rem;
+	}
+}
 
 
 
