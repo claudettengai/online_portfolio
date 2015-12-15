@@ -1,0 +1,52 @@
+#project-paycrave-page{
+
+#paycrave-head-top{
+	background-color: $lime-green;
+	height: 60vh;
+	width: 100%;
+	-webkit-clip-path: polygon(0 0%, 100% 0%, 100% 51%, 0% 100%);
+	overflow:hidden;
+
+	h1{
+		margin-top: 15vh;
+		line-height: 1.4;
+
+		@media #{$small-only}{	
+			margin-top : 14vh;
+		}
+
+	}
+}
+
+
+
+
+#paycrave-head-back{
+	background: url("../img/proj-paycrave/header1.jpg") center center;
+	background-size: cover;
+	background-attachment: fixed;
+
+	//height for full screen (100vh) is 72vh
+	height: 94vh; 
+
+	width:100%;
+	margin: -33vh 0 1vh 0;
+	text-align: center;
+
+
+}
+
+#paycrave-head-bottom{
+	height: 18vh;
+	width: 100%;
+	background-color: white;
+	margin-top: 76vh;
+	position: absolute;
+	-webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+
+
+}
+
+
+
+}

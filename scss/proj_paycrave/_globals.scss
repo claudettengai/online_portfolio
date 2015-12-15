@@ -1,0 +1,24 @@
+#project-paycrave-page{
+
+
+
+// grid
+.content-columns{
+  @extend .small-offset-0, .medium-10, .medium-offset-1, .xlarge-offset-0, .xlarge-12, .columns, .small-indent;
+  @media #{$small-only}{
+  	margin-left: 2% !important;
+  }
+}
+
+h2.section-title{
+	margin: auto auto 1rem auto;
+}
+
+
+
+
+
+
+
+
+}

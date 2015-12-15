@@ -4,12 +4,94 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation</title>
+
+<!--     fonts -->
+
+
+
+    <link href='https://fonts.googleapis.com/css?family=Varela|Sarala:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+   <!-- <link href='https://fonts.googleapis.com/css?family=Numans' rel='stylesheet' type='text/css'> -->
+
+
+
+
+
+
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+
+   
+
   </head>
 
 
-  <body>
+  <body id= "project-paycrave-page">
+    
+
+
+
+
+
+
+
+    <!-- main content goes here -->
+ 
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+
+    <a class="right-off-canvas-toggle" href="#" >
+      <div class="menu">
+        <div class="top-bar"></div>
+        <div class="middle-bar"></div>
+        <div class="bottom-bar"></div>
+      </div>
+    </a>
+
+
+
+
+
+
+    <!-- Off Canvas Menu -->
+    <aside class=" right-off-canvas-menu">
+        <!-- whatever you want goes here -->
+        <ul class="side-nav main">
+          <li><a class="is-active" href="#">work</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">resume</a></li>
+          <li><a href="#">contact me</a></li>
+        </ul>
+
+        <ul class="inline-list social">
+          <li><i class="fi-social-linkedin"></i></li>
+          <li><i class="fi-social-github"></i></li>
+          <li><i class="fi-social-twitter"></i></li>
+        </ul>
+    </aside>
+
+
+
+
+<!--         header    -->
+    <header id = "paycrave-head">
+      <div id= "paycrave-head-top">
+        <div class= "row">
+          <div class= "content-columns">
+            <h1>Paycrave</h1>
+            <h3>iOS mobile app</h3>
+          </div>
+        </div>
+      </div>
+
+      <div id= "paycrave-head-back">
+        <div id= "paycrave-head-bottom"></div>
+      </div>
+
+
+    </header>
 
 
 
@@ -19,14 +101,48 @@
 
 
 
+<!--     summary and competition -->
+
+    <div class= "summary row">
+      <div class= "content-columns">
+<!--         <h2 class= "section-title">Summary</h2>
+ -->        <div class= "row">
+          <div class= "small-12 medium-8 xlarge-8 columns">
+            <h2 class= "section-title">Summary</h2>
+            <p>Paycrave is a mobile app designed to allow food truck fans to locate, discover, rate, review and purchase from nearby food trucks. </p>
+          </div>
+          <div class= "small-6 small-centered medium-4 medium-offset-8 xlarge-4 xlarge-offset-8 columns">
+            <img id= "phone-mock" src= "img/proj-paycrave/phone-mock.png">
+          </div>
+        </div>
+
+        <div class= "competition">
+
+          <h2 class= "section-title">Checking out the Competition</h2>
+          <p>The first step was to find out what already exists and is successful in the foodspace. I looked at direct competition (other food truck apps) as well as other food-related apps that might have features that I wanted to include in Paycrave.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- close the off-canvas menu -->
+    <a class="exit-off-canvas"></a>
+
+
+  </div>
+</div>
 
 
 
 
 
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/app.js"></script>
 
-  	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
   </body>
 </html>
+
+
+
