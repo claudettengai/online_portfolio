@@ -93,10 +93,60 @@
 
 
 
+#inVision-button{
+	background-color: white;
+	color: black;
+	border: 3px solid $lime-green;
+
+	&:hover{
+		background-color: $lime-green;
+	}
+
+}
 
 
 
 
+
+///////////CREATING THE FINAL LOOK/////////////
+.mockups{
+	margin-top: 3.5rem;
+
+	p{ 
+		margin-bottom: 2rem;
+	}
+}
+
+
+.mockups img{
+	width: 37%;
+	border: 1px solid $iron;
+	vertical-align: top;
+}
+
+
+#map-mock{
+	position: absolute;
+	z-index: -1; 
+	margin-top: 5%;
+	box-shadow: 2px 2px 1px $iron;
+
+
+}
+
+#list-mock{
+	margin-left: 20%;
+	margin-top: 50%;
+	box-shadow: 5px 5px 3px $iron;
+
+}
+
+#profile-mock{
+	float: right;
+	box-shadow: 2px 2px 1px $iron;
+
+
+}
 
 
 

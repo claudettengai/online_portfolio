@@ -12020,3 +12020,45 @@ h3 {
 #project-paycrave-page .usability p {
   margin-bottom: 1.5rem;
 }
+/* line 96, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page #inVision-button {
+  background-color: white;
+  color: black;
+  border: 3px solid #C8F526;
+}
+/* line 101, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page #inVision-button:hover {
+  background-color: #C8F526;
+}
+/* line 112, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page .mockups {
+  margin-top: 3.5rem;
+}
+/* line 115, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page .mockups p {
+  margin-bottom: 2rem;
+}
+/* line 121, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page .mockups img {
+  width: 37%;
+  border: 1px solid #CCCCCC;
+  vertical-align: top;
+}
+/* line 128, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page #map-mock {
+  position: absolute;
+  z-index: -1;
+  margin-top: 5%;
+  box-shadow: 2px 2px 1px #CCCCCC;
+}
+/* line 137, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page #list-mock {
+  margin-left: 20%;
+  margin-top: 50%;
+  box-shadow: 5px 5px 3px #CCCCCC;
+}
+/* line 144, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page #profile-mock {
+  float: right;
+  box-shadow: 2px 2px 1px #CCCCCC;
+}

@@ -214,7 +214,7 @@
         <div class= "map-and-stories row">
 
           <div class= "user-stories small-12 large-5 columns">
-            <h4 class= "sub-sect-init">User Stories</h4>
+            <h4 class= "sub-sect-init">user stories</h4>
             <p>As a user...</p>
             <ul>
               <li>I want to view food trucks near me on a map.</li>
@@ -229,22 +229,28 @@
           </div>
 
           <div class= "appmap small-12 large-7 columns">
-            <h4 class= "sub-sect-init">App map</h4>
+            <h4 class= "sub-sect-init">app map</h4>
             <img src= "img/proj-paycrave/appmap.jpg">
           </div>
         </div>
 
 
-          <!-- <div class= "wireframes row">
-            <h4 class= "sub-sect-init" id= "wireframes-title">Creating Wireframes</h4>
-          
-            <div class= "small-12 large-9 columns">
-              <img src= "img/proj-paycrave/wireframe-clump.jpg">
-            </div>
-            <div class= "small-12 large-3 columns">
-              <p>I wireframed each page and demonstrated their behavior by linking them in InVision. I then observed as users clicked through the linked wireframes and sent out another survey asking participants for feedback as they  performed the different user stories.</p>
+          <div class= "wireframes row">
+            <h4 id= "wireframes-title">creating wireframes</h4>
+
+            <!-- <div class= "small-12 large-3 columns">
+            <p>I wireframed each page and demonstrated their behavior by linking them in InVision. I then observed as users clicked through the linked wireframes and sent out another survey asking participants for feedback as they  performed the different user stories.</p>
           </div>
-        </div> -->
+
+            <div class= "small-12 large-9 columns">
+              <img id= "#usability-img" src= "img/proj-paycrave/wireframes.jpg">
+            </div> -->
+          
+
+
+          <p>After determining the layout and flow of Paycrave, I began making some low-fidelity wireframes to map out the layout and behavior of each page.</p>
+            
+        </div>
 
       </div>
     </div>
@@ -252,14 +258,7 @@
 
 
 
-       
-
-
-
-
-
-
-
+    
 
 <!--    usability etc -->
 
@@ -270,7 +269,7 @@
 
         <div class= "row">
           <div class= "small-12 large-3 columns">
-            <p>I wireframed each page and demonstrated their behavior by linking them in InVision. I then observed as users clicked through the linked wireframes and sent out another survey asking participants for feedback as they  performed the different user stories.</p>
+            <p id= "wireframe-text">I wireframed each page and demonstrated their behavior by linking them in InVision. I then observed as users clicked through the linked wireframes and sent out another survey asking participants for feedback as they  performed the different user stories.</p>
           </div>
 
             <div class= "small-12 large-9 columns">
@@ -281,11 +280,37 @@
 
 
 
-        <h2 id= "inVision-test">Test out my linked Wireframes</h2>
-       <iframe width="438" height="930" src="//invis.io/AK5C05BPT" frameborder="0" allowfullscreen></iframe>
+        <h4 class= "sub-sect-init" id= "inVision-test">taking user feedback into consideration</h4>
+        <p>After observing users click through Paycrave and receiving feedback from my usability survey, I further refined my wireframes. One main change I made was to modify each page to make obvious which pages scroll and which pages do not scroll. Check out the final version of my clickable wireframes in inVision below. </p>
+
+        <a class= "large button" target= "_blank" href= "https://invis.io/JV3D74E4U" id= "inVision-button">clickable wireframes</a>
+      
 
       </div>
     </div>
+
+
+
+    <!--  mockups  -->
+
+    <div class= "mockups row">
+      <div class= "content-columns">
+
+      <h2>Creating the Final Look</h2>
+      <p>The final step was choosing a color scheme and putting on the details.</p>
+
+      <img id= "map-mock" src= "img/proj-paycrave/map-view-mock.jpg">
+      <img id= "list-mock" src= "img/proj-paycrave/list-view-mock.jpg">
+      <img id= "profile-mock" src= "img/proj-paycrave/truck-profile-mock.jpg">
+
+
+      </div>
+    </div>
+
+
+
+
+
 
 
 
@@ -321,9 +346,9 @@
             
             var pMarginTop = wireframeHeight/2 - pHeight/2 - 20;
 
-            $('.usability p').css("margin-top", pMarginTop);
+            $('#wireframe-text').css("margin-top", pMarginTop);
           } else{
-          $('.usability p').css("margin-top", "1rem");
+          $('#wireframe-text').css("margin-top", "1rem");
         }
       }
 
