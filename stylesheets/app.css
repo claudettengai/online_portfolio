@@ -11962,6 +11962,18 @@ h3 {
   margin-top: 5.5rem;
   margin-bottom: 2rem;
 }
+/* line 20, ../scss/proj_paycrave/_analyze-data.scss */
+#project-paycrave-page #analytics-button {
+  background-color: white;
+  border: 3px solid #C8F526;
+  color: black;
+  font-size: 18px;
+  font-family: "Varela";
+}
+/* line 27, ../scss/proj_paycrave/_analyze-data.scss */
+#project-paycrave-page #analytics-button:hover {
+  background-color: #C8F526;
+}
 
 /* line 4, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
 #project-paycrave-page #title {
