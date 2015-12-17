@@ -105,24 +105,194 @@
 
     <div class= "summary row">
       <div class= "content-columns">
-<!--         <h2 class= "section-title">Summary</h2>
- -->        <div class= "row">
-          <div class= "small-12 medium-8 xlarge-8 columns">
-            <h2 class= "section-title">Summary</h2>
-            <p>Paycrave is a mobile app designed to allow food truck fans to locate, discover, rate, review and purchase from nearby food trucks. </p>
+        <img id= "phone-mock" class= "hide-for-small-only" src= "img/proj-paycrave/phone-mock.png">
+        <h2 class= "section-title" id= "summary-title">Summary</h2>
+        <p>Paycrave is a mobile app designed to allow food truck fans to locate, review and purchase menu items from nearby food trucks. I started this project with extensive research followed by an iterative process of designing and redesigning based on usability testing. </p>
+
+        <img id= "phone-mock" class= "show-for-small-only" src= "img/proj-paycrave/phone-mock.png">
+        <h2 id= "competition-title" class= "section-title">Checking out the Competition</h2>
+        <p>The first step was to find out what mobile apps already exist and are successful in the foodspace. I looked at direct competition (other food truck apps) as well as individual features from other apps related to food.</p>
+
+        <div class= "comp-logos row">
+          <img src= "img/proj-paycrave/comp-logo1.jpg">
+          <img src= "img/proj-paycrave/comp-logo2.jpg">
+          <img src= "img/proj-paycrave/comp-logo3.jpg">
+          <img src= "img/proj-paycrave/comp-logo4.jpg">
+          <img src= "img/proj-paycrave/comp-logo5.jpg">
+        </div>
+
+        <div class = "research-eg row">
+          <div class = "small-12 medium-6 columns">
+            <img id= "research-guide" src= "img/proj-paycrave/research_guide.jpg">
           </div>
-          <div class= "small-6 small-centered medium-4 medium-offset-8 xlarge-4 xlarge-offset-8 columns">
-            <img id= "phone-mock" src= "img/proj-paycrave/phone-mock.png">
+
+          <div class= "small-12 medium-6 columns">
+            <img src= "img/proj-paycrave/research-egs.jpg">
           </div>
         </div>
 
-        <div class= "competition">
+        <div class= "why-food-apps sub-sect-init">
+          <h4>what are food apps mainly used for?</h4>
+          <ol>
+            <li><strong>Locating</strong> places to eat.</li>
+            <li><strong>Discovering</strong> places to eat.</li>
+            <li><strong>Ordering</strong> food for delivery or pick up.</li>
+          </ol>
+        </div>
 
-          <h2 class= "section-title">Checking out the Competition</h2>
-          <p>The first step was to find out what already exists and is successful in the foodspace. I looked at direct competition (other food truck apps) as well as other food-related apps that might have features that I wanted to include in Paycrave.</p>
+        <div class= "trends sub-sect-init">
+          <h4>observations and trends: reading user reviews, checking updates</h4>
+          <ol>
+            <li>Users prefer <strong>simpler apps</strong> that perform fewer tasks to those that perform many but focus on none.</li>
+            <li>Users prefer <strong>scrolling over clicking</strong> through multiple pages.</li>
+            <li>Users want to keep a <strong>record of past activity</strong></li>
+            <li>On a practical level, until it becomes popular amongst a large vendor base, the app's functionality and aesthetic <strong>should not rely too heavily on pictures</strong>. </li>
+          </ol>
+
+        </div>
+
+
+        <div class= "sub-sect-init conclusion?">
+          <h4>what does this mean for me?</h4>
+          <p>Paycrave should be designed around fulfilling only one or two main uses. Other tasks should be designed as if they were convenient additional features. The aesthetic layout of the app should be simple, clear and unambiguously function-centered. Paycrave should also be designed to cultivate a continuing relationship with the user; it should retain information that makes each progressive use of the app easier and more enjoyable for the user. </p>
         </div>
       </div>
     </div>
+
+
+
+    <!-- picture break 1 -->
+    <div id= "divider-pic1">
+      <div class= "image-clip-before"></div>
+      <div class= "image-clip"></div>
+      <div class= "image-clip-after"></div>
+    </div>
+
+
+
+
+
+<!--     user and analyze data -->
+
+    <div class= "data-analyze row">
+      <div class= "content-columns">
+       
+        <h2 id= "understanding-user">Understanding the User: User Surveys</h2>
+        <p>The next step was to figure out who was likely to use a mobile app for food trucks, and what they would want to be able to use it for. I sent out a <a href= "https://docs.google.com/forms/d/1xqz3QyNLNvn0Mc8trJQUhNOiDJX7J-d6Q_63rhmbM5s/viewform">survey</a> to collect this information.</p>
+        <img id= "data1" src= "img/proj-paycrave/user-survey.jpg">
+
+        <h2 id= "analyzing-results">Analyzing Results and Forming a Vision</h2>
+        <h4>who would use Paycrave?</h4>
+        <p>The survey indicated that the most likely user of a mobile food-truck app were professionals between the ages of 25 - 50 who worked in a city and walk 15 minutes to grab lunch or dinner a couple times a week.</p>
+
+        <h4 class= "sub-sect-init">how would they use Paycrave?</h4>
+
+        <div class= "analyze-results row">
+          <div class= "small-12 large-8 columns">
+            <img src= "img/proj-paycrave/analyze1.png">
+          </div>
+          <div class= "small-12 large-4 columns">
+            <p>The survey indicated that users would more commonly use a food-truck app for on-the-spot decision making than for planning for future meals even though the majority of people would use the app for both tasks at one point or another. Ability to discover and locate places to eat were valued significantly higher than the ability to order food. Quality of food, by far, was the most important determining factor when deciding where to eat. </p>
+        </div>
+      </div>
+
+      <h4 class= "sub-sect-init">translating data into a product</h4>
+      <p>My results tell me that users want an app that would allow them to locate nearby trucks with enough information upon first glance to choose which trucks sound appealing. One more click will show them reviews and general information, and another click away shows them the menu list with prices. As a secondary feature, another couple clicks would allow the user to purchase food for pickup. Because most likely the user will be using Paycrave only a couple minutes before heading out to find food, the default screen will be a real-time map of nearby trucks; the screen can be toggled to show nearby trucks in a list organized by proximity. Becuase quality was rated by far the most important decision-making determinant, ratings and reviews are highlighted features. Ratings are shown immediately on a selected truck in the default map view, and are shown on the list view underneath each truck name. Reviews are dropped right on the truck’s profile page. While Paycrave allows the user to perform a multitude of other tasks and keeps a record of all activity, these capabilities are very slightly more embedded and do not obstruct the user flow for someone trying to make an immediate decision about where to eat. Paycrave is directly split into two basic halves. Its default half, and main purpose, is to allow users to <strong>locate</strong> and <strong>discover</strong> nearby food trucks. The second half of the app is a record of all the user's account information and past activities where they can edit payment information or edit past reviews etc. </p>
+
+      </div>
+    </div>
+
+    
+
+<!--    site map wireframes etc -->
+
+    <div class= "map row">
+      <div class= "content-columns">
+       
+        <h2 id= "title">Planning and Execution</h2>
+
+        <div class= "map-and-stories row">
+
+          <div class= "user-stories small-12 large-5 columns">
+            <h4 class= "sub-sect-init">User Stories</h4>
+            <p>As a user...</p>
+            <ul>
+              <li>I want to view food trucks near me on a map.</li>
+              <li>I want to view food trucks near me in a list.</li>
+              <li> I want to select a truck, view details and see a menu.</li>
+              <li>I want to be able to search for my favorite truck.</li>
+              <li>I want to create an account and view recent transactions.</li>
+              <li> I want to choose items and pay for them using my phone.</li>
+              <li>I want to rate and review a food truck and view other ratings and reviews.</li>
+              <li> I want to mark my favorite food trucks.</li>
+            </ul>
+          </div>
+
+          <div class= "appmap small-12 large-7 columns">
+            <h4 class= "sub-sect-init">App map</h4>
+            <img src= "img/proj-paycrave/appmap.jpg">
+          </div>
+        </div>
+
+
+          <!-- <div class= "wireframes row">
+            <h4 class= "sub-sect-init" id= "wireframes-title">Creating Wireframes</h4>
+          
+            <div class= "small-12 large-9 columns">
+              <img src= "img/proj-paycrave/wireframe-clump.jpg">
+            </div>
+            <div class= "small-12 large-3 columns">
+              <p>I wireframed each page and demonstrated their behavior by linking them in InVision. I then observed as users clicked through the linked wireframes and sent out another survey asking participants for feedback as they  performed the different user stories.</p>
+          </div>
+        </div> -->
+
+      </div>
+    </div>
+ 
+
+
+
+       
+
+
+
+
+
+
+
+
+<!--    usability etc -->
+
+    <div class= "usability row">
+      <div class= "content-columns">
+       
+        <h2 id= "usability-title">Testing Usability with High- Fidelity Wireframes </h2>
+
+        <div class= "row">
+          <div class= "small-12 large-3 columns">
+            <p>I wireframed each page and demonstrated their behavior by linking them in InVision. I then observed as users clicked through the linked wireframes and sent out another survey asking participants for feedback as they  performed the different user stories.</p>
+          </div>
+
+            <div class= "small-12 large-9 columns">
+              <img id= "#usability-img" src= "img/proj-paycrave/wireframes.jpg">
+            </div>
+        </div>
+
+
+
+
+        <h2 id= "inVision-test">Test out my linked Wireframes</h2>
+       <iframe width="438" height="930" src="//invis.io/AK5C05BPT" frameborder="0" allowfullscreen></iframe>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
 
 
 
@@ -140,6 +310,30 @@
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/foundation/js/foundation.min.js"></script>
   <script src="js/app.js"></script>
+
+  <script>
+        function pAlign(){
+          if ($(window).width() >= 1024){
+            var wireframeHeight= $('.usability img').height();
+           
+
+            var pHeight= $(".usability p").height();
+            
+            var pMarginTop = wireframeHeight/2 - pHeight/2 - 20;
+
+            $('.usability p').css("margin-top", pMarginTop);
+          } else{
+          $('.usability p').css("margin-top", "1rem");
+        }
+      }
+
+        pAlign();
+
+        $(window).resize(pAlign);
+
+
+
+  </script>
 
   </body>
 </html>

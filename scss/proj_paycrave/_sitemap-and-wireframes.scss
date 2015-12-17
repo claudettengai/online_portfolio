@@ -1,0 +1,106 @@
+#project-paycrave-page{
+//////////////////////////////////////
+
+#title{
+	margin-top: 4rem;
+}
+
+
+.appmap img{
+	border: 1px solid #808080;
+}
+
+.appmap,
+.user-stories{
+	h4{
+		// margin-bottom: 2rem;
+		margin-top: 2rem;
+	}
+
+	ul{
+		margin-top: 0.5rem;
+
+	}
+}
+
+
+.user-stories{
+	ul{ 
+		padding-right: 1.5rem;
+	}
+}
+
+
+
+
+
+.user-stories ul{
+	li{
+		list-style-type: none;
+	}
+	li::before{
+		content: "";
+	    border-color: transparent $lime-green;
+	    border-style: solid;
+	    border-width: 0.4rem 0 0.4rem 0.8rem;
+	    display: block;
+	    height: 0;
+	    width: 0;
+	    left: -2rem;
+	    top: $paragraph-font-size + 0.24;
+	    position: relative;
+	    margin: 0rem;
+	    transform: rotate(15deg);
+
+	}
+
+	@for $i from 2 through 3 {
+			li:nth-child(#{$i})::before { 
+			transform: rotate($i * 45deg); 
+			}
+		 }
+}
+
+
+//////wireframes///////
+
+
+// .wireframes{
+// 	margin-top: 4rem;
+
+
+// }
+
+// #wireframes-title{
+// 	margin-bottom: 2rem;
+// }
+
+
+
+//////////usability////////
+
+
+.usability{
+	h2{
+		margin-top: 4rem;
+	}
+
+	p{
+		margin-bottom: 1.5rem;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////
+
+}

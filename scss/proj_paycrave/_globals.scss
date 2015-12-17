@@ -11,8 +11,81 @@
 }
 
 h2.section-title{
-	margin: auto auto 1rem auto;
+	margin: 2.5rem auto 1rem auto;
 }
+
+
+
+
+.sub-sect-init{
+	margin-top: 3.8rem;
+	h4{
+		margin-bottom:1rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/// divider img
+#divider-pic1{
+	background: url("../img/proj-paycrave/divider-pic1.jpg") top left;
+	background-attachment: fixed;
+	margin: 20vh 0 20vh 0;
+
+	@media #{$xlarge-up}{
+		background-size: cover;
+	}
+
+}
+
+
+
+
+.image-clip{
+	height:45vh;
+	width: 100%;
+	background-color: transparent;
+}
+
+
+.image-clip-before{
+	background-color: white;
+	width: 100%;
+	display: block;
+	-webkit-clip-path: polygon(0 0, 100% 0, 0 100%);
+	border: 5px solid white;
+	margin-top: -10vh;
+	height: 15vh;
+}
+
+
+.image-clip-after{
+	background-color: white;
+	width: 100%;
+	display: block;
+	-webkit-clip-path: polygon(0 100%, 100% 0, 100% 101%);
+	border: 5px solid white;
+	margin-top: -5vh;
+	height: 15vh;
+
+}
+
+
+
+
+
+
+
+
 
 
 
