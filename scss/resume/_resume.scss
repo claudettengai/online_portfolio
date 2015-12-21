@@ -1,0 +1,142 @@
+#resume{
+/////////
+
+.content-columns{
+  @extend .small-offset-0, .medium-10, .medium-offset-1, .xlarge-offset-0, .xlarge-12, .columns, .small-indent;
+  @media #{$small-only}{
+  	margin-left: 2% !important;
+  }
+}
+
+.main-content{
+	margin-top:5vh;
+}
+
+h3{
+	margin-bottom: 0.5rem;
+	margin-top: 5vh;
+}
+
+
+// p{
+// 	font-size: 1.1rem; 
+
+// }
+
+
+
+.text-bold{
+	font-weight: 600;
+	margin-bottom: 0;
+	// font-family: "Varela";
+	// font-size: 1.1rem;
+
+}
+
+
+.bold-right{
+	@extend .text-bold;
+	text-align: right;
+}
+.resume-sect{
+	padding-top: 2rem;
+	h5{
+		border-bottom: 4px solid $lime-green;
+		margin-bottom: 1rem;
+		padding-bottom: 0.3rem;
+		// font-size: 1.24rem;
+		// font-weight: 500;
+		// font-family: $paragraph-font-family;
+	}
+}
+
+
+
+.pre-head{
+	width: 100%;
+	// height: 1vh;
+	// position: absolute;
+	background-color: $lime-green;
+
+}
+
+#resume-head{
+	height: 18vh;
+	background: url("../img/triangle-bottom-medium2.jpg");
+	background-attachment: fixed;
+	-webkit-clip-path: polygon(0 0%, 100% 0%, 100% 0%, 0% 100%);
+	background-size: cover;
+	background-position: 0% 10%;
+}
+
+#download-PDF{
+	float: right;
+	font-family: "Varela";
+	font-size: $h5-font-size;
+	color: black; 
+	background-color: transparent;
+	border: 4px solid $lime-green;
+	margin-top: -10vh;
+	margin-right: 4rem;
+
+	&:hover{
+		background-color: $lime-green;
+	}
+
+}
+
+
+
+.head-text{
+	font-family: "Varela";
+	margin-bottom: 0.3rem;
+
+}
+
+
+.bullet{
+	@extend .head-text;
+	padding: 0 0.3rem;
+}
+
+
+
+
+.experience{
+	.bold-right{
+		@media #{$small-only}{
+			text-align: left;
+		}		
+	}
+
+	p{
+		margin-bottom:0;
+	}
+
+	.bullet-list ul{
+		margin-left: 5rem;
+
+		@media #{$small-only}{
+			margin-left: 1rem;
+		}
+	}
+	
+
+
+}
+
+
+.FE-UX,
+.FE-biz-dev,
+.line-cook,
+.jane-norman{
+	// margin-bottom: 1rem;
+}
+
+
+
+
+
+
+//////////////
+}

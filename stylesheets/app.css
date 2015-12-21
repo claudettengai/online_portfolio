@@ -202,7 +202,8 @@ select {
 .row.collapse > .column,
 .row.collapse > .columns,
 #project-fe-page .row.collapse > .content-columns,
-#project-paycrave-page .row.collapse > .content-columns {
+#project-paycrave-page .row.collapse > .content-columns,
+#resume .row.collapse > .content-columns {
   padding-left: 0;
   padding-right: 0;
 }
@@ -246,7 +247,8 @@ select {
 .column,
 .columns,
 #project-fe-page .content-columns,
-#project-paycrave-page .content-columns {
+#project-paycrave-page .content-columns,
+#resume .content-columns {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
@@ -257,36 +259,46 @@ select {
 .column + .column:last-child,
 .columns + .column:last-child,
 #project-fe-page .content-columns + .column:last-child,
-#project-paycrave-page .content-columns + .column:last-child, .column +
-.columns:last-child, #project-fe-page .column + .content-columns:last-child, #project-paycrave-page .column + .content-columns:last-child,
+#project-paycrave-page .content-columns + .column:last-child,
+#resume .content-columns + .column:last-child, .column +
+.columns:last-child, #project-fe-page .column + .content-columns:last-child, #project-paycrave-page .column + .content-columns:last-child, #resume .column + .content-columns:last-child,
 .columns +
 .columns:last-child,
 #project-fe-page .content-columns +
 .columns:last-child,
 #project-paycrave-page .content-columns +
 .columns:last-child,
+#resume .content-columns +
+.columns:last-child,
 #project-fe-page .columns + .content-columns:last-child,
 #project-fe-page .content-columns + .content-columns:last-child,
 #project-paycrave-page .columns + .content-columns:last-child,
-#project-paycrave-page .content-columns + .content-columns:last-child {
+#project-paycrave-page .content-columns + .content-columns:last-child,
+#resume .columns + .content-columns:last-child,
+#resume .content-columns + .content-columns:last-child {
   float: right;
 }
 /* line 251, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .column + .column.end,
 .columns + .column.end,
 #project-fe-page .content-columns + .column.end,
-#project-paycrave-page .content-columns + .column.end, .column +
-.columns.end, #project-fe-page .column + .end.content-columns, #project-paycrave-page .column + .end.content-columns,
+#project-paycrave-page .content-columns + .column.end,
+#resume .content-columns + .column.end, .column +
+.columns.end, #project-fe-page .column + .end.content-columns, #project-paycrave-page .column + .end.content-columns, #resume .column + .end.content-columns,
 .columns +
 .columns.end,
 #project-fe-page .content-columns +
 .columns.end,
 #project-paycrave-page .content-columns +
 .columns.end,
+#resume .content-columns +
+.columns.end,
 #project-fe-page .columns + .end.content-columns,
 #project-fe-page .content-columns + .end.content-columns,
 #project-paycrave-page .columns + .end.content-columns,
-#project-paycrave-page .content-columns + .end.content-columns {
+#project-paycrave-page .content-columns + .end.content-columns,
+#resume .columns + .end.content-columns,
+#resume .content-columns + .end.content-columns {
   float: left;
 }
 
@@ -463,7 +475,8 @@ select {
   .column,
   .columns,
   #project-fe-page .content-columns,
-  #project-paycrave-page .content-columns {
+  #project-paycrave-page .content-columns,
+  #resume .content-columns {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -531,7 +544,7 @@ select {
   }
 
   /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .small-offset-0, #project-fe-page .content-columns, #project-paycrave-page .content-columns {
+  .small-offset-0, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
     margin-left: 0 !important;
   }
 
@@ -603,7 +616,8 @@ select {
   .column.small-centered,
   .columns.small-centered,
   #project-fe-page .small-centered.content-columns,
-  #project-paycrave-page .small-centered.content-columns {
+  #project-paycrave-page .small-centered.content-columns,
+  #resume .small-centered.content-columns {
     margin-left: auto;
     margin-right: auto;
     float: none;
@@ -613,7 +627,8 @@ select {
   .column.small-uncentered,
   .columns.small-uncentered,
   #project-fe-page .small-uncentered.content-columns,
-  #project-paycrave-page .small-uncentered.content-columns {
+  #project-paycrave-page .small-uncentered.content-columns,
+  #resume .small-uncentered.content-columns {
     float: left;
     margin-left: 0;
     margin-right: 0;
@@ -623,7 +638,8 @@ select {
   .column.small-centered:last-child,
   .columns.small-centered:last-child,
   #project-fe-page .small-centered.content-columns:last-child,
-  #project-paycrave-page .small-centered.content-columns:last-child {
+  #project-paycrave-page .small-centered.content-columns:last-child,
+  #resume .small-centered.content-columns:last-child {
     float: none;
   }
 
@@ -631,7 +647,8 @@ select {
   .column.small-uncentered:last-child,
   .columns.small-uncentered:last-child,
   #project-fe-page .small-uncentered.content-columns:last-child,
-  #project-paycrave-page .small-uncentered.content-columns:last-child {
+  #project-paycrave-page .small-uncentered.content-columns:last-child,
+  #resume .small-uncentered.content-columns:last-child {
     float: left;
   }
 
@@ -639,7 +656,8 @@ select {
   .column.small-uncentered.opposite,
   .columns.small-uncentered.opposite,
   #project-fe-page .small-uncentered.opposite.content-columns,
-  #project-paycrave-page .small-uncentered.opposite.content-columns {
+  #project-paycrave-page .small-uncentered.opposite.content-columns,
+  #resume .small-uncentered.opposite.content-columns {
     float: right;
   }
 
@@ -647,7 +665,8 @@ select {
   .row.small-collapse > .column,
   .row.small-collapse > .columns,
   #project-fe-page .row.small-collapse > .content-columns,
-  #project-paycrave-page .row.small-collapse > .content-columns {
+  #project-paycrave-page .row.small-collapse > .content-columns,
+  #resume .row.small-collapse > .content-columns {
     padding-left: 0;
     padding-right: 0;
   }
@@ -660,7 +679,8 @@ select {
   .row.small-uncollapse > .column,
   .row.small-uncollapse > .columns,
   #project-fe-page .row.small-uncollapse > .content-columns,
-  #project-paycrave-page .row.small-uncollapse > .content-columns {
+  #project-paycrave-page .row.small-uncollapse > .content-columns,
+  #resume .row.small-uncollapse > .content-columns {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     float: left;
@@ -839,7 +859,8 @@ select {
   .column,
   .columns,
   #project-fe-page .content-columns,
-  #project-paycrave-page .content-columns {
+  #project-paycrave-page .content-columns,
+  #resume .content-columns {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -892,7 +913,7 @@ select {
   }
 
   /* line 168, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .medium-10, #project-fe-page .content-columns, #project-paycrave-page .content-columns {
+  .medium-10, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
     width: 83.33333%;
   }
 
@@ -912,7 +933,7 @@ select {
   }
 
   /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .medium-offset-1, #project-fe-page .content-columns, #project-paycrave-page .content-columns {
+  .medium-offset-1, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
     margin-left: 8.33333% !important;
   }
 
@@ -979,7 +1000,8 @@ select {
   .column.medium-centered,
   .columns.medium-centered,
   #project-fe-page .medium-centered.content-columns,
-  #project-paycrave-page .medium-centered.content-columns {
+  #project-paycrave-page .medium-centered.content-columns,
+  #resume .medium-centered.content-columns {
     margin-left: auto;
     margin-right: auto;
     float: none;
@@ -989,7 +1011,8 @@ select {
   .column.medium-uncentered,
   .columns.medium-uncentered,
   #project-fe-page .medium-uncentered.content-columns,
-  #project-paycrave-page .medium-uncentered.content-columns {
+  #project-paycrave-page .medium-uncentered.content-columns,
+  #resume .medium-uncentered.content-columns {
     float: left;
     margin-left: 0;
     margin-right: 0;
@@ -999,7 +1022,8 @@ select {
   .column.medium-centered:last-child,
   .columns.medium-centered:last-child,
   #project-fe-page .medium-centered.content-columns:last-child,
-  #project-paycrave-page .medium-centered.content-columns:last-child {
+  #project-paycrave-page .medium-centered.content-columns:last-child,
+  #resume .medium-centered.content-columns:last-child {
     float: none;
   }
 
@@ -1007,7 +1031,8 @@ select {
   .column.medium-uncentered:last-child,
   .columns.medium-uncentered:last-child,
   #project-fe-page .medium-uncentered.content-columns:last-child,
-  #project-paycrave-page .medium-uncentered.content-columns:last-child {
+  #project-paycrave-page .medium-uncentered.content-columns:last-child,
+  #resume .medium-uncentered.content-columns:last-child {
     float: left;
   }
 
@@ -1015,7 +1040,8 @@ select {
   .column.medium-uncentered.opposite,
   .columns.medium-uncentered.opposite,
   #project-fe-page .medium-uncentered.opposite.content-columns,
-  #project-paycrave-page .medium-uncentered.opposite.content-columns {
+  #project-paycrave-page .medium-uncentered.opposite.content-columns,
+  #resume .medium-uncentered.opposite.content-columns {
     float: right;
   }
 
@@ -1023,7 +1049,8 @@ select {
   .row.medium-collapse > .column,
   .row.medium-collapse > .columns,
   #project-fe-page .row.medium-collapse > .content-columns,
-  #project-paycrave-page .row.medium-collapse > .content-columns {
+  #project-paycrave-page .row.medium-collapse > .content-columns,
+  #resume .row.medium-collapse > .content-columns {
     padding-left: 0;
     padding-right: 0;
   }
@@ -1036,7 +1063,8 @@ select {
   .row.medium-uncollapse > .column,
   .row.medium-uncollapse > .columns,
   #project-fe-page .row.medium-uncollapse > .content-columns,
-  #project-paycrave-page .row.medium-uncollapse > .content-columns {
+  #project-paycrave-page .row.medium-uncollapse > .content-columns,
+  #resume .row.medium-uncollapse > .content-columns {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     float: left;
@@ -1383,7 +1411,8 @@ select {
   .column,
   .columns,
   #project-fe-page .content-columns,
-  #project-paycrave-page .content-columns {
+  #project-paycrave-page .content-columns,
+  #resume .content-columns {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -1523,7 +1552,8 @@ select {
   .column.large-centered,
   .columns.large-centered,
   #project-fe-page .large-centered.content-columns,
-  #project-paycrave-page .large-centered.content-columns {
+  #project-paycrave-page .large-centered.content-columns,
+  #resume .large-centered.content-columns {
     margin-left: auto;
     margin-right: auto;
     float: none;
@@ -1533,7 +1563,8 @@ select {
   .column.large-uncentered,
   .columns.large-uncentered,
   #project-fe-page .large-uncentered.content-columns,
-  #project-paycrave-page .large-uncentered.content-columns {
+  #project-paycrave-page .large-uncentered.content-columns,
+  #resume .large-uncentered.content-columns {
     float: left;
     margin-left: 0;
     margin-right: 0;
@@ -1543,7 +1574,8 @@ select {
   .column.large-centered:last-child,
   .columns.large-centered:last-child,
   #project-fe-page .large-centered.content-columns:last-child,
-  #project-paycrave-page .large-centered.content-columns:last-child {
+  #project-paycrave-page .large-centered.content-columns:last-child,
+  #resume .large-centered.content-columns:last-child {
     float: none;
   }
 
@@ -1551,7 +1583,8 @@ select {
   .column.large-uncentered:last-child,
   .columns.large-uncentered:last-child,
   #project-fe-page .large-uncentered.content-columns:last-child,
-  #project-paycrave-page .large-uncentered.content-columns:last-child {
+  #project-paycrave-page .large-uncentered.content-columns:last-child,
+  #resume .large-uncentered.content-columns:last-child {
     float: left;
   }
 
@@ -1559,7 +1592,8 @@ select {
   .column.large-uncentered.opposite,
   .columns.large-uncentered.opposite,
   #project-fe-page .large-uncentered.opposite.content-columns,
-  #project-paycrave-page .large-uncentered.opposite.content-columns {
+  #project-paycrave-page .large-uncentered.opposite.content-columns,
+  #resume .large-uncentered.opposite.content-columns {
     float: right;
   }
 
@@ -1567,7 +1601,8 @@ select {
   .row.large-collapse > .column,
   .row.large-collapse > .columns,
   #project-fe-page .row.large-collapse > .content-columns,
-  #project-paycrave-page .row.large-collapse > .content-columns {
+  #project-paycrave-page .row.large-collapse > .content-columns,
+  #resume .row.large-collapse > .content-columns {
     padding-left: 0;
     padding-right: 0;
   }
@@ -1580,7 +1615,8 @@ select {
   .row.large-uncollapse > .column,
   .row.large-uncollapse > .columns,
   #project-fe-page .row.large-uncollapse > .content-columns,
-  #project-paycrave-page .row.large-uncollapse > .content-columns {
+  #project-paycrave-page .row.large-uncollapse > .content-columns,
+  #resume .row.large-uncollapse > .content-columns {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     float: left;
@@ -1927,7 +1963,8 @@ select {
   .column,
   .columns,
   #project-fe-page .content-columns,
-  #project-paycrave-page .content-columns {
+  #project-paycrave-page .content-columns,
+  #resume .content-columns {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -1990,12 +2027,12 @@ select {
   }
 
   /* line 168, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .xlarge-12, #project-fe-page .content-columns, #project-paycrave-page .content-columns {
+  .xlarge-12, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
     width: 100%;
   }
 
   /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .xlarge-offset-0, #project-fe-page .content-columns, #project-paycrave-page .content-columns {
+  .xlarge-offset-0, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
     margin-left: 0 !important;
   }
 
@@ -2067,7 +2104,8 @@ select {
   .column.xlarge-centered,
   .columns.xlarge-centered,
   #project-fe-page .xlarge-centered.content-columns,
-  #project-paycrave-page .xlarge-centered.content-columns {
+  #project-paycrave-page .xlarge-centered.content-columns,
+  #resume .xlarge-centered.content-columns {
     margin-left: auto;
     margin-right: auto;
     float: none;
@@ -2077,7 +2115,8 @@ select {
   .column.xlarge-uncentered,
   .columns.xlarge-uncentered,
   #project-fe-page .xlarge-uncentered.content-columns,
-  #project-paycrave-page .xlarge-uncentered.content-columns {
+  #project-paycrave-page .xlarge-uncentered.content-columns,
+  #resume .xlarge-uncentered.content-columns {
     float: left;
     margin-left: 0;
     margin-right: 0;
@@ -2087,7 +2126,8 @@ select {
   .column.xlarge-centered:last-child,
   .columns.xlarge-centered:last-child,
   #project-fe-page .xlarge-centered.content-columns:last-child,
-  #project-paycrave-page .xlarge-centered.content-columns:last-child {
+  #project-paycrave-page .xlarge-centered.content-columns:last-child,
+  #resume .xlarge-centered.content-columns:last-child {
     float: none;
   }
 
@@ -2095,7 +2135,8 @@ select {
   .column.xlarge-uncentered:last-child,
   .columns.xlarge-uncentered:last-child,
   #project-fe-page .xlarge-uncentered.content-columns:last-child,
-  #project-paycrave-page .xlarge-uncentered.content-columns:last-child {
+  #project-paycrave-page .xlarge-uncentered.content-columns:last-child,
+  #resume .xlarge-uncentered.content-columns:last-child {
     float: left;
   }
 
@@ -2103,7 +2144,8 @@ select {
   .column.xlarge-uncentered.opposite,
   .columns.xlarge-uncentered.opposite,
   #project-fe-page .xlarge-uncentered.opposite.content-columns,
-  #project-paycrave-page .xlarge-uncentered.opposite.content-columns {
+  #project-paycrave-page .xlarge-uncentered.opposite.content-columns,
+  #resume .xlarge-uncentered.opposite.content-columns {
     float: right;
   }
 
@@ -2111,7 +2153,8 @@ select {
   .row.xlarge-collapse > .column,
   .row.xlarge-collapse > .columns,
   #project-fe-page .row.xlarge-collapse > .content-columns,
-  #project-paycrave-page .row.xlarge-collapse > .content-columns {
+  #project-paycrave-page .row.xlarge-collapse > .content-columns,
+  #resume .row.xlarge-collapse > .content-columns {
     padding-left: 0;
     padding-right: 0;
   }
@@ -2124,7 +2167,8 @@ select {
   .row.xlarge-uncollapse > .column,
   .row.xlarge-uncollapse > .columns,
   #project-fe-page .row.xlarge-uncollapse > .content-columns,
-  #project-paycrave-page .row.xlarge-uncollapse > .content-columns {
+  #project-paycrave-page .row.xlarge-uncollapse > .content-columns,
+  #resume .row.xlarge-uncollapse > .content-columns {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     float: left;
@@ -2303,7 +2347,8 @@ select {
   .column,
   .columns,
   #project-fe-page .content-columns,
-  #project-paycrave-page .content-columns {
+  #project-paycrave-page .content-columns,
+  #resume .content-columns {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -2443,7 +2488,8 @@ select {
   .column.xxlarge-centered,
   .columns.xxlarge-centered,
   #project-fe-page .xxlarge-centered.content-columns,
-  #project-paycrave-page .xxlarge-centered.content-columns {
+  #project-paycrave-page .xxlarge-centered.content-columns,
+  #resume .xxlarge-centered.content-columns {
     margin-left: auto;
     margin-right: auto;
     float: none;
@@ -2453,7 +2499,8 @@ select {
   .column.xxlarge-uncentered,
   .columns.xxlarge-uncentered,
   #project-fe-page .xxlarge-uncentered.content-columns,
-  #project-paycrave-page .xxlarge-uncentered.content-columns {
+  #project-paycrave-page .xxlarge-uncentered.content-columns,
+  #resume .xxlarge-uncentered.content-columns {
     float: left;
     margin-left: 0;
     margin-right: 0;
@@ -2463,7 +2510,8 @@ select {
   .column.xxlarge-centered:last-child,
   .columns.xxlarge-centered:last-child,
   #project-fe-page .xxlarge-centered.content-columns:last-child,
-  #project-paycrave-page .xxlarge-centered.content-columns:last-child {
+  #project-paycrave-page .xxlarge-centered.content-columns:last-child,
+  #resume .xxlarge-centered.content-columns:last-child {
     float: none;
   }
 
@@ -2471,7 +2519,8 @@ select {
   .column.xxlarge-uncentered:last-child,
   .columns.xxlarge-uncentered:last-child,
   #project-fe-page .xxlarge-uncentered.content-columns:last-child,
-  #project-paycrave-page .xxlarge-uncentered.content-columns:last-child {
+  #project-paycrave-page .xxlarge-uncentered.content-columns:last-child,
+  #resume .xxlarge-uncentered.content-columns:last-child {
     float: left;
   }
 
@@ -2479,7 +2528,8 @@ select {
   .column.xxlarge-uncentered.opposite,
   .columns.xxlarge-uncentered.opposite,
   #project-fe-page .xxlarge-uncentered.opposite.content-columns,
-  #project-paycrave-page .xxlarge-uncentered.opposite.content-columns {
+  #project-paycrave-page .xxlarge-uncentered.opposite.content-columns,
+  #resume .xxlarge-uncentered.opposite.content-columns {
     float: right;
   }
 
@@ -2487,7 +2537,8 @@ select {
   .row.xxlarge-collapse > .column,
   .row.xxlarge-collapse > .columns,
   #project-fe-page .row.xxlarge-collapse > .content-columns,
-  #project-paycrave-page .row.xxlarge-collapse > .content-columns {
+  #project-paycrave-page .row.xxlarge-collapse > .content-columns,
+  #resume .row.xxlarge-collapse > .content-columns {
     padding-left: 0;
     padding-right: 0;
   }
@@ -2500,7 +2551,8 @@ select {
   .row.xxlarge-uncollapse > .column,
   .row.xxlarge-uncollapse > .columns,
   #project-fe-page .row.xxlarge-uncollapse > .content-columns,
-  #project-paycrave-page .row.xxlarge-uncollapse > .content-columns {
+  #project-paycrave-page .row.xxlarge-uncollapse > .content-columns,
+  #resume .row.xxlarge-uncollapse > .content-columns {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     float: left;
@@ -4816,7 +4868,9 @@ form .row .row .columns,
 form .row .row #project-fe-page .content-columns,
 #project-fe-page form .row .row .content-columns,
 form .row .row #project-paycrave-page .content-columns,
-#project-paycrave-page form .row .row .content-columns {
+#project-paycrave-page form .row .row .content-columns,
+form .row .row #resume .content-columns,
+#resume form .row .row .content-columns {
   padding: 0 0.5rem;
 }
 /* line 98, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -4829,7 +4883,9 @@ form .row .row.collapse .columns,
 form .row .row.collapse #project-fe-page .content-columns,
 #project-fe-page form .row .row.collapse .content-columns,
 form .row .row.collapse #project-paycrave-page .content-columns,
-#project-paycrave-page form .row .row.collapse .content-columns {
+#project-paycrave-page form .row .row.collapse .content-columns,
+form .row .row.collapse #resume .content-columns,
+#resume form .row .row.collapse .content-columns {
   padding: 0;
 }
 /* line 102, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -4846,12 +4902,16 @@ form .row #project-fe-page input.content-columns,
 #project-fe-page form .row input.content-columns,
 form .row #project-paycrave-page input.content-columns,
 #project-paycrave-page form .row input.content-columns,
+form .row #resume input.content-columns,
+#resume form .row input.content-columns,
 form .row textarea.column,
 form .row textarea.columns,
 form .row #project-fe-page textarea.content-columns,
 #project-fe-page form .row textarea.content-columns,
 form .row #project-paycrave-page textarea.content-columns,
-#project-paycrave-page form .row textarea.content-columns {
+#project-paycrave-page form .row textarea.content-columns,
+form .row #resume textarea.content-columns,
+#resume form .row textarea.content-columns {
   padding-left: 0.5rem;
 }
 
@@ -6791,7 +6851,7 @@ ul.pagination li {
   }
 }
 /* line 89, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
-.reveal-modal .column, .reveal-modal .columns, .reveal-modal #project-fe-page .content-columns, #project-fe-page .reveal-modal .content-columns, .reveal-modal #project-paycrave-page .content-columns, #project-paycrave-page .reveal-modal .content-columns {
+.reveal-modal .column, .reveal-modal .columns, .reveal-modal #project-fe-page .content-columns, #project-fe-page .reveal-modal .content-columns, .reveal-modal #project-paycrave-page .content-columns, #project-paycrave-page .reveal-modal .content-columns, .reveal-modal #resume .content-columns, #resume .reveal-modal .content-columns {
   min-width: 0;
 }
 /* line 92, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
@@ -10281,7 +10341,7 @@ th.hide-for-touch {
 }
 @media only screen and (max-width: 40em) {
   /* line 1, ../scss/_global.scss */
-  .small-indent, #project-fe-page .content-columns, #project-paycrave-page .content-columns {
+  .small-indent, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
     margin-left: 4%;
     width: 96%;
   }
@@ -10621,8 +10681,13 @@ h3 {
   display: inline-block;
   text-align: left;
 }
+/* line 45, ../scss/_about.scss */
+.about-me .paragraph2 {
+  margin-top: 1rem;
+  display: inline-block;
+}
 
-/* line 52, ../scss/_about.scss */
+/* line 57, ../scss/_about.scss */
 .triangle-3 {
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
 }
@@ -10739,7 +10804,7 @@ h3 {
   }
 }
 /* line 25, ../scss/proj_fe/_globals.scss */
-#project-fe-page .text-bold {
+#project-fe-page .text-bold, #project-fe-page #resume .bold-right, #resume #project-fe-page .bold-right {
   font-weight: 600;
 }
 /* line 31, ../scss/proj_fe/_globals.scss */
@@ -12073,4 +12138,97 @@ h3 {
 #project-paycrave-page #profile-mock {
   float: right;
   box-shadow: 2px 2px 1px #CCCCCC;
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 4, ../scss/resume/_resume.scss */
+  #resume .content-columns {
+    margin-left: 2% !important;
+  }
+}
+/* line 11, ../scss/resume/_resume.scss */
+#resume .main-content {
+  margin-top: 5vh;
+}
+/* line 15, ../scss/resume/_resume.scss */
+#resume h3 {
+  margin-bottom: 0.5rem;
+  margin-top: 5vh;
+}
+/* line 28, ../scss/resume/_resume.scss */
+#resume .text-bold, #resume .bold-right {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+/* line 37, ../scss/resume/_resume.scss */
+#resume .bold-right {
+  text-align: right;
+}
+/* line 41, ../scss/resume/_resume.scss */
+#resume .resume-sect {
+  padding-top: 2rem;
+}
+/* line 43, ../scss/resume/_resume.scss */
+#resume .resume-sect h5 {
+  border-bottom: 4px solid #C8F526;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+}
+/* line 55, ../scss/resume/_resume.scss */
+#resume .pre-head {
+  width: 100%;
+  background-color: #C8F526;
+}
+/* line 63, ../scss/resume/_resume.scss */
+#resume #resume-head {
+  height: 18vh;
+  background: url("../img/triangle-bottom-medium2.jpg");
+  background-attachment: fixed;
+  -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 0%, 0% 100%);
+  background-size: cover;
+  background-position: 0% 10%;
+}
+/* line 72, ../scss/resume/_resume.scss */
+#resume #download-PDF {
+  float: right;
+  font-family: "Varela";
+  font-size: 1.4375rem;
+  color: black;
+  background-color: transparent;
+  border: 4px solid #C8F526;
+  margin-top: -10vh;
+  margin-right: 4rem;
+}
+/* line 82, ../scss/resume/_resume.scss */
+#resume #download-PDF:hover {
+  background-color: #C8F526;
+}
+/* line 90, ../scss/resume/_resume.scss */
+#resume .head-text, #resume .bullet {
+  font-family: "Varela";
+  margin-bottom: 0.3rem;
+}
+/* line 97, ../scss/resume/_resume.scss */
+#resume .bullet {
+  padding: 0 0.3rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 106, ../scss/resume/_resume.scss */
+  #resume .experience .bold-right {
+    text-align: left;
+  }
+}
+/* line 112, ../scss/resume/_resume.scss */
+#resume .experience p {
+  margin-bottom: 0;
+}
+/* line 116, ../scss/resume/_resume.scss */
+#resume .experience .bullet-list ul {
+  margin-left: 5rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 116, ../scss/resume/_resume.scss */
+  #resume .experience .bullet-list ul {
+    margin-left: 1rem;
+  }
 }
