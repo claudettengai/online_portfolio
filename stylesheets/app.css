@@ -201,6 +201,7 @@ select {
 /* line 232, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .row.collapse > .column,
 .row.collapse > .columns,
+.row.collapse > .content-columns,
 #project-fe-page .row.collapse > .content-columns,
 #project-paycrave-page .row.collapse > .content-columns,
 #resume .row.collapse > .content-columns {
@@ -246,6 +247,7 @@ select {
 /* line 243, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .column,
 .columns,
+.content-columns,
 #project-fe-page .content-columns,
 #project-paycrave-page .content-columns,
 #resume .content-columns {
@@ -258,11 +260,15 @@ select {
 /* line 248, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .column + .column:last-child,
 .columns + .column:last-child,
+.content-columns + .column:last-child,
 #project-fe-page .content-columns + .column:last-child,
 #project-paycrave-page .content-columns + .column:last-child,
 #resume .content-columns + .column:last-child, .column +
-.columns:last-child, #project-fe-page .column + .content-columns:last-child, #project-paycrave-page .column + .content-columns:last-child, #resume .column + .content-columns:last-child,
+.columns:last-child, .column +
+.content-columns:last-child, #project-fe-page .column + .content-columns:last-child, #project-paycrave-page .column + .content-columns:last-child, #resume .column + .content-columns:last-child,
 .columns +
+.columns:last-child,
+.content-columns +
 .columns:last-child,
 #project-fe-page .content-columns +
 .columns:last-child,
@@ -270,6 +276,10 @@ select {
 .columns:last-child,
 #resume .content-columns +
 .columns:last-child,
+.columns +
+.content-columns:last-child,
+.content-columns +
+.content-columns:last-child,
 #project-fe-page .columns + .content-columns:last-child,
 #project-fe-page .content-columns + .content-columns:last-child,
 #project-paycrave-page .columns + .content-columns:last-child,
@@ -281,11 +291,15 @@ select {
 /* line 251, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .column + .column.end,
 .columns + .column.end,
+.content-columns + .column.end,
 #project-fe-page .content-columns + .column.end,
 #project-paycrave-page .content-columns + .column.end,
 #resume .content-columns + .column.end, .column +
-.columns.end, #project-fe-page .column + .end.content-columns, #project-paycrave-page .column + .end.content-columns, #resume .column + .end.content-columns,
+.columns.end, .column +
+.end.content-columns, #project-fe-page .column + .end.content-columns, #project-paycrave-page .column + .end.content-columns, #resume .column + .end.content-columns,
 .columns +
+.columns.end,
+.content-columns +
 .columns.end,
 #project-fe-page .content-columns +
 .columns.end,
@@ -293,6 +307,10 @@ select {
 .columns.end,
 #resume .content-columns +
 .columns.end,
+.columns +
+.end.content-columns,
+.content-columns +
+.end.content-columns,
 #project-fe-page .columns + .end.content-columns,
 #project-fe-page .content-columns + .end.content-columns,
 #project-paycrave-page .columns + .end.content-columns,
@@ -474,6 +492,7 @@ select {
   /* line 163, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column,
   .columns,
+  .content-columns,
   #project-fe-page .content-columns,
   #project-paycrave-page .content-columns,
   #resume .content-columns {
@@ -544,7 +563,7 @@ select {
   }
 
   /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .small-offset-0, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
+  .small-offset-0, .content-columns, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
     margin-left: 0 !important;
   }
 
@@ -615,6 +634,7 @@ select {
   /* line 183, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-centered,
   .columns.small-centered,
+  .small-centered.content-columns,
   #project-fe-page .small-centered.content-columns,
   #project-paycrave-page .small-centered.content-columns,
   #resume .small-centered.content-columns {
@@ -626,6 +646,7 @@ select {
   /* line 186, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-uncentered,
   .columns.small-uncentered,
+  .small-uncentered.content-columns,
   #project-fe-page .small-uncentered.content-columns,
   #project-paycrave-page .small-uncentered.content-columns,
   #resume .small-uncentered.content-columns {
@@ -637,6 +658,7 @@ select {
   /* line 194, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-centered:last-child,
   .columns.small-centered:last-child,
+  .small-centered.content-columns:last-child,
   #project-fe-page .small-centered.content-columns:last-child,
   #project-paycrave-page .small-centered.content-columns:last-child,
   #resume .small-centered.content-columns:last-child {
@@ -646,6 +668,7 @@ select {
   /* line 200, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-uncentered:last-child,
   .columns.small-uncentered:last-child,
+  .small-uncentered.content-columns:last-child,
   #project-fe-page .small-uncentered.content-columns:last-child,
   #project-paycrave-page .small-uncentered.content-columns:last-child,
   #resume .small-uncentered.content-columns:last-child {
@@ -655,6 +678,7 @@ select {
   /* line 205, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-uncentered.opposite,
   .columns.small-uncentered.opposite,
+  .small-uncentered.opposite.content-columns,
   #project-fe-page .small-uncentered.opposite.content-columns,
   #project-paycrave-page .small-uncentered.opposite.content-columns,
   #resume .small-uncentered.opposite.content-columns {
@@ -664,6 +688,7 @@ select {
   /* line 212, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.small-collapse > .column,
   .row.small-collapse > .columns,
+  .row.small-collapse > .content-columns,
   #project-fe-page .row.small-collapse > .content-columns,
   #project-paycrave-page .row.small-collapse > .content-columns,
   #resume .row.small-collapse > .content-columns {
@@ -678,6 +703,7 @@ select {
   /* line 218, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.small-uncollapse > .column,
   .row.small-uncollapse > .columns,
+  .row.small-uncollapse > .content-columns,
   #project-fe-page .row.small-uncollapse > .content-columns,
   #project-paycrave-page .row.small-uncollapse > .content-columns,
   #resume .row.small-uncollapse > .content-columns {
@@ -858,6 +884,7 @@ select {
   /* line 163, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column,
   .columns,
+  .content-columns,
   #project-fe-page .content-columns,
   #project-paycrave-page .content-columns,
   #resume .content-columns {
@@ -913,7 +940,7 @@ select {
   }
 
   /* line 168, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .medium-10, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
+  .medium-10, .content-columns, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
     width: 83.33333%;
   }
 
@@ -933,7 +960,7 @@ select {
   }
 
   /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .medium-offset-1, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
+  .medium-offset-1, .content-columns, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
     margin-left: 8.33333% !important;
   }
 
@@ -999,6 +1026,7 @@ select {
   /* line 183, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-centered,
   .columns.medium-centered,
+  .medium-centered.content-columns,
   #project-fe-page .medium-centered.content-columns,
   #project-paycrave-page .medium-centered.content-columns,
   #resume .medium-centered.content-columns {
@@ -1010,6 +1038,7 @@ select {
   /* line 186, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-uncentered,
   .columns.medium-uncentered,
+  .medium-uncentered.content-columns,
   #project-fe-page .medium-uncentered.content-columns,
   #project-paycrave-page .medium-uncentered.content-columns,
   #resume .medium-uncentered.content-columns {
@@ -1021,6 +1050,7 @@ select {
   /* line 194, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-centered:last-child,
   .columns.medium-centered:last-child,
+  .medium-centered.content-columns:last-child,
   #project-fe-page .medium-centered.content-columns:last-child,
   #project-paycrave-page .medium-centered.content-columns:last-child,
   #resume .medium-centered.content-columns:last-child {
@@ -1030,6 +1060,7 @@ select {
   /* line 200, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-uncentered:last-child,
   .columns.medium-uncentered:last-child,
+  .medium-uncentered.content-columns:last-child,
   #project-fe-page .medium-uncentered.content-columns:last-child,
   #project-paycrave-page .medium-uncentered.content-columns:last-child,
   #resume .medium-uncentered.content-columns:last-child {
@@ -1039,6 +1070,7 @@ select {
   /* line 205, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-uncentered.opposite,
   .columns.medium-uncentered.opposite,
+  .medium-uncentered.opposite.content-columns,
   #project-fe-page .medium-uncentered.opposite.content-columns,
   #project-paycrave-page .medium-uncentered.opposite.content-columns,
   #resume .medium-uncentered.opposite.content-columns {
@@ -1048,6 +1080,7 @@ select {
   /* line 212, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.medium-collapse > .column,
   .row.medium-collapse > .columns,
+  .row.medium-collapse > .content-columns,
   #project-fe-page .row.medium-collapse > .content-columns,
   #project-paycrave-page .row.medium-collapse > .content-columns,
   #resume .row.medium-collapse > .content-columns {
@@ -1062,6 +1095,7 @@ select {
   /* line 218, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.medium-uncollapse > .column,
   .row.medium-uncollapse > .columns,
+  .row.medium-uncollapse > .content-columns,
   #project-fe-page .row.medium-uncollapse > .content-columns,
   #project-paycrave-page .row.medium-uncollapse > .content-columns,
   #resume .row.medium-uncollapse > .content-columns {
@@ -1410,6 +1444,7 @@ select {
   /* line 163, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column,
   .columns,
+  .content-columns,
   #project-fe-page .content-columns,
   #project-paycrave-page .content-columns,
   #resume .content-columns {
@@ -1551,6 +1586,7 @@ select {
   /* line 183, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-centered,
   .columns.large-centered,
+  .large-centered.content-columns,
   #project-fe-page .large-centered.content-columns,
   #project-paycrave-page .large-centered.content-columns,
   #resume .large-centered.content-columns {
@@ -1562,6 +1598,7 @@ select {
   /* line 186, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-uncentered,
   .columns.large-uncentered,
+  .large-uncentered.content-columns,
   #project-fe-page .large-uncentered.content-columns,
   #project-paycrave-page .large-uncentered.content-columns,
   #resume .large-uncentered.content-columns {
@@ -1573,6 +1610,7 @@ select {
   /* line 194, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-centered:last-child,
   .columns.large-centered:last-child,
+  .large-centered.content-columns:last-child,
   #project-fe-page .large-centered.content-columns:last-child,
   #project-paycrave-page .large-centered.content-columns:last-child,
   #resume .large-centered.content-columns:last-child {
@@ -1582,6 +1620,7 @@ select {
   /* line 200, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-uncentered:last-child,
   .columns.large-uncentered:last-child,
+  .large-uncentered.content-columns:last-child,
   #project-fe-page .large-uncentered.content-columns:last-child,
   #project-paycrave-page .large-uncentered.content-columns:last-child,
   #resume .large-uncentered.content-columns:last-child {
@@ -1591,6 +1630,7 @@ select {
   /* line 205, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-uncentered.opposite,
   .columns.large-uncentered.opposite,
+  .large-uncentered.opposite.content-columns,
   #project-fe-page .large-uncentered.opposite.content-columns,
   #project-paycrave-page .large-uncentered.opposite.content-columns,
   #resume .large-uncentered.opposite.content-columns {
@@ -1600,6 +1640,7 @@ select {
   /* line 212, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.large-collapse > .column,
   .row.large-collapse > .columns,
+  .row.large-collapse > .content-columns,
   #project-fe-page .row.large-collapse > .content-columns,
   #project-paycrave-page .row.large-collapse > .content-columns,
   #resume .row.large-collapse > .content-columns {
@@ -1614,6 +1655,7 @@ select {
   /* line 218, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.large-uncollapse > .column,
   .row.large-uncollapse > .columns,
+  .row.large-uncollapse > .content-columns,
   #project-fe-page .row.large-uncollapse > .content-columns,
   #project-paycrave-page .row.large-uncollapse > .content-columns,
   #resume .row.large-uncollapse > .content-columns {
@@ -1962,6 +2004,7 @@ select {
   /* line 163, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column,
   .columns,
+  .content-columns,
   #project-fe-page .content-columns,
   #project-paycrave-page .content-columns,
   #resume .content-columns {
@@ -2027,12 +2070,12 @@ select {
   }
 
   /* line 168, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .xlarge-12, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
+  .xlarge-12, .content-columns, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
     width: 100%;
   }
 
   /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .xlarge-offset-0, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
+  .xlarge-offset-0, .content-columns, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
     margin-left: 0 !important;
   }
 
@@ -2103,6 +2146,7 @@ select {
   /* line 183, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xlarge-centered,
   .columns.xlarge-centered,
+  .xlarge-centered.content-columns,
   #project-fe-page .xlarge-centered.content-columns,
   #project-paycrave-page .xlarge-centered.content-columns,
   #resume .xlarge-centered.content-columns {
@@ -2114,6 +2158,7 @@ select {
   /* line 186, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xlarge-uncentered,
   .columns.xlarge-uncentered,
+  .xlarge-uncentered.content-columns,
   #project-fe-page .xlarge-uncentered.content-columns,
   #project-paycrave-page .xlarge-uncentered.content-columns,
   #resume .xlarge-uncentered.content-columns {
@@ -2125,6 +2170,7 @@ select {
   /* line 194, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xlarge-centered:last-child,
   .columns.xlarge-centered:last-child,
+  .xlarge-centered.content-columns:last-child,
   #project-fe-page .xlarge-centered.content-columns:last-child,
   #project-paycrave-page .xlarge-centered.content-columns:last-child,
   #resume .xlarge-centered.content-columns:last-child {
@@ -2134,6 +2180,7 @@ select {
   /* line 200, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xlarge-uncentered:last-child,
   .columns.xlarge-uncentered:last-child,
+  .xlarge-uncentered.content-columns:last-child,
   #project-fe-page .xlarge-uncentered.content-columns:last-child,
   #project-paycrave-page .xlarge-uncentered.content-columns:last-child,
   #resume .xlarge-uncentered.content-columns:last-child {
@@ -2143,6 +2190,7 @@ select {
   /* line 205, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xlarge-uncentered.opposite,
   .columns.xlarge-uncentered.opposite,
+  .xlarge-uncentered.opposite.content-columns,
   #project-fe-page .xlarge-uncentered.opposite.content-columns,
   #project-paycrave-page .xlarge-uncentered.opposite.content-columns,
   #resume .xlarge-uncentered.opposite.content-columns {
@@ -2152,6 +2200,7 @@ select {
   /* line 212, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.xlarge-collapse > .column,
   .row.xlarge-collapse > .columns,
+  .row.xlarge-collapse > .content-columns,
   #project-fe-page .row.xlarge-collapse > .content-columns,
   #project-paycrave-page .row.xlarge-collapse > .content-columns,
   #resume .row.xlarge-collapse > .content-columns {
@@ -2166,6 +2215,7 @@ select {
   /* line 218, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.xlarge-uncollapse > .column,
   .row.xlarge-uncollapse > .columns,
+  .row.xlarge-uncollapse > .content-columns,
   #project-fe-page .row.xlarge-uncollapse > .content-columns,
   #project-paycrave-page .row.xlarge-uncollapse > .content-columns,
   #resume .row.xlarge-uncollapse > .content-columns {
@@ -2346,6 +2396,7 @@ select {
   /* line 163, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column,
   .columns,
+  .content-columns,
   #project-fe-page .content-columns,
   #project-paycrave-page .content-columns,
   #resume .content-columns {
@@ -2487,6 +2538,7 @@ select {
   /* line 183, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xxlarge-centered,
   .columns.xxlarge-centered,
+  .xxlarge-centered.content-columns,
   #project-fe-page .xxlarge-centered.content-columns,
   #project-paycrave-page .xxlarge-centered.content-columns,
   #resume .xxlarge-centered.content-columns {
@@ -2498,6 +2550,7 @@ select {
   /* line 186, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xxlarge-uncentered,
   .columns.xxlarge-uncentered,
+  .xxlarge-uncentered.content-columns,
   #project-fe-page .xxlarge-uncentered.content-columns,
   #project-paycrave-page .xxlarge-uncentered.content-columns,
   #resume .xxlarge-uncentered.content-columns {
@@ -2509,6 +2562,7 @@ select {
   /* line 194, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xxlarge-centered:last-child,
   .columns.xxlarge-centered:last-child,
+  .xxlarge-centered.content-columns:last-child,
   #project-fe-page .xxlarge-centered.content-columns:last-child,
   #project-paycrave-page .xxlarge-centered.content-columns:last-child,
   #resume .xxlarge-centered.content-columns:last-child {
@@ -2518,6 +2572,7 @@ select {
   /* line 200, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xxlarge-uncentered:last-child,
   .columns.xxlarge-uncentered:last-child,
+  .xxlarge-uncentered.content-columns:last-child,
   #project-fe-page .xxlarge-uncentered.content-columns:last-child,
   #project-paycrave-page .xxlarge-uncentered.content-columns:last-child,
   #resume .xxlarge-uncentered.content-columns:last-child {
@@ -2527,6 +2582,7 @@ select {
   /* line 205, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.xxlarge-uncentered.opposite,
   .columns.xxlarge-uncentered.opposite,
+  .xxlarge-uncentered.opposite.content-columns,
   #project-fe-page .xxlarge-uncentered.opposite.content-columns,
   #project-paycrave-page .xxlarge-uncentered.opposite.content-columns,
   #resume .xxlarge-uncentered.opposite.content-columns {
@@ -2536,6 +2592,7 @@ select {
   /* line 212, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.xxlarge-collapse > .column,
   .row.xxlarge-collapse > .columns,
+  .row.xxlarge-collapse > .content-columns,
   #project-fe-page .row.xxlarge-collapse > .content-columns,
   #project-paycrave-page .row.xxlarge-collapse > .content-columns,
   #resume .row.xxlarge-collapse > .content-columns {
@@ -2550,6 +2607,7 @@ select {
   /* line 218, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .row.xxlarge-uncollapse > .column,
   .row.xxlarge-uncollapse > .columns,
+  .row.xxlarge-uncollapse > .content-columns,
   #project-fe-page .row.xxlarge-uncollapse > .content-columns,
   #project-paycrave-page .row.xxlarge-uncollapse > .content-columns,
   #resume .row.xxlarge-uncollapse > .content-columns {
@@ -4865,6 +4923,7 @@ form .row .row {
 /* line 94, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .row .column,
 form .row .row .columns,
+form .row .row .content-columns,
 form .row .row #project-fe-page .content-columns,
 #project-fe-page form .row .row .content-columns,
 form .row .row #project-paycrave-page .content-columns,
@@ -4880,6 +4939,7 @@ form .row .row.collapse {
 /* line 100, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .row.collapse .column,
 form .row .row.collapse .columns,
+form .row .row.collapse .content-columns,
 form .row .row.collapse #project-fe-page .content-columns,
 #project-fe-page form .row .row.collapse .content-columns,
 form .row .row.collapse #project-paycrave-page .content-columns,
@@ -4898,6 +4958,7 @@ form .row .row.collapse input {
 /* line 108, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row input.column,
 form .row input.columns,
+form .row input.content-columns,
 form .row #project-fe-page input.content-columns,
 #project-fe-page form .row input.content-columns,
 form .row #project-paycrave-page input.content-columns,
@@ -4906,6 +4967,7 @@ form .row #resume input.content-columns,
 #resume form .row input.content-columns,
 form .row textarea.column,
 form .row textarea.columns,
+form .row textarea.content-columns,
 form .row #project-fe-page textarea.content-columns,
 #project-fe-page form .row textarea.content-columns,
 form .row #project-paycrave-page textarea.content-columns,
@@ -6851,7 +6913,7 @@ ul.pagination li {
   }
 }
 /* line 89, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
-.reveal-modal .column, .reveal-modal .columns, .reveal-modal #project-fe-page .content-columns, #project-fe-page .reveal-modal .content-columns, .reveal-modal #project-paycrave-page .content-columns, #project-paycrave-page .reveal-modal .content-columns, .reveal-modal #resume .content-columns, #resume .reveal-modal .content-columns {
+.reveal-modal .column, .reveal-modal .columns, .reveal-modal .content-columns, .reveal-modal #project-fe-page .content-columns, #project-fe-page .reveal-modal .content-columns, .reveal-modal #project-paycrave-page .content-columns, #project-paycrave-page .reveal-modal .content-columns, .reveal-modal #resume .content-columns, #resume .reveal-modal .content-columns {
   min-width: 0;
 }
 /* line 92, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
@@ -10341,10 +10403,116 @@ th.hide-for-touch {
 }
 @media only screen and (max-width: 40em) {
   /* line 1, ../scss/_global.scss */
-  .small-indent, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
+  .small-indent, .content-columns, #project-fe-page .content-columns, #project-paycrave-page .content-columns, #resume .content-columns {
     margin-left: 4%;
     width: 96%;
   }
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 8, ../scss/_global.scss */
+  .content-columns {
+    margin-left: 2% !important;
+  }
+}
+
+@font-face {
+  font-family: 'si';
+  src: url("../img/social/socicon.eot");
+  src: url("../img/social/socicon.eot?#iefix") format("embedded-opentype"), url("../img/social/socicon.woff") format("woff"), url("../img/social/socicon.ttf") format("truetype"), url("../img/social/socicon.svg#icomoonregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: si;
+    src: url(PATH_TO/socicon.svg) format(svg);
+  }
+}
+/* line 22, ../scss/_social.scss */
+.soc {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 28, ../scss/_social.scss */
+.soc li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+/* line 40, ../scss/_social.scss */
+.soc li a {
+  font-family: si !important;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -o-transition: .1s;
+  -ms-transition: .1s;
+  -moz-transition: .1s;
+  -webkit-transition: .1s;
+  transition: .1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 22px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-right: 10px;
+  color: #222222;
+  background-color: transparent;
+  border: 2px solid #222222;
+}
+
+/* line 81, ../scss/_social.scss */
+.soc a:hover {
+  z-index: 2;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+/* line 87, ../scss/_social.scss */
+.soc-icon-last {
+  margin: 0 !important;
+}
+
+/* line 91, ../scss/_social.scss */
+.soc-linkedin:before {
+  content: 'j';
+}
+
+/* line 94, ../scss/_social.scss */
+.soc-github:before {
+  content: 'Q';
+}
+
+/* line 98, ../scss/_social.scss */
+.soc-twitter {
+  display: none;
+}
+
+/* line 101, ../scss/_social.scss */
+.soc-twitter:before {
+  content: 'a';
 }
 
 /* line 2, ../scss/_nav.scss */
@@ -10433,7 +10601,7 @@ th.hide-for-touch {
 @media only screen and (min-width: 64.0625em) {
   /* line 92, ../scss/_nav.scss */
   .right-off-canvas-menu {
-    padding: 3rem 3rem;
+    padding: 2rem 4rem;
     text-align: left;
   }
 }
@@ -10456,29 +10624,6 @@ th.hide-for-touch {
   .right-off-canvas-menu .side-nav.main li a:not(.button) {
     font-size: 2rem;
   }
-}
-/* line 125, ../scss/_nav.scss */
-.right-off-canvas-menu .social {
-  padding-top: 6rem;
-}
-/* line 128, ../scss/_nav.scss */
-.right-off-canvas-menu .social li {
-  text-align: center;
-}
-/* line 131, ../scss/_nav.scss */
-.right-off-canvas-menu .social i {
-  font-size: 1.7rem;
-  font-weight: 300;
-  color: #00d7ff;
-  padding: .01em .4em;
-  background: #333;
-  border: 2px solid #333;
-}
-/* line 139, ../scss/_nav.scss */
-.right-off-canvas-menu .social i:hover {
-  background: #00d7ff;
-  color: #333;
-  transition: all 500ms ease-in .1s;
 }
 
 /* line 153, ../scss/_nav.scss */
@@ -10521,6 +10666,18 @@ th.hide-for-touch {
 .bottom-bar-close {
   transform: rotate(45deg);
   background-color: #333;
+}
+
+/* line 197, ../scss/_nav.scss */
+.right-off-canvas-menu .soc {
+  padding-left: 1rem;
+}
+/* line 201, ../scss/_nav.scss */
+.right-off-canvas-menu .soc li a {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 44px;
 }
 
 /* line 8, ../scss/_hero.scss */
@@ -10599,7 +10756,7 @@ h3 {
 /* line 1, ../scss/_work.scss */
 .work-section {
   background-color: white;
-  padding: 10vh 0 9vh 0;
+  padding: 10vh 0 2vh 0;
 }
 
 /* line 9, ../scss/_work.scss */
@@ -10672,7 +10829,7 @@ h3 {
 }
 /* line 34, ../scss/_about.scss */
 .about-me .about-text {
-  margin-top: 5vh;
+  margin-top: 3vh;
 }
 /* line 38, ../scss/_about.scss */
 .about-me p {
@@ -10681,21 +10838,12 @@ h3 {
   display: inline-block;
   text-align: left;
 }
-/* line 45, ../scss/_about.scss */
-.about-me .paragraph2 {
-  margin-top: 1rem;
-  display: inline-block;
-}
 
 /* line 57, ../scss/_about.scss */
 .triangle-3 {
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
 }
 
-/* line 1, ../scss/_contact.scss */
-.contact {
-  margin-top: 3rem;
-}
 /* line 4, ../scss/_contact.scss */
 .contact h2 {
   border-bottom: 3px solid #333;
@@ -10737,7 +10885,7 @@ h3 {
   margin-top: 5vh;
   background: url("../img/triangle-bottom-medium4.jpg");
   background-attachment: fixed;
-  background-position: 0% -10%;
+  background-position: 0% -25%;
   height: 77vh;
   width: 100%;
 }
@@ -10755,36 +10903,137 @@ h3 {
 .footer-bottom {
   background-color: #C8F526;
   width: 100%;
-  height: 30vh;
+  height: 31vh;
   margin-top: -10vh;
   -webkit-clip-path: polygon(0% 90%, 100% 0%, 100% 100%, 0% 100%);
 }
 
-/* line 37, ../scss/_footer.scss */
+/* line 40, ../scss/_footer.scss */
 .copywrite {
   background-color: #C8F526;
-  margin-top: -1vh;
 }
-/* line 41, ../scss/_footer.scss */
+/* line 43, ../scss/_footer.scss */
 .copywrite ul {
   margin: 0;
-}
-/* line 46, ../scss/_footer.scss */
-.copywrite li {
-  display: inline-block;
+  margin-top: -8vh;
+  text-align: right;
 }
 /* line 50, ../scss/_footer.scss */
-.copywrite .list-social ul {
-  font-size: 3rem;
-  float: left;
+.copywrite li {
+  list-style-type: none;
 }
-/* line 54, ../scss/_footer.scss */
-.copywrite .list-social ul i {
-  color: #222222;
-}
-/* line 61, ../scss/_footer.scss */
+/* line 56, ../scss/_footer.scss */
 .copywrite .copywrite-text {
   float: right;
+}
+/* line 62, ../scss/_footer.scss */
+.copywrite .footer-list {
+  float: right;
+  display: block;
+  padding: 3rem 0 3rem 0;
+}
+/* line 70, ../scss/_footer.scss */
+.copywrite .soc {
+  margin-bottom: 0.5rem;
+}
+
+@font-face {
+  font-family: 'si';
+  src: url("../img/social/socicon.eot");
+  src: url("../img/social/socicon.eot?#iefix") format("embedded-opentype"), url("../img/social/socicon.woff") format("woff"), url("../img/social/socicon.ttf") format("truetype"), url("../img/social/socicon.svg#icomoonregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: si;
+    src: url(PATH_TO/socicon.svg) format(svg);
+  }
+}
+/* line 22, ../scss/_social.scss */
+.soc {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 28, ../scss/_social.scss */
+.soc li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+/* line 40, ../scss/_social.scss */
+.soc li a {
+  font-family: si !important;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -o-transition: .1s;
+  -ms-transition: .1s;
+  -moz-transition: .1s;
+  -webkit-transition: .1s;
+  transition: .1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 22px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-right: 10px;
+  color: #222222;
+  background-color: transparent;
+  border: 2px solid #222222;
+}
+
+/* line 81, ../scss/_social.scss */
+.soc a:hover {
+  z-index: 2;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+/* line 87, ../scss/_social.scss */
+.soc-icon-last {
+  margin: 0 !important;
+}
+
+/* line 91, ../scss/_social.scss */
+.soc-linkedin:before {
+  content: 'j';
+}
+
+/* line 94, ../scss/_social.scss */
+.soc-github:before {
+  content: 'Q';
+}
+
+/* line 98, ../scss/_social.scss */
+.soc-twitter {
+  display: none;
+}
+
+/* line 101, ../scss/_social.scss */
+.soc-twitter:before {
+  content: 'a';
 }
 
 @media only screen and (max-width: 40em) {
@@ -12196,7 +12445,6 @@ h3 {
   color: black;
   background-color: transparent;
   border: 4px solid #C8F526;
-  margin-top: -10vh;
   margin-right: 4rem;
 }
 /* line 82, ../scss/resume/_resume.scss */
@@ -12231,4 +12479,76 @@ h3 {
   #resume .experience .bullet-list ul {
     margin-left: 1rem;
   }
+}
+
+/* line 4, ../scss/about/_about.scss */
+#about h1 {
+  display: inline-block;
+  margin: -1.5rem 0 2rem 0;
+  float: right;
+}
+/* line 15, ../scss/about/_about.scss */
+#about #top-pic {
+  background: url("../img/about-me-top.jpg");
+  background-attachment: fixed;
+  height: 35vh;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+}
+/* line 26, ../scss/about/_about.scss */
+#about .back-arrow img {
+  width: 50px;
+  margin-right: 2rem;
+}
+/* line 34, ../scss/about/_about.scss */
+#about .back a {
+  display: inline-block;
+  margin: 3rem 0 1rem 0;
+}
+/* line 38, ../scss/about/_about.scss */
+#about .back h4 {
+  display: inline-block;
+}
+/* line 45, ../scss/about/_about.scss */
+#about .top {
+  background-color: #C8F526;
+  position: absolute;
+  width: 100%;
+  transform: skewY(6deg);
+  z-index: -1;
+}
+/* line 56, ../scss/about/_about.scss */
+#about .text {
+  padding: 0 0 2rem 0;
+}
+/* line 58, ../scss/about/_about.scss */
+#about .text p {
+  display: inline-block;
+}
+/* line 66, ../scss/about/_about.scss */
+#about .footers {
+  margin-top: -5vh;
+  background: url("../img/about-me-bottom.jpg");
+  background-attachment: fixed;
+  height: 50vh;
+  width: 100%;
+}
+/* line 77, ../scss/about/_about.scss */
+#about .footer-top {
+  background-color: #FFFFFF;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  width: 100%;
+  height: 38vh;
+  margin-top: 0;
+}
+/* line 89, ../scss/about/_about.scss */
+#about .footer-bottom {
+  background-color: #C8F526;
+  width: 100%;
+  height: 20vh;
+  margin-top: -8vh;
+  -webkit-clip-path: polygon(0% 90%, 100% 0%, 100% 100%, 0% 100%);
+}
+/* line 100, ../scss/about/_about.scss */
+#about .copywrite {
+  margin-top: -1vh;
 }

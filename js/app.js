@@ -1,5 +1,17 @@
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
+
+$(document).foundation({
+  offcanvas : {
+    // Sets method in which offcanvas opens.
+    // [ move | overlap_single | overlap ]
+    // open_method: 'move', 
+    // Should the menu close when a menu link is clicked?
+    // [ true | false ]
+    close_on_click : true
+  }
+});
+
 $(document).foundation();
 
 
@@ -8,13 +20,17 @@ $(document).foundation();
 
 // NAV MENU 
 
+// slight modify-- close menu on click and bring back hamburger
+
 $(function() {
-	$(".right-off-canvas-toggle, .exit-off-canvas").click(function() {
+	$(".right-off-canvas-toggle, .exit-off-canvas, .side-nav a").click(function() {
     	$(".top-bar").toggleClass("top-bar-close");
 		$(".middle-bar").toggleClass("middle-bar-close");
 		$(".bottom-bar").toggleClass("bottom-bar-close");
   	});
 });
+
+
 
 
 

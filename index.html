@@ -23,7 +23,7 @@
 
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+<!--     <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet"> -->
 
 
    
@@ -50,16 +50,17 @@
     <aside class=" right-off-canvas-menu">
         <!-- whatever you want goes here -->
         <ul class="side-nav main">
-          <li><a class="is-active" href="#">work</a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="#">resume</a></li>
-          <li><a href="#">contact me</a></li>
+          <li><a class="is-active smoothScroll" href="#home">home</a></li>
+          <li><a href="#work" class= "smoothScroll">work</a></li>
+          <li><a href="#about" class= "smoothScroll">about</a></li>
+          <li><a href="#contact" class= "smoothScroll">contact</a></li>
+          <li><a href="resume.html">resume</a></li>
         </ul>
 
-        <ul class="inline-list social">
-          <li><i class="fi-social-linkedin"></i></li>
-          <li><i class="fi-social-github"></i></li>
-          <li><i class="fi-social-twitter"></i></li>
+        <ul class="soc">
+          <li><a class="soc-linkedin" href="#"></a></li>
+          <li><a class="soc-github" href="#"></a></li>
+          <!-- <li><a class="soc-twitter soc-icon-last" href="#"></a></li> -->
         </ul>
     </aside>
 
@@ -69,6 +70,7 @@
 <!--         hero  -->
 
     <section class="hero">
+      <a name= "home"></a>
 
       <div id= "hero-top">
         <div id= "hero-content">
@@ -97,6 +99,7 @@
     <div class= "work-section">
       <div class= "work-title row">
         <div class= "small-10 small-indent medium-offset-1 xlarge-offset-0 xlarge-12 columns">
+          <a name="work"></a>
           <h2>My Work</h2>
         </div>
       </div>
@@ -156,6 +159,7 @@
 
 
     <div class= "about-me">
+      <a name= "about"></a>
 
 <!--       grid -->
     <div class= "row">
@@ -170,12 +174,12 @@
                  <h2 class= "small-indent">About Me </h2>
                  <!-- <p class= "small indent">Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me.Stuff about me.  Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. </p> -->
 
-                 <p>Hi, I’m Claudette.  I’m a Bay Area native and recent UC Berkeley graduate with a degree in Cognitive Science. I like brains. I like language. And I like people. I know how to listen to people and hear what they’re actually saying. For example, did you pick up that in general I prefer interdisciplinary fields (like cog sci or ux), that there’s a pretty large possibility that Keak da Sneak was at some point my top-played artist or maybe just that I'm kind of a nerd?
-                  <br>
+                 <p>Hi, I’m Claudette.  I’m a Bay Area native and recent UC Berkeley graduate with a degree in Cognitive Science. I like brains. I like language. And I like people. Empathy motivates me to learn, empathy broadens my ability to comprehend and  empathy inspires my designs. I know how to listen to people and hear what they’re actually saying. For example, did you pick up that in general I prefer interdisciplinary fields (like cog sci or ux), that there’s a pretty large possibility that Keak da Sneak was at some point my top-played artist or maybe just that I'm kind of a nerd?
+                 
                 
              
 
-                <span class= "paragraph2">I cannot know what I don’t know, but I do know that it's a lot, and that I want to learn it. A crazy number of brain-imaging studies have suggested that comprehension and retention are positively correlated with level of emotional response. Basically, you understand and remember the things that you care about. Well, I care about my users and I believe can make my users care about my product too.</span></p>
+                <span class= "paragraph2">A crazy number of brain-imaging studies have suggested that comprehension and retention are positively correlated with level of emotional response. Basically, you understand and remember the things that you care about. Well, I care about my users and I believe can make my users care about my product too.</span></p>
              </div>
             </div>
           </div>
@@ -195,6 +199,7 @@
 
 <!--       leave me a message -->
     <div class= "contact">
+      <a name= "contact"></a>
       <div class= "row">
         <div class= "medium-8 columns medium-offset-3 small-indent xlarge-offset-4">
         <h2>Message Me!</h2>
@@ -204,7 +209,7 @@
 
 
       <div class= "row">
-        <div class= "medium-8 medium-offset-3 columns xlarge-offset-4">
+        <div class= "medium-10 medium-offset-1 large-8 large-offset-3 columns xlarge-offset-4">
           <div class= "boxes">
           
   
@@ -256,25 +261,23 @@
 
   <div class= "copywrite">
     <div class= "row">
-      <div class= "medium-10 medium-offset-1 xlarge-12 x-large-offset-0 columns">
-        <ul>
-          <li>
-            <div class="list-social">
-              <ul>
-                <li><i class="fi-social-linkedin"></i></li>
-                <li><i class="fi-social-github"></i></li>
-                <li><i class="fi-social-twitter"></i></li>
-              </ul>
-            </div>
+      <div class= "medium-10 medium-offset-1 xlarge-12 xlarge-offset-0 columns">
+        <ul class= "footer-list">
+          <!-- <li><p class= "footer-text">Find out more about me</p></li> -->
+           <li>
+            <ul class="soc">
+              <li><a class="soc-linkedin" href="#"></a></li>
+              <li><a class="soc-github" href="#"></a></li>
+              <!-- <li><a class="soc-twitter soc-icon-last" href="#"></a></li> -->
+            </ul>
           </li>
-
           <li class= "copywrite-text">
-           <p>&#169; Claudette Ngai 2015</p>
-         </li>
-         </ul>
-        </div>
-       </div>
+             <h6>&#169; Claudette Ngai 2015</h6>
+          </li>
+       </ul>
       </div>
+     </div>
+    </div>
 
 
 
@@ -304,5 +307,8 @@
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/foundation/js/foundation.min.js"></script>
   <script src="js/app.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+
+
   </body>
 </html>

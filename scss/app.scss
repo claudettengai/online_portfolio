@@ -4,12 +4,14 @@
 @import "settings";
 @import "foundation";
 @import "global";
+@import "social";
 @import "nav";
 @import "hero";
 @import "work";
 @import "about";
 @import "contact";
 @import "footer";
+@import "social";
 
 
 
@@ -48,6 +50,7 @@
 
 
 @import "resume/resume";
+@import "about/about";
 
 
 // Or selectively include components

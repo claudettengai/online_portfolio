@@ -5,6 +5,12 @@
 	}
 }
 
+.content-columns{
+  @extend .small-offset-0, .medium-10, .medium-offset-1, .xlarge-offset-0, .xlarge-12, .columns, .small-indent;
+  @media #{$small-only}{
+  	margin-left: 2% !important;
+  }
+}
 
 // grid
 // <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-12 xlarge-offset-0 columns">
