@@ -14,3 +14,25 @@
 
 // grid
 // <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-12 xlarge-offset-0 columns">
+
+
+
+.back-arrow img{
+		width: 40px;
+		float: left;
+		margin-right: 2rem;
+		margin-bottom: 2rem;
+	}
+
+
+.back-arrow {
+		display: inline-block;
+		margin: 3rem 0 1rem 0 ;
+		@media #{$xlarge-up}{
+			margin-left: -50%;
+		}
+}
+.back h6{
+	float: left;
+	display: inline-block;
+}
