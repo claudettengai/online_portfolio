@@ -8,7 +8,7 @@
 
 
 
-#head{
+.head{
 
 	margin-top: -7vh;
 	height: 20vh;
@@ -24,7 +24,7 @@
 }
 
 
-.back-arrow{
+.home-button{
 	margin-top: 4.8rem;
 }
 
@@ -56,13 +56,33 @@
 
 	.text{
 		padding:0 0 2rem 0;
-		margin: 2rem 0;
+		// margin: 2rem 0;
 
 		h2{
 			margin-bottom: 1.5rem;
+
+			@media #{$large-up}{
+				margin-top: -3rem;
+			}
 		}
 		p{
 			display: inline-block;
+		}
+	}
+
+	.button{
+		background-color: transparent;
+		color: $jet;
+		border: 3px solid $lime-green;
+		margin-top: 1rem;
+		margin-bottom:1rem;
+
+		&:hover{
+			background-color: $lime-green;
+		}
+
+		h6{
+			font-size: 1rem;
 		}
 	}
 
@@ -70,7 +90,7 @@
 
 
 	.footers{
-	margin-top: -5vh;
+	margin-top: 5vh;
 
 	// background: url("../img/triangle-bottom-medium4.jpg");
 	background: url("../img/about/about-me-bottom.jpg");
@@ -114,32 +134,32 @@
 	border: 7px solid black;
 
 	@media #{$large-up}{
-	// width: 98%;
+	width: 98%;
 	float: right;
 	// margin-top: 30%;
 }
 }
 
 
-#cd{
-	width: 55%;
-	float: right;
-}
+// #cd{
+// 	width: 55%;
+// 	float: right;
+// }
 
 
-#bb8{
-	width: 40%;
-	margin-top: -5%;
-}
+// #bb8{
+// 	width: 40%;
+// 	margin-top: -5%;
+// }
 
-.images{
-	@media #{$large-only}{
-		margin-top: 4%;
-	}
-	@media #{$xlarge-up}{
-		margin-top: -3%;
-	}
-}
+// .images{
+// 	@media #{$large-only}{
+// 		margin-top: 4%;
+// 	}
+// 	@media #{$xlarge-up}{
+// 		margin-top: -3%;
+// 	}
+// }
 
 
 }

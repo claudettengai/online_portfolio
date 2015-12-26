@@ -23,7 +23,7 @@ $(document).foundation();
 // slight modify-- close menu on click and bring back hamburger
 
 $(function() {
-	$(".right-off-canvas-toggle, .exit-off-canvas, .side-nav a").click(function() {
+	$(".right-off-canvas-toggle, .exit-off-canvas, .side-nav a, .nav-soc a").click(function() {
     	$(".top-bar").toggleClass("top-bar-close");
 		$(".middle-bar").toggleClass("middle-bar-close");
 		$(".bottom-bar").toggleClass("bottom-bar-close");
@@ -98,6 +98,15 @@ $(document).scroll(placeMenu);
 
 
 
+
+
+
+// ABOUT STUFF ARROW
+
+
+	$('.accordion-navigation a').click(function() {
+		$(' .drop-down-arrow-right').toggleClass("drop-down-arrow-down");
+	});
 
 
 

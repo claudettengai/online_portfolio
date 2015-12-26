@@ -365,8 +365,20 @@ $paragraph-line-height: 1.8;
 // $accordion-navigation-font-size: rem-calc(16);
 // $accordion-navigation-font-family: $body-font-family;
 
+$accordion-navigation-padding: 0;
+
+
+$accordion-navigation-bg-color: transparent;
+
+
 // $accordion-content-padding: ($column-gutter/2);
 // $accordion-content-active-bg-color: $white;
+
+$accordion-content-padding: 0;
+
+
+$accordion-content-active-bg-color: transparent;
+
 
 // 02. Alert Boxes
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -692,6 +704,16 @@ $paragraph-line-height: 1.8;
 // $input-disabled-cursor: $cursor-default-value;
 // $input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 // $input-include-glowing-effect: false;
+
+$input-border-width: 1px;
+// $form-spacing: rem-calc(20);
+$input-box-shadow: none;
+$input-focus-bg-color: none;
+
+
+// 
+
+
 
 // We use these to style the fieldset border and spacing.
 // $fieldset-border-style: solid;
@@ -1177,7 +1199,7 @@ $panel-bg: $lime-green;
 // $reveal-overlay-bg: rgba($black, .45);
 // $reveal-overlay-bg-old: $black;
 
-$reveal-overlay-bg: rgba($lime-green, .5);
+$reveal-overlay-bg: rgba($lime-green, 0.92);
 
 
 
@@ -1188,6 +1210,9 @@ $reveal-overlay-bg: rgba($lime-green, .5);
 // $reveal-max-width: $row-width;
 // $reveal-modal-padding: rem-calc(20);
 // $reveal-box-shadow: 0 0 10px rgba($black,.4);
+
+
+$reveal-modal-bg: transparentize(#000, 0.2);
 
 
 
@@ -1201,6 +1226,12 @@ $reveal-position-top: rem-calc(20);
 // $reveal-close-side: rem-calc(22);
 // $reveal-close-color: $base;
 // $reveal-close-weight: $font-weight-bold;
+
+
+$reveal-close-color: white;
+$reveal-close-weight: 400;
+
+
 
 
 

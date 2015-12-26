@@ -17,22 +17,27 @@
 
 
 
-.back-arrow img{
-		width: 40px;
-		float: left;
-		margin-right: 2rem;
-		margin-bottom: 2rem;
-	}
+// .back-arrow img{
+// 		width: 40px;
+// 		float: left;
+// 		margin-right: 2rem;
+// 		margin-bottom: 2rem;
+// 	}
 
 
-.back-arrow {
+.home-button {
 		display: inline-block;
 		margin: 3rem 0 1rem 0 ;
 		@media #{$xlarge-up}{
 			margin-left: -50%;
 		}
 }
-.back h6{
+.home h6{
 	float: left;
 	display: inline-block;
 }
+
+.text-bold{
+	font-weight: 600;
+}
+

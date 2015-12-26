@@ -1,0 +1,59 @@
+#contact-modal{
+
+	h2{
+		// text-align: center;
+		color: $lime-green;
+		border-bottom: 3px solid $lime-green;
+		display: inline-block;
+		padding: 1rem;
+		margin: 10vh 0 2.5rem 0;
+
+		.break-line2{
+			padding-left: 2rem;
+		}
+
+	}
+
+	p{
+		color: white;
+		font-weight: 300;
+		line-height:2;
+		margin-bottom: 2.5rem;
+	}
+
+	h6{
+		color: white;
+		padding: 1.5rem 2rem;
+		border: 1px solid $lime-green;
+		line-height: 2;
+		margin-bottom: 10vh;
+	}
+
+	.email{
+		margin-top: 3.5rem;
+		@media #{$small-only}{
+			margin-top: 0;
+		}
+	}
+
+
+	.soc{
+		float: right;
+		margin-top: -3rem;
+		@media #{$large-up}{
+			margin-right: -9rem
+		}
+	}
+
+	.soc a{
+		color: white;
+		border: 2px solid $lime-green;
+	}
+
+
+
+
+
+
+
+}

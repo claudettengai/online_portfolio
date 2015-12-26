@@ -9,6 +9,9 @@
  
 <!--     <link href='https://fonts.googleapis.com/css?family=Syncopate:700,400' rel='stylesheet' type='text/css'> -->
 
+ <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+
 
     <link href='https://fonts.googleapis.com/css?family=Varela|Sarala:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -54,16 +57,48 @@
           <li><a href="#work" class= "smoothScroll">work</a></li>
           <li><a href="about.html" class= "smoothScroll">about</a></li>
           <li><a href="resume.html">resume</a></li>
-          <li><a href="#contact" class= "smoothScroll">contact</a></li>
+          <li><a href="#" data-reveal-id="contact-modal">contact</a></li>
 
         </ul>
 
-        <ul class="soc">
+        <ul class="nav-soc soc">
           <li><a class="soc-linkedin" href="#"></a></li>
           <li><a class="soc-github" href="#"></a></li>
           <!-- <li><a class="soc-twitter soc-icon-last" href="#"></a></li> -->
         </ul>
     </aside>
+
+    <div id="contact-modal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+      <div class= "row">
+        <div class= "medium-8 columns medium-centered">
+          <div class= "row">
+            <div class= "small-12 columns">
+              <h2 id="modalTitle">Leave me a Message!</h2>
+              <p class="lead">Contact me if you have want to work together, or just say hey! I love new projects, challenges and general conversation (especially about Buffy the Vampire Slayer).</p>
+            </div>
+          </div>
+          <div class= "row">
+            <div class= "location small-12 medium-6 columns">
+              <h6>location: <br>
+              San Francisco Bay Area</h6>
+            </div>
+            <div class= "email small-12 medium-6 columns">
+              <h6>email: <br>
+              claudettengai@gmail.com</h6>
+            </div>
+          </div>
+
+          <ul class="soc">
+          <li><a class="soc-linkedin" href="#"></a></li>
+          <li><a class="soc-github" href="#"></a></li>
+          <!-- <li><a class="soc-twitter soc-icon-last" href="#"></a></li> -->
+        </ul>
+        </div>
+      </div>
+
+
+      <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>
 
 
 
@@ -164,7 +199,7 @@
 
 <!--       grid -->
     <div class= "row">
-      <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-12 xlarge-offset-0 columns">
+      <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-12 xlarge-offset-0 columns small-indent">
 
          <!--      -->
 
@@ -172,13 +207,51 @@
           <div class= "row">
             <div class= "small-offset-0 medium-10 columns"> 
               <div class= "about-text"> 
-                 <h2 class= "small-indent">About Me </h2>
-                 <p class= "small indent">Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me.Stuff about me.  Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. Stuff about me. </p>
+                 <h2>About Stuff</h2>
+                 <p class= "small indent">My name is Claudette and I’m a UX Designer. I’m new to the scene, but I love to learn. For those of you who also love to learn, I’ve dedicated this section to talking about the things that I really enjoyed learning myself. My current fixation is on Salvador Dal&Iacute;, but I'm always updating my facts so keep checking in. Alternatively, forget that guy and learn <a href= "about.html" class= "about-link">about me</a> instead.</p>
+               </div>
+
+               <!-- <a href= "#" class= "button dali">About Salvador Dali</a> -->
+
+
+               </div>
+           
+
+
+             </div>
+
+             <ul class="dali accordion" data-accordion>
+              <li class="accordion-navigation">
+                <a href="#panel1a"><span class= "drop-down-arrow-right"> &raquo; </span><span id= "story">about Salvador Dal&Iacute;</span></a>
+                <div id="panel1a" class="content">
+
+                  <div class= "facts row">
+                    <div class= "small-10 medium-4 columns">
+                      <img id= "dali-pic" src= "img/dali2.png">
+                    </div>
+
+                     <div class= "facts-content small-12 medium-8 columns">
+                     <p>The largest collection of Salvador Dali’s art outside of Europe is in the Salvador Dal&Iacute; Museum in  St. Petersburg, Florida. I visited said museum where a docent told me this awesome story:</p> 
+
+                     <p class= "paragraph2">Salvador Dali and his father had a very contentious relationship. Salvador Dal&Iacute; i Cus&Iacute; never approved of his son’s choice to become an artist but nonetheless begrudgingly paid a hefty sum for Dal&Iacute; to attend art school.  On the day of his last final, Dal&Iacute; announced that none of his professors were competent enough to judge him and walked out, thus never receiving his degree, and forever pissing off his father. Their antagonistic relationship remained a continuing theme in Dal&Iacute;’s paintings throughout his career.</p>
+                   </div>
+                </div>
+
+                  
+                </div>
+              </li>
+            </ul>
+
+
+
+             
 
                  
-             </div>
-            </div>
-          </div>
+
+
+                 
+             
+          
         </div>
 
       <!--        -->
@@ -195,11 +268,10 @@
 
 <!--       leave me a message -->
     <div class= "contact">
-      <a name= "contact"></a>
       <div class= "row">
         <div class= "medium-8 columns medium-offset-3 small-indent xlarge-offset-4">
         <h2>Message Me!</h2>
-        <p>Contact me if you have want to work together, or just say hey! I love new projects, challenges, general conversation and Buffy the Vampire Slayer.</p>
+        <p>Contact me if you have want to work together, or just say hey! I love new projects, challenges and general conversation.</p>
       </div>
     </div>
 

@@ -7,9 +7,15 @@
 
 
 
+ <link rel="shortcut icon" type="image/x-icon" href="favicon4.ico">
+
+
+
     <link href='https://fonts.googleapis.com/css?family=Varela|Sarala:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
 
   
+
+
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
 
@@ -20,7 +26,7 @@
   </head>
 
 
-  <body id= "about">
+  <body id= "contact-form">
     
    
 
@@ -41,12 +47,13 @@
         <ul class="side-nav main">
           <li><a class="is-active smoothScroll" href="#home">home</a></li>
           <li><a href="#work" class= "smoothScroll">work</a></li>
-          <li><a href="#about" class= "smoothScroll">about me</a></li>
-          <li><a href="#contact" class= "smoothScroll">contact</a></li>
+          <li><a href="about.html" class= "smoothScroll">about</a></li>
           <li><a href="resume.html">resume</a></li>
+          <li><a href="#" data-reveal-id="contact-modal">contact</a></li>
+
         </ul>
 
-        <ul class="soc">
+        <ul class="nav-soc soc">
           <li><a class="soc-linkedin" href="#"></a></li>
           <li><a class="soc-github" href="#"></a></li>
           <!-- <li><a class="soc-twitter soc-icon-last" href="#"></a></li> -->
@@ -55,11 +62,11 @@
 
 
       <!--         header    -->
-
-      <div class="pic-back"></div>
+    <div class="pic-back"></div>
     <header class = "head">
       <div class = "home row">
-          <div class= "small-6 medium-4 columns">
+          <div class= "small-6
+          medium-4 columns">
             <a class= "home-button" href= "index.html">
             <h6>claudette ngai | ux designer</h6></a>
           </div>
@@ -67,59 +74,101 @@
     </header>
     <div id= "head-bottom"></div>
 
-
   
 
 
 
     <div class= "row">
-      <div class= "content-columns">
-
-        <div class= "small-10 small-centered medium-6 medium-centered columns hide-for-large-up"><img id = "me" src= "img/about/photo-me.jpg"></div>
-
-
-        <div class= "text row">
-
-          <div class= "small-12 large-8 columns">
-            <h2>Hi, I'm Claudette.</h2>
-          </div>
-      
-
-            <div class= "small-12 large-8 columns">
-
-            <p>I’m a Bay Area native and recent UC Berkeley graduate with a degree in Cognitive Science. I like brains. I like language. And I like people. JK Rowling blows me away because  as epic as warring good vs evil in a fantasy dimension of killer magics and questionable fashion undoubtedly is, it’s her infinitely complex and endlessly multifaceted characters that really facilitate the story. My experience still changes with each read (there’ve been a lot), a phenomenon that I like to ascribe to my continually growing arsenal of experiences and therefore my continually expanding potential to empathize with the different personalities in the story. Empathy motivates me to learn. Empathy broadens my ability to comprehend. Empathy inspires my designs. I know how to listen to people and hear what they’re actually saying. For example, did you pick up that I like networking models of cognition and that in general I prefer interdisciplinary fields (like cog sci or ux)?  That I’ll often forgo correct grammar for the sake of impact, or that there’s a pretty large possibility that Keak da Sneak was at some point my top-played artist? Or maybe just that I’m kind of a nerd?</p>
-
-            <p>I cannot know what I don’t know, but I do know that it’s a lot, and that I want to learn it. Way too many brain-imaging studies have suggested that comprehension and retention are positively correlated with level of emotional response. Basically, you understand and remember the things that you care about. I care about my users, and I can make my users care about my product also.</p>
-
-            <a href= "resume.html" class= "small button"><h6>View my Resume</h6></a>
-          </div>
-
-
-          <div class= " show-for-large-up images small-centered small-12 large-4 large-offset-8 columns">
-              
-            <img id= "me" src= "img/about/photo-me.jpg">
-            
-      
-
-
-
-
-
-          </div>
-        </div>
-      
-
+      <div class= "text content-columns">
         
-      </div>
-    </div>
+        <h2>Message me!</h2>
+        <p>Contact me if you have want to work together, or just say hey! I love new projects, challenges and general conversation.</p>
 
+          
+
+
+   <!--  contact form -->
+
+   
+
+       <form accept-charset="UTF-8" action="https://formkeep.com/f/bf5b1c144e8a" method="POST">
+          <div class= "email-input row">
+            <div class= "small-12 medium-6 columns">
+              <input type="hidden" name="utf8" value="✓">
+              <input type="email" name="email" placeholder="Your Email">
+              <input type="text" name="full_name" placeholder="Your Name">
+              <input type="text" name="full_name" placeholder="Subject">
+
+            </div>
+          
+            <div class= "small-12 medium-6 columns">
+              <textarea type="text" id= "message-box" name="message" placeholder="What's on your mind?"></textarea>
+            </div>
+          </div>
+
+          <div class= "row">
+          <div class= "submit small-12 columns">
+
+            <a class= "small button" type="submit"><h6>send message</h6></a>
+          </div>
+          </div>
+
+      
+      </form>
+    
+    <div id= "after-form">
+      <div id= "line"></div></div>
     
 
 
 
+       <div class= "other-contact">
 
 
-     <!--  footer -->
+          <h6 id= "other-head">Feel free to message me directly</h6><br>
+
+          <div class= "other-content row">
+            <div class= "location-content small-12 medium-6 large-5 columns">
+
+              <ul class= "location-content">
+                <li id= "location-box"> <h6><span class= "space">location: </span>San Francisco Bay Area</h6></li>
+              </ul>
+            </div>
+
+
+            <div class= "email-content small-12 medium-6 large-5 end columns">
+             <ul class= "email-content">
+              <li id= "email-box"> <h6><span class= "space">email: </span> <a class= "email-link" href="mailto:claudette@gmail.com?" target="_top">claudettengai@gmail.com</a></h6></li>
+            </ul>
+          </div>
+        </div>
+
+        
+
+          </div>
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  footer -->
 
    <div class= "footers">
 
@@ -161,6 +210,10 @@
 
 
 
+
+
+
+
   <!-- close the off-canvas menu -->
   <a class="exit-off-canvas"></a>
 
@@ -184,6 +237,7 @@
   <script src="js/app.js"></script>
   <script type="text/javascript" src="js/smoothscroll.js"></script>
 
-
   </body>
 </html>
+
+

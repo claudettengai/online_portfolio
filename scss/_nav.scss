@@ -41,6 +41,8 @@
     }
 
   }  
+
+
 }
 
 
@@ -70,6 +72,9 @@ $menu-side-padding-med: ($menu-push-percent-med - $menu-text-width-percent)/2;
 }
 
 .right-off-canvas-menu {
+   .soc{
+    margin-top: 1rem;
+  }
   width: percentage($menu-text-width-percent);
 
 
