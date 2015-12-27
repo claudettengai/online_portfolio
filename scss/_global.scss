@@ -41,3 +41,28 @@
 	font-weight: 600;
 }
 
+
+.email-link{
+	color: $jet;
+
+	&:hover{
+		color: $jet;
+		font-weight: 900;
+		border-bottom: 1px solid $jet;
+	}
+
+}
+
+
+
+.to-contact-form-link{
+	color: $jet;
+	margin: 0 0.3rem;
+	border-bottom: 1px solid $jet;
+	padding-bottom: 0.3rem;
+	&:hover{
+		color: $jet;
+		font-weight: 600;
+		border-bottom: 2px solid $jet;
+	}
+}

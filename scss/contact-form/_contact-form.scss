@@ -131,7 +131,7 @@ input[type="email"],
 
 .email-content{
 	@media #{$medium-up}{
-		margin-top: -1.5rem;
+		margin-top: -0.7rem;
 	}
 }
 
@@ -141,7 +141,7 @@ input[type="email"],
 }
 
 .other-content{
-	margin-top: 2.5rem;
+	margin-top: 1rem;
 	display: inline-block;
 }
 

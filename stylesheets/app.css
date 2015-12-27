@@ -10439,6 +10439,31 @@ th.hide-for-touch {
   font-weight: 600;
 }
 
+/* line 45, ../scss/_global.scss */
+.email-link {
+  color: #222222;
+}
+/* line 48, ../scss/_global.scss */
+.email-link:hover {
+  color: #222222;
+  font-weight: 900;
+  border-bottom: 1px solid #222222;
+}
+
+/* line 58, ../scss/_global.scss */
+.to-contact-form-link {
+  color: #222222;
+  margin: 0 0.3rem;
+  border-bottom: 1px solid #222222;
+  padding-bottom: 0.3rem;
+}
+/* line 63, ../scss/_global.scss */
+.to-contact-form-link:hover {
+  color: #222222;
+  font-weight: 600;
+  border-bottom: 2px solid #222222;
+}
+
 @font-face {
   font-family: 'si';
   src: url("../img/social/socicon.eot");
@@ -10907,7 +10932,6 @@ h3 {
 /* line 111, ../scss/_about.scss */
 .about-me .dali a {
   display: inline-block;
-  text-transform: lowercase;
   font-family: inherit;
   font-size: 1.0625rem;
   padding-bottom: 0.3rem;
@@ -12856,7 +12880,7 @@ h3 {
 @media only screen and (min-width: 40.0625em) {
   /* line 132, ../scss/contact-form/_contact-form.scss */
   #contact-form .email-content {
-    margin-top: -1.5rem;
+    margin-top: -0.7rem;
   }
 }
 /* line 138, ../scss/contact-form/_contact-form.scss */
@@ -12866,7 +12890,7 @@ h3 {
 }
 /* line 143, ../scss/contact-form/_contact-form.scss */
 #contact-form .other-content {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   display: inline-block;
 }
 /* line 148, ../scss/contact-form/_contact-form.scss */
@@ -12944,4 +12968,44 @@ h3 {
 /* line 277, ../scss/contact-form/_contact-form.scss */
 #contact-form .copywrite {
   margin-top: -1vh;
+}
+
+/* line 4, ../scss/_thank-you.scss */
+#thank-you .head {
+  height: 18vh;
+  -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 0%, 0% 100%);
+  background-color: #C8F526;
+  overflow: hidden;
+}
+/* line 16, ../scss/_thank-you.scss */
+#thank-you h2 {
+  margin-top: 5vh;
+}
+/* line 20, ../scss/_thank-you.scss */
+#thank-you h5 {
+  margin: 2rem 0 1rem 0;
+}
+/* line 24, ../scss/_thank-you.scss */
+#thank-you #favicon {
+  width: 70px;
+  margin-bottom: 2rem;
+}
+/* line 30, ../scss/_thank-you.scss */
+#thank-you .button {
+  color: #222222;
+  border: 2px solid #222222;
+  background-color: transparent;
+  margin-bottom: 8vh;
+}
+/* line 36, ../scss/_thank-you.scss */
+#thank-you .button:hover {
+  background-color: #222222;
+}
+/* line 38, ../scss/_thank-you.scss */
+#thank-you .button:hover h6 {
+  color: #C8F526;
+}
+/* line 45, ../scss/_thank-you.scss */
+#thank-you .message {
+  text-align: center;
 }
