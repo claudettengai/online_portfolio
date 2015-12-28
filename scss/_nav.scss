@@ -1,11 +1,17 @@
 // fixed background attachment (hero) - nav bar override 
 .off-canvas-wrap, .inner-wrap {
-        -webkit-backface-visibility: visible; 
+  @include backface-visibility(visible);
+    // -webkit-backface-visibility: visible; 
+    // backface-visibility: visible;
+
 }
 
 
 .offcanvas-overlap, .offcanvas-overlap-left{
-  -webkit-backface-visibility:visible;
+  @include backface-visibility(visible);
+  // -webkit-backface-visibility:visible;
+  // backface-visibility: visible;
+
 }
 
 
@@ -81,14 +87,17 @@ $menu-side-padding-med: ($menu-push-percent-med - $menu-text-width-percent)/2;
 }
 
 .move-left > .inner-wrap {
-  transform: translate3d(percentage((0- $menu-push-percent-small)), 0, 0); 
+  @include transform(translate3d(percentage((0- $menu-push-percent-small)), 0, 0));
+  // transform: translate3d(percentage((0- $menu-push-percent-small)), 0, 0); 
 
   @media #{$medium-only}{
-    transform: translate3d(percentage((0- $menu-push-percent-med)), 0, 0); 
+    @include transform(translate3d(percentage((0- $menu-push-percent-med)), 0, 0));
+    // transform: translate3d(percentage((0- $menu-push-percent-med)), 0, 0); 
   }
 
   @media #{$large-up} {
-    transform: translate3d(-36%, 0, 0); 
+    @include transform(translate3d(-36%, 0, 0));
+    // transform: translate3d(-36%, 0, 0); 
 
   }
 
@@ -163,32 +172,40 @@ $menu-side-padding-med: ($menu-push-percent-med - $menu-text-width-percent)/2;
   height: 7px;
   background-color: #333;
   margin-bottom: 7px;
-  transition: transform 0.4s cubic-bezier(1, 0, 0, 1) 0, background-color 0.6s ease 0;
-
+  @include transition(transform 0.4s cubic-bezier(1, 0, 0, 1));
+  @include transition(background-color 0.6s ease 0);
+  // transition: transform 0.4s cubic-bezier(1, 0, 0, 1) 0, background-color 0.6s ease 0;
 }
 
 .top-bar, .bottom-bar {
-  transform-origin: 100% 50%;
+  @include transform-origin(100% 50%);
+  // transform-origin: 100% 50%;
 }
 
 .middle-bar {
-  transition-property: opacity;
-  transition-duration: 0.6s;
+  @include transition-property(opacity);
+  // transition-property: opacity;
+  @include transition-duration(0.6s);
+  // transition-duration: 0.6s;
 }
 
 .top-bar-close {
-  transform: rotate(-45deg);
+  @include transform(rotate(-45deg));
+  // transform: rotate(-45deg);
   background-color: #333;
 }
 
 .middle-bar-close {
   opacity: 0;
-  transition-property: opacity;
-  transition-duration: 0.3s;
+  @include transition-property(opacity);
+  // transition-property: opacity;
+  @include transition-duration(0.3s);
+  // transition-duration: 0.3s;
 }
 
 .bottom-bar-close {
-  transform: rotate(45deg);
+  @include transform(rotate(45deg));
+  // transform: rotate(45deg);
   background-color: #333;
 }
 
@@ -202,6 +219,14 @@ $menu-side-padding-med: ($menu-push-percent-med - $menu-text-width-percent)/2;
   .soc{
     padding-left: 1rem;
   }
+
+  .soc a:hover {
+    z-index: 2;
+    -webkit-transform: none;
+    transform: none;
+    color: white;
+    border: 2px solid white;
+}
 
   .soc li a {
     width: 80px;
