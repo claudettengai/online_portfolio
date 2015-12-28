@@ -100,6 +100,102 @@ $window.scroll(function(){
 
 
 
+//////////////////SOLUTION SECTION-1 /////////////////////
+////centering text vertically////////
+
+
+
+function sideTextAlign(){
+
+	$(".sol-text").each(function(){
+		
+		if ($(window).width() >= 1024){
+
+			var sidePicHeight= $(this).parent().find($(".side-img-block")).height();
+			var sideTextHeight= $(this).height();
+
+			if ($(this).hasClass("sol-text-higher")){
+				var sideTextMarginTop = sidePicHeight/2 - sideTextHeight/2 -60;
+			}else{
+				var sideTextMarginTop= sidePicHeight/2 - sideTextHeight/2;
+			}
+			
+		
+			// console.log(sideTextMarginTop);
+
+			$(this).css("margin-top", sideTextMarginTop);			
+
+		} else {
+			$(this).css("margin-top", 0);
+		}
+
+
+	});
+
+}
+
+
+sideTextAlign();
+
+$(window).resize(sideTextAlign);
+
+
+
+
+
+
+function arrowAlign(){
+	$(".arrow").each(function(){
+		
+		var arrowImgs = $(this).parent().find($("img"));
+
+		var titleHeight= $(this).parent().find($(".sol-img-title")).height() + $(this).parent().find($(".sub-titles")).height();
+
+		var highest = arrowImgs[0].height;
+		for (i= 0; i < arrowImgs.length; i++ ){
+			if(arrowImgs[i].height > highest) { 
+				highest = arrowImgs[i].height; 
+			} else{
+				shortest= arrowImgs[i].height;
+			}
+		}
+
+		// arrowImgs.each(function(i, img) {
+		// 	if (img.height > highest) { highest = img.height; };
+		// });
+
+		arrowMarginTop= shortest/2 - $(".arrow").height()/2 + titleHeight; 
+
+
+		$(this).css("margin-top", arrowMarginTop);
+
+
+	});
+
+	// var arrowMarginTop= $(".side-image-block img").height()/2 - $(".arrow").height()/2;
+	// $(".arrow").css("margin-top", arrowMarginTop);
+}
+
+arrowAlign();
+$(window).resize(arrowAlign);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ///////////////////////BACKGROUND PICTURE SKEW/////////////////////////
 
 
@@ -155,7 +251,7 @@ function sideTextAlign(){
 			}
 			
 		
-			console.log(sideTextMarginTop);
+			// console.log(sideTextMarginTop);
 
 			$(this).css("margin-top", sideTextMarginTop);			
 
