@@ -133,7 +133,7 @@ function skewTriangles(){
 	$('.image-clip-before, .image-clip-after').css("height", triangleTopHeight);
 }
 
-$(window).load(skewTriangles);
+skewTriangles();
 
 $(window).resize(skewTriangles);
 
@@ -180,7 +180,7 @@ function sideTextAlign(){
 }
 
 
-sideTextAlign();
+$(window).load(sideTextAlign);
 
 $(window).resize(sideTextAlign);
 
