@@ -1,0 +1,36 @@
+@mixin transform($property){
+	-ms-transform: $property;
+	-webkit-transform: $property;
+	transform: $property;
+}
+
+@mixin transition($property){
+	-webkit-transition: $property;
+	transition: $property;
+}
+
+@mixin transform-origin($values){
+	-ms-transform-origin: $values;
+	-webkit-transform-origin: $values;
+	transform-origin: $values;
+}
+
+@mixin transition-property($property){
+	-webkit-transition-property: $property;
+	transition-property: $property; 
+}
+
+@mixin transition-duration($time){
+	-webkit-transition-duration: $time;
+	transition-duration: $time;
+}
+
+@mixin clip-path($values){
+	-webkit-clip-path: $values;
+	clip-path: $values;
+}
+
+@mixin backface-visibility($value){
+	-webkit-backface-visibility: $value;
+	backface-visibility: $value;
+}

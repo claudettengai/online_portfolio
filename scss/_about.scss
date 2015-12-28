@@ -6,7 +6,8 @@
 	background-color: $lime-green;
 	height: 25vh;
 	width: 100%;
-	-webkit-clip-path: polygon(100% 0%,0 101%, 100% 101%);
+	@include clip-path(polygon(100% 0%,0 101%, 100% 101%));
+	// -webkit-clip-path: polygon(100% 0%,0 101%, 100% 101%);
 }
 
 
@@ -97,8 +98,8 @@
 		// font-weight: 500;
 
 		&:hover{
-			border-bottom: 2px solid black;
-			font-weight: 500;
+			border-bottom: 3px solid black;
+			// font-weight: 500;
 		}
 
 
@@ -132,7 +133,8 @@
 
 	.drop-down-arrow-down{
 		display: inline-block;
-		-webkit-transform: rotate(90deg);
+		@include transform(rotate(90deg));
+		// -webkit-transform: rotate(90deg);
 
 	}
 
@@ -142,8 +144,8 @@
 		// font-weight: 500;
 
 		&:hover{
-			border-bottom: 2px solid $jet;
-			font-weight: 500;
+			border-bottom: 3px solid $jet;
+			// font-weight: 500;
 		}
 
 	}
@@ -173,7 +175,8 @@
 
 .triangle-3{
 	@extend .triangle-2;
-	-webkit-clip-path: polygon(0% 0%,100% 0%, 0% 100%);
+	@include clip-path(polygon(0% 0%,100% 0%, 0% 100%));
+	// -webkit-clip-path: polygon(0% 0%,100% 0%, 0% 100%);
 }
 
 
