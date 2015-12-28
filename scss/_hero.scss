@@ -6,16 +6,13 @@
 
 
 #hero-top{
-	background: url("../img/triangle-pics-1-med.jpg");
+	background: url("../img/home-hero.jpg");
 	background-attachment: fixed;
-	// background-size: cover;
 	background-position: bottom left;
 	height: 84vh;
 	z-index: -1;
 
-	// @media #{$xlarge-up}{
-	// 	background-image: url("../img/triangle-pics-1-large.jpg")
-	// }
+
 
 	@media (max-width: 375px) {
 		height: 114vh;
@@ -61,9 +58,7 @@ h1, h3{
 
 h1{
 	font-weight: 700;
-	// @media (max-width:400px) {
-	// 		font-size: 36px;
-	// }
+
 }
 
 h3{

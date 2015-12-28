@@ -19,13 +19,14 @@
 
 #analytics-button{
 	background-color: white;
-	border: 3px solid $lime-green;
+	border: 3px solid $jet;
 	color: black;
 	font-size: 18px;
 	font-family: "Varela";
 
 	&:hover{
-		background-color: $lime-green;
+		background-color: $jet;
+		color: white;
 	}
 
 

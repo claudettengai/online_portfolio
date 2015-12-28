@@ -95,11 +95,14 @@
 
 #inVision-button{
 	background-color: white;
-	color: black;
-	border: 3px solid $lime-green;
+	color: $jet;
+	border: 3px solid $jet;
 
 	&:hover{
-		background-color: $lime-green;
+		background-color: $jet;
+		h6{
+			color: white;
+		}
 	}
 
 }

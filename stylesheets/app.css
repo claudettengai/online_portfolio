@@ -10734,7 +10734,7 @@ th.hide-for-touch {
 
 /* line 8, ../scss/_hero.scss */
 #hero-top {
-  background: url("../img/triangle-pics-1-med.jpg");
+  background: url("../img/home-hero.jpg");
   background-attachment: fixed;
   background-position: bottom left;
   height: 84vh;
@@ -10747,7 +10747,7 @@ th.hide-for-touch {
   }
 }
 
-/* line 26, ../scss/_hero.scss */
+/* line 23, ../scss/_hero.scss */
 #hero-content {
   -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 30vh, 0% 100%);
   height: 80vh;
@@ -10755,41 +10755,41 @@ th.hide-for-touch {
   overflow: hidden;
 }
 @media (max-width: 375px) {
-  /* line 26, ../scss/_hero.scss */
+  /* line 23, ../scss/_hero.scss */
   #hero-content {
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 55vh, 0% 100%);
     height: 110vh;
   }
 }
 
-/* line 42, ../scss/_hero.scss */
+/* line 39, ../scss/_hero.scss */
 #hero-text {
   margin-top: 25vh;
 }
 @media (max-width: 400px) {
-  /* line 42, ../scss/_hero.scss */
+  /* line 39, ../scss/_hero.scss */
   #hero-text {
     margin-top: 21vh;
   }
 }
 
-/* line 55, ../scss/_hero.scss */
+/* line 52, ../scss/_hero.scss */
 h1, h3 {
   font-family: "Varela";
   margin: 0 0 0.5em 0;
 }
 
-/* line 62, ../scss/_hero.scss */
+/* line 59, ../scss/_hero.scss */
 h1 {
   font-weight: 700;
 }
 
-/* line 69, ../scss/_hero.scss */
+/* line 64, ../scss/_hero.scss */
 h3 {
   font-weight: 300;
 }
 
-/* line 79, ../scss/_hero.scss */
+/* line 74, ../scss/_hero.scss */
 #hero-bottom {
   background-color: #FFFFFF;
   -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 101%, 0% 101%);
@@ -10798,7 +10798,7 @@ h3 {
   margin-top: -26vh;
 }
 
-/* line 87, ../scss/_hero.scss */
+/* line 82, ../scss/_hero.scss */
 #hero-bottom2 {
   background-color: white;
   width: 100%;
@@ -11020,7 +11020,7 @@ h3 {
 /* line 5, ../scss/_footer.scss */
 .footers {
   margin-top: 2vh;
-  background: url("../img/triangle-bottom-medium4.jpg");
+  background: url("../img/home-footer.jpg");
   background-attachment: fixed;
   background-position: 0% -25%;
   height: 77vh;
@@ -11171,60 +11171,6 @@ h3 {
 /* line 101, ../scss/_social.scss */
 .soc-twitter:before {
   content: 'a';
-}
-
-/* line 3, ../scss/_contact-modal.scss */
-#contact-modal h2 {
-  color: #C8F526;
-  border-bottom: 3px solid #C8F526;
-  display: inline-block;
-  padding: 1rem;
-  margin: 10vh 0 2.5rem 0;
-}
-/* line 11, ../scss/_contact-modal.scss */
-#contact-modal h2 .break-line2 {
-  padding-left: 2rem;
-}
-/* line 17, ../scss/_contact-modal.scss */
-#contact-modal p {
-  color: white;
-  font-weight: 300;
-  line-height: 2;
-  margin-bottom: 2.5rem;
-}
-/* line 24, ../scss/_contact-modal.scss */
-#contact-modal h6 {
-  color: white;
-  padding: 1.5rem 2rem;
-  border: 1px solid #C8F526;
-  line-height: 2;
-  margin-bottom: 10vh;
-}
-/* line 32, ../scss/_contact-modal.scss */
-#contact-modal .email {
-  margin-top: 3.5rem;
-}
-@media only screen and (max-width: 40em) {
-  /* line 32, ../scss/_contact-modal.scss */
-  #contact-modal .email {
-    margin-top: 0;
-  }
-}
-/* line 40, ../scss/_contact-modal.scss */
-#contact-modal .soc {
-  float: right;
-  margin-top: -3rem;
-}
-@media only screen and (min-width: 64.0625em) {
-  /* line 40, ../scss/_contact-modal.scss */
-  #contact-modal .soc {
-    margin-right: -9rem;
-  }
-}
-/* line 48, ../scss/_contact-modal.scss */
-#contact-modal .soc a {
-  color: white;
-  border: 2px solid #C8F526;
 }
 
 @media only screen and (max-width: 40em) {
@@ -11447,7 +11393,7 @@ h3 {
 }
 /* line 24, ../scss/proj_fe/_header.scss */
 #project-fe-page #FE-head-back {
-  background: url("../img/proj-fe-header4.jpg") center center;
+  background: url("../img/proj-fe/hero-pic.jpg") center center;
   background-size: cover;
   background-attachment: fixed;
   height: 94vh;
@@ -11589,7 +11535,7 @@ h3 {
 
 /* line 1, ../scss/proj_fe/_divider-images.scss */
 #fe-pic1, #fe-pic2, #fe-pic3, #fe-pic4, #fe-pic5, #fe-pic6, #fe-pic7, #fe-pic8 {
-  background: url("../img/fe-pic1.jpg") top left;
+  background: url("../img/proj-fe/fe-pic1.jpg") top left;
   background-attachment: fixed;
   margin: 20vh 0 20vh 0;
 }
@@ -11629,24 +11575,24 @@ h3 {
 
 /* line 97, ../scss/proj_fe/_divider-images.scss */
 #fe-pic2 {
-  background-image: url("../img/fe-pic2.jpg");
+  background-image: url("../img/proj-fe/fe-pic2.jpg");
   margin-top: 15vh;
 }
 
 /* line 104, ../scss/proj_fe/_divider-images.scss */
 #fe-pic3 {
-  background-image: url("../img/fe-pic5.jpg");
+  background-image: url("../img/proj-fe/fe-pic5.jpg");
   margin-top: 10vh;
 }
 
 /* line 148, ../scss/proj_fe/_divider-images.scss */
 #fe-pic4 {
-  background-image: url("../img/fe-pic4.jpg");
+  background-image: url("../img/proj-fe/fe-pic4.jpg");
 }
 
 /* line 156, ../scss/proj_fe/_divider-images.scss */
 #fe-pic5 {
-  background-image: url("../img/fe-pic3.jpg");
+  background-image: url("../img/proj-fe/fe-pic3.jpg");
 }
 @media only screen and (min-width: 80.0625em) {
   /* line 156, ../scss/proj_fe/_divider-images.scss */
@@ -11657,17 +11603,17 @@ h3 {
 
 /* line 166, ../scss/proj_fe/_divider-images.scss */
 #fe-pic6 {
-  background-image: url("../img/fe-pic6.jpg");
+  background-image: url("../img/proj-fe/fe-pic6.jpg");
 }
 
 /* line 172, ../scss/proj_fe/_divider-images.scss */
 #fe-pic7 {
-  background-image: url("../img/fe-pic7.jpg");
+  background-image: url("../img/proj-fe/fe-pic7.jpg");
 }
 
 /* line 178, ../scss/proj_fe/_divider-images.scss */
 #fe-pic8 {
-  background-image: url("../img/fe-pic8.jpg");
+  background-image: url("../img/proj-fe/fe-pic8.jpg");
 }
 
 /* line 14, ../scss/proj_fe/_user-research.scss */
@@ -12218,36 +12164,72 @@ h3 {
   float: right;
   margin-top: 25%;
 }
-/* line 37, ../scss/proj_fe/_design-develop.scss */
-#project-fe-page .design-develop .prototype, #project-fe-page .design-develop .prototype-small {
-  margin-top: 3rem;
-  color: #333333;
-  width: 100%;
-  text-align: right;
-  position: absolute;
-}
 /* line 46, ../scss/proj_fe/_design-develop.scss */
 #project-fe-page .design-develop .prototype a, #project-fe-page .design-develop .prototype-small a {
-  border: 3px solid #C8F526;
+  border: 3px solid #222222;
   display: inline-block;
-  padding: 1rem 2rem 0.7rem 2rem;
+  padding: 0.6rem 1rem;
+  margin-top: 3rem;
 }
-/* line 57, ../scss/proj_fe/_design-develop.scss */
+/* line 59, ../scss/proj_fe/_design-develop.scss */
 #project-fe-page .design-develop .prototype a:hover, #project-fe-page .design-develop .prototype-small a:hover {
-  background-color: #C8F526;
+  background-color: #222222;
 }
-/* line 64, ../scss/proj_fe/_design-develop.scss */
-#project-fe-page .design-develop .prototype h5, #project-fe-page .design-develop .prototype-small h5 {
-  font-size: 20px;
+/* line 61, ../scss/proj_fe/_design-develop.scss */
+#project-fe-page .design-develop .prototype a:hover h5, #project-fe-page .design-develop .prototype-small a:hover h5 {
+  color: white;
 }
-/* line 73, ../scss/proj_fe/_design-develop.scss */
+/* line 78, ../scss/proj_fe/_design-develop.scss */
 #project-fe-page .design-develop .prototype-small {
   position: relative;
   text-align: center;
 }
-/* line 77, ../scss/proj_fe/_design-develop.scss */
+/* line 82, ../scss/proj_fe/_design-develop.scss */
 #project-fe-page .design-develop .prototype-small a {
   margin-top: 3rem;
+}
+
+/* line 4, ../scss/proj_fe/_footer.scss */
+#project-fe-page .message {
+  padding: 5rem 0 0 0;
+  margin-top: 4rem;
+}
+/* line 17, ../scss/proj_fe/_footer.scss */
+#project-fe-page .message .button {
+  margin: 2rem 0;
+  background-color: white;
+  border: 2px solid #222222;
+}
+/* line 22, ../scss/proj_fe/_footer.scss */
+#project-fe-page .message .button:hover {
+  background-color: #222222;
+}
+/* line 24, ../scss/proj_fe/_footer.scss */
+#project-fe-page .message .button:hover h5 {
+  color: white;
+}
+/* line 32, ../scss/proj_fe/_footer.scss */
+#project-fe-page .footers {
+  background: url("../img/proj-fe/hero-pic.jpg") center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 0;
+}
+/* line 40, ../scss/proj_fe/_footer.scss */
+#project-fe-page .footer-top {
+  background-color: #FFFFFF;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  width: 100%;
+  height: 20vh;
+  margin-top: -2vh;
+}
+/* line 50, ../scss/proj_fe/_footer.scss */
+#project-fe-page .footer-bottom {
+  background-color: #C8F526;
+  width: 100%;
+  height: 31vh;
+  margin-top: 30vh;
+  -webkit-clip-path: polygon(0% 90%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 /* line 3, ../scss/proj_paycrave/_header.scss */
@@ -12470,14 +12452,15 @@ h3 {
 /* line 20, ../scss/proj_paycrave/_analyze-data.scss */
 #project-paycrave-page #analytics-button {
   background-color: white;
-  border: 3px solid #C8F526;
+  border: 3px solid #222222;
   color: black;
   font-size: 18px;
   font-family: "Varela";
 }
 /* line 27, ../scss/proj_paycrave/_analyze-data.scss */
 #project-paycrave-page #analytics-button:hover {
-  background-color: #C8F526;
+  background-color: #222222;
+  color: white;
 }
 
 /* line 4, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
@@ -12540,44 +12523,74 @@ h3 {
 /* line 96, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
 #project-paycrave-page #inVision-button {
   background-color: white;
-  color: black;
-  border: 3px solid #C8F526;
+  color: #222222;
+  border: 3px solid #222222;
 }
 /* line 101, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
 #project-paycrave-page #inVision-button:hover {
-  background-color: #C8F526;
+  background-color: #222222;
 }
-/* line 112, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+/* line 103, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page #inVision-button:hover h6 {
+  color: white;
+}
+/* line 115, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
 #project-paycrave-page .mockups {
   margin-top: 3.5rem;
 }
-/* line 115, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+/* line 118, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
 #project-paycrave-page .mockups p {
   margin-bottom: 2rem;
 }
-/* line 121, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+/* line 124, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
 #project-paycrave-page .mockups img {
   width: 37%;
   border: 1px solid #CCCCCC;
   vertical-align: top;
 }
-/* line 128, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+/* line 131, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
 #project-paycrave-page #map-mock {
   position: absolute;
   z-index: -1;
   margin-top: 5%;
   box-shadow: 2px 2px 1px #CCCCCC;
 }
-/* line 137, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+/* line 140, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
 #project-paycrave-page #list-mock {
   margin-left: 20%;
   margin-top: 50%;
   box-shadow: 5px 5px 3px #CCCCCC;
 }
-/* line 144, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+/* line 147, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
 #project-paycrave-page #profile-mock {
   float: right;
   box-shadow: 2px 2px 1px #CCCCCC;
+}
+
+/* line 5, ../scss/proj_paycrave/_footers.scss */
+#project-paycrave-page .footers {
+  background: url("../img/proj-paycrave/header4.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* line 13, ../scss/proj_paycrave/_footers.scss */
+#project-paycrave-page .message {
+  margin-top: 6rem;
+}
+/* line 17, ../scss/proj_paycrave/_footers.scss */
+#project-paycrave-page .message .button {
+  margin: 2.5rem 0 0 0;
+  background-color: white;
+  color: #222222;
+  border: 2px solid #222222;
+}
+/* line 23, ../scss/proj_paycrave/_footers.scss */
+#project-paycrave-page .message .button:hover {
+  background-color: #222222;
+}
+/* line 26, ../scss/proj_paycrave/_footers.scss */
+#project-paycrave-page .message .button:hover h5 {
+  color: white;
 }
 
 @media only screen and (max-width: 40em) {
@@ -12694,20 +12707,20 @@ h3 {
   background-color: #C8F526;
   overflow: hidden;
 }
-/* line 27, ../scss/about/_about.scss */
+/* line 25, ../scss/about/_about.scss */
 #about .home-button {
   margin-top: 4.8rem;
 }
-/* line 33, ../scss/about/_about.scss */
+/* line 31, ../scss/about/_about.scss */
 #about .pic-back {
-  background-image: url("../img/about/about-me3.jpg");
+  background-image: url("../img/about/about-me-top.jpg");
   background-attachment: fixed;
   height: 35vh;
   width: 100%;
   position: absolute;
   z-index: -1;
 }
-/* line 45, ../scss/about/_about.scss */
+/* line 42, ../scss/about/_about.scss */
 #about #head-bottom {
   width: 100%;
   background-color: white;
@@ -12715,39 +12728,43 @@ h3 {
   margin-top: -5vh;
   -webkit-clip-path: polygon(0 21vh, 100% 12vh, 100% 100%, 0 100%);
 }
-/* line 57, ../scss/about/_about.scss */
+/* line 54, ../scss/about/_about.scss */
 #about .text {
   padding: 0 0 2rem 0;
 }
-/* line 61, ../scss/about/_about.scss */
+/* line 58, ../scss/about/_about.scss */
 #about .text h2 {
   margin-bottom: 1.5rem;
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 61, ../scss/about/_about.scss */
+  /* line 58, ../scss/about/_about.scss */
   #about .text h2 {
     margin-top: -3rem;
   }
 }
-/* line 68, ../scss/about/_about.scss */
+/* line 65, ../scss/about/_about.scss */
 #about .text p {
   display: inline-block;
 }
-/* line 73, ../scss/about/_about.scss */
+/* line 70, ../scss/about/_about.scss */
 #about .button {
   background-color: transparent;
   color: #222222;
-  border: 3px solid #C8F526;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  border: 1px solid #222222;
+  margin: 1rem 0;
 }
-/* line 80, ../scss/about/_about.scss */
+/* line 76, ../scss/about/_about.scss */
 #about .button:hover {
-  background-color: #C8F526;
+  background-color: #222222;
 }
-/* line 84, ../scss/about/_about.scss */
+/* line 78, ../scss/about/_about.scss */
+#about .button:hover h6 {
+  color: white;
+}
+/* line 83, ../scss/about/_about.scss */
 #about .button h6 {
   font-size: 1rem;
+  padding: 0;
 }
 /* line 92, ../scss/about/_about.scss */
 #about .footers {
@@ -12758,7 +12775,7 @@ h3 {
   height: 40vh;
   width: 100%;
 }
-/* line 104, ../scss/about/_about.scss */
+/* line 103, ../scss/about/_about.scss */
 #about .footer-top {
   background-color: #FFFFFF;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
@@ -12766,7 +12783,7 @@ h3 {
   height: 35vh;
   margin-top: -10vh;
 }
-/* line 116, ../scss/about/_about.scss */
+/* line 115, ../scss/about/_about.scss */
 #about .footer-bottom {
   background-color: #C8F526;
   width: 100%;
@@ -12774,16 +12791,16 @@ h3 {
   margin-top: -23vh;
   -webkit-clip-path: polygon(0% 90%, 100% 30%, 100% 100%, 0% 100%);
 }
-/* line 127, ../scss/about/_about.scss */
+/* line 126, ../scss/about/_about.scss */
 #about .copywrite {
   margin-top: -1vh;
 }
-/* line 133, ../scss/about/_about.scss */
+/* line 132, ../scss/about/_about.scss */
 #about #me {
   border: 7px solid black;
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 133, ../scss/about/_about.scss */
+  /* line 132, ../scss/about/_about.scss */
   #about #me {
     width: 98%;
     float: right;
@@ -12925,7 +12942,7 @@ h3 {
 }
 /* line 214, ../scss/contact-form/_contact-form.scss */
 #contact-form .pic-back {
-  background-image: url("../img/triangle-pics-1-med.jpg");
+  background-image: url("../img/home-hero.jpg");
   background-attachment: fixed;
   height: 25vh;
   width: 100%;
@@ -12943,21 +12960,21 @@ h3 {
 }
 /* line 238, ../scss/contact-form/_contact-form.scss */
 #contact-form .footers {
-  background: url("../img/triangle-bottom-medium4.jpg");
+  background: url("../img/home-footer.jpg");
   background-attachment: fixed;
   background-position: 0% -40%;
   height: 40vh;
   width: 100%;
   margin-top: -1vh;
 }
-/* line 254, ../scss/contact-form/_contact-form.scss */
+/* line 253, ../scss/contact-form/_contact-form.scss */
 #contact-form .footer-top {
   background-color: #FFFFFF;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
   width: 100%;
   height: 35vh;
 }
-/* line 266, ../scss/contact-form/_contact-form.scss */
+/* line 265, ../scss/contact-form/_contact-form.scss */
 #contact-form .footer-bottom {
   background-color: #C8F526;
   width: 100%;
@@ -12965,47 +12982,47 @@ h3 {
   margin-top: -23vh;
   -webkit-clip-path: polygon(0% 90%, 100% 30%, 100% 100%, 0% 100%);
 }
-/* line 277, ../scss/contact-form/_contact-form.scss */
+/* line 276, ../scss/contact-form/_contact-form.scss */
 #contact-form .copywrite {
   margin-top: -1vh;
 }
 
-/* line 4, ../scss/_thank-you.scss */
+/* line 4, ../scss/thank_you/_thank-you.scss */
 #thank-you .head {
   height: 18vh;
   -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 0%, 0% 100%);
   background-color: #C8F526;
   overflow: hidden;
 }
-/* line 16, ../scss/_thank-you.scss */
+/* line 16, ../scss/thank_you/_thank-you.scss */
 #thank-you h2 {
   margin-top: 5vh;
 }
-/* line 20, ../scss/_thank-you.scss */
+/* line 20, ../scss/thank_you/_thank-you.scss */
 #thank-you h5 {
   margin: 2rem 0 1rem 0;
 }
-/* line 24, ../scss/_thank-you.scss */
+/* line 24, ../scss/thank_you/_thank-you.scss */
 #thank-you #favicon {
   width: 70px;
   margin-bottom: 2rem;
 }
-/* line 30, ../scss/_thank-you.scss */
+/* line 30, ../scss/thank_you/_thank-you.scss */
 #thank-you .button {
   color: #222222;
   border: 2px solid #222222;
   background-color: transparent;
   margin-bottom: 8vh;
 }
-/* line 36, ../scss/_thank-you.scss */
+/* line 36, ../scss/thank_you/_thank-you.scss */
 #thank-you .button:hover {
   background-color: #222222;
 }
-/* line 38, ../scss/_thank-you.scss */
+/* line 38, ../scss/thank_you/_thank-you.scss */
 #thank-you .button:hover h6 {
   color: #C8F526;
 }
-/* line 45, ../scss/_thank-you.scss */
+/* line 45, ../scss/thank_you/_thank-you.scss */
 #thank-you .message {
   text-align: center;
 }

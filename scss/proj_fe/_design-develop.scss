@@ -35,18 +35,20 @@ h2{
 
 
 .prototype{
-	margin-top: 3rem;
-	// border: 3px solid $lime-green;
-	// background-color: transparent;
-	color: $oil;
-	width: 100%;
-	text-align: right;
-	position: absolute;
+	// margin-top: 3rem;
+	// // border: 3px solid $lime-green;
+	// // background-color: transparent;
+	// color: $oil;
+	// width: 100%;
+	// text-align: right;
+	// position: absolute;
 
 	a{
-		border: 3px solid $lime-green;
+		border: 3px solid $jet;
 		display: inline-block;
-		padding: 1rem 2rem 0.7rem 2rem;
+		padding: 0.6rem 1rem;
+		margin-top: 3rem;
+		// padding: 1rem 2rem 0.7rem 2rem;
 
 		// @media #{$xlarge-up}{
 		// 	margin-right: 5%;
@@ -55,7 +57,10 @@ h2{
 
 
 	a:hover{
-		background-color: $lime-green;
+		background-color: $jet;
+		h5{
+			color: white;
+		}
 
 
 
@@ -64,7 +69,7 @@ h2{
 	h5{
 		// padding:0;
 		// margin:0;
-		font-size: 20px;
+		// font-size: 20px;
 	}
 }
 

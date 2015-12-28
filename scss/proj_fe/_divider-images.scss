@@ -1,5 +1,5 @@
 #fe-pic1{
-	background: url("../img/fe-pic1.jpg") top left;
+	background: url("../img/proj-fe/fe-pic1.jpg") top left;
 	background-attachment: fixed;
 	margin: 20vh 0 20vh 0;
 
@@ -96,14 +96,14 @@
 
 #fe-pic2{
 	@extend #fe-pic1;
-	background-image: url("../img/fe-pic2.jpg");
+	background-image: url("../img/proj-fe/fe-pic2.jpg");
 	margin-top: 15vh;
 }
 
 
 #fe-pic3{
 	@extend #fe-pic1;
-	background-image: url("../img/fe-pic5.jpg");
+	background-image: url("../img/proj-fe/fe-pic5.jpg");
 	margin-top: 10vh;
 
 	// @media #{$xlarge-up}{
@@ -147,7 +147,7 @@
 
 #fe-pic4{
 	@extend #fe-pic1;
-	background-image: url("../img/fe-pic4.jpg")
+	background-image: url("../img/proj-fe/fe-pic4.jpg")
 
 }
 
@@ -155,7 +155,7 @@
 
 #fe-pic5{
 	@extend #fe-pic1;
-	background-image: url("../img/fe-pic3.jpg");
+	background-image: url("../img/proj-fe/fe-pic3.jpg");
 
 	@media #{$xlarge-up}{
 		background-size: 102%;
@@ -165,19 +165,19 @@
 
 #fe-pic6{
 	@extend #fe-pic1;
-	background-image: url("../img/fe-pic6.jpg")
+	background-image: url("../img/proj-fe/fe-pic6.jpg")
 
 }
 
 #fe-pic7{
 	@extend #fe-pic1;
-	background-image: url("../img/fe-pic7.jpg")
+	background-image: url("../img/proj-fe/fe-pic7.jpg")
 
 }
 
 #fe-pic8{
 	@extend #fe-pic1;
-	background-image: url("../img/fe-pic8.jpg")
+	background-image: url("../img/proj-fe/fe-pic8.jpg")
 
 }
 
