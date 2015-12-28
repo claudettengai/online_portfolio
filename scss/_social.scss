@@ -1,0 +1,103 @@
+// social media icons
+
+@font-face {
+    font-family: 'si';
+    src: url('../img/social/socicon.eot');
+    src: url('../img/social/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../img/social/socicon.woff') format('woff'),
+         url('../img/social/socicon.ttf') format('truetype'),
+         url('../img/social/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(PATH_TO/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    // overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+
+
+$icon-size: 40px;
+$icon-size-proportion: 44/80 * $icon-size;
+
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: $icon-size;
+    height: $icon-size;
+    line-height: $icon-size;
+    font-size: $icon-size-proportion;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-right: 10px;
+    color: $jet;
+    background-color: transparent;
+    border: 2px solid $jet;
+}
+
+.soc a:hover {
+    z-index: 2;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-github:before {
+    content:'Q';
+}
+
+.soc-twitter{
+	display:none;
+}
+.soc-twitter:before {
+    content:'a';
+}

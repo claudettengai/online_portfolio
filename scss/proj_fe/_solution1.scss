@@ -1,0 +1,146 @@
+#project-fe-page{
+
+.solution1{
+
+//////////////////////
+.fewer-sections{
+	margin-top: 3.5rem;
+}
+
+
+h6{
+	margin:0;
+}
+
+p.sub-title{
+	margin-bottom: 0.5rem;
+	font-size: 94%;
+}
+
+
+///////////////////////
+
+
+
+.sol1-1a{
+
+	width: 50%;
+	float: left;
+	margin-left: 2%;
+	// .hidden-wireframe{
+	// 	font-size: 80%;
+	// 	margin-left: 2rem;
+	// 	@media (min-width: 745px) and (max-width: 800px){
+	// 		font-size: 100%;
+	// 	}
+	// }
+
+	img{
+		margin-top: 7%;
+	}
+}
+
+.sol1-1b{
+	// width: 35%;
+	// width: 40%;
+	width: 33%;
+	float: right;
+	img{
+		border: 1px solid #333;
+	}
+}
+
+
+
+.arrow{
+	float: left;
+	width: 15%;
+	// width: 10%;
+	// width: 20%;
+
+	h2{
+		text-align: center;
+	}
+
+	
+}
+
+
+
+.fewer-pages{
+	margin-top: 5rem;
+
+	.arrow{
+		width:10%;		
+	}
+
+	.sol-text{
+		@media #{$large-up}{
+			float: right;
+			padding-left: 2rem;
+		}
+	}
+}
+
+
+
+
+.sol1-2a{
+	width: 45%;
+	float: left;
+}
+
+.sol1-2b{
+	@extend .sol1-2a;
+}
+
+
+
+
+.sol-summary{
+	margin-top: 7rem;
+
+	p{
+		margin-top: 1rem;
+	}
+
+	.site-maps{
+		margin-top: 3rem;
+		img{
+			border: 1px solid $oil;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////
+
+
+}
+}

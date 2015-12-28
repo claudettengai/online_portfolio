@@ -1,0 +1,68 @@
+.small-indent{
+	@media #{$small-only}{
+		margin-left: 4%;
+		width: 96%;		
+	}
+}
+
+.content-columns{
+  @extend .small-offset-0, .medium-10, .medium-offset-1, .xlarge-offset-0, .xlarge-12, .columns, .small-indent;
+  @media #{$small-only}{
+  	margin-left: 2% !important;
+  }
+}
+
+// grid
+// <div class= "small-offset-0 medium-10 medium-offset-1 xlarge-12 xlarge-offset-0 columns">
+
+
+
+// .back-arrow img{
+// 		width: 40px;
+// 		float: left;
+// 		margin-right: 2rem;
+// 		margin-bottom: 2rem;
+// 	}
+
+
+.home-button {
+		display: inline-block;
+		margin: 3rem 0 1rem 0 ;
+		@media #{$xlarge-up}{
+			margin-left: -50%;
+		}
+}
+.home h6{
+	float: left;
+	display: inline-block;
+}
+
+.text-bold{
+	font-weight: 600;
+}
+
+
+.email-link{
+	color: $jet;
+
+	&:hover{
+		color: $jet;
+		font-weight: 900;
+		border-bottom: 1px solid $jet;
+	}
+
+}
+
+
+
+.to-contact-form-link{
+	color: $jet;
+	margin: 0 0.3rem;
+	border-bottom: 1px solid $jet;
+	padding-bottom: 0.3rem;
+	&:hover{
+		color: $jet;
+		font-weight: 600;
+		border-bottom: 2px solid $jet;
+	}
+}

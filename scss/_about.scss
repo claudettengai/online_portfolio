@@ -1,0 +1,190 @@
+// triangle-2 ////////
+
+
+.triangle-2{
+
+	background-color: $lime-green;
+	height: 25vh;
+	width: 100%;
+	-webkit-clip-path: polygon(100% 0%,0 101%, 100% 101%);
+}
+
+
+
+
+/////////////////about me///////////////
+
+
+
+
+.about-me{
+	margin:0;
+	padding: 0 0 2vh 0;
+	width: 100%;
+	background-color: $lime-green;
+	
+
+	h2{
+		border-bottom: 3px solid #333;
+		display: inline-block;
+		text-align: left;
+		margin-top: 0;
+	}
+
+	.about-text{
+		margin-top: 3vh;
+	}
+
+	p{
+		line-height: 2em;
+		margin-top: 2vh;
+		display: inline-block;
+		text-align: left;
+	}
+
+	.paragraph2{
+		margin-top: 0;
+		display: inline-block;
+	}
+
+	.facts{
+		padding: 1rem;
+
+		// background-image: url("../img/dali-back.jpg");
+		// background-size: cover;
+		display: inline-block;
+
+		margin: 0;
+	h6{
+		margin:0;
+		border-bottom: 1px solid $oil;
+	}
+
+
+	}
+
+
+	.facts-content p{
+		font-size: 1rem;
+		// padding: 1.5rem;
+	}
+
+	.about-text p{
+		float: left;
+	}
+
+
+	// .about-me-button,
+	// .dali {
+	// 	// float: left;
+
+	// 	margin-right: 2rem;
+	// 	background-color: $lime-green;
+	// 	border: 2px solid $oil;
+	// 	color: $oil;
+
+	// 	&:hover{
+	// 		background-color: $jet;
+	// 		color: $lime-green;
+	// 	}
+
+	// }
+
+	.about-link{
+		border-bottom: 1px solid black;
+		color: black;
+		padding: 0.3rem;
+		// font-weight: 500;
+
+		&:hover{
+			border-bottom: 2px solid black;
+			font-weight: 500;
+		}
+
+
+
+
+	}
+
+	.dali{
+		margin-left: 0;
+		a{
+			display:inline-block;
+			// border-bottom: 2px solid $jet;
+			// text-transform: lowercase;
+			// font-weight: 500;
+			font-family: $paragraph-font-family;
+			font-size: $paragraph-font-size;
+			padding-bottom: 0.3rem;
+		}
+	}
+
+	#view-more{
+
+		padding: 0 2rem;
+		display: none;
+	}
+
+	.drop-down-arrow-right{
+		margin-right: 0.5rem;
+	}
+
+
+	.drop-down-arrow-down{
+		display: inline-block;
+		-webkit-transform: rotate(90deg);
+
+	}
+
+	#story{
+		border-bottom: 1px solid $jet;
+		padding-bottom: 0.3rem;
+		// font-weight: 500;
+
+		&:hover{
+			border-bottom: 2px solid $jet;
+			font-weight: 500;
+		}
+
+	}
+
+	.facts{
+		margin-top: 1rem;
+	}
+
+	#dali-pic{
+		margin-top: 2rem;
+
+		@media #{$xlarge-up}{
+			margin-top: 1rem;
+		}
+
+
+	}
+
+
+
+
+}
+
+
+///////////////// triangle 3//////////////
+
+
+.triangle-3{
+	@extend .triangle-2;
+	-webkit-clip-path: polygon(0% 0%,100% 0%, 0% 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

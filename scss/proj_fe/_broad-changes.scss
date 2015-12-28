@@ -1,0 +1,49 @@
+#project-fe-page{
+
+// general section organization
+
+.broad-solutions{
+
+	ol.top-text-section{
+		margin-bottom: 7vh;
+
+		& > li{ 
+			font-weight: 600;
+
+		}
+	}
+
+
+	.img-click img{
+		border: 1px solid $lime-green;
+	
+
+	}
+
+	.img-click a img{
+		cursor: url(../img/magnify-cursor-2.png), zoom-in;
+	// 	cursor: zoom-in;
+	}
+
+
+}
+
+
+
+// .recurring-features{
+// 	.img-click img{
+// 		border: 1px solid $lime-green;
+// 	}
+// }
+
+
+
+
+
+
+
+
+
+
+
+}

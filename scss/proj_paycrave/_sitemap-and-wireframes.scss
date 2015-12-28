@@ -1,0 +1,159 @@
+#project-paycrave-page{
+//////////////////////////////////////
+
+#title{
+	margin-top: 4rem;
+}
+
+
+.appmap img{
+	border: 1px solid #808080;
+}
+
+.appmap,
+.user-stories{
+	h4{
+		// margin-bottom: 2rem;
+		margin-top: 2rem;
+	}
+
+	ul{
+		margin-top: 0.5rem;
+
+	}
+}
+
+
+.user-stories{
+	ul{ 
+		padding-right: 1.5rem;
+	}
+}
+
+
+
+
+
+.user-stories ul{
+	li{
+		list-style-type: none;
+	}
+	li::before{
+		content: "";
+	    border-color: transparent $lime-green;
+	    border-style: solid;
+	    border-width: 0.4rem 0 0.4rem 0.8rem;
+	    display: block;
+	    height: 0;
+	    width: 0;
+	    left: -2rem;
+	    top: $paragraph-font-size + 0.24;
+	    position: relative;
+	    margin: 0rem;
+	    transform: rotate(15deg);
+
+	}
+
+	@for $i from 2 through 3 {
+			li:nth-child(#{$i})::before { 
+			transform: rotate($i * 45deg); 
+			}
+		 }
+}
+
+
+//////wireframes///////
+
+
+// .wireframes{
+// 	margin-top: 4rem;
+
+
+// }
+
+// #wireframes-title{
+// 	margin-bottom: 2rem;
+// }
+
+
+
+//////////usability////////
+
+
+.usability{
+	h2{
+		margin-top: 4rem;
+	}
+
+	p{
+		margin-bottom: 1.5rem;
+	}
+
+}
+
+
+
+#inVision-button{
+	background-color: white;
+	color: $jet;
+	border: 3px solid $jet;
+
+	&:hover{
+		background-color: $jet;
+		h6{
+			color: white;
+		}
+	}
+
+}
+
+
+
+
+
+///////////CREATING THE FINAL LOOK/////////////
+.mockups{
+	margin-top: 3.5rem;
+
+	p{ 
+		margin-bottom: 2rem;
+	}
+}
+
+
+.mockups img{
+	width: 37%;
+	border: 1px solid $iron;
+	vertical-align: top;
+}
+
+
+#map-mock{
+	position: absolute;
+	z-index: -1; 
+	margin-top: 5%;
+	box-shadow: 2px 2px 1px $iron;
+
+
+}
+
+#list-mock{
+	margin-left: 20%;
+	margin-top: 50%;
+	box-shadow: 5px 5px 3px $iron;
+
+}
+
+#profile-mock{
+	float: right;
+	box-shadow: 2px 2px 1px $iron;
+
+
+}
+
+
+
+
+//////////////////////////////////////
+
+}

@@ -1,0 +1,61 @@
+#project-paycrave-page{
+//////////////////////////////////////
+
+	
+.footers{
+	background: url("../img/proj-paycrave/header4.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+.message{
+	margin-top: 6rem;
+
+
+	.button{
+
+		margin: 2.5rem 0 0 0;
+		background-color: white;
+		color: $jet;
+		border: 2px solid $jet;
+		&:hover{
+			background-color: $jet;
+
+			h5{
+				color: white;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////
+
+}

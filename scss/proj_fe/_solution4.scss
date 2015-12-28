@@ -1,0 +1,104 @@
+#project-fe-page{
+
+.solution4{
+////////////////////////////////////////////////////////////////
+
+.cohesive-look{
+	margin-top: 3rem;
+	overflow: hidden;
+	.sol-text{
+		padding-left: 2rem;
+	}
+}
+
+#sol4-1a,
+#sol4-1b,
+#sol4-1c{
+	background-color: white;
+}
+
+
+#sol4-1a img,
+#sol4-1c img{
+	border: 1px solid #808080;
+}
+
+
+#sol4-1a{
+	width: 55%;
+	position: absolute;
+	z-index: 1;
+}
+
+#sol4-1b{
+	width: 55%;
+	float: right;
+	position: relative;
+	z-index: 2;
+	margin-top: 12%;
+	text-align: right;
+	background-color: transparent;
+	padding-bottom: 20%;
+
+	h6{
+		width: 90%;
+		float: right;
+	}
+
+}
+
+#sol4-1c{
+	width: 58%;
+	position: absolute;
+	z-index: 3;
+	margin-top: 65%;
+	margin-left: 5%;
+	text-align: center;
+}
+
+/////////
+
+.creating-clarity{
+	margin-top: 5rem;
+
+	.sol-text{
+		padding-right: 2rem;
+	}
+}
+
+#sol4-2b{
+	margin-top: 2rem;
+}
+
+#sol4-2b img{
+	border: 1px solid #808080;
+}
+
+
+//////////////
+
+.revealing-context{
+	margin-top: 7rem;
+
+	.sol-text{
+		padding-left: 2rem;
+	}
+}
+
+
+
+#sol4-3a img,
+#sol4-3b img{
+	border: 1px solid #808080;
+}
+
+.sol-summary{
+	margin-top: 5rem;
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////
+}
+}

@@ -1,0 +1,140 @@
+#project-paycrave-page{
+//////////////////////////////////////
+
+.summary{
+	margin-top: 2.5rem;
+}
+
+img#phone-mock{
+	width: 50%;
+	margin-left: 23%;
+	@media #{$medium-up}{
+		margin-top: -$header-line-height - $header-top-margin - 1rem - 2.5rem; 
+		//1rem= h2 bottom margin set in globals 
+		width: 35%;
+		margin-left: 6%;
+		margin-bottom: 2%;
+		// margin-left: 66.6%;
+		// background-color: red;
+		// position: absolute;
+		float: right;
+	}
+
+	@media #{$large-up}{
+		width: 27%;
+	}
+}
+
+
+#summary-title{
+	margin-top: 2rem;
+}
+
+#competition-title{
+	margin-top: 3rem;
+}
+
+
+.comp-logos {
+	margin-top: 1rem;
+	display: inline-block;
+	text-align: center;
+	// margin-left: 5%;
+	@media #{$large-up}{
+		// width: 90%;
+	}
+	img{
+		display: inline-block;
+		width: 100px;
+		@media (max-width: 820px){
+			width:80px;
+		}
+		text-align: center;
+		margin: auto 1rem;
+		// opacity: 0.9;
+
+		&:nth-child(2){
+			border: 2px solid $smoke;
+		}
+	}
+	display:none;
+}
+
+
+.research-eg{
+	margin-top: 4rem;
+}
+
+#research-guide{
+	border: 1px solid #808080;
+	@media #{$small-only}{
+		margin-bottom: 2rem;
+	}
+}
+
+
+.why-food-apps ol{
+
+	li{
+		@media #{$small-only}{
+			line-height: 1.4;
+		}
+	}
+
+	margin-left: 2.4rem;
+	margin-top: -1rem;
+	list-style: none;
+	// text-align: center;
+
+
+	li::before{
+		content: "";
+	    border-color: transparent $lime-green;
+	    border-style: solid;
+	    border-width: 0.4rem 0 0.4rem 0.8rem;
+	    display: block;
+	    height: 0;
+	    width: 0;
+	    left: -2rem;
+	    top: $paragraph-font-size + 0.24;
+	    position: relative;
+	    margin: 0rem;
+	    transform: rotate(15deg);
+
+	}
+
+	@for $i from 2 through 3 {
+			li:nth-child(#{$i})::before { 
+			transform: rotate($i * 45deg); 
+			}
+		 }
+}
+
+
+
+.trends{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////
+
+}

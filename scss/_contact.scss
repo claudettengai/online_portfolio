@@ -1,0 +1,48 @@
+.contact{
+	// margin-top: 3rem;
+
+	h2{
+		border-bottom: 3px solid #333;
+		display: inline-block;
+		float: right;
+		text-align: right;
+		margin-top: -5vh;
+	}
+
+	p{
+		margin-top: 3vh;
+		display: inline-block;
+		float: right;
+		line-height: 2.2rem;
+	}
+
+	h5{
+		line-height: 2rem;
+
+		
+	}
+}
+
+
+
+
+.location-box{
+	padding: 2rem 1.5rem;
+	border: 2px solid $lime-green;
+	display: inline-block;
+	margin-top: 3rem;
+	margin-right: 4rem;
+	float: right;
+
+}
+
+.email-box{
+	@extend .location-box;
+	float: right;
+	margin-top: 1.5rem;
+	margin-right: 0;
+}
+
+
+
+

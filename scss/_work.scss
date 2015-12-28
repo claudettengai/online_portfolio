@@ -1,0 +1,101 @@
+.work-section{
+	background-color: white;
+	padding: 10vh 0 0 0;
+
+}
+
+
+
+.work-title{
+	width:100%;
+	padding: 0;
+	margin-top: -10vh;
+
+
+	h2{
+		border-bottom: 3px solid #333;
+		display: inline-block;
+	
+
+	}
+
+}
+
+
+
+
+.projects{
+	
+	padding:0;
+	background-color: white;
+	
+	a{
+		display: inline-block;
+	}
+}
+
+
+
+
+
+.project-link{
+	margin: 4em 0 6vh 0;
+	}
+
+
+
+
+
+
+////////////image overlay/////////////
+
+.image-overlay-content{
+	background-color: transparentize(black, 0.2);
+	display:none;
+	position: absolute;
+
+
+	.project-title{
+		text-align: center;
+
+		
+
+
+	}
+
+	h3{
+		color: white;
+	}
+
+	h5{
+		color: $lime-green;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

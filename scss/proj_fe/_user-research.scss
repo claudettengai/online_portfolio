@@ -1,0 +1,207 @@
+#project-fe-page{
+
+.user-research{
+
+
+
+/////////////////USE CASES//////////////////
+
+.use-cases{		
+
+
+
+	
+		ul{
+			list-style-type: none;
+			margin: 2rem 0 0 0;
+			display: inline-block;
+		}
+
+		ul li{
+			width: 31%;
+			// display: inline-block;
+			float: left;
+
+			@media #{$small-only}{
+				width: 100%;
+			}
+
+			&:nth-child(2){
+				margin: auto 3.5%;
+
+				@media #{$small-only}{
+					margin: 1.25rem 0 2.5rem 0;
+			}
+			}
+		}
+
+		p#bottom-text{
+			margin-bottom: 4rem;
+			font-size: 18px;
+			font-weight: 300;
+		}
+
+
+
+}
+
+
+#bottom-text{
+	#use-case-1-words{
+		color: black;
+		padding: 0.4rem;
+		font-weight: 600;
+		background-color: $lime-green;
+	}
+
+	#use-case-2-words{
+		background-color: transparentize(black, 0.5s);
+		padding: 0.4rem;
+		font-weight: 400;
+		color: white;
+
+	}
+
+	#use-case-3-words{
+		color: black;
+		padding: 0.4rem;
+		font-weight: 400;
+		border: 2px solid $lime-green;
+
+	}
+}
+
+#top-text{
+	#use-case-1-words{
+		font-weight: 700;
+	}
+}
+
+
+
+////////////////////////USE CASE PANELS///////////////////////////
+
+.use-cases .panel{
+
+	
+
+	////////////2nd panel/////////////////
+
+	&:nth-child(2){
+		background-color: transparentize(black, 0.5s);
+		border:none;
+
+
+		& p{
+			color: white;
+			font-weight: 300;
+		}
+
+	}
+
+
+	////////////3rd panel/////////////////
+
+	&:nth-child(3){
+		background-color: white;
+		border: 2px solid $lime-green;		
+    	h5{ 		 	
+    		 color: $lime-green;
+    	}
+
+
+		& p{
+			font-weight: normal;
+		}	
+
+	}
+
+
+
+} 
+
+
+////////////CLOSE USE CASE PANELS/////////////////
+
+
+
+
+
+/////////////UNDERSTANDING THE USER////////////////////////////
+.understanding-users{
+	position: relative;
+	// padding-bottom: 2vh;
+
+
+
+	img{
+		width: 40%;
+		
+	}
+
+
+
+
+	img:nth-child(1){
+		position: absolute;
+		z-index:1;
+		float: left;
+		margin-left: 30%;
+		margin-top: 4%;
+		display: block;
+		// margin: -10% auto 0 auto;
+		border: 1px solid #39B54A;
+
+	}
+
+	img:nth-child(2){
+		position: absolute;
+		z-index:0;
+		float:left;
+		// transform: rotate(340deg);
+		margin-top: 0;
+		border: 1px solid #D50000;
+
+	}
+
+	img:nth-child(3){
+		position: relative;
+		z-index:2;
+		float: right;
+		// transform: rotate(12deg);
+		margin-top: 8%;
+		border: 1px solid #0071BC;
+	}
+
+
+}
+
+
+.img-personas-row{
+	margin-top: 5vh;
+
+}
+
+
+
+
+
+//////////////////////////PROBLEMS WITH CURRENT SITE////////////////////
+
+.identify-probs{
+	li{
+		margin-bottom: 0.6rem;
+	}
+}
+
+
+
+
+
+
+
+//////////////////////////////USER RESEARCH AND PROJ-FE CLOSE////////////////////////
+}
+
+
+}
