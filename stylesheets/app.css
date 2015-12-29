@@ -12818,10 +12818,6 @@ h3 {
   -webkit-clip-path: polygon(0 21vh, 100% 12vh, 100% 100%, 0 100%);
   clip-path: polygon(0 21vh, 100% 12vh, 100% 100%, 0 100%);
 }
-/* line 57, ../scss/about/_about.scss */
-#about .text {
-  padding: 0 0 2rem 0;
-}
 /* line 61, ../scss/about/_about.scss */
 #about .text h2 {
   margin-bottom: 1.5rem;
@@ -12841,7 +12837,7 @@ h3 {
   background-color: transparent;
   color: #222222;
   border: 1px solid #222222;
-  margin: 1rem 0;
+  margin: 1px;
 }
 /* line 79, ../scss/about/_about.scss */
 #about .button:hover {
@@ -12858,23 +12854,24 @@ h3 {
 }
 /* line 95, ../scss/about/_about.scss */
 #about .footers {
-  margin-top: 5vh;
+  margin-top: 0;
   background: url("../img/about/about-me-bottom.jpg");
   background-attachment: fixed;
   background-position: 0% -40%;
   height: 40vh;
   width: 100%;
 }
-/* line 106, ../scss/about/_about.scss */
+/* line 107, ../scss/about/_about.scss */
 #about .footer-top {
   background-color: #FFFFFF;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
   clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
   width: 100%;
   height: 35vh;
-  margin-top: -10vh;
+  display: inline-block;
+  margin-top: -1px;
 }
-/* line 119, ../scss/about/_about.scss */
+/* line 122, ../scss/about/_about.scss */
 #about .footer-bottom {
   background-color: #C8F526;
   width: 100%;
@@ -12883,19 +12880,22 @@ h3 {
   -webkit-clip-path: polygon(0% 90%, 100% 30%, 100% 100%, 0% 100%);
   clip-path: polygon(0% 90%, 100% 30%, 100% 100%, 0% 100%);
 }
-/* line 131, ../scss/about/_about.scss */
+/* line 134, ../scss/about/_about.scss */
 #about .copywrite {
   margin-top: -1vh;
 }
-/* line 137, ../scss/about/_about.scss */
+/* line 140, ../scss/about/_about.scss */
 #about #me {
   border: 7px solid black;
+  width: 70%;
+  margin-left: 15%;
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 137, ../scss/about/_about.scss */
+  /* line 140, ../scss/about/_about.scss */
   #about #me {
-    width: 98%;
+    width: 25%;
     float: right;
+    margin: 2rem;
   }
 }
 

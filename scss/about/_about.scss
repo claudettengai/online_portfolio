@@ -55,7 +55,7 @@
 
 
 	.text{
-		padding:0 0 2rem 0;
+		// padding:0 0 2rem 0;
 		// margin: 2rem 0;
 
 		h2{
@@ -74,7 +74,7 @@
 		background-color: transparent;
 		color: $jet;
 		border: 1px solid $jet;
-		margin: 1rem 0;
+		margin: 1px;
 
 		&:hover{
 			background-color: $jet;
@@ -93,7 +93,8 @@
 
 
 	.footers{
-	margin-top: 5vh;
+	// margin-top: 5vh;
+	margin-top: 0;
 
 	background: url("../img/about/about-me-bottom.jpg");
 	background-attachment: fixed;
@@ -109,7 +110,9 @@
 	// -webkit-clip-path: polygon(0% 0%,100% 0%, 0% 100%);
 	width: 100%;
 	height: 35vh;
-	margin-top: -10vh;
+	// margin-top: -10vh;
+	display: inline-block;
+	margin-top: -1px;
 
 
 }
@@ -135,11 +138,17 @@
 
 
 #me{
+
 	border: 7px solid black;
+	width: 70%;
+	margin-left: 15%;
+
+
 
 	@media #{$large-up}{
-	width: 98%;
+	width: 25%;
 	float: right;
+	margin: 2rem;
 }
 }
 
