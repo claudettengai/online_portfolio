@@ -10433,34 +10433,45 @@ th.hide-for-touch {
   float: left;
   display: inline-block;
 }
+@media (max-width: 450px) {
+  /* line 35, ../scss/_global.scss */
+  .home h6 {
+    margin-top: -2rem;
+  }
+}
 
-/* line 40, ../scss/_global.scss */
+/* line 44, ../scss/_global.scss */
 .text-bold, #resume .bold-right {
   font-weight: 600;
 }
 
-/* line 45, ../scss/_global.scss */
+/* line 49, ../scss/_global.scss */
 .email-link {
   color: #222222;
 }
-/* line 48, ../scss/_global.scss */
+/* line 52, ../scss/_global.scss */
 .email-link:hover {
   color: #222222;
   font-weight: 900;
   border-bottom: 1px solid #222222;
 }
 
-/* line 58, ../scss/_global.scss */
+/* line 62, ../scss/_global.scss */
 .to-contact-form-link {
   color: #222222;
   margin: 0 0.3rem;
   border-bottom: 1px solid #222222;
   padding-bottom: 0.3rem;
 }
-/* line 63, ../scss/_global.scss */
+/* line 67, ../scss/_global.scss */
 .to-contact-form-link:hover {
   color: #222222;
   border-bottom: 3px solid #222222;
+}
+
+/* line 86, ../scss/_global.scss */
+.no-cssclippathpolygon .home h6 {
+  margin-top: -2rem;
 }
 
 @font-face {
@@ -10625,9 +10636,9 @@ th.hide-for-touch {
 
 /* line 89, ../scss/_nav.scss */
 .move-left > .inner-wrap {
-  -ms-transform: translate3d(-70%, 0, 0);
-  -webkit-transform: translate3d(-70%, 0, 0);
-  transform: translate3d(-70%, 0, 0);
+  -ms-transform: translate3d(-90%, 0, 0);
+  -webkit-transform: translate3d(-90%, 0, 0);
+  transform: translate3d(-90%, 0, 0);
 }
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
   /* line 89, ../scss/_nav.scss */
@@ -10649,7 +10660,7 @@ th.hide-for-touch {
 /* line 106, ../scss/_nav.scss */
 .right-off-canvas-menu {
   background: #26c8f5;
-  padding: 3rem 17%;
+  padding: 3rem 27%;
 }
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
   /* line 106, ../scss/_nav.scss */
@@ -10681,11 +10692,13 @@ th.hide-for-touch {
 @media only screen and (max-width: 40em) {
   /* line 121, ../scss/_nav.scss */
   .right-off-canvas-menu .side-nav.main li a:not(.button) {
-    font-size: 2rem;
+    font-size: 2.4rem;
+    padding-top: 0;
+    padding-left: 0;
   }
 }
 
-/* line 167, ../scss/_nav.scss */
+/* line 170, ../scss/_nav.scss */
 .top-bar,
 .middle-bar,
 .bottom-bar {
@@ -10700,14 +10713,14 @@ th.hide-for-touch {
   transition: background-color 0.6s ease 0;
 }
 
-/* line 180, ../scss/_nav.scss */
+/* line 183, ../scss/_nav.scss */
 .top-bar, .bottom-bar {
   -ms-transform-origin: 100% 50%;
   -webkit-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
 }
 
-/* line 185, ../scss/_nav.scss */
+/* line 188, ../scss/_nav.scss */
 .middle-bar {
   -webkit-transition-property: opacity;
   transition-property: opacity;
@@ -10715,7 +10728,7 @@ th.hide-for-touch {
   transition-duration: 0.6s;
 }
 
-/* line 192, ../scss/_nav.scss */
+/* line 195, ../scss/_nav.scss */
 .top-bar-close {
   -ms-transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
@@ -10723,7 +10736,7 @@ th.hide-for-touch {
   background-color: #333;
 }
 
-/* line 198, ../scss/_nav.scss */
+/* line 201, ../scss/_nav.scss */
 .middle-bar-close {
   opacity: 0;
   -webkit-transition-property: opacity;
@@ -10732,7 +10745,7 @@ th.hide-for-touch {
   transition-duration: 0.3s;
 }
 
-/* line 206, ../scss/_nav.scss */
+/* line 209, ../scss/_nav.scss */
 .bottom-bar-close {
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
@@ -10740,11 +10753,11 @@ th.hide-for-touch {
   background-color: #333;
 }
 
-/* line 219, ../scss/_nav.scss */
+/* line 222, ../scss/_nav.scss */
 .right-off-canvas-menu .soc {
   padding-left: 1rem;
 }
-/* line 223, ../scss/_nav.scss */
+/* line 226, ../scss/_nav.scss */
 .right-off-canvas-menu .soc a:hover {
   z-index: 2;
   -webkit-transform: none;
@@ -10752,12 +10765,22 @@ th.hide-for-touch {
   color: white;
   border: 2px solid white;
 }
-/* line 231, ../scss/_nav.scss */
+/* line 234, ../scss/_nav.scss */
 .right-off-canvas-menu .soc li a {
   width: 80px;
   height: 80px;
   line-height: 80px;
   font-size: 44px;
+}
+@media only screen and (max-width: 40em) {
+  /* line 234, ../scss/_nav.scss */
+  .right-off-canvas-menu .soc li a {
+    display: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+  }
 }
 
 /* line 8, ../scss/_hero.scss */
@@ -10834,6 +10857,24 @@ h3 {
   background-color: white;
   width: 100%;
   height: 16vh;
+}
+
+/* line 112, ../scss/_hero.scss */
+.no-cssclippathpolygon #hero-text {
+  margin-top: 35vh;
+}
+/* line 116, ../scss/_hero.scss */
+.no-cssclippathpolygon #hero-top {
+  background-position: 0% 2vh;
+  height: 100vh;
+}
+/* line 123, ../scss/_hero.scss */
+.no-cssclippathpolygon #hero-content {
+  height: 73vh;
+}
+/* line 127, ../scss/_hero.scss */
+.no-cssclippathpolygon #hero-bottom {
+  background-color: transparent;
 }
 
 /* line 1, ../scss/_work.scss */
@@ -11013,6 +11054,17 @@ h3 {
   clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
 }
 
+/* line 194, ../scss/_about.scss */
+.no-cssclippathpolygon .triangle-2, .no-cssclippathpolygon .triangle-3,
+.no-cssclippathpolygon .triangle-3 {
+  display: none;
+}
+/* line 200, ../scss/_about.scss */
+.no-cssclippathpolygon .about-me {
+  margin: 2rem 0;
+  padding: 4rem 0;
+}
+
 /* line 1, ../scss/_contact.scss */
 .contact {
   padding-bottom: 3vh;
@@ -11052,6 +11104,15 @@ h3 {
   float: right;
   margin-top: 1.5rem;
   margin-right: 0;
+}
+
+/* line 57, ../scss/_contact.scss */
+.no-cssclippathpolygon .contact h2 {
+  margin-top: 5vh;
+}
+/* line 61, ../scss/_contact.scss */
+.no-cssclippathpolygon .contact .location-box, .no-cssclippathpolygon .contact .email-box {
+  margin-bottom: 3rem;
 }
 
 /* line 5, ../scss/_footer.scss */
@@ -11111,6 +11172,18 @@ h3 {
 /* line 72, ../scss/_footer.scss */
 .copywrite .soc {
   margin-bottom: 0.5rem;
+}
+
+/* line 87, ../scss/_footer.scss */
+.no-cssclippathpolygon .footers {
+  margin-top: 7vh;
+  height: 50vh;
+  background-position: 0% 20vh;
+}
+/* line 94, ../scss/_footer.scss */
+.no-cssclippathpolygon .footer-top {
+  background-color: transparent;
+  height: 45vh;
 }
 
 @font-face {
@@ -11455,7 +11528,21 @@ h3 {
     margin-top: 14vh;
   }
 }
-/* line 25, ../scss/proj_fe/_header.scss */
+@media (max-width: 400px) {
+  /* line 11, ../scss/proj_fe/_header.scss */
+  #project-fe-page #FE-head-top h1 {
+    line-height: 1;
+    width: 80%;
+    margin-top: 7vh;
+  }
+}
+@media (max-width: 400px) {
+  /* line 30, ../scss/proj_fe/_header.scss */
+  #project-fe-page #FE-head-top h3 {
+    font-size: 1.5rem;
+  }
+}
+/* line 40, ../scss/proj_fe/_header.scss */
 #project-fe-page #FE-head-back {
   background: url("../img/proj-fe/hero-pic.jpg") center center;
   background-size: cover;
@@ -11464,6 +11551,19 @@ h3 {
   width: 100%;
   margin: -33vh 0 1vh 0;
   text-align: center;
+}
+
+/* line 79, ../scss/proj_fe/_header.scss */
+.no-cssclippathpolygon #project-fe-page #FE-head-top {
+  height: 100vh;
+}
+/* line 82, ../scss/proj_fe/_header.scss */
+.no-cssclippathpolygon #project-fe-page #FE-head-top h1 {
+  margin-top: 30vh;
+}
+/* line 88, ../scss/proj_fe/_header.scss */
+.no-cssclippathpolygon #project-fe-page #FE-head-back {
+  height: 40vh;
 }
 
 /* line 5, ../scss/proj_fe/_magellan.scss */
@@ -11529,6 +11629,24 @@ h3 {
   #project-fe-page .sub-nav dd {
     margin-left: 0;
   }
+}
+
+/* line 114, ../scss/proj_fe/_magellan.scss */
+.no-cssclippathpolygon #project-fe-page div#magellan-bar {
+  transform: none;
+  margin-top: 0;
+}
+@media only screen and (min-width: 80.0625em) {
+  /* line 114, ../scss/proj_fe/_magellan.scss */
+  .no-cssclippathpolygon #project-fe-page div#magellan-bar {
+    margin-top: 0;
+  }
+}
+/* line 126, ../scss/proj_fe/_magellan.scss */
+.no-cssclippathpolygon #project-fe-page .sub-nav dd a p, .no-cssclippathpolygon #project-fe-page .sub-nav dt.active a p, .no-cssclippathpolygon #project-fe-page .sub-nav dd.active a p, .no-cssclippathpolygon #project-fe-page .sub-nav li.active a p {
+  transform: none;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /* line 8, ../scss/proj_fe/_background.scss */
@@ -11613,15 +11731,29 @@ h3 {
     background-size: cover;
   }
 }
+@media only screen and (max-width: 40em) {
+  /* line 1, ../scss/proj_fe/_divider-images.scss */
+  #fe-pic1, #fe-pic2, #fe-pic3, #fe-pic4, #fe-pic5, #fe-pic6, #fe-pic7, #fe-pic8 {
+    background-size: 640px auto;
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
 
-/* line 36, ../scss/proj_fe/_divider-images.scss */
+/* line 42, ../scss/proj_fe/_divider-images.scss */
 .image-clip {
   height: 45vh;
   width: 100%;
   background-color: transparent;
 }
+@media only screen and (max-width: 40em) {
+  /* line 42, ../scss/proj_fe/_divider-images.scss */
+  .image-clip {
+    height: 45vh;
+  }
+}
 
-/* line 46, ../scss/proj_fe/_divider-images.scss */
+/* line 56, ../scss/proj_fe/_divider-images.scss */
 .image-clip-before {
   background-color: white;
   width: 100%;
@@ -11632,7 +11764,7 @@ h3 {
   margin-top: -5vh;
 }
 
-/* line 71, ../scss/proj_fe/_divider-images.scss */
+/* line 81, ../scss/proj_fe/_divider-images.scss */
 .image-clip-after {
   background-color: white;
   width: 100%;
@@ -11643,45 +11775,50 @@ h3 {
   margin-top: -5vh;
 }
 
-/* line 100, ../scss/proj_fe/_divider-images.scss */
+/* line 107, ../scss/proj_fe/_divider-images.scss */
+.no-cssclippathpolygon .image-clip {
+  height: 60vh;
+}
+
+/* line 119, ../scss/proj_fe/_divider-images.scss */
 #fe-pic2 {
   background-image: url("../img/proj-fe/fe-pic2.jpg");
   margin-top: 15vh;
 }
 
-/* line 107, ../scss/proj_fe/_divider-images.scss */
+/* line 126, ../scss/proj_fe/_divider-images.scss */
 #fe-pic3 {
   background-image: url("../img/proj-fe/fe-pic5.jpg");
   margin-top: 10vh;
 }
 
-/* line 151, ../scss/proj_fe/_divider-images.scss */
+/* line 170, ../scss/proj_fe/_divider-images.scss */
 #fe-pic4 {
   background-image: url("../img/proj-fe/fe-pic4.jpg");
 }
 
-/* line 159, ../scss/proj_fe/_divider-images.scss */
+/* line 178, ../scss/proj_fe/_divider-images.scss */
 #fe-pic5 {
   background-image: url("../img/proj-fe/fe-pic3.jpg");
 }
 @media only screen and (min-width: 80.0625em) {
-  /* line 159, ../scss/proj_fe/_divider-images.scss */
+  /* line 178, ../scss/proj_fe/_divider-images.scss */
   #fe-pic5 {
     background-size: 102%;
   }
 }
 
-/* line 169, ../scss/proj_fe/_divider-images.scss */
+/* line 188, ../scss/proj_fe/_divider-images.scss */
 #fe-pic6 {
   background-image: url("../img/proj-fe/fe-pic6.jpg");
 }
 
-/* line 175, ../scss/proj_fe/_divider-images.scss */
+/* line 194, ../scss/proj_fe/_divider-images.scss */
 #fe-pic7 {
   background-image: url("../img/proj-fe/fe-pic7.jpg");
 }
 
-/* line 181, ../scss/proj_fe/_divider-images.scss */
+/* line 200, ../scss/proj_fe/_divider-images.scss */
 #fe-pic8 {
   background-image: url("../img/proj-fe/fe-pic8.jpg");
 }
@@ -12324,7 +12461,21 @@ h3 {
     margin-top: 14vh;
   }
 }
-/* line 25, ../scss/proj_paycrave/_header.scss */
+@media (max-width: 400px) {
+  /* line 11, ../scss/proj_paycrave/_header.scss */
+  #project-paycrave-page #paycrave-head-top h1 {
+    line-height: 1;
+    width: 80%;
+    margin-top: 10vh;
+  }
+}
+@media (max-width: 400px) {
+  /* line 28, ../scss/proj_paycrave/_header.scss */
+  #project-paycrave-page #paycrave-head-top h1 h3 {
+    font-size: 1.5rem;
+  }
+}
+/* line 44, ../scss/proj_paycrave/_header.scss */
 #project-paycrave-page #paycrave-head-back {
   background: url("../img/proj-paycrave/header4.jpg") center center;
   background-size: cover;
@@ -12334,7 +12485,7 @@ h3 {
   margin: -33vh 0 1vh 0;
   text-align: center;
 }
-/* line 40, ../scss/proj_paycrave/_header.scss */
+/* line 59, ../scss/proj_paycrave/_header.scss */
 #project-paycrave-page #paycrave-head-bottom {
   height: 18vh;
   width: 100%;
@@ -12343,6 +12494,15 @@ h3 {
   position: absolute;
   -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+}
+
+/* line 83, ../scss/proj_paycrave/_header.scss */
+.no-cssclippathpolygon #project-paycrave-page #paycrave-head-top {
+  height: 100vh;
+}
+/* line 86, ../scss/proj_paycrave/_header.scss */
+.no-cssclippathpolygon #project-paycrave-page #paycrave-head-top h1 {
+  margin-top: 30vh;
 }
 
 @media only screen and (max-width: 40em) {
@@ -12375,13 +12535,25 @@ h3 {
     background-size: cover;
   }
 }
-/* line 53, ../scss/proj_paycrave/_globals.scss */
+@media only screen and (max-width: 40em) {
+  /* line 39, ../scss/proj_paycrave/_globals.scss */
+  #project-paycrave-page #divider-pic1 {
+    background-size: 640px auto;
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
+/* line 61, ../scss/proj_paycrave/_globals.scss */
+#project-paycrave-page .no-cssclippathpolygon .image-clip {
+  height: 60vh;
+}
+/* line 73, ../scss/proj_paycrave/_globals.scss */
 #project-paycrave-page .image-clip {
   height: 45vh;
   width: 100%;
   background-color: transparent;
 }
-/* line 60, ../scss/proj_paycrave/_globals.scss */
+/* line 80, ../scss/proj_paycrave/_globals.scss */
 #project-paycrave-page .image-clip-before {
   background-color: white;
   width: 100%;
@@ -12392,7 +12564,7 @@ h3 {
   margin-top: -10vh;
   height: 15vh;
 }
-/* line 72, ../scss/proj_paycrave/_globals.scss */
+/* line 92, ../scss/proj_paycrave/_globals.scss */
 #project-paycrave-page .image-clip-after {
   background-color: white;
   width: 100%;
@@ -12732,7 +12904,7 @@ h3 {
   font-size: 1.4375rem;
   color: black;
   background-color: transparent;
-  border: 4px solid #C8F526;
+  border: 2px solid #222222;
 }
 @media only screen and (max-width: 40em) {
   /* line 73, ../scss/resume/_resume.scss */
@@ -12742,52 +12914,62 @@ h3 {
 }
 /* line 86, ../scss/resume/_resume.scss */
 #resume #download-PDF:hover {
-  background-color: #C8F526;
+  background-color: #222222;
+  color: white;
 }
-/* line 94, ../scss/resume/_resume.scss */
+/* line 95, ../scss/resume/_resume.scss */
 #resume .head-text, #resume .bullet {
   font-family: "Varela";
   margin-bottom: 0.3rem;
 }
-/* line 101, ../scss/resume/_resume.scss */
+/* line 102, ../scss/resume/_resume.scss */
 #resume .bullet {
   padding: 0 0.3rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 110, ../scss/resume/_resume.scss */
+  /* line 111, ../scss/resume/_resume.scss */
   #resume .experience .bold-right {
     text-align: left;
   }
 }
-/* line 116, ../scss/resume/_resume.scss */
+/* line 117, ../scss/resume/_resume.scss */
 #resume .experience p {
   margin-bottom: 0;
 }
-/* line 120, ../scss/resume/_resume.scss */
+/* line 121, ../scss/resume/_resume.scss */
 #resume .experience .bullet-list ul {
   margin-left: 5rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 120, ../scss/resume/_resume.scss */
+  /* line 121, ../scss/resume/_resume.scss */
   #resume .experience .bullet-list ul {
     margin-left: 1rem;
   }
 }
-/* line 135, ../scss/resume/_resume.scss */
+/* line 136, ../scss/resume/_resume.scss */
 #resume .coursework {
   padding-bottom: 5rem;
 }
-/* line 139, ../scss/resume/_resume.scss */
+/* line 140, ../scss/resume/_resume.scss */
 #resume .footer-bottom {
   height: 20vh;
 }
-/* line 143, ../scss/resume/_resume.scss */
+/* line 144, ../scss/resume/_resume.scss */
 #resume .footer-list {
   margin-top: 0;
   padding: 0 0;
 }
 
-/* line 11, ../scss/about/_about.scss */
+/* line 170, ../scss/resume/_resume.scss */
+.no-cssclippathpolygon #resume .head {
+  height: 4rem;
+}
+/* line 174, ../scss/resume/_resume.scss */
+.no-cssclippathpolygon #resume .footer-bottom {
+  height: 12vh;
+}
+
+/* line 5, ../scss/about/_about.scss */
 #about .head {
   margin-top: -7vh;
   height: 20vh;
@@ -12796,11 +12978,11 @@ h3 {
   background-color: #C8F526;
   overflow: hidden;
 }
-/* line 27, ../scss/about/_about.scss */
+/* line 21, ../scss/about/_about.scss */
 #about .home-button {
   margin-top: 4.8rem;
 }
-/* line 33, ../scss/about/_about.scss */
+/* line 27, ../scss/about/_about.scss */
 #about .pic-back {
   background-image: url("../img/about/about-me-top.jpg");
   background-attachment: fixed;
@@ -12809,7 +12991,7 @@ h3 {
   position: absolute;
   z-index: -1;
 }
-/* line 44, ../scss/about/_about.scss */
+/* line 38, ../scss/about/_about.scss */
 #about #head-bottom {
   width: 100%;
   background-color: white;
@@ -12818,41 +13000,41 @@ h3 {
   -webkit-clip-path: polygon(0 21vh, 100% 12vh, 100% 100%, 0 100%);
   clip-path: polygon(0 21vh, 100% 12vh, 100% 100%, 0 100%);
 }
-/* line 61, ../scss/about/_about.scss */
+/* line 55, ../scss/about/_about.scss */
 #about .text h2 {
   margin-bottom: 1.5rem;
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 61, ../scss/about/_about.scss */
+  /* line 55, ../scss/about/_about.scss */
   #about .text h2 {
     margin-top: -3rem;
   }
 }
-/* line 68, ../scss/about/_about.scss */
+/* line 62, ../scss/about/_about.scss */
 #about .text p {
   display: inline-block;
 }
-/* line 73, ../scss/about/_about.scss */
+/* line 67, ../scss/about/_about.scss */
 #about .button {
   background-color: transparent;
   color: #222222;
   border: 1px solid #222222;
   margin: 1px;
 }
-/* line 79, ../scss/about/_about.scss */
+/* line 73, ../scss/about/_about.scss */
 #about .button:hover {
   background-color: #222222;
 }
-/* line 81, ../scss/about/_about.scss */
+/* line 75, ../scss/about/_about.scss */
 #about .button:hover h6 {
   color: white;
 }
-/* line 86, ../scss/about/_about.scss */
+/* line 80, ../scss/about/_about.scss */
 #about .button h6 {
   font-size: 1rem;
   padding: 0;
 }
-/* line 95, ../scss/about/_about.scss */
+/* line 89, ../scss/about/_about.scss */
 #about .footers {
   margin-top: 0;
   background: url("../img/about/about-me-bottom.jpg");
@@ -12861,7 +13043,7 @@ h3 {
   height: 40vh;
   width: 100%;
 }
-/* line 107, ../scss/about/_about.scss */
+/* line 101, ../scss/about/_about.scss */
 #about .footer-top {
   background-color: #FFFFFF;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
@@ -12871,7 +13053,7 @@ h3 {
   display: inline-block;
   margin-top: -1px;
 }
-/* line 122, ../scss/about/_about.scss */
+/* line 116, ../scss/about/_about.scss */
 #about .footer-bottom {
   background-color: #C8F526;
   width: 100%;
@@ -12880,23 +13062,66 @@ h3 {
   -webkit-clip-path: polygon(0% 90%, 100% 30%, 100% 100%, 0% 100%);
   clip-path: polygon(0% 90%, 100% 30%, 100% 100%, 0% 100%);
 }
-/* line 134, ../scss/about/_about.scss */
+/* line 128, ../scss/about/_about.scss */
 #about .copywrite {
   margin-top: -1vh;
 }
-/* line 140, ../scss/about/_about.scss */
+/* line 134, ../scss/about/_about.scss */
 #about #me {
   border: 7px solid black;
   width: 70%;
   margin-left: 15%;
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 140, ../scss/about/_about.scss */
+  /* line 134, ../scss/about/_about.scss */
   #about #me {
     width: 25%;
     float: right;
     margin: 2rem;
   }
+}
+
+/* line 157, ../scss/about/_about.scss */
+.no-cssclippathpolygon #about .pic-back {
+  background-position: 0% 6vh;
+  background-attachment: scroll;
+}
+/* line 162, ../scss/about/_about.scss */
+.no-cssclippathpolygon #about .head {
+  height: 15vh;
+  margin-top: -9vh;
+}
+/* line 167, ../scss/about/_about.scss */
+.no-cssclippathpolygon #about .home-button h6 {
+  margin-top: -0.2rem;
+}
+/* line 171, ../scss/about/_about.scss */
+.no-cssclippathpolygon #about #head-bottom {
+  margin-top: 21vh;
+}
+/* line 176, ../scss/about/_about.scss */
+.no-cssclippathpolygon #about h2 {
+  margin-top: -25vh;
+}
+/* line 180, ../scss/about/_about.scss */
+.no-cssclippathpolygon #about .button {
+  margin-bottom: 15vh;
+}
+/* line 185, ../scss/about/_about.scss */
+.no-cssclippathpolygon #about .footers {
+  height: 30vh;
+}
+/* line 188, ../scss/about/_about.scss */
+.no-cssclippathpolygon #about .footer-top {
+  background-color: transparent;
+}
+/* line 192, ../scss/about/_about.scss */
+.no-cssclippathpolygon #about .footer-bottom {
+  margin-top: 0;
+}
+/* line 196, ../scss/about/_about.scss */
+.no-cssclippathpolygon #about .copywrite ul {
+  margin-top: 1vh;
 }
 
 /* line 6, ../scss/contact-form/_contact-form.scss */
@@ -13086,6 +13311,28 @@ h3 {
 /* line 282, ../scss/contact-form/_contact-form.scss */
 #contact-form .copywrite {
   margin-top: -1vh;
+}
+
+/* line 305, ../scss/contact-form/_contact-form.scss */
+.no-cssclippathpolygon #contact-form h2 {
+  margin-top: 3rem;
+}
+/* line 308, ../scss/contact-form/_contact-form.scss */
+.no-cssclippathpolygon #contact-form .head {
+  height: auto;
+}
+/* line 312, ../scss/contact-form/_contact-form.scss */
+.no-cssclippathpolygon #contact-form #head-bottom {
+  background-color: transparent;
+}
+/* line 316, ../scss/contact-form/_contact-form.scss */
+.no-cssclippathpolygon #contact-form .footer-top {
+  background-color: transparent;
+  margin-top: 10vh;
+}
+/* line 321, ../scss/contact-form/_contact-form.scss */
+.no-cssclippathpolygon #contact-form .footer-bottom {
+  margin-top: -10vh;
 }
 
 /* line 4, ../scss/thank_you/_thank-you.scss */

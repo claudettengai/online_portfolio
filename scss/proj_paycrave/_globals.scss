@@ -45,8 +45,28 @@ h2.section-title{
 		background-size: cover;
 	}
 
+	@media #{$small-only}{
+		background-size: 640px auto;
+		background-position: center center;
+		background-attachment: scroll;
+	}
+
 }
 
+
+
+///NO CLIP PATH POLYGON///
+
+.no-cssclippathpolygon{
+	.image-clip{
+
+		height:60vh;
+	}
+
+}
+
+
+////////////////////////
 
 
 

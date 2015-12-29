@@ -55,9 +55,10 @@ var heroBottom = $('#FE-head-back').position().top+$('#FE').outerHeight(true)
 
 var magellanPositionScroll = $('#magellan-bar').offset().top + (Math.tan(Math.radians(4))* $(window).width()) + 16;
 	$window= $(window);
-
 // console.log($('#magellan-bar').offset().top);
 
+
+var noClipmagellanPositionScroll= $('#magellan-bar').offset().top;
 
 // var headMarginEqualizer =  parseInt($('.after-fixed-nav').css('margin-top')) + (0- parseInt($('#magellan-bar').css('margin-top'))) + "px";
 // console.log(headMarginEqualizer);
@@ -71,7 +72,43 @@ var headMarginEqualizer = parseInt($("div#magellan-bar").outerHeight(true))+ par
 var headMarginEqualizerTitle = parseInt($("div#magellan-bar").outerHeight(true))+ parseInt($("h1.after-fixed-nav").css("margin-top")) + "px";
 // console.log(headMarginEqualizer);
 
+
+
+
+///original before noClip 
+// $window.scroll(function(){
+// 	if ($(window).scrollTop() >= magellanPositionScroll) {
+// 		$("#magellan-bar").addClass("fixed");
+// 		// $("div#magellan-bar").css({
+// 		// 	"background-color": "#C8F526",
+// 		// });
+
+// 		$("h2.after-fixed-nav").css("margin-top", headMarginEqualizer);
+// 		$("h1.after-fixed-nav").css("margin-top", headMarginEqualizerTitle);
+
+
+
+
+// 	} else {
+// 		$("div#magellan-bar").removeClass("fixed");
+// 		$("h2.after-fixed-nav").css("margin-top", headMarginInit);
+// 		$("h1.after-fixed-nav").css("margin-top", headMarginInitTitle);
+
+
+		
+// 	}
+// });
+
+
+
+
+
+//////////////
+
+
 $window.scroll(function(){
+
+if (!($('html').hasClass("no-cssclippathpolygon"))){
 	if ($(window).scrollTop() >= magellanPositionScroll) {
 		$("#magellan-bar").addClass("fixed");
 		// $("div#magellan-bar").css({
@@ -88,21 +125,30 @@ $window.scroll(function(){
 		$("div#magellan-bar").removeClass("fixed");
 		$("h2.after-fixed-nav").css("margin-top", headMarginInit);
 		$("h1.after-fixed-nav").css("margin-top", headMarginInitTitle);
-
-
-		
 	}
+}else{ 
+
+
+	if ($(window).scrollTop() >= noClipmagellanPositionScroll) {
+		$("#magellan-bar").addClass("fixed");
+
+
+		$("h2.after-fixed-nav").css("margin-top", headMarginEqualizer);
+		$("h1.after-fixed-nav").css("margin-top", headMarginEqualizerTitle);
+
+
+
+
+	} else {
+		$("div#magellan-bar").removeClass("fixed");
+		$("h2.after-fixed-nav").css("margin-top", headMarginInit);
+		$("h1.after-fixed-nav").css("margin-top", headMarginInitTitle);
+
+	}
+}
+
+
 });
-
-
-
-
-
-
-
-
-
-
 
 
 

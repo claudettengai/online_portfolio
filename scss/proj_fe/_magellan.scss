@@ -95,3 +95,51 @@ div#magellan-bar{
 
 
 }
+
+
+
+
+
+
+
+
+////////////////////NO CLIP PATH POLYGON////////////////
+.no-cssclippathpolygon{
+
+#project-fe-page{
+
+
+
+
+div#magellan-bar{
+	transform: none;
+	margin-top: 0;
+
+	@media#{$xlarge-up}{
+		margin-top: 0;
+	}
+
+}
+
+.sub-nav{
+	dd a, dt.active a, dd.active a, li.active a{
+		p{
+			transform: none;
+			margin-top: 1rem;
+			margin-bottom:0.5rem;
+
+
+
+		}
+	}
+}
+
+}
+}
+
+
+
+
+
+
+
