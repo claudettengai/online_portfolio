@@ -61,7 +61,7 @@
 
 $menu-text-width-percent: 0.36;
 
-$menu-push-percent-small: 0.7;
+$menu-push-percent-small: 0.9;
 $menu-side-padding-small: ($menu-push-percent-small - $menu-text-width-percent)/2;
 
 $menu-push-percent-med: 0.5;
@@ -132,7 +132,10 @@ $menu-side-padding-med: ($menu-push-percent-med - $menu-text-width-percent)/2;
     }
 
     @media #{$small-only}{
-      font-size: 2rem;
+      font-size: 2.4rem;
+      padding-top: 0;
+      padding-left: 0;
+      // line-height: 1.5rem;
     }
   }
 
@@ -233,6 +236,14 @@ $menu-side-padding-med: ($menu-push-percent-med - $menu-text-width-percent)/2;
     height: 80px;
     line-height: 80px;
     font-size: 44px;
+
+    @media #{$small-only}{
+      display: none;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 22px;
+    }
   }
 }
 

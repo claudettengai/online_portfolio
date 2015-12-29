@@ -15,6 +15,12 @@
 		background-size: cover;
 	}
 
+	@media #{$small-only}{
+		background-size: 640px auto;
+		background-position: center center;
+		background-attachment: scroll;
+	}
+
 }
 
 
@@ -38,6 +44,10 @@
 	width: 100%;
 	// background-color: transparentize(blue, 0.4);
 	background-color: transparent;
+
+	@media #{$small-only}{
+		height: 45vh;
+	}
 
 
 }
