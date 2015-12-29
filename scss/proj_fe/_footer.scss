@@ -39,7 +39,8 @@
 
 .footer-top{
 	background-color: $white;
-	-webkit-clip-path: polygon(0% 0%,100% 0%, 0% 100%);
+	@include clip-path(polygon(0% 0%,100% 0%, 0% 100%));
+	// -webkit-clip-path: polygon(0% 0%,100% 0%, 0% 100%);
 	width: 100%;
 	height: 20vh;
 	margin-top: -2vh
@@ -52,7 +53,8 @@
 	width: 100%;
 	height: 31vh;
 	margin-top: 30vh;
-	-webkit-clip-path: polygon(0% 90%,100% 0%, 100% 100%, 0% 100%);
+	@include clip-path(polygon(0% 90%,100% 0%, 100% 100%, 0% 100%));
+	// -webkit-clip-path: polygon(0% 90%,100% 0%, 100% 100%, 0% 100%);
 
 }
 
