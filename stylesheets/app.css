@@ -12441,6 +12441,11 @@ h3 {
   clip-path: polygon(0% 90%, 100% 0%, 100% 100%, 0% 100%);
 }
 
+/* line 74, ../scss/proj_fe/_footer.scss */
+.no-cssclippathpolygon #project-fe-page .footers {
+  height: 70vh;
+}
+
 /* line 3, ../scss/proj_paycrave/_header.scss */
 #project-paycrave-page #paycrave-head-top {
   background-color: #C8F526;
