@@ -35,7 +35,10 @@
 .home h6{
 	float: left;
 	display: inline-block;
-	margin-top: -2rem;
+	// margin-top: -2rem;
+	@media (max-width: 450px){
+		margin-top: -2rem;
+	}
 }
 
 .text-bold{
@@ -67,3 +70,26 @@
 		border-bottom: 3px solid $jet;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.no-cssclippathpolygon{
+	.home h6{
+		margin-top: -2rem;
+	}
+}
+
+
+
+
+
+

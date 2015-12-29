@@ -2,12 +2,6 @@
 #about{
 
 
-
-
-
-
-
-
 .head{
 
 	margin-top: -7vh;
@@ -152,9 +146,75 @@
 }
 }
 
+}
 
 
+///NO CLIP PATH POLYGON///
+
+.no-cssclippathpolygon{
+	#about{
+
+		.pic-back{
+			background-position: 0% 6vh;
+			background-attachment: scroll;
+		}
+
+		.head{
+			height: 15vh;
+			margin-top: -9vh;
+		}
+
+		.home-button h6{
+			margin-top: -0.2rem;
+		}
+
+		#head-bottom{
+			margin-top: 21vh;
+
+		}
+
+		h2{
+			margin-top: -25vh;
+		}
+
+		.button{
+			margin-bottom: 15vh;
+		}
 
 
+		.footers{
+			height: 30vh;
+		}
+		.footer-top{
+			background-color: transparent
+		}
+
+		.footer-bottom{
+			margin-top: 0;
+		}
+
+		.copywrite ul{
+			margin-top: 1vh;
+		}
+
+	}
 
 }
+
+
+////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -79,12 +79,13 @@ h3{
 	font-size: $h5-font-size;
 	color: black; 
 	background-color: transparent;
-	border: 4px solid $lime-green;
+	border: 2px solid $jet;
 	// margin-top: -10vh;
 	// margin-right: 4rem;
 
 	&:hover{
-		background-color: $lime-green;
+		background-color: $jet;
+		color: white;
 	}
 
 }
@@ -146,12 +147,6 @@ h3{
 }
 
 
-.FE-UX,
-.FE-biz-dev,
-.line-cook,
-.jane-norman{
-	// margin-bottom: 1rem;
-}
 
 
 
@@ -160,3 +155,31 @@ h3{
 
 //////////////
 }
+
+
+
+
+
+
+
+///NO CLIP PATH POLYGON///
+
+.no-cssclippathpolygon{
+	#resume{
+
+		.head{
+			height: 4rem;
+		}
+
+		.footer-bottom{
+			height: 12vh;
+		}
+
+
+	}
+
+
+}
+
+
+
