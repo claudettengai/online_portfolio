@@ -74,7 +74,7 @@
 		background-color: transparent;
 		color: $jet;
 		border: 1px solid $jet;
-		margin: 1rem 0;
+		margin: 1px;
 
 		&:hover{
 			background-color: $jet;
@@ -138,11 +138,17 @@
 
 
 #me{
+
 	border: 7px solid black;
+	width: 70%;
+	margin-left: 15%;
+
+
 
 	@media #{$large-up}{
-	width: 98%;
+	width: 25%;
 	float: right;
+	margin: 2rem;
 }
 }
 

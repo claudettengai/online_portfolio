@@ -12837,7 +12837,7 @@ h3 {
   background-color: transparent;
   color: #222222;
   border: 1px solid #222222;
-  margin: 1rem 0;
+  margin: 1px;
 }
 /* line 79, ../scss/about/_about.scss */
 #about .button:hover {
@@ -12887,12 +12887,15 @@ h3 {
 /* line 140, ../scss/about/_about.scss */
 #about #me {
   border: 7px solid black;
+  width: 70%;
+  margin-left: 15%;
 }
 @media only screen and (min-width: 64.0625em) {
   /* line 140, ../scss/about/_about.scss */
   #about #me {
-    width: 98%;
+    width: 25%;
     float: right;
+    margin: 2rem;
   }
 }
 
