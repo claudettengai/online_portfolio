@@ -4,7 +4,8 @@
 	background-color: $lime-green;
 	height: 60vh;
 	width: 100%;
-	-webkit-clip-path: polygon(0 0%, 100% 0%, 100% 51%, 0% 100%);
+	@include clip-path(polygon(0 0%, 100% 0%, 100% 51%, 0% 100%));
+	// -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 51%, 0% 100%);
 	overflow:hidden;
 
 	h1{
@@ -42,7 +43,8 @@
 	background-color: white;
 	margin-top: 76vh;
 	position: absolute;
-	-webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+	@include clip-path(polygon(100% 0%, 100% 100%, 0% 100%));
+	// -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
 
 
 }

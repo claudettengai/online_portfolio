@@ -50,13 +50,15 @@
 	    top: $paragraph-font-size + 0.24;
 	    position: relative;
 	    margin: 0rem;
-	    transform: rotate(15deg);
+	    @include transform(rotate(15deg));
+	    // transform: rotate(15deg);
 
 	}
 
 	@for $i from 2 through 3 {
 			li:nth-child(#{$i})::before { 
-			transform: rotate($i * 45deg); 
+			@include transform(rotate($i *45deg));
+			// transform: rotate($i * 45deg); 
 			}
 		 }
 }
