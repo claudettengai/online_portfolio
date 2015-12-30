@@ -39,17 +39,30 @@ $(function() {
 
 		// my code -- make menu fixed
 
-var placeMenu = function(){
-	var windowTop = ($(window).scrollTop());
+// var placeMenu = function(){
+// 	var windowTop = ($(window).scrollTop());
 
-	$('.side-nav, .top-bar, middle-bar, bottom-bar').css({
-		marginTop: windowTop
-	});
-};
+// 	$('.side-nav, .top-bar, middle-bar, bottom-bar').css({
+// 		marginTop: windowTop
+// 	});
+// };
 
-placeMenu();
+// placeMenu();
 
-$(document).scroll(placeMenu);
+// $(document).scroll(placeMenu);
+
+
+
+
+
+//////////////////
+// make menu show up green on picture backgrounds//////
+
+
+
+
+
+
 
 
 
