@@ -20,14 +20,13 @@
 
 
 .right-off-canvas-toggle {
-  .menu {
+  .menu-display {
     float: right;
     display: block;
     margin: 2.5rem 2.5rem;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     margin-left: 85%;
-
     @media (max-width:399px) {
       margin: 2rem; 
       margin-left: 80%;
@@ -50,6 +49,26 @@
 
 
 }
+
+.right-off-canvas-toggle{
+.menu-click{
+  @extend .menu-display;
+  position: absolute;
+  background-color: red;
+  opacity: 0;
+  z-index: 1;
+  @include transition-property(opacity);
+  // transition-property: opacity;
+  @include transition-duration(0.8s);
+
+}
+
+.menu-click-action{
+  opacity: 1;
+}
+}
+
+
 
 
 

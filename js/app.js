@@ -17,6 +17,22 @@ $(document).foundation();
 
 
 
+		// my code -- make menu fixed
+
+var placeMenu = function(){
+	var windowTop = ($(window).scrollTop());
+
+	$('.side-nav, .menu-click .top-bar, middle-bar, bottom-bar').css({
+		marginTop: windowTop
+	});
+};
+
+placeMenu();
+
+$(document).scroll(placeMenu);
+
+
+
 
 // NAV MENU 
 
@@ -24,45 +40,44 @@ $(document).foundation();
 
 $(function() {
 	$(".right-off-canvas-toggle, .exit-off-canvas, .side-nav a, .nav-soc a").click(function() {
+
+
+// 		// $(".menu-click").toggle(function(){
+// 		// 	$(".menu-click").toggleClass("menu-click-action");
+// 		// // }, 
+// 		// // function(){
+// 		// // 	$(".menu-click").removeClass("menu-click-action");
+// 		// 	// $(".menu-click").delay(600).removeClass("menu-click-action");
+// 		// // });
+
+
+
+
+
+
     	$(".top-bar").toggleClass("top-bar-close");
 		$(".middle-bar").toggleClass("middle-bar-close");
 		$(".bottom-bar").toggleClass("bottom-bar-close");
+		$(".menu-click").toggleClass("menu-click-action");
   	});
 });
 
 
 
 
-
-
-
-
 		// my code -- make menu fixed
 
-// var placeMenu = function(){
-// 	var windowTop = ($(window).scrollTop());
+var placeMenu = function(){
+	var windowTop = ($(window).scrollTop());
 
-// 	$('.side-nav, .top-bar, middle-bar, bottom-bar').css({
-// 		marginTop: windowTop
-// 	});
-// };
+	$('.side-nav, .menu-click .top-bar, middle-bar, bottom-bar').css({
+		marginTop: windowTop
+	});
+};
 
-// placeMenu();
+placeMenu();
 
-// $(document).scroll(placeMenu);
-
-
-
-
-
-//////////////////
-// make menu show up green on picture backgrounds//////
-
-
-
-
-
-
+$(document).scroll(placeMenu);
 
 
 

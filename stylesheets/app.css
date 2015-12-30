@@ -10586,62 +10586,78 @@ th.hide-for-touch {
 }
 
 /* line 23, ../scss/_nav.scss */
-.right-off-canvas-toggle .menu {
+.right-off-canvas-toggle .menu-display, .right-off-canvas-toggle .menu-click {
   float: right;
   display: block;
   margin: 2.5rem 2.5rem;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   margin-left: 85%;
 }
 @media (max-width: 399px) {
   /* line 23, ../scss/_nav.scss */
-  .right-off-canvas-toggle .menu {
+  .right-off-canvas-toggle .menu-display, .right-off-canvas-toggle .menu-click {
     margin: 2rem;
     margin-left: 80%;
   }
 }
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
   /* line 23, ../scss/_nav.scss */
-  .right-off-canvas-toggle .menu {
+  .right-off-canvas-toggle .menu-display, .right-off-canvas-toggle .menu-click {
     margin-left: 90%;
   }
 }
 @media only screen and (min-width: 64.0625em) {
   /* line 23, ../scss/_nav.scss */
-  .right-off-canvas-toggle .menu {
+  .right-off-canvas-toggle .menu-display, .right-off-canvas-toggle .menu-click {
     margin-left: 92%;
   }
 }
 @media only screen and (min-width: 80.0625em) {
   /* line 23, ../scss/_nav.scss */
-  .right-off-canvas-toggle .menu {
+  .right-off-canvas-toggle .menu-display, .right-off-canvas-toggle .menu-click {
     margin-left: 94%;
   }
 }
 
-/* line 76, ../scss/_nav.scss */
+/* line 54, ../scss/_nav.scss */
+.right-off-canvas-toggle .menu-click {
+  position: absolute;
+  background-color: red;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+/* line 66, ../scss/_nav.scss */
+.right-off-canvas-toggle .menu-click-action {
+  opacity: 1;
+}
+
+/* line 95, ../scss/_nav.scss */
 .move-left .exit-off-canvas {
   box-shadow: none;
 }
 
-/* line 80, ../scss/_nav.scss */
+/* line 99, ../scss/_nav.scss */
 .right-off-canvas-menu {
   width: 36%;
 }
-/* line 81, ../scss/_nav.scss */
+/* line 100, ../scss/_nav.scss */
 .right-off-canvas-menu .soc {
   margin-top: 1rem;
 }
 
-/* line 89, ../scss/_nav.scss */
+/* line 108, ../scss/_nav.scss */
 .move-left > .inner-wrap {
   -ms-transform: translate3d(-90%, 0, 0);
   -webkit-transform: translate3d(-90%, 0, 0);
   transform: translate3d(-90%, 0, 0);
 }
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
-  /* line 89, ../scss/_nav.scss */
+  /* line 108, ../scss/_nav.scss */
   .move-left > .inner-wrap {
     -ms-transform: translate3d(-50%, 0, 0);
     -webkit-transform: translate3d(-50%, 0, 0);
@@ -10649,7 +10665,7 @@ th.hide-for-touch {
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 89, ../scss/_nav.scss */
+  /* line 108, ../scss/_nav.scss */
   .move-left > .inner-wrap {
     -ms-transform: translate3d(-36%, 0, 0);
     -webkit-transform: translate3d(-36%, 0, 0);
@@ -10657,25 +10673,25 @@ th.hide-for-touch {
   }
 }
 
-/* line 106, ../scss/_nav.scss */
+/* line 125, ../scss/_nav.scss */
 .right-off-canvas-menu {
   background: #26c8f5;
   padding: 3rem 27%;
 }
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
-  /* line 106, ../scss/_nav.scss */
+  /* line 125, ../scss/_nav.scss */
   .right-off-canvas-menu {
     padding: 3rem 7.0%;
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 106, ../scss/_nav.scss */
+  /* line 125, ../scss/_nav.scss */
   .right-off-canvas-menu {
     padding: 2rem 4rem;
     text-align: left;
   }
 }
-/* line 121, ../scss/_nav.scss */
+/* line 140, ../scss/_nav.scss */
 .right-off-canvas-menu .side-nav.main li a:not(.button) {
   font-family: "Varela";
   font-style: normal;
@@ -10684,13 +10700,13 @@ th.hide-for-touch {
   color: #222222;
   text-transform: capitalize;
 }
-/* line 129, ../scss/_nav.scss */
+/* line 148, ../scss/_nav.scss */
 .right-off-canvas-menu .side-nav.main li a:not(.button) .is-active, .right-off-canvas-menu .side-nav.main li a:not(.button):hover {
   color: #f1f3f3;
   background: transparent;
 }
 @media only screen and (max-width: 40em) {
-  /* line 121, ../scss/_nav.scss */
+  /* line 140, ../scss/_nav.scss */
   .right-off-canvas-menu .side-nav.main li a:not(.button) {
     font-size: 2.4rem;
     padding-top: 0;
@@ -10698,7 +10714,7 @@ th.hide-for-touch {
   }
 }
 
-/* line 170, ../scss/_nav.scss */
+/* line 189, ../scss/_nav.scss */
 .top-bar,
 .middle-bar,
 .bottom-bar {
@@ -10713,14 +10729,14 @@ th.hide-for-touch {
   transition: background-color 0.6s ease 0;
 }
 
-/* line 183, ../scss/_nav.scss */
+/* line 202, ../scss/_nav.scss */
 .top-bar, .bottom-bar {
   -ms-transform-origin: 100% 50%;
   -webkit-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
 }
 
-/* line 188, ../scss/_nav.scss */
+/* line 207, ../scss/_nav.scss */
 .middle-bar {
   -webkit-transition-property: opacity;
   transition-property: opacity;
@@ -10728,7 +10744,7 @@ th.hide-for-touch {
   transition-duration: 0.6s;
 }
 
-/* line 195, ../scss/_nav.scss */
+/* line 214, ../scss/_nav.scss */
 .top-bar-close {
   -ms-transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
@@ -10736,7 +10752,7 @@ th.hide-for-touch {
   background-color: #333;
 }
 
-/* line 201, ../scss/_nav.scss */
+/* line 220, ../scss/_nav.scss */
 .middle-bar-close {
   opacity: 0;
   -webkit-transition-property: opacity;
@@ -10745,7 +10761,7 @@ th.hide-for-touch {
   transition-duration: 0.3s;
 }
 
-/* line 209, ../scss/_nav.scss */
+/* line 228, ../scss/_nav.scss */
 .bottom-bar-close {
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
@@ -10753,11 +10769,11 @@ th.hide-for-touch {
   background-color: #333;
 }
 
-/* line 222, ../scss/_nav.scss */
+/* line 241, ../scss/_nav.scss */
 .right-off-canvas-menu .soc {
   padding-left: 1rem;
 }
-/* line 226, ../scss/_nav.scss */
+/* line 245, ../scss/_nav.scss */
 .right-off-canvas-menu .soc a:hover {
   z-index: 2;
   -webkit-transform: none;
@@ -10765,7 +10781,7 @@ th.hide-for-touch {
   color: white;
   border: 2px solid white;
 }
-/* line 234, ../scss/_nav.scss */
+/* line 253, ../scss/_nav.scss */
 .right-off-canvas-menu .soc li a {
   width: 80px;
   height: 80px;
@@ -10773,7 +10789,7 @@ th.hide-for-touch {
   font-size: 44px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 234, ../scss/_nav.scss */
+  /* line 253, ../scss/_nav.scss */
   .right-off-canvas-menu .soc li a {
     display: none;
     width: 40px;
