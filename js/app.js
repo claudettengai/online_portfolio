@@ -27,57 +27,91 @@ var placeMenu = function(){
 	});
 };
 
-placeMenu();
+// placeMenu();
 
-$(document).scroll(placeMenu);
+// $(document).scroll(placeMenu);
 
 
 
 
 // NAV MENU 
 
-// slight modify-- close menu on click and bring back hamburger
+// modify for jumpiness in safari and in mobile devices. Clone hamburger bars 
 
 $(function() {
-	$(".right-off-canvas-toggle, .exit-off-canvas, .side-nav a, .nav-soc a").click(function() {
+	$(".right-off-canvas-toggle, .exit-off-canvas").click(function() {
 
-
-// 		// $(".menu-click").toggle(function(){
-// 		// 	$(".menu-click").toggleClass("menu-click-action");
-// 		// // }, 
-// 		// // function(){
-// 		// // 	$(".menu-click").removeClass("menu-click-action");
-// 		// 	// $(".menu-click").delay(600).removeClass("menu-click-action");
-// 		// // });
-
-
-
-
-
+		placeMenu();
 
     	$(".top-bar").toggleClass("top-bar-close");
 		$(".middle-bar").toggleClass("middle-bar-close");
 		$(".bottom-bar").toggleClass("bottom-bar-close");
-		$(".menu-click").toggleClass("menu-click-action");
+		$('.menu-display').toggleClass("menu-visible")
+
+
+		if ($(".menu-click").hasClass("menu-visible")){
+
+			setTimeout(function(){
+				$(".menu-click").removeClass("menu-visible")
+			}, 600);
+
+		}else{
+			$('.menu-click').addClass("menu-visible");
+		}				
   	});
+
 });
+
+
+$(function() {
+	$(".side-nav a, .nav-soc a").click(function() {
+
+		placeMenu();
+
+    	$(".top-bar").toggleClass("top-bar-close");
+		$(".middle-bar").toggleClass("middle-bar-close");
+		$(".bottom-bar").toggleClass("bottom-bar-close");
+		$('.menu-display').toggleClass("menu-visible")
+
+
+		if ($(".menu-click").hasClass("menu-visible")){
+			
+			$(".menu-click").removeClass("menu-visible");
+
+		}else{
+			$('.menu-click').addClass("menu-visible");
+		}				
+  	});
+
+});
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 		// my code -- make menu fixed
 
-var placeMenu = function(){
-	var windowTop = ($(window).scrollTop());
+// var placeMenu = function(){
+// 	var windowTop = ($(window).scrollTop());
 
-	$('.side-nav, .menu-click .top-bar, middle-bar, bottom-bar').css({
-		marginTop: windowTop
-	});
-};
+// 	$('.side-nav, .menu-click .top-bar, middle-bar, bottom-bar').css({
+// 		marginTop: windowTop
+// 	});
+// };
 
-placeMenu();
+// placeMenu();
 
-$(document).scroll(placeMenu);
+// $(document).scroll(placeMenu);
 
 
 
