@@ -12,7 +12,6 @@
   
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
-    <script src= "js/script.js"></script>
 
 
 
@@ -173,9 +172,27 @@
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/foundation/js/foundation.min.js"></script>
-  <script src= "js/clip-path-test.js"></script>
-  <script src="js/app.js"></script>
+  <script type="text/javascript" src= "js/clip-path-test.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
   <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src= "js/hamburgerColor.js"></script>
+
+
+
+
+  <script type= "text/javascript">
+  var aboutMePicBottom= ($(window).height() * .12) - parseInt($('#about #head-bottom').css('marginTop'));
+
+
+  $(document).ready(function(){
+    hamburgerColor(aboutMePicBottom);
+  });
+
+  $(document).scroll(function(){
+    hamburgerColor(aboutMePicBottom);
+  });
+
+</script>
 
 
   </body>

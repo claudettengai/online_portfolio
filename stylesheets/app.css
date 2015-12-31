@@ -10765,11 +10765,16 @@ th.hide-for-touch {
   background-color: #333;
 }
 
-/* line 239, ../scss/_nav.scss */
+/* line 234, ../scss/_nav.scss */
+.bar-against-pic-color {
+  background-color: #C8F526;
+}
+
+/* line 241, ../scss/_nav.scss */
 .right-off-canvas-menu .soc {
   padding-left: 1rem;
 }
-/* line 243, ../scss/_nav.scss */
+/* line 245, ../scss/_nav.scss */
 .right-off-canvas-menu .soc a:hover {
   z-index: 2;
   -webkit-transform: none;
@@ -10777,7 +10782,7 @@ th.hide-for-touch {
   color: white;
   border: 2px solid white;
 }
-/* line 251, ../scss/_nav.scss */
+/* line 253, ../scss/_nav.scss */
 .right-off-canvas-menu .soc li a {
   width: 80px;
   height: 80px;
@@ -10785,7 +10790,7 @@ th.hide-for-touch {
   font-size: 44px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 251, ../scss/_nav.scss */
+  /* line 253, ../scss/_nav.scss */
   .right-off-canvas-menu .soc li a {
     display: none;
     width: 40px;

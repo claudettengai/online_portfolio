@@ -244,6 +244,21 @@
   <script src= "js/clip-path-test.js"></script>
   <script src="js/app.js"></script>
   <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type= "text/javascript" src= "js/hamburgerColor.js"></script>
+
+
+  <script type= "text/javascript">
+  var contactFormPicBottom= (parseInt($('#contact-form .head').height())) + parseInt($('#contact-form #head-bottom').css("marginTop"));
+
+  $(document).ready(function(){
+    hamburgerColor(contactFormPicBottom);
+  });
+
+  $(document).scroll(function(){
+    hamburgerColor(contactFormPicBottom);
+  });
+
+  </script>
 
   </body>
 </html>
