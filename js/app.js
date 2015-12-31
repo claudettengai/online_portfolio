@@ -36,7 +36,8 @@ var placeMenu = function(){
 $(function() {
 	$(".right-off-canvas-toggle, .exit-off-canvas").click(function() {
 
-		placeMenu();
+
+
 
     	$(".top-bar").toggleClass("top-bar-close");
 		$(".middle-bar").toggleClass("middle-bar-close");
@@ -48,11 +49,15 @@ $(function() {
 
 			setTimeout(function(){
 				$(".menu-click").removeClass("menu-visible")
-			}, 600);
+			}, 500);
 
 		}else{
 			$('.menu-click').addClass("menu-visible");
-		}				
+		}	
+
+		placeMenu();
+		$(document).scroll(placeMenu);
+			
   	});
 
 });
