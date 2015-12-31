@@ -3,11 +3,6 @@
 
 $(document).foundation({
   offcanvas : {
-    // Sets method in which offcanvas opens.
-    // [ move | overlap_single | overlap ]
-    // open_method: 'move', 
-    // Should the menu close when a menu link is clicked?
-    // [ true | false ]
     close_on_click : true
   }
 });
@@ -17,39 +12,73 @@ $(document).foundation();
 
 
 
-
-// NAV MENU 
-
-// slight modify-- close menu on click and bring back hamburger
-
-$(function() {
-	$(".right-off-canvas-toggle, .exit-off-canvas, .side-nav a, .nav-soc a").click(function() {
-    	$(".top-bar").toggleClass("top-bar-close");
-		$(".middle-bar").toggleClass("middle-bar-close");
-		$(".bottom-bar").toggleClass("bottom-bar-close");
-  	});
-});
-
-
-
-
-
-
-
-
 		// my code -- make menu fixed
 
 var placeMenu = function(){
 	var windowTop = ($(window).scrollTop());
 
-	$('.side-nav, .top-bar, middle-bar, bottom-bar').css({
+	$('.side-nav, .menu-click .top-bar, middle-bar, bottom-bar').css({
 		marginTop: windowTop
 	});
 };
 
-placeMenu();
+// placeMenu();
 
-$(document).scroll(placeMenu);
+// $(document).scroll(placeMenu);
+
+
+
+
+// NAV MENU 
+
+// modify for jumpiness in safari and in mobile devices. Clone hamburger bars 
+
+$(function() {
+	$(".right-off-canvas-toggle, .exit-off-canvas").click(function() {
+
+		placeMenu();
+
+    	$(".top-bar").toggleClass("top-bar-close");
+		$(".middle-bar").toggleClass("middle-bar-close");
+		$(".bottom-bar").toggleClass("bottom-bar-close");
+		$('.menu-display').toggleClass("menu-visible")
+
+
+		if ($(".menu-click").hasClass("menu-visible")){
+
+			setTimeout(function(){
+				$(".menu-click").removeClass("menu-visible")
+			}, 600);
+
+		}else{
+			$('.menu-click').addClass("menu-visible");
+		}				
+  	});
+
+});
+
+
+$(function() {
+	$(".side-nav a, .nav-soc a").click(function() {
+
+		placeMenu();
+
+    	$(".top-bar").toggleClass("top-bar-close");
+		$(".middle-bar").toggleClass("middle-bar-close");
+		$(".bottom-bar").toggleClass("bottom-bar-close");
+		$('.menu-display').toggleClass("menu-visible")
+
+
+		if ($(".menu-click").hasClass("menu-visible")){
+			
+			$(".menu-click").removeClass("menu-visible");
+
+		}else{
+			$('.menu-click').addClass("menu-visible");
+		}				
+  	});
+
+});
 
 
 
