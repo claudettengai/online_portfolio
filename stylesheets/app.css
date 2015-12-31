@@ -10648,9 +10648,9 @@ th.hide-for-touch {
 
 /* line 106, ../scss/_nav.scss */
 .move-left > .inner-wrap {
-  -ms-transform: translate3d(-90%, 0, 0);
-  -webkit-transform: translate3d(-90%, 0, 0);
-  transform: translate3d(-90%, 0, 0);
+  -ms-transform: translate3d(-80%, 0, 0);
+  -webkit-transform: translate3d(-80%, 0, 0);
+  transform: translate3d(-80%, 0, 0);
 }
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
   /* line 106, ../scss/_nav.scss */
@@ -10672,7 +10672,7 @@ th.hide-for-touch {
 /* line 123, ../scss/_nav.scss */
 .right-off-canvas-menu {
   background: #26c8f5;
-  padding: 3rem 27%;
+  padding: 3rem 22.0%;
 }
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
   /* line 123, ../scss/_nav.scss */
@@ -10709,8 +10709,15 @@ th.hide-for-touch {
     padding-left: 0;
   }
 }
+@media (max-width: 399px) {
+  /* line 161, ../scss/_nav.scss */
+  .right-off-canvas-menu ul.side-nav-main {
+    padding: 0;
+    margin-top: -1rem;
+  }
+}
 
-/* line 187, ../scss/_nav.scss */
+/* line 196, ../scss/_nav.scss */
 .top-bar,
 .middle-bar,
 .bottom-bar {
@@ -10724,15 +10731,25 @@ th.hide-for-touch {
   -webkit-transition: background-color 0.6s ease 0;
   transition: background-color 0.6s ease 0;
 }
+@media (max-width: 399px) {
+  /* line 196, ../scss/_nav.scss */
+  .top-bar,
+  .middle-bar,
+  .bottom-bar {
+    width: 36px;
+    height: 6.3px;
+    margin-bottom: 6.3px;
+  }
+}
 
-/* line 200, ../scss/_nav.scss */
+/* line 214, ../scss/_nav.scss */
 .top-bar, .bottom-bar {
   -ms-transform-origin: 100% 50%;
   -webkit-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
 }
 
-/* line 205, ../scss/_nav.scss */
+/* line 219, ../scss/_nav.scss */
 .middle-bar {
   -webkit-transition-property: opacity;
   transition-property: opacity;
@@ -10740,7 +10757,7 @@ th.hide-for-touch {
   transition-duration: 0.6s;
 }
 
-/* line 212, ../scss/_nav.scss */
+/* line 226, ../scss/_nav.scss */
 .top-bar-close {
   -ms-transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
@@ -10748,7 +10765,7 @@ th.hide-for-touch {
   background-color: #333;
 }
 
-/* line 218, ../scss/_nav.scss */
+/* line 232, ../scss/_nav.scss */
 .middle-bar-close {
   opacity: 0;
   -webkit-transition-property: opacity;
@@ -10757,7 +10774,7 @@ th.hide-for-touch {
   transition-duration: 0.3s;
 }
 
-/* line 226, ../scss/_nav.scss */
+/* line 240, ../scss/_nav.scss */
 .bottom-bar-close {
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
@@ -10765,16 +10782,16 @@ th.hide-for-touch {
   background-color: #333;
 }
 
-/* line 234, ../scss/_nav.scss */
+/* line 248, ../scss/_nav.scss */
 .bar-against-pic-color {
   background-color: #C8F526;
 }
 
-/* line 241, ../scss/_nav.scss */
+/* line 255, ../scss/_nav.scss */
 .right-off-canvas-menu .soc {
   padding-left: 1rem;
 }
-/* line 245, ../scss/_nav.scss */
+/* line 259, ../scss/_nav.scss */
 .right-off-canvas-menu .soc a:hover {
   z-index: 2;
   -webkit-transform: none;
@@ -10782,7 +10799,7 @@ th.hide-for-touch {
   color: white;
   border: 2px solid white;
 }
-/* line 253, ../scss/_nav.scss */
+/* line 267, ../scss/_nav.scss */
 .right-off-canvas-menu .soc li a {
   width: 80px;
   height: 80px;
@@ -10790,7 +10807,7 @@ th.hide-for-touch {
   font-size: 44px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 253, ../scss/_nav.scss */
+  /* line 267, ../scss/_nav.scss */
   .right-off-canvas-menu .soc li a {
     display: none;
     width: 40px;
@@ -11318,39 +11335,45 @@ h3 {
     margin-top: 2.5rem;
   }
 }
-/* line 25, ../scss/proj_fe/_globals.scss */
+@media only screen and (max-width: 40em) {
+  /* line 14, ../scss/proj_fe/_globals.scss */
+  #project-fe-page .right-off-canvas-toggle .menu {
+    margin-top: 2.2rem;
+  }
+}
+/* line 29, ../scss/proj_fe/_globals.scss */
 #project-fe-page .text-bold, #project-fe-page #resume .bold-right, #resume #project-fe-page .bold-right {
   font-weight: 600;
 }
-/* line 31, ../scss/proj_fe/_globals.scss */
+/* line 35, ../scss/proj_fe/_globals.scss */
 #project-fe-page h6.sol-img-title {
   color: #333;
 }
-/* line 37, ../scss/proj_fe/_globals.scss */
+/* line 41, ../scss/proj_fe/_globals.scss */
 #project-fe-page .wireframe, #project-fe-page .hidden-wireframe {
   font-size: 70%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 37, ../scss/proj_fe/_globals.scss */
+  /* line 41, ../scss/proj_fe/_globals.scss */
   #project-fe-page .wireframe, #project-fe-page .hidden-wireframe {
     display: none;
   }
 }
-/* line 47, ../scss/proj_fe/_globals.scss */
+/* line 51, ../scss/proj_fe/_globals.scss */
 #project-fe-page .hidden-wireframe {
   visibility: hidden;
 }
 @media (max-width: 1023px) {
-  /* line 53, ../scss/proj_fe/_globals.scss */
+  /* line 57, ../scss/proj_fe/_globals.scss */
   #project-fe-page .sol-text {
     margin-bottom: 2rem;
   }
 }
-/* line 60, ../scss/proj_fe/_globals.scss */
+/* line 64, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sol-summary p {
   margin-top: 1rem;
 }
-/* line 72, ../scss/proj_fe/_globals.scss */
+/* line 76, ../scss/proj_fe/_globals.scss */
 #project-fe-page .section-init-title {
   color: #C8F526;
   float: right;
@@ -11359,23 +11382,35 @@ h3 {
   text-align: right;
   line-height: 1.3;
 }
-/* line 84, ../scss/proj_fe/_globals.scss */
+@media only screen and (max-width: 40em) {
+  /* line 76, ../scss/proj_fe/_globals.scss */
+  #project-fe-page .section-init-title {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 91, ../scss/proj_fe/_globals.scss */
+  #project-fe-page .small-after-pic {
+    margin-top: -1.5rem;
+  }
+}
+/* line 99, ../scss/proj_fe/_globals.scss */
 #project-fe-page .section-init {
   margin-top: -3vh;
 }
-/* line 90, ../scss/proj_fe/_globals.scss */
+/* line 105, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init {
   margin-top: 7vh;
 }
-/* line 93, ../scss/proj_fe/_globals.scss */
+/* line 108, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init h2 {
   margin-bottom: 1.5rem;
 }
-/* line 97, ../scss/proj_fe/_globals.scss */
+/* line 112, ../scss/proj_fe/_globals.scss */
 #project-fe-page .sub-section-init .img-click img {
   border: 1px solid #888888;
 }
-/* line 103, ../scss/proj_fe/_globals.scss */
+/* line 118, ../scss/proj_fe/_globals.scss */
 #project-fe-page .alt-sub-section-init {
   background-color: #d9f867;
   margin: 14vh 0;
@@ -11384,27 +11419,27 @@ h3 {
   -webkit-transform: skewY(176deg);
   transform: skewY(176deg);
 }
-/* line 111, ../scss/proj_fe/_globals.scss */
+/* line 126, ../scss/proj_fe/_globals.scss */
 #project-fe-page .alt-sub-section-init .sub-section-init {
   -ms-transform: skewY(-176deg);
   -webkit-transform: skewY(-176deg);
   transform: skewY(-176deg);
 }
-/* line 115, ../scss/proj_fe/_globals.scss */
+/* line 130, ../scss/proj_fe/_globals.scss */
 #project-fe-page .alt-sub-section-init .sub-section-init .img-click img {
   border: none;
 }
-/* line 127, ../scss/proj_fe/_globals.scss */
+/* line 142, ../scss/proj_fe/_globals.scss */
 #project-fe-page .img-click a img,
 #project-fe-page .img-click a {
   cursor: url(../img/magnify-cursor-2.png), zoom-in;
 }
-/* line 150, ../scss/proj_fe/_globals.scss */
+/* line 165, ../scss/proj_fe/_globals.scss */
 #project-fe-page .panel-num-shape {
   text-align: center;
   margin-top: -2.52rem;
 }
-/* line 190, ../scss/proj_fe/_globals.scss */
+/* line 205, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-white {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   clip-path: polygon(45% 0%, 100% 50%, 0 80%);
@@ -11412,12 +11447,12 @@ h3 {
   padding: 1rem 2rem;
   background-color: white;
 }
-/* line 171, ../scss/proj_fe/_globals.scss */
+/* line 186, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-white h5, #project-fe-page .num-triangle-white h6 {
   margin-top: -0.5rem;
   color: #222222;
 }
-/* line 197, ../scss/proj_fe/_globals.scss */
+/* line 212, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   clip-path: polygon(45% 0%, 100% 50%, 0 80%);
@@ -11425,16 +11460,16 @@ h3 {
   padding: 1rem 2rem;
   background-color: #222222;
 }
-/* line 171, ../scss/proj_fe/_globals.scss */
+/* line 186, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black h5, #project-fe-page .num-triangle-black h6 {
   margin-top: -0.5rem;
   color: #C8F526;
 }
-/* line 199, ../scss/proj_fe/_globals.scss */
+/* line 214, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black h5 {
   color: white;
 }
-/* line 204, ../scss/proj_fe/_globals.scss */
+/* line 219, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black-white {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   clip-path: polygon(45% 0%, 100% 50%, 0 80%);
@@ -11442,12 +11477,12 @@ h3 {
   padding: 1rem 2rem;
   background-color: #222222;
 }
-/* line 171, ../scss/proj_fe/_globals.scss */
+/* line 186, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-black-white h5, #project-fe-page .num-triangle-black-white h6 {
   margin-top: -0.5rem;
   color: white;
 }
-/* line 207, ../scss/proj_fe/_globals.scss */
+/* line 222, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-green {
   -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
   clip-path: polygon(45% 0%, 100% 50%, 0 80%);
@@ -11455,19 +11490,19 @@ h3 {
   padding: 1rem 2rem;
   background-color: #C8F526;
 }
-/* line 171, ../scss/proj_fe/_globals.scss */
+/* line 186, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-green h5, #project-fe-page .num-triangle-green h6 {
   margin-top: -0.5rem;
   color: #222222;
 }
-/* line 211, ../scss/proj_fe/_globals.scss */
+/* line 226, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt2 {
   -ms-transform: rotate(35deg);
   -webkit-transform: rotate(35deg);
   transform: rotate(35deg);
   margin-top: -0.4rem;
 }
-/* line 212, ../scss/proj_fe/_globals.scss */
+/* line 227, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt2 h5, #project-fe-page .tilt2 h6 {
   -ms-transform: rotate(-35deg);
   -webkit-transform: rotate(-35deg);
@@ -11475,14 +11510,14 @@ h3 {
   margin-left: -0.3rem;
   margin-top: 0.2rem;
 }
-/* line 225, ../scss/proj_fe/_globals.scss */
+/* line 240, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt3 {
   -ms-transform: rotate(165deg);
   -webkit-transform: rotate(165deg);
   transform: rotate(165deg);
   margin-top: -0.7rem;
 }
-/* line 226, ../scss/proj_fe/_globals.scss */
+/* line 241, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt3 h5, #project-fe-page .tilt3 h6 {
   -ms-transform: rotate(-165deg);
   -webkit-transform: rotate(-165deg);
@@ -11490,14 +11525,14 @@ h3 {
   margin-left: -0.2rem;
   margin-top: -0.2rem;
 }
-/* line 238, ../scss/proj_fe/_globals.scss */
+/* line 253, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt4 {
   -ms-transform: rotate(335deg);
   -webkit-transform: rotate(335deg);
   transform: rotate(335deg);
   margin-top: -1rem;
 }
-/* line 239, ../scss/proj_fe/_globals.scss */
+/* line 254, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt4 h5, #project-fe-page .tilt4 h6 {
   -ms-transform: rotate(-335deg);
   -webkit-transform: rotate(-335deg);
@@ -11505,14 +11540,14 @@ h3 {
   margin-left: 0.2rem;
   margin-top: -0.2rem;
 }
-/* line 253, ../scss/proj_fe/_globals.scss */
+/* line 268, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt5 {
   -ms-transform: rotate(65deg);
   -webkit-transform: rotate(65deg);
   transform: rotate(65deg);
   margin-top: 0rem;
 }
-/* line 254, ../scss/proj_fe/_globals.scss */
+/* line 269, ../scss/proj_fe/_globals.scss */
 #project-fe-page .tilt5 h5, #project-fe-page .tilt5 h6 {
   -ms-transform: rotate(-65deg);
   -webkit-transform: rotate(-65deg);
@@ -11520,7 +11555,7 @@ h3 {
   margin-left: -0.2rem;
   margin-top: -0.2rem;
 }
-/* line 268, ../scss/proj_fe/_globals.scss */
+/* line 283, ../scss/proj_fe/_globals.scss */
 #project-fe-page .num-triangle-small {
   padding: 0.6rem 1.6rem;
 }
@@ -11545,7 +11580,7 @@ h3 {
     margin-top: 14vh;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 399px) {
   /* line 11, ../scss/proj_fe/_header.scss */
   #project-fe-page #FE-head-top h1 {
     line-height: 1;
@@ -11553,7 +11588,7 @@ h3 {
     margin-top: 7vh;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 399px) {
   /* line 30, ../scss/proj_fe/_header.scss */
   #project-fe-page #FE-head-top h3 {
     font-size: 1.5rem;
@@ -11569,16 +11604,25 @@ h3 {
   margin: -33vh 0 1vh 0;
   text-align: center;
 }
+@media (max-width: 399px) {
+  /* line 40, ../scss/proj_fe/_header.scss */
+  #project-fe-page #FE-head-back {
+    height: 70vh;
+    background-size: 500px auto;
+    background-position: bottom center;
+    background-attachment: scroll;
+  }
+}
 
-/* line 79, ../scss/proj_fe/_header.scss */
+/* line 87, ../scss/proj_fe/_header.scss */
 .no-cssclippathpolygon #project-fe-page #FE-head-top {
   height: 100vh;
 }
-/* line 82, ../scss/proj_fe/_header.scss */
+/* line 90, ../scss/proj_fe/_header.scss */
 .no-cssclippathpolygon #project-fe-page #FE-head-top h1 {
   margin-top: 30vh;
 }
-/* line 88, ../scss/proj_fe/_header.scss */
+/* line 96, ../scss/proj_fe/_header.scss */
 .no-cssclippathpolygon #project-fe-page #FE-head-back {
   height: 40vh;
 }
@@ -11670,29 +11714,45 @@ h3 {
 #project-fe-page .background-main {
   margin-top: 20vh;
 }
-/* line 22, ../scss/proj_fe/_background.scss */
+@media only screen and (max-width: 40em) {
+  /* line 8, ../scss/proj_fe/_background.scss */
+  #project-fe-page .background-main {
+    margin-top: 0;
+  }
+}
+/* line 15, ../scss/proj_fe/_background.scss */
+#project-fe-page .small-skew-header {
+  width: 100%;
+  height: 16vh;
+  margin-top: -8vh;
+  background-color: white;
+  -ms-transform: skewY(174deg);
+  -webkit-transform: skewY(174deg);
+  transform: skewY(174deg);
+}
+/* line 35, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process h2 {
   margin-bottom: 0;
 }
-/* line 26, ../scss/proj_fe/_background.scss */
+/* line 39, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process h6 {
   margin-right: 4rem;
 }
-/* line 32, ../scss/proj_fe/_background.scss */
+/* line 45, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process .my-process-descript {
   margin-left: 0.3rem;
 }
-/* line 36, ../scss/proj_fe/_background.scss */
+/* line 49, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process ul {
   margin: 0;
   list-style: none;
 }
-/* line 45, ../scss/proj_fe/_background.scss */
+/* line 58, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process ul > li {
   margin: 0 0 0 2.75rem;
   display: inline-block;
 }
-/* line 51, ../scss/proj_fe/_background.scss */
+/* line 64, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process ul > li::before {
   content: "";
   border-color: transparent #C8F526;
@@ -11707,30 +11767,30 @@ h3 {
   margin: 0rem;
   transform: rotate(15deg);
 }
-/* line 70, ../scss/proj_fe/_background.scss */
+/* line 83, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process ul > li:nth-child(2)::before {
   transform: rotate(90deg);
 }
-/* line 70, ../scss/proj_fe/_background.scss */
+/* line 83, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process ul > li:nth-child(3)::before {
   transform: rotate(135deg);
 }
-/* line 70, ../scss/proj_fe/_background.scss */
+/* line 83, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process ul > li:nth-child(4)::before {
   transform: rotate(180deg);
 }
-/* line 70, ../scss/proj_fe/_background.scss */
+/* line 83, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process ul > li:nth-child(5)::before {
   transform: rotate(225deg);
 }
-/* line 77, ../scss/proj_fe/_background.scss */
+/* line 90, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process ol > li {
   margin-left: 0.5rem;
   color: #333333;
   list-style-type: none;
   font-size: 95%;
 }
-/* line 120, ../scss/proj_fe/_background.scss */
+/* line 133, ../scss/proj_fe/_background.scss */
 #project-fe-page .my-process ol.action-plans li {
   list-style-type: decimal;
   margin-left: 2rem;
@@ -12439,7 +12499,14 @@ h3 {
   background-attachment: fixed;
   margin-top: 0;
 }
-/* line 40, ../scss/proj_fe/_footer.scss */
+@media (max-width: 399px) {
+  /* line 32, ../scss/proj_fe/_footer.scss */
+  #project-fe-page .footers {
+    background-size: 500px auto;
+    background-attachment: scroll;
+  }
+}
+/* line 45, ../scss/proj_fe/_footer.scss */
 #project-fe-page .footer-top {
   background-color: #FFFFFF;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
@@ -12448,7 +12515,7 @@ h3 {
   height: 20vh;
   margin-top: -2vh;
 }
-/* line 51, ../scss/proj_fe/_footer.scss */
+/* line 56, ../scss/proj_fe/_footer.scss */
 #project-fe-page .footer-bottom {
   background-color: #C8F526;
   width: 100%;
@@ -12458,7 +12525,7 @@ h3 {
   clip-path: polygon(0% 90%, 100% 0%, 100% 100%, 0% 100%);
 }
 
-/* line 74, ../scss/proj_fe/_footer.scss */
+/* line 79, ../scss/proj_fe/_footer.scss */
 .no-cssclippathpolygon #project-fe-page .footers {
   height: 70vh;
 }
@@ -12507,7 +12574,16 @@ h3 {
   margin: -33vh 0 1vh 0;
   text-align: center;
 }
-/* line 59, ../scss/proj_paycrave/_header.scss */
+@media (max-width: 399px) {
+  /* line 44, ../scss/proj_paycrave/_header.scss */
+  #project-paycrave-page #paycrave-head-back {
+    height: 70vh;
+    background-size: 500px auto;
+    background-position: bottom center;
+    background-attachment: scroll;
+  }
+}
+/* line 66, ../scss/proj_paycrave/_header.scss */
 #project-paycrave-page #paycrave-head-bottom {
   height: 18vh;
   width: 100%;
@@ -12517,12 +12593,18 @@ h3 {
   -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
 }
+@media (max-width: 399px) {
+  /* line 66, ../scss/proj_paycrave/_header.scss */
+  #project-paycrave-page #paycrave-head-bottom {
+    margin-top: 53vh;
+  }
+}
 
-/* line 83, ../scss/proj_paycrave/_header.scss */
+/* line 94, ../scss/proj_paycrave/_header.scss */
 .no-cssclippathpolygon #project-paycrave-page #paycrave-head-top {
   height: 100vh;
 }
-/* line 86, ../scss/proj_paycrave/_header.scss */
+/* line 97, ../scss/proj_paycrave/_header.scss */
 .no-cssclippathpolygon #project-paycrave-page #paycrave-head-top h1 {
   margin-top: 30vh;
 }
@@ -12855,22 +12937,31 @@ h3 {
   background-size: cover;
   background-attachment: fixed;
 }
-/* line 13, ../scss/proj_paycrave/_footers.scss */
+@media (max-width: 399px) {
+  /* line 5, ../scss/proj_paycrave/_footers.scss */
+  #project-paycrave-page .footers {
+    height: 70vh;
+    background-size: 500px auto;
+    background-position: bottom center;
+    background-attachment: scroll;
+  }
+}
+/* line 21, ../scss/proj_paycrave/_footers.scss */
 #project-paycrave-page .message {
   margin-top: 6rem;
 }
-/* line 17, ../scss/proj_paycrave/_footers.scss */
+/* line 25, ../scss/proj_paycrave/_footers.scss */
 #project-paycrave-page .message .button {
   margin: 2.5rem 0 0 0;
   background-color: white;
   color: #222222;
   border: 2px solid #222222;
 }
-/* line 23, ../scss/proj_paycrave/_footers.scss */
+/* line 31, ../scss/proj_paycrave/_footers.scss */
 #project-paycrave-page .message .button:hover {
   background-color: #222222;
 }
-/* line 26, ../scss/proj_paycrave/_footers.scss */
+/* line 34, ../scss/proj_paycrave/_footers.scss */
 #project-paycrave-page .message .button:hover h5 {
   color: white;
 }
@@ -13103,45 +13194,45 @@ h3 {
   }
 }
 
-/* line 157, ../scss/about/_about.scss */
+/* line 176, ../scss/about/_about.scss */
 .no-cssclippathpolygon #about .pic-back {
   background-position: 0% 6vh;
   background-attachment: scroll;
 }
-/* line 162, ../scss/about/_about.scss */
+/* line 181, ../scss/about/_about.scss */
 .no-cssclippathpolygon #about .head {
   height: 15vh;
   margin-top: -9vh;
 }
-/* line 167, ../scss/about/_about.scss */
+/* line 186, ../scss/about/_about.scss */
 .no-cssclippathpolygon #about .home-button h6 {
   margin-top: -0.2rem;
 }
-/* line 171, ../scss/about/_about.scss */
+/* line 190, ../scss/about/_about.scss */
 .no-cssclippathpolygon #about #head-bottom {
   margin-top: 21vh;
 }
-/* line 176, ../scss/about/_about.scss */
+/* line 195, ../scss/about/_about.scss */
 .no-cssclippathpolygon #about h2 {
   margin-top: -25vh;
 }
-/* line 180, ../scss/about/_about.scss */
+/* line 199, ../scss/about/_about.scss */
 .no-cssclippathpolygon #about .button {
   margin-bottom: 15vh;
 }
-/* line 185, ../scss/about/_about.scss */
+/* line 204, ../scss/about/_about.scss */
 .no-cssclippathpolygon #about .footers {
   height: 30vh;
 }
-/* line 188, ../scss/about/_about.scss */
+/* line 207, ../scss/about/_about.scss */
 .no-cssclippathpolygon #about .footer-top {
   background-color: transparent;
 }
-/* line 192, ../scss/about/_about.scss */
+/* line 211, ../scss/about/_about.scss */
 .no-cssclippathpolygon #about .footer-bottom {
   margin-top: 0;
 }
-/* line 196, ../scss/about/_about.scss */
+/* line 215, ../scss/about/_about.scss */
 .no-cssclippathpolygon #about .copywrite ul {
   margin-top: 1vh;
 }
