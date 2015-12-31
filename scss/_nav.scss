@@ -78,7 +78,7 @@
 
 $menu-text-width-percent: 0.36;
 
-$menu-push-percent-small: 0.9;
+$menu-push-percent-small: 0.8;
 $menu-side-padding-small: ($menu-push-percent-small - $menu-text-width-percent)/2;
 
 $menu-push-percent-med: 0.5;
@@ -156,6 +156,15 @@ $menu-side-padding-med: ($menu-push-percent-med - $menu-text-width-percent)/2;
     }
   }
 
+
+
+  ul.side-nav-main{
+    @media (max-width: 399px){
+      padding:0;
+      margin-top: -1rem;
+    }
+}
+
   // .social {
   //   // padding-left: 0.8rem;
   //   padding-top: 6rem;
@@ -195,6 +204,11 @@ $menu-side-padding-med: ($menu-push-percent-med - $menu-text-width-percent)/2;
   @include transition(transform 0.4s cubic-bezier(1, 0, 0, 1));
   @include transition(background-color 0.6s ease 0);
   // transition: transform 0.4s cubic-bezier(1, 0, 0, 1) 0, background-color 0.6s ease 0;
+  @media (max-width: 399px){
+    width: 40px * 0.9;
+    height: 7px * 0.9;
+    margin-bottom: 7px * 0.9;
+  }
 }
 
 .top-bar, .bottom-bar {
@@ -231,7 +245,9 @@ $menu-side-padding-med: ($menu-push-percent-med - $menu-text-width-percent)/2;
 
 
 
-
+.bar-against-pic-color{
+  background-color: $lime-green;
+}
 
 
 .right-off-canvas-menu{

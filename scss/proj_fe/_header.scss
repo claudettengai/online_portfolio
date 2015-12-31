@@ -16,7 +16,7 @@
 			margin-top : 14vh;
 		}
 
-		@media (max-width: 400px){
+		@media (max-width: 399px){
 			line-height: 1;
 			width: 80%;
 			margin-top: 7vh;
@@ -28,7 +28,7 @@
 
 
 	h3{
-		@media (max-width: 400px){
+		@media (max-width: 399px){
 			font-size: 1.5rem;
 		}
 	}
@@ -48,6 +48,14 @@
 	width:100%;
 	margin: -33vh 0 1vh 0;
 	text-align: center;
+
+
+	@media (max-width: 399px){
+		height: 70vh;
+		background-size: 500px auto;
+		background-position: bottom center;
+		background-attachment: scroll;
+	}
 
 
 }

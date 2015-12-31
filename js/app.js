@@ -7,7 +7,7 @@ $(document).foundation({
   }
 });
 
-$(document).foundation();
+// $(document).foundation();
 
 
 
@@ -141,6 +141,12 @@ $(function() {
 	$('.accordion-navigation a').click(function() {
 		$(' .drop-down-arrow-right').toggleClass("drop-down-arrow-down");
 	});
+
+
+
+
+
+
 
 
 

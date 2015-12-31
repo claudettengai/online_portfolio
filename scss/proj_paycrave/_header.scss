@@ -53,6 +53,13 @@
 	margin: -33vh 0 1vh 0;
 	text-align: center;
 
+	@media (max-width: 399px){
+		height: 70vh;
+		background-size: 500px auto;
+		background-position: bottom center;
+		background-attachment: scroll;
+	}
+
 
 }
 
@@ -64,6 +71,10 @@
 	position: absolute;
 	@include clip-path(polygon(100% 0%, 100% 100%, 0% 100%));
 	// -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+
+	@media (max-width: 399px){
+		margin-top: 53vh;
+	}
 
 
 }

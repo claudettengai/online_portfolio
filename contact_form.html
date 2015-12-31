@@ -52,7 +52,8 @@
         <ul class="side-nav main">
           <li><a class="is-active" href="index.html">home</a></li>
           <li><a href="index.html#work">work</a></li>
-          <li><a href="about.html" >about me</a></li>
+          <li><a class= "hide-for-small-only" href="about.html">about me</a></li>
+          <li><a class= "show-for-small-only" href="about.html">about</a></li>
           <li><a href="resume.html">resume</a></li>
           <li><a href="#">contact</a></li>
 
@@ -244,6 +245,21 @@
   <script src= "js/clip-path-test.js"></script>
   <script src="js/app.js"></script>
   <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type= "text/javascript" src= "js/hamburgerColor.js"></script>
+
+
+  <script type= "text/javascript">
+  var contactFormPicBottom= (parseInt($('#contact-form .head').height())) + parseInt($('#contact-form #head-bottom').css("marginTop"));
+
+  $(document).ready(function(){
+    hamburgerColor(contactFormPicBottom);
+  });
+
+  $(document).scroll(function(){
+    hamburgerColor(contactFormPicBottom);
+  });
+
+  </script>
 
   </body>
 </html>

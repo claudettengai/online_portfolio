@@ -99,6 +99,23 @@ var headMarginEqualizerTitle = parseInt($("div#magellan-bar").outerHeight(true))
 // 	}
 // });
 
+////excluding at small size////
+var smallRemoveJump= function(){
+	if ($window.width() <= 640){
+		$('.h1-after-nav, .h2-after-nav').removeClass('after-fixed-nav');
+	} else{
+		$('.h1-after-nav, .h2-after-nav').addClass('after-fixed-nav');
+	}
+}
+
+
+
+
+
+smallRemoveJump();
+$(window).resize(smallRemoveJump);
+
+
 
 
 

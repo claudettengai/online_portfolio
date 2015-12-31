@@ -6,6 +6,14 @@
 	background: url("../img/proj-paycrave/header4.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+
+	
+	@media (max-width: 399px){
+		height: 70vh;
+		background-size: 500px auto;
+		background-position: bottom center;
+		background-attachment: scroll;
+	}
 }
 
 
