@@ -55,7 +55,7 @@
 
 	}
 
-	@for $i from 2 through 3 {
+	@for $i from 2 through 8 {
 			li:nth-child(#{$i})::before { 
 			@include transform(rotate($i *45deg));
 			// transform: rotate($i * 45deg); 

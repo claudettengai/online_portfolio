@@ -12876,6 +12876,36 @@ h3 {
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
 }
+/* line 59, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page .user-stories ul li:nth-child(4)::before {
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+/* line 59, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page .user-stories ul li:nth-child(5)::before {
+  -ms-transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+/* line 59, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page .user-stories ul li:nth-child(6)::before {
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+/* line 59, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page .user-stories ul li:nth-child(7)::before {
+  -ms-transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+/* line 59, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
+#project-paycrave-page .user-stories ul li:nth-child(8)::before {
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
 /* line 86, ../scss/proj_paycrave/_sitemap-and-wireframes.scss */
 #project-paycrave-page .usability h2 {
   margin-top: 4rem;
