@@ -39,13 +39,14 @@
 }
 .resume-sect{
 	padding-top: 2rem;
-	h5{
-		border-bottom: 4px solid $lime-green;
-		margin-bottom: 1rem;
-		padding-bottom: 0.3rem;
+	h4{
+		border-bottom: 2px solid $lime-green;
+		margin-bottom: 1.5rem;
+		padding-bottom: 0.7rem;
 		// font-size: 1.24rem;
 		// font-weight: 500;
 		// font-family: $paragraph-font-family;
+		// display: inline-block;
 	}
 }
 
@@ -70,6 +71,14 @@
 		padding-top: 20px;
 	}
 }
+
+
+// .download-button{
+// 	text-align: center;
+// 	margin-bottom: 3.5rem;
+// }
+
+
 #download-PDF{
 	float: right;
 	@media #{$small-only}{
@@ -80,6 +89,8 @@
 	color: black; 
 	background-color: transparent;
 	border: 2px solid $jet;
+	// text-align: center;
+	// display: inline-block;
 	// margin-top: -10vh;
 	// margin-right: 4rem;
 
@@ -98,6 +109,76 @@
 
 }
 
+.ux-design,
+.development,
+.other{
+	margin: 2rem 0;
+
+
+}
+
+
+h5.skill-title{
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid $lime-green;
+	display: inline-block;
+}
+
+
+#design-icon {
+	height: 100px;
+	width: 100%;
+	margin: 1rem 0;
+	display: inline-block;
+	// text-align: center;
+	// height: 
+	background-image: url("../img/resume/design-icon.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#development-icon{
+	@extend #design-icon;
+	background-image: url("../img/resume/development-icon.png");
+}
+
+#other-icon{
+	@extend #design-icon;
+	background-image: url("../img/resume/other-icon.png");
+}
+
+
+
+
+
+.skills{
+	margin: 5rem 0 2.5rem 0;
+	ul{
+		list-style-type: none;
+		margin: 1rem 0 0 0;
+	}
+}
+
+
+.list-text{
+	text-align: center;
+
+}
+
+
+
+.tools{
+	width: 80%;
+	margin-left: 10%;
+}
+
+.extra-break{
+	@media #{$small-only} {
+		display: none;
+	}
+}
+
 
 .bullet{
 	@extend .head-text;
@@ -105,25 +186,40 @@
 }
 
 
+.education{
+	margin-bottom: 2rem;
+	ul.schools {
+		list-style-type: none;
+		li{
+			margin-bottom: 1.5rem;
+
+		}
+	}
+	p{
+		margin-bottom: 0;
+	}
+}
+
+
+
+
 
 
 .experience{
-	.bold-right{
-		@media #{$small-only}{
-			text-align: left;
-		}		
+	.workplaces{
+		list-style-type: none;
 	}
+
 
 	p{
 		margin-bottom:0;
 	}
 
 	.bullet-list ul{
-		margin-left: 5rem;
 
-		@media #{$small-only}{
-			margin-left: 1rem;
-		}
+		margin: 0.3rem 0 2rem 2rem;
+		margin-bottom: 2rem;
+			
 	}
 
 

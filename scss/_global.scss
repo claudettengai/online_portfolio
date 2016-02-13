@@ -26,6 +26,7 @@
 
 
 .home-button {
+		// background-color: red;
 		display: inline-block;
 		margin: 3rem 0 1rem 0 ;
 		@media #{$xlarge-up}{
@@ -36,7 +37,7 @@
 	float: left;
 	display: inline-block;
 	// margin-top: -2rem;
-	@media (max-width: 450px){
+	@media (max-width: 399px){
 		margin-top: -2rem;
 	}
 }

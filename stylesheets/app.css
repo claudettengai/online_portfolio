@@ -10428,48 +10428,48 @@ th.hide-for-touch {
   }
 }
 
-/* line 35, ../scss/_global.scss */
+/* line 36, ../scss/_global.scss */
 .home h6 {
   float: left;
   display: inline-block;
 }
-@media (max-width: 450px) {
-  /* line 35, ../scss/_global.scss */
+@media (max-width: 399px) {
+  /* line 36, ../scss/_global.scss */
   .home h6 {
     margin-top: -2rem;
   }
 }
 
-/* line 44, ../scss/_global.scss */
+/* line 45, ../scss/_global.scss */
 .text-bold, #resume .bold-right {
   font-weight: 600;
 }
 
-/* line 49, ../scss/_global.scss */
+/* line 50, ../scss/_global.scss */
 .email-link {
   color: #222222;
 }
-/* line 52, ../scss/_global.scss */
+/* line 53, ../scss/_global.scss */
 .email-link:hover {
   color: #222222;
   font-weight: 900;
   border-bottom: 1px solid #222222;
 }
 
-/* line 62, ../scss/_global.scss */
+/* line 63, ../scss/_global.scss */
 .to-contact-form-link {
   color: #222222;
   margin: 0 0.3rem;
   border-bottom: 1px solid #222222;
   padding-bottom: 0.3rem;
 }
-/* line 67, ../scss/_global.scss */
+/* line 68, ../scss/_global.scss */
 .to-contact-form-link:hover {
   color: #222222;
   border-bottom: 3px solid #222222;
 }
 
-/* line 86, ../scss/_global.scss */
+/* line 87, ../scss/_global.scss */
 .no-cssclippathpolygon .home h6 {
   margin-top: -2rem;
 }
@@ -11636,7 +11636,7 @@ h3 {
   -ms-transform: skewY(176deg);
   -webkit-transform: skewY(176deg);
   transform: skewY(176deg);
-  margin-top: -4rem;
+  margin-top: -3.7rem;
   border-bottom: 2px solid #C8F526;
 }
 @media only screen and (min-width: 80.0625em) {
@@ -11645,16 +11645,16 @@ h3 {
     margin-top: -4.2rem;
   }
 }
-/* line 32, ../scss/proj_fe/_magellan.scss */
+/* line 33, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav {
   padding: 0;
 }
-/* line 39, ../scss/proj_fe/_magellan.scss */
+/* line 40, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav dd a, #project-fe-page .sub-nav dt.active a, #project-fe-page .sub-nav dd.active a, #project-fe-page .sub-nav li.active a {
   display: inline-block;
   border-radius: 0;
 }
-/* line 47, ../scss/proj_fe/_magellan.scss */
+/* line 48, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav dd a p, #project-fe-page .sub-nav dt.active a p, #project-fe-page .sub-nav dd.active a p, #project-fe-page .sub-nav li.active a p {
   margin-top: 5.2rem;
   -ms-transform: skewY(4deg);
@@ -11663,47 +11663,47 @@ h3 {
   font-size: 0.825rem;
   margin-bottom: 0.8rem;
 }
-/* line 58, ../scss/proj_fe/_magellan.scss */
+/* line 59, ../scss/proj_fe/_magellan.scss */
 #project-fe-page .sub-nav dd:first-child {
   margin-left: 13vw;
 }
 @media (max-width: 1160px) {
-  /* line 58, ../scss/proj_fe/_magellan.scss */
+  /* line 59, ../scss/proj_fe/_magellan.scss */
   #project-fe-page .sub-nav dd:first-child {
     margin-left: 10vw;
   }
 }
 @media (max-width: 890px) {
-  /* line 58, ../scss/proj_fe/_magellan.scss */
+  /* line 59, ../scss/proj_fe/_magellan.scss */
   #project-fe-page .sub-nav dd:first-child {
     margin-left: 3vw;
   }
 }
 @media (max-width: 680px) {
-  /* line 58, ../scss/proj_fe/_magellan.scss */
+  /* line 59, ../scss/proj_fe/_magellan.scss */
   #project-fe-page .sub-nav dd:first-child {
     margin-left: -3vw;
   }
 }
 @media (max-width: 860px) {
-  /* line 82, ../scss/proj_fe/_magellan.scss */
+  /* line 83, ../scss/proj_fe/_magellan.scss */
   #project-fe-page .sub-nav dd {
     margin-left: 0;
   }
 }
 
-/* line 114, ../scss/proj_fe/_magellan.scss */
+/* line 115, ../scss/proj_fe/_magellan.scss */
 .no-cssclippathpolygon #project-fe-page div#magellan-bar {
   transform: none;
   margin-top: 0;
 }
 @media only screen and (min-width: 80.0625em) {
-  /* line 114, ../scss/proj_fe/_magellan.scss */
+  /* line 115, ../scss/proj_fe/_magellan.scss */
   .no-cssclippathpolygon #project-fe-page div#magellan-bar {
     margin-top: 0;
   }
 }
-/* line 126, ../scss/proj_fe/_magellan.scss */
+/* line 127, ../scss/proj_fe/_magellan.scss */
 .no-cssclippathpolygon #project-fe-page .sub-nav dd a p, .no-cssclippathpolygon #project-fe-page .sub-nav dt.active a p, .no-cssclippathpolygon #project-fe-page .sub-nav dd.active a p, .no-cssclippathpolygon #project-fe-page .sub-nav li.active a p {
   transform: none;
   margin-top: 1rem;
@@ -13020,23 +13020,23 @@ h3 {
   padding-top: 2rem;
 }
 /* line 42, ../scss/resume/_resume.scss */
-#resume .resume-sect h5 {
-  border-bottom: 4px solid #C8F526;
-  margin-bottom: 1rem;
-  padding-bottom: 0.3rem;
+#resume .resume-sect h4 {
+  border-bottom: 2px solid #C8F526;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.7rem;
 }
-/* line 56, ../scss/resume/_resume.scss */
+/* line 57, ../scss/resume/_resume.scss */
 #resume .head {
   height: 18vh;
   -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 0%, 0% 100%);
   background-color: #C8F526;
   overflow: hidden;
 }
-/* line 69, ../scss/resume/_resume.scss */
+/* line 70, ../scss/resume/_resume.scss */
 #resume .name-download .name h3 {
   padding-top: 20px;
 }
-/* line 73, ../scss/resume/_resume.scss */
+/* line 82, ../scss/resume/_resume.scss */
 #resume #download-PDF {
   float: right;
   font-family: "Varela";
@@ -13046,64 +13046,128 @@ h3 {
   border: 2px solid #222222;
 }
 @media only screen and (max-width: 40em) {
-  /* line 73, ../scss/resume/_resume.scss */
+  /* line 82, ../scss/resume/_resume.scss */
   #resume #download-PDF {
     float: none;
   }
 }
-/* line 86, ../scss/resume/_resume.scss */
+/* line 97, ../scss/resume/_resume.scss */
 #resume #download-PDF:hover {
   background-color: #222222;
   color: white;
 }
-/* line 95, ../scss/resume/_resume.scss */
+/* line 106, ../scss/resume/_resume.scss */
 #resume .head-text, #resume .bullet {
   font-family: "Varela";
   margin-bottom: 0.3rem;
 }
-/* line 102, ../scss/resume/_resume.scss */
+/* line 112, ../scss/resume/_resume.scss */
+#resume .ux-design,
+#resume .development,
+#resume .other {
+  margin: 2rem 0;
+}
+/* line 121, ../scss/resume/_resume.scss */
+#resume h5.skill-title {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #C8F526;
+  display: inline-block;
+}
+/* line 128, ../scss/resume/_resume.scss */
+#resume #design-icon, #resume #development-icon, #resume #other-icon {
+  height: 100px;
+  width: 100%;
+  margin: 1rem 0;
+  display: inline-block;
+  background-image: url("../img/resume/design-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 141, ../scss/resume/_resume.scss */
+#resume #development-icon {
+  background-image: url("../img/resume/development-icon.png");
+}
+/* line 146, ../scss/resume/_resume.scss */
+#resume #other-icon {
+  background-image: url("../img/resume/other-icon.png");
+}
+/* line 155, ../scss/resume/_resume.scss */
+#resume .skills {
+  margin: 5rem 0 2.5rem 0;
+}
+/* line 157, ../scss/resume/_resume.scss */
+#resume .skills ul {
+  list-style-type: none;
+  margin: 1rem 0 0 0;
+}
+/* line 164, ../scss/resume/_resume.scss */
+#resume .list-text {
+  text-align: center;
+}
+/* line 171, ../scss/resume/_resume.scss */
+#resume .tools {
+  width: 80%;
+  margin-left: 10%;
+}
+@media only screen and (max-width: 40em) {
+  /* line 176, ../scss/resume/_resume.scss */
+  #resume .extra-break {
+    display: none;
+  }
+}
+/* line 183, ../scss/resume/_resume.scss */
 #resume .bullet {
   padding: 0 0.3rem;
 }
-@media only screen and (max-width: 40em) {
-  /* line 111, ../scss/resume/_resume.scss */
-  #resume .experience .bold-right {
-    text-align: left;
-  }
+/* line 189, ../scss/resume/_resume.scss */
+#resume .education {
+  margin-bottom: 2rem;
 }
-/* line 117, ../scss/resume/_resume.scss */
+/* line 191, ../scss/resume/_resume.scss */
+#resume .education ul.schools {
+  list-style-type: none;
+}
+/* line 193, ../scss/resume/_resume.scss */
+#resume .education ul.schools li {
+  margin-bottom: 1.5rem;
+}
+/* line 198, ../scss/resume/_resume.scss */
+#resume .education p {
+  margin-bottom: 0;
+}
+/* line 209, ../scss/resume/_resume.scss */
+#resume .experience .workplaces {
+  list-style-type: none;
+}
+/* line 214, ../scss/resume/_resume.scss */
 #resume .experience p {
   margin-bottom: 0;
 }
-/* line 121, ../scss/resume/_resume.scss */
+/* line 218, ../scss/resume/_resume.scss */
 #resume .experience .bullet-list ul {
-  margin-left: 5rem;
+  margin: 0.3rem 0 2rem 2rem;
+  margin-bottom: 2rem;
 }
-@media only screen and (max-width: 40em) {
-  /* line 121, ../scss/resume/_resume.scss */
-  #resume .experience .bullet-list ul {
-    margin-left: 1rem;
-  }
-}
-/* line 136, ../scss/resume/_resume.scss */
+/* line 232, ../scss/resume/_resume.scss */
 #resume .coursework {
   padding-bottom: 5rem;
 }
-/* line 140, ../scss/resume/_resume.scss */
+/* line 236, ../scss/resume/_resume.scss */
 #resume .footer-bottom {
   height: 20vh;
 }
-/* line 144, ../scss/resume/_resume.scss */
+/* line 240, ../scss/resume/_resume.scss */
 #resume .footer-list {
   margin-top: 0;
   padding: 0 0;
 }
 
-/* line 170, ../scss/resume/_resume.scss */
+/* line 266, ../scss/resume/_resume.scss */
 .no-cssclippathpolygon #resume .head {
   height: 4rem;
 }
-/* line 174, ../scss/resume/_resume.scss */
+/* line 270, ../scss/resume/_resume.scss */
 .no-cssclippathpolygon #resume .footer-bottom {
   height: 12vh;
 }
