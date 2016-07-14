@@ -13043,7 +13043,7 @@ h3 {
 }
 /* line 44, ../scss/proj_dollskill/_header.scss */
 #project-dollskill-page #dollskill-head-back {
-  background: url("../img/proj-dollskill/header.png") center center;
+  background: url("../img/proj-dollskill/header.jpg") center center;
   background-size: cover;
   background-attachment: fixed;
   height: 94vh;
@@ -13161,7 +13161,7 @@ h3 {
 }
 /* line 85, ../scss/proj_dollskill/_summary.scss */
 #project-dollskill-page .footers {
-  background: url("../img/proj-dollskill/header.png");
+  background: url("../img/proj-dollskill/header.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
