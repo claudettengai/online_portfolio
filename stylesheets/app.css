@@ -10918,49 +10918,60 @@ h3 {
 }
 
 /* line 9, ../scss/_work.scss */
-.work-title {
+.work-title, .more-projects-title {
   width: 100%;
   padding: 0;
   margin-top: -10vh;
 }
 /* line 15, ../scss/_work.scss */
-.work-title h2 {
+.work-title h2, .more-projects-title h2 {
   border-bottom: 3px solid #333;
   display: inline-block;
 }
 
-/* line 27, ../scss/_work.scss */
-.projects {
+/* line 26, ../scss/_work.scss */
+.more-projects-title {
+  margin-top: 5rem;
+}
+
+/* line 36, ../scss/_work.scss */
+.projects, .more-projects {
   padding: 0;
   background-color: white;
 }
-/* line 32, ../scss/_work.scss */
-.projects a {
+/* line 41, ../scss/_work.scss */
+.projects a, .more-projects a {
   display: inline-block;
 }
 
-/* line 41, ../scss/_work.scss */
+/* line 53, ../scss/_work.scss */
 .project-link {
   margin: 4em 0 6vh 0;
 }
 
-/* line 52, ../scss/_work.scss */
+/* line 64, ../scss/_work.scss */
 .image-overlay-content {
   background-color: rgba(0, 0, 0, 0.8);
   display: none;
   position: absolute;
 }
-/* line 58, ../scss/_work.scss */
+/* line 70, ../scss/_work.scss */
 .image-overlay-content .project-title {
   text-align: center;
 }
-/* line 66, ../scss/_work.scss */
+/* line 78, ../scss/_work.scss */
 .image-overlay-content h3 {
   color: white;
 }
-/* line 70, ../scss/_work.scss */
+/* line 82, ../scss/_work.scss */
 .image-overlay-content h5 {
   color: #C8F526;
+}
+
+/* line 90, ../scss/_work.scss */
+.dolls-image {
+  border: 1px solid #333;
+  background-color: red;
 }
 
 /* line 4, ../scss/_about.scss */

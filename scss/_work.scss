@@ -23,6 +23,15 @@
 
 
 
+.more-projects-title{
+	@extend .work-title;
+	margin-top: 5rem;
+}
+
+
+
+
+
 
 .projects{
 	
@@ -34,6 +43,9 @@
 	}
 }
 
+.more-projects{
+	@extend .projects;
+}
 
 
 
@@ -75,7 +87,10 @@
 
 
 
-
+.dolls-image{
+	border: 1px solid #333;
+	background-color: red;
+}
 
 
 
