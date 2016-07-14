@@ -12996,6 +12996,193 @@ h3 {
   color: white;
 }
 
+/* line 3, ../scss/proj_dollskill/_header.scss */
+#project-dollskill-page #dollskill-head-top {
+  background-color: #C8F526;
+  height: 60vh;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 51%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 0%, 100% 51%, 0% 100%);
+  overflow: hidden;
+}
+/* line 11, ../scss/proj_dollskill/_header.scss */
+#project-dollskill-page #dollskill-head-top h1 {
+  margin-top: 15vh;
+  line-height: 1.4;
+}
+@media only screen and (max-width: 40em) {
+  /* line 11, ../scss/proj_dollskill/_header.scss */
+  #project-dollskill-page #dollskill-head-top h1 {
+    margin-top: 14vh;
+  }
+}
+@media (max-width: 400px) {
+  /* line 11, ../scss/proj_dollskill/_header.scss */
+  #project-dollskill-page #dollskill-head-top h1 {
+    line-height: 1;
+    width: 80%;
+    margin-top: 10vh;
+  }
+}
+@media (max-width: 400px) {
+  /* line 28, ../scss/proj_dollskill/_header.scss */
+  #project-dollskill-page #dollskill-head-top h1 h3 {
+    font-size: 1.5rem;
+  }
+}
+/* line 44, ../scss/proj_dollskill/_header.scss */
+#project-dollskill-page #dollskill-head-back {
+  background: url("../img/proj-dollskill/header.png") center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 94vh;
+  width: 100%;
+  margin: -33vh 0 1vh 0;
+  text-align: center;
+}
+@media (max-width: 399px) {
+  /* line 44, ../scss/proj_dollskill/_header.scss */
+  #project-dollskill-page #dollskill-head-back {
+    height: 70vh;
+    background-size: 500px auto;
+    background-position: bottom center;
+    background-attachment: scroll;
+  }
+}
+/* line 66, ../scss/proj_dollskill/_header.scss */
+#project-dollskill-page #dollskill-head-bottom {
+  height: 18vh;
+  width: 100%;
+  background-color: white;
+  margin-top: 76vh;
+  position: absolute;
+  -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+}
+@media (max-width: 399px) {
+  /* line 66, ../scss/proj_dollskill/_header.scss */
+  #project-dollskill-page #dollskill-head-bottom {
+    margin-top: 53vh;
+  }
+}
+
+/* line 94, ../scss/proj_dollskill/_header.scss */
+.no-cssclippathpolygon #project-paycrave-page #paycrave-head-top {
+  height: 100vh;
+}
+/* line 97, ../scss/proj_dollskill/_header.scss */
+.no-cssclippathpolygon #project-paycrave-page #paycrave-head-top h1 {
+  margin-top: 30vh;
+}
+
+/* line 3, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page #summary-title {
+  margin: 2.5rem 0 1rem 0;
+}
+/* line 7, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page .section-title {
+  margin: 3rem 0 1rem 0;
+}
+/* line 12, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page .section-title2 {
+  margin: 5rem 0 1rem 0;
+}
+/* line 15, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page .summary-images {
+  padding: 2rem 0;
+}
+/* line 20, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page .side-text {
+  padding-top: 2rem;
+}
+@media only screen and (min-width: 80.0625em) {
+  /* line 20, ../scss/proj_dollskill/_summary.scss */
+  #project-dollskill-page .side-text {
+    padding-top: 4rem;
+  }
+}
+/* line 28, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page .screen-no-phone,
+#project-dollskill-page .border {
+  border: 1px solid #333;
+}
+/* line 34, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page .cart-description {
+  margin-top: 2.4rem;
+}
+/* line 39, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page .feature-title {
+  margin: 2rem 0 0 0;
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 44, ../scss/proj_dollskill/_summary.scss */
+  #project-dollskill-page .editable-item-descript {
+    margin-top: 15rem;
+  }
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 50, ../scss/proj_dollskill/_summary.scss */
+  #project-dollskill-page .paypal-descript {
+    margin-top: 20rem;
+  }
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 57, ../scss/proj_dollskill/_summary.scss */
+  #project-dollskill-page .guest-descript {
+    margin-top: 23rem;
+  }
+}
+/* line 63, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page .checkout {
+  margin-bottom: 3rem;
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 67, ../scss/proj_dollskill/_summary.scss */
+  #project-dollskill-page .prepop-descript {
+    margin-top: 10rem;
+  }
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 73, ../scss/proj_dollskill/_summary.scss */
+  #project-dollskill-page .uneditable-fields-descript {
+    margin-top: 7rem;
+  }
+}
+/* line 85, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page .footers {
+  background: url("../img/proj-dollskill/header.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media (max-width: 399px) {
+  /* line 85, ../scss/proj_dollskill/_summary.scss */
+  #project-dollskill-page .footers {
+    height: 70vh;
+    background-size: 500px auto;
+    background-position: bottom center;
+    background-attachment: scroll;
+  }
+}
+/* line 101, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page .message {
+  margin-top: 6rem;
+}
+/* line 105, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page .message .button {
+  margin: 2.5rem 0 0 0;
+  background-color: white;
+  color: #222222;
+  border: 2px solid #222222;
+}
+/* line 111, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page .message .button:hover {
+  background-color: #222222;
+}
+/* line 114, ../scss/proj_dollskill/_summary.scss */
+#project-dollskill-page .message .button:hover h5 {
+  color: white;
+}
+
 @media only screen and (max-width: 40em) {
   /* line 4, ../scss/resume/_resume.scss */
   #resume .content-columns {
