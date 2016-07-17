@@ -1,0 +1,136 @@
+#project-larry-page{
+
+#larry-head-top{
+	background-color: $lime-green;
+	height: 60vh;
+	width: 100%;
+	@include clip-path(polygon(0 0%, 100% 0%, 100% 51%, 0% 100%));
+	// -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 51%, 0% 100%);
+	overflow:hidden;
+
+	h1{
+		margin-top: 15vh;
+		line-height: 1.4;
+
+		@media #{$small-only}{	
+			margin-top : 14vh;
+		}
+
+		@media (max-width: 400px){
+			line-height: 1;
+			width: 80%;
+			margin-top: 10vh;
+			// font-size: 2.5rem;
+
+		}
+
+
+		h3{
+		@media (max-width: 400px){
+			font-size: 1.5rem;
+			}
+		}
+
+
+
+	}
+
+
+}
+
+
+
+
+#larry-head-back{
+	background: url("../img/proj-larry/header.jpg") center center;
+	background-size: cover;
+	background-attachment: fixed;
+
+	//height for full screen (100vh) is 72vh
+	height: 94vh; 
+
+	width:100%;
+	margin: -33vh 0 1vh 0;
+	text-align: center;
+
+	@media (max-width: 399px){
+		height: 70vh;
+		background-size: 500px auto;
+		background-position: bottom center;
+		background-attachment: scroll;
+	}
+
+
+}
+
+#larry-head-bottom{
+	height: 18vh;
+	width: 100%;
+	background-color: white;
+	margin-top: 76vh;
+	position: absolute;
+	@include clip-path(polygon(100% 0%, 100% 100%, 0% 100%));
+	// -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+
+	@media (max-width: 399px){
+		margin-top: 53vh;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///NO CLIP PATH POLYGON///
+
+.no-cssclippathpolygon{
+	#project-paycrave-page{
+	#paycrave-head-top{
+		height:100vh;
+
+		h1{
+			margin-top: 30vh;
+		}
+	}
+
+}
+}
+
+
+////////////////////////

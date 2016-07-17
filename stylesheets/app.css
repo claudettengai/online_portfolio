@@ -10949,29 +10949,35 @@ h3 {
   margin: 4em 0 6vh 0;
 }
 
-/* line 64, ../scss/_work.scss */
+@media only screen and (max-width: 40em) {
+  /* line 57, ../scss/_work.scss */
+  .project-larry-link {
+    margin-top: 0;
+  }
+}
+
+/* line 68, ../scss/_work.scss */
 .image-overlay-content {
   background-color: rgba(0, 0, 0, 0.8);
   display: none;
   position: absolute;
 }
-/* line 70, ../scss/_work.scss */
+/* line 74, ../scss/_work.scss */
 .image-overlay-content .project-title {
   text-align: center;
 }
-/* line 78, ../scss/_work.scss */
+/* line 82, ../scss/_work.scss */
 .image-overlay-content h3 {
   color: white;
 }
-/* line 82, ../scss/_work.scss */
+/* line 86, ../scss/_work.scss */
 .image-overlay-content h5 {
   color: #C8F526;
 }
 
-/* line 90, ../scss/_work.scss */
+/* line 94, ../scss/_work.scss */
 .dolls-image {
   border: 1px solid #333;
-  background-color: red;
 }
 
 /* line 4, ../scss/_about.scss */
@@ -13191,6 +13197,137 @@ h3 {
 }
 /* line 114, ../scss/proj_dollskill/_summary.scss */
 #project-dollskill-page .message .button:hover h5 {
+  color: white;
+}
+
+/* line 3, ../scss/proj_larry/_header.scss */
+#project-larry-page #larry-head-top {
+  background-color: #C8F526;
+  height: 60vh;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 51%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 0%, 100% 51%, 0% 100%);
+  overflow: hidden;
+}
+/* line 11, ../scss/proj_larry/_header.scss */
+#project-larry-page #larry-head-top h1 {
+  margin-top: 15vh;
+  line-height: 1.4;
+}
+@media only screen and (max-width: 40em) {
+  /* line 11, ../scss/proj_larry/_header.scss */
+  #project-larry-page #larry-head-top h1 {
+    margin-top: 14vh;
+  }
+}
+@media (max-width: 400px) {
+  /* line 11, ../scss/proj_larry/_header.scss */
+  #project-larry-page #larry-head-top h1 {
+    line-height: 1;
+    width: 80%;
+    margin-top: 10vh;
+  }
+}
+@media (max-width: 400px) {
+  /* line 28, ../scss/proj_larry/_header.scss */
+  #project-larry-page #larry-head-top h1 h3 {
+    font-size: 1.5rem;
+  }
+}
+/* line 44, ../scss/proj_larry/_header.scss */
+#project-larry-page #larry-head-back {
+  background: url("../img/proj-larry/header.jpg") center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 94vh;
+  width: 100%;
+  margin: -33vh 0 1vh 0;
+  text-align: center;
+}
+@media (max-width: 399px) {
+  /* line 44, ../scss/proj_larry/_header.scss */
+  #project-larry-page #larry-head-back {
+    height: 70vh;
+    background-size: 500px auto;
+    background-position: bottom center;
+    background-attachment: scroll;
+  }
+}
+/* line 66, ../scss/proj_larry/_header.scss */
+#project-larry-page #larry-head-bottom {
+  height: 18vh;
+  width: 100%;
+  background-color: white;
+  margin-top: 76vh;
+  position: absolute;
+  -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+}
+@media (max-width: 399px) {
+  /* line 66, ../scss/proj_larry/_header.scss */
+  #project-larry-page #larry-head-bottom {
+    margin-top: 53vh;
+  }
+}
+
+/* line 124, ../scss/proj_larry/_header.scss */
+.no-cssclippathpolygon #project-paycrave-page #paycrave-head-top {
+  height: 100vh;
+}
+/* line 127, ../scss/proj_larry/_header.scss */
+.no-cssclippathpolygon #project-paycrave-page #paycrave-head-top h1 {
+  margin-top: 30vh;
+}
+
+/* line 4, ../scss/proj_larry/_summary.scss */
+#project-larry-page .summary {
+  margin-top: 2.5rem;
+}
+/* line 10, ../scss/proj_larry/_summary.scss */
+#project-larry-page #summary-title {
+  margin-top: 2rem;
+}
+/* line 15, ../scss/proj_larry/_summary.scss */
+#project-larry-page .site-pics {
+  margin-top: 2rem;
+}
+/* line 20, ../scss/proj_larry/_summary.scss */
+#project-larry-page .site-pages {
+  border: 1px solid #696969;
+  margin: 2.5rem 0;
+}
+/* line 30, ../scss/proj_larry/_summary.scss */
+#project-larry-page .footers {
+  background: url("../img/proj-larry/header.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media (max-width: 399px) {
+  /* line 30, ../scss/proj_larry/_summary.scss */
+  #project-larry-page .footers {
+    height: 70vh;
+    background-size: 500px auto;
+    background-position: bottom center;
+    background-attachment: scroll;
+  }
+}
+/* line 46, ../scss/proj_larry/_summary.scss */
+#project-larry-page .message {
+  margin-top: 6rem;
+}
+/* line 50, ../scss/proj_larry/_summary.scss */
+#project-larry-page .message .button {
+  margin: 2.5rem 0 0 0;
+  background-color: white;
+  color: #222222;
+  border: 2px solid #222222;
+}
+/* line 56, ../scss/proj_larry/_summary.scss */
+#project-larry-page .message .button:hover {
+  background-color: #222222;
+}
+/* line 59, ../scss/proj_larry/_summary.scss */
+#project-larry-page .message .button:hover h5 {
   color: white;
 }
 

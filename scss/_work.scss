@@ -54,7 +54,11 @@
 	margin: 4em 0 6vh 0;
 	}
 
-
+.project-larry-link{
+	@media #{$small-only}{
+		margin-top: 0;
+	}
+}
 
 
 
@@ -89,7 +93,6 @@
 
 .dolls-image{
 	border: 1px solid #333;
-	background-color: red;
 }
 
 
