@@ -12495,21 +12495,21 @@ h3 {
   padding: 5rem 0 0 0;
   margin-top: 4rem;
 }
-/* line 17, ../scss/proj_fe/_footer.scss */
-#project-fe-page .message .button {
+/* line 18, ../scss/proj_fe/_footer.scss */
+#project-fe-page .button {
   margin: 2rem 0;
   background-color: white;
   border: 2px solid #222222;
 }
-/* line 22, ../scss/proj_fe/_footer.scss */
-#project-fe-page .message .button:hover {
+/* line 23, ../scss/proj_fe/_footer.scss */
+#project-fe-page .button:hover {
   background-color: #222222;
 }
-/* line 24, ../scss/proj_fe/_footer.scss */
-#project-fe-page .message .button:hover h5 {
+/* line 25, ../scss/proj_fe/_footer.scss */
+#project-fe-page .button:hover h5 {
   color: white;
 }
-/* line 32, ../scss/proj_fe/_footer.scss */
+/* line 33, ../scss/proj_fe/_footer.scss */
 #project-fe-page .footers {
   background: url("../img/proj-fe/hero-pic.jpg") center center;
   background-size: cover;
@@ -12517,13 +12517,13 @@ h3 {
   margin-top: 0;
 }
 @media (max-width: 399px) {
-  /* line 32, ../scss/proj_fe/_footer.scss */
+  /* line 33, ../scss/proj_fe/_footer.scss */
   #project-fe-page .footers {
     background-size: 500px auto;
     background-attachment: scroll;
   }
 }
-/* line 45, ../scss/proj_fe/_footer.scss */
+/* line 46, ../scss/proj_fe/_footer.scss */
 #project-fe-page .footer-top {
   background-color: #FFFFFF;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
@@ -12532,7 +12532,7 @@ h3 {
   height: 20vh;
   margin-top: -2vh;
 }
-/* line 56, ../scss/proj_fe/_footer.scss */
+/* line 57, ../scss/proj_fe/_footer.scss */
 #project-fe-page .footer-bottom {
   background-color: #C8F526;
   width: 100%;
@@ -12542,7 +12542,7 @@ h3 {
   clip-path: polygon(0% 90%, 100% 0%, 100% 100%, 0% 100%);
 }
 
-/* line 79, ../scss/proj_fe/_footer.scss */
+/* line 80, ../scss/proj_fe/_footer.scss */
 .no-cssclippathpolygon #project-fe-page .footers {
   height: 70vh;
 }
