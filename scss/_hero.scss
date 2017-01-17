@@ -41,6 +41,12 @@
 #hero-text{
 	margin-top: 25vh;
 
+	@media (min-width: 400px) and (max-width: 450px){
+		#hero-subtext{ 
+			font-size: 27px;
+		}
+	}
+
 	@media (max-width: 400px) {
 		margin-top: 21vh;
 			
