@@ -1,0 +1,84 @@
+#project-hundy-page{
+
+
+.message{
+	// background: url("../img/proj-fe/thank-you-back.jpg");
+	padding: 5rem 0 0 0;
+	margin-top: 4rem;
+	// transform: skewY(176deg);
+	// -webkit-transform: skewY(176deg);
+
+	// h3, a{
+	// 	transform: skewY(-176deg);
+	// 	-webkit-transform: skewY(-176deg);
+
+	// }
+}
+
+.button{
+	margin: 2rem 0;
+	background-color: white;
+	border: 2px solid $jet;
+
+	&:hover{
+		background-color: $jet;
+		h5{
+			color: white;
+		}
+	}
+}
+
+// }
+
+.footers{
+	background: url("../img/proj-fe/hero-pic.jpg") center center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 0;
+
+	@media (max-width: 399px){
+		background-size: 500px auto;
+		background-attachment:scroll;
+	}
+}
+
+
+.footer-top{
+	background-color: $white;
+	@include clip-path(polygon(0% 0%,100% 0%, 0% 100%));
+	// -webkit-clip-path: polygon(0% 0%,100% 0%, 0% 100%);
+	width: 100%;
+	height: 20vh;
+	margin-top: -2vh
+
+
+}
+
+.footer-bottom{
+	background-color: $lime-green;
+	width: 100%;
+	height: 31vh;
+	margin-top: 30vh;
+	@include clip-path(polygon(0% 90%,100% 0%, 100% 100%, 0% 100%));
+	// -webkit-clip-path: polygon(0% 90%,100% 0%, 100% 100%, 0% 100%);
+
+}
+
+
+
+
+
+
+}
+
+
+
+///NO CLIP PATH POLYGON///
+
+.no-cssclippathpolygon{
+	#project-fe-page{
+		.footers{
+			height:70vh;
+		}
+	}
+}

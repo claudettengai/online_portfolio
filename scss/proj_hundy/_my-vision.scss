@@ -1,0 +1,353 @@
+#project-hundy-page{
+
+	.strategy p{
+		margin-bottom: 0;
+	}
+
+
+
+	#strategy-start{
+		margin-top: 10vh;
+	}
+
+
+
+/////////////////USE CASES//////////////////
+
+.use-cases{		
+
+
+
+	
+		ul{
+			list-style-type: none;
+			margin: 2rem 0 0 0;
+			display: inline-block;
+		}
+
+		ul li{
+			width: 31%;
+			// display: inline-block;
+			float: left;
+
+			@media #{$small-only}{
+				width: 100%;
+			}
+
+			&:nth-child(2){
+				margin: auto 3.5%;
+
+				@media #{$small-only}{
+					margin: 1.25rem 0 2.5rem 0;
+			}
+			}
+		}
+
+		p#bottom-text{
+			margin-bottom: 4rem;
+			font-size: 18px;
+			font-weight: 300;
+		}
+
+
+
+}
+
+
+#bottom-text{
+	#use-case-1-words{
+		color: black;
+		padding: 0.4rem;
+		font-weight: 600;
+		background-color: $lime-green;
+	}
+
+	#use-case-2-words{
+		background-color: transparentize(black, 0.5s);
+		padding: 0.4rem;
+		font-weight: 400;
+		color: white;
+
+	}
+
+	#use-case-3-words{
+		color: black;
+		padding: 0.4rem;
+		font-weight: 400;
+		border: 2px solid $lime-green;
+
+	}
+}
+
+#top-text{
+	#use-case-1-words{
+		font-weight: 700;
+	}
+}
+
+
+
+////////////////////////USE CASE PANELS///////////////////////////
+
+.use-cases .panel{
+
+	
+
+	////////////2nd panel/////////////////
+
+	&:nth-child(2){
+		background-color: transparentize(black, 0.5s);
+		border:none;
+
+
+		& p{
+			color: white;
+			font-weight: 300;
+		}
+
+	}
+
+
+	////////////3rd panel/////////////////
+
+	&:nth-child(3){
+		background-color: white;
+		border: 2px solid $lime-green;		
+    	h5{ 		 	
+    		 color: $lime-green;
+    	}
+
+
+		& p{
+			font-weight: normal;
+		}	
+
+	}
+
+
+
+} 
+
+
+////////////CLOSE USE CASE PANELS/////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#vision-list{
+
+
+
+		margin-left: 2.4rem;
+		margin-top: -1rem;
+		list-style: none;
+		// text-align: center;
+	
+
+		li{
+			display: inline-block;
+		}
+
+		li::before{
+			content: "";
+		    border-color: transparent $lime-green;
+		    border-style: solid;
+		    border-width: 0.4rem 0 0.4rem 0.8rem;
+		    display: block;
+		    height: 0;
+		    width: 0;
+		    left: -2rem;
+		    top: $paragraph-font-size + 0.24;
+		    position: relative;
+		    margin: 0rem;
+		    transform: rotate(15deg);
+
+		}
+
+		@for $i from 2 through 3 {
+      		li:nth-child(#{$i})::before { 
+       		transform: rotate($i * 45deg); 
+      }
+    }
+
+
+
+
+
+
+		.text-bold{
+			// @extend h6;
+			// margin-right: 1rem;
+			// font-weight: 500;
+		}
+
+	// 	margin-left: 4rem;
+	// 	margin-top: -1.5rem;
+	// 	li{
+	// 		margin-bottom: 1rem;
+	// 	}
+	}
+
+
+.game-plan{
+
+	
+/////////////////
+
+
+
+
+
+///////////////
+
+
+/////////////////////GAME PLAN//////////////////////
+
+ul{
+	list-style-type: none;
+	display: inline-block;
+	h5{
+		text-align: center;
+	}
+}
+
+
+
+.panel > h5{
+	margin: 1.5rem 0 2rem 0;
+}
+
+.panel ul li{
+	margin-bottom: 0.7rem;
+}
+
+
+
+
+// #game-plan-all-panels{
+// 	margin: 4vh 0;
+// }
+
+.game-plan-first-row,
+.game-plan-second-row{
+	width: 100%;
+	margin: 3vh 0;
+	display: inline-block;
+	@media #{$medium-only}{
+		margin: auto;
+	}
+	@media #{$small-only}{
+		margin: 0;
+	}
+
+}
+
+
+
+.panel{
+	width: 31%;
+	float: left;
+	@media #{$medium-only}{
+		width: 49%;
+	}
+	
+}
+
+
+.game-plan-first-row .panel{
+
+	&:first-child{
+		//////fixing for the fact that panel1 has a one line header 
+		////add to 1.5rem
+
+		h5:nth-child(2){
+			margin-top: 2.8rem;
+		}
+	}
+
+
+	&:nth-child(2){
+		background-color: white;
+		border: 4px solid $oil;
+		margin: auto 3.5%;
+		@media #{$medium-only}{
+			margin: auto 0 auto 1%; 
+		}
+		@media #{$small-only}{
+			margin: 0 2%;
+	}
+	}
+
+	&:nth-child(3){
+		background-color: transparentize(black, 0.5);
+		h5:nth-child(2), ul li{
+			color: white;
+		}	
+	}
+
+}
+
+
+
+
+
+.game-plan-second-row .panel{
+
+
+		&:first-child{
+			background-color: white;
+			border: 4px solid $lime-green;
+			margin: auto 3.5% auto 16%;
+			@media #{$medium-only}{
+				margin: auto 2% auto 0;
+				float: left;
+			}
+			@media #{$small-only}{
+			margin: 0 2%;
+	}
+
+		}
+
+}
+
+
+
+.panel{
+	@media #{$small-only}{
+		margin: 2rem 2%;
+	}
+	@media #{$small-only}{
+		width: 96%;
+	}
+}
+
+
+
+//////////
+}
+}
