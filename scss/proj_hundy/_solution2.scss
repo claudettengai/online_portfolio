@@ -3,34 +3,57 @@
 .solution2{
 ////////////////////////////////////////////////////////////////
 
+margin-top: 8rem;
+
 .remove-dash{
-	margin-top: 3.5rem;
+	margin-top: 0rem;
 }
 
 
 .sol2-1{
 	h6{
-		margin-left: 12%;
+		margin-left: 14%;
 	}
 }
 
-.pop-up{
+.easy-support{
 	margin-top: 3.5rem;
 }
 
+.sol2-2a{
 
-.sol-summary{
-	margin-top:6rem;
+	width: 46%;
+	float: left;
+	margin-right: 3%;
+	// .hidden-wireframe{
+	// 	font-size: 80%;
+	// 	margin-left: 2rem;
+	// 	@media (min-width: 745px) and (max-width: 800px){
+	// 		font-size: 100%;
+	// 	}
+	// }
 
-	p{
-		margin-top: 1rem;
-	}
-
-	.user-flow{
-		margin-top: 3.5rem;
-	}
 	img{
-		border: 1px solid $oil;
+		margin-top: 2%;
+	}
+}
+
+.sol2-2b{
+	// width: 35%;
+	// width: 40%;
+	width: 46%;
+	float: left;
+	img{
+		margin-top: 2%;
+	}
+}
+
+.sol2-2a,
+.sol2-2b{
+
+	img{
+		border: 1px solid $iron;
+
 	}
 }
 

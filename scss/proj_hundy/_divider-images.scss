@@ -1,5 +1,6 @@
 #hundy-pic1{
-	background: url("../img/proj-fe/fe-pic1.jpg") top left;
+	background: url("../img/proj-hundy/divider-images/divider_image_02
+	.jpg") top left;
 	background-attachment: fixed;
 	margin: 5vh 0 5vh 0;
 
@@ -116,16 +117,18 @@
 
 
 
-#fe-pic2{
-	@extend #fe-pic1;
-	background-image: url("../img/proj-fe/fe-pic2.jpg");
+#hundy-pic2{
+	@extend #hundy-pic1;
+	background-image: url("../img/proj-hundy/divider-images/divider_image_01
+	.jpg");
 	margin-top: 15vh;
 }
 
 
-#fe-pic3{
-	@extend #fe-pic1;
-	background-image: url("../img/proj-fe/fe-pic5.jpg");
+#hundy-pic5{
+	@extend #hundy-pic1;
+	background-image: url("../img/proj-hundy/divider-images/divider_image_03
+	.jpg");
 	margin-top: 10vh;
 
 	// @media #{$xlarge-up}{

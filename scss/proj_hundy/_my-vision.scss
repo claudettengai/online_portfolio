@@ -12,23 +12,26 @@
 
 
 
-/////////////////USE CASES//////////////////
+/////////////////GOALS//////////////////
 
-.use-cases{		
+.goals{		
 
-
-
-	
 		ul{
 			list-style-type: none;
 			margin: 2rem 0 0 0;
-			display: inline-block;
 		}
 
 		ul li{
 			width: 31%;
 			// display: inline-block;
 			float: left;
+			text-align: center;
+
+			p{
+				line-height: 1.4;
+				margin-top: 0.5rem;
+			}
+
 
 			@media #{$small-only}{
 				width: 100%;
@@ -43,53 +46,12 @@
 			}
 		}
 
-		p#bottom-text{
-			margin-bottom: 4rem;
-			font-size: 18px;
-			font-weight: 300;
-		}
-
-
-
 }
 
 
-#bottom-text{
-	#use-case-1-words{
-		color: black;
-		padding: 0.4rem;
-		font-weight: 600;
-		background-color: $lime-green;
-	}
+////////////////////////GOALS PANELS///////////////////////////
 
-	#use-case-2-words{
-		background-color: transparentize(black, 0.5s);
-		padding: 0.4rem;
-		font-weight: 400;
-		color: white;
-
-	}
-
-	#use-case-3-words{
-		color: black;
-		padding: 0.4rem;
-		font-weight: 400;
-		border: 2px solid $lime-green;
-
-	}
-}
-
-#top-text{
-	#use-case-1-words{
-		font-weight: 700;
-	}
-}
-
-
-
-////////////////////////USE CASE PANELS///////////////////////////
-
-.use-cases .panel{
+.goals .panel{
 
 	
 
@@ -125,35 +87,16 @@
 	}
 
 
-
 } 
 
 
-////////////CLOSE USE CASE PANELS/////////////////
+////////////CLOSE GOALS PANELS/////////////////
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.criteria{
+	margin-top: 10vh;
+}
 
 
 
@@ -164,14 +107,14 @@
 
 
 		margin-left: 2.4rem;
-		margin-top: -1rem;
+		margin-top: 1rem;
 		list-style: none;
 		// text-align: center;
 	
 
-		li{
-			display: inline-block;
-		}
+		// li{
+		// 	display: inline-block;
+		// }
 
 		li::before{
 			content: "";
@@ -189,7 +132,7 @@
 
 		}
 
-		@for $i from 2 through 3 {
+		@for $i from 2 through 5 {
       		li:nth-child(#{$i})::before { 
        		transform: rotate($i * 45deg); 
       }

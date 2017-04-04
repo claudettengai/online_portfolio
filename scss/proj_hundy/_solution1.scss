@@ -2,9 +2,10 @@
 
 .solution1{
 
+margin-top: 1rem;
 //////////////////////
-.fewer-sections{
-	margin-top: 3.5rem;
+.effective-ui{
+	margin-top: 3rem;
 }
 
 
@@ -24,7 +25,7 @@ p.sub-title{
 
 .sol1-1a{
 
-	width: 50%;
+	width: 47%;
 	float: left;
 	margin-left: 2%;
 	// .hidden-wireframe{
@@ -36,80 +37,38 @@ p.sub-title{
 	// }
 
 	img{
-		margin-top: 7%;
+		margin-top: 2%;
 	}
 }
 
 .sol1-1b{
 	// width: 35%;
 	// width: 40%;
-	width: 33%;
+	width: 47%;
 	float: right;
 	img{
-		border: 1px solid #333;
-	}
-}
-
-
-
-.arrow{
-	float: left;
-	width: 15%;
-	// width: 10%;
-	// width: 20%;
-
-	h2{
-		text-align: center;
+		margin-top: 2%;
 	}
 
-	
-}
-
-
-
-.fewer-pages{
-	margin-top: 5rem;
-
-	.arrow{
-		width:10%;		
-	}
-
-	.sol-text{
-		@media #{$large-up}{
-			float: right;
-			padding-left: 2rem;
-		}
-	}
 }
 
 
 
 
-.sol1-2a{
-	width: 45%;
-	float: left;
-}
 
-.sol1-2b{
-	@extend .sol1-2a;
-}
+#user-flow-button{
+	background-color: white;
+	border: 3px solid $jet;
+	color: black;
+	font-size: 18px;
+	font-family: "Varela";
+	margin: 0.7rem 0 0 0;
 
-
-
-
-.sol-summary{
-	margin-top: 7rem;
-
-	p{
-		margin-top: 1rem;
+	&:hover{
+		background-color: $jet;
+		color: white;
 	}
 
-	.site-maps{
-		margin-top: 3rem;
-		img{
-			border: 1px solid $oil;
-		}
-	}
 }
 
 
