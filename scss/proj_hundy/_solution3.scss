@@ -2,34 +2,26 @@
 
 .solution3{
 ////////////////////////////////////////////////////////////////
-.nav-prog-combine{
-	margin-top: 3rem;	
-}
-
-.sol3-1a img{
-	margin-top: 25%;
-}
-
-.recurring-prog{
-	margin-top: 5rem;
-
-}
-
-.local-checklist {
-	margin-top: 8rem;
-}
-
-.sol3-2 h6{
-	margin-left: 10%;
-}
-
-.local-checklist img{
-	margin-top: -2.5rem;
-}
+.community{
+	h4{
+		margin-top: 2rem;
+	}
 
 
-.sol-summary{
-	margin-top: 6rem;
+#community-wireframes-button{
+	background-color: white;
+	border: 3px solid $jet;
+	color: black;
+	font-size: 18px;
+	font-family: "Varela";
+	margin: 0.7rem 0 3rem 0;
+
+	&:hover{
+		background-color: $jet;
+		color: white;
+		}
+	}
+
 }
 
 

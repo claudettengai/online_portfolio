@@ -1,5 +1,5 @@
 #hundy-pic1{
-	background: url("../img/proj-hundy/divider-images/divider_image_02
+	background: url("../img/proj-hundy/divider-images/divider_image_01
 	.jpg") top left;
 	background-attachment: fixed;
 	margin: 5vh 0 5vh 0;
@@ -119,7 +119,7 @@
 
 #hundy-pic2{
 	@extend #hundy-pic1;
-	background-image: url("../img/proj-hundy/divider-images/divider_image_01
+	background-image: url("../img/proj-hundy/divider-images/divider_image_06
 	.jpg");
 	margin-top: 15vh;
 }
@@ -134,9 +134,8 @@
 	// @media #{$xlarge-up}{
 	// 	background-size: 102%;
 	// }
-
-
 }
+
 
 
 
@@ -170,39 +169,38 @@
 // }
 
 
-#fe-pic4{
-	@extend #fe-pic1;
-	background-image: url("../img/proj-fe/fe-pic4.jpg")
+// #fe-pic4{
+// 	@extend #fe-pic1;
+// 	background-image: url("../img/proj-fe/fe-pic4.jpg")
 
+// }
+
+
+
+// #fe-pic5{
+// 	@extend #fe-pic1;
+// 	background-image: url("../img/proj-fe/fe-pic3.jpg");
+
+// 	@media #{$xlarge-up}{
+// 		background-size: 102%;
+// 	}
+
+// }
+
+// #fe-pic6{
+// 	@extend #fe-pic1;
+// 	background-image: url("../img/proj-fe/fe-pic6.jpg")
+
+
+
+#hundy-pic7{
+	@extend #hundy-pic1;
+	background-image: url("../img/proj-hundy/divider-images/divider_image_04.jpg")
 }
 
-
-
-#fe-pic5{
-	@extend #fe-pic1;
-	background-image: url("../img/proj-fe/fe-pic3.jpg");
-
-	@media #{$xlarge-up}{
-		background-size: 102%;
-	}
-
-}
-
-#fe-pic6{
-	@extend #fe-pic1;
-	background-image: url("../img/proj-fe/fe-pic6.jpg")
-
-}
-
-#fe-pic7{
-	@extend #fe-pic1;
-	background-image: url("../img/proj-fe/fe-pic7.jpg")
-
-}
-
-#fe-pic8{
-	@extend #fe-pic1;
-	background-image: url("../img/proj-fe/fe-pic8.jpg")
+#hundy-pic8{
+	@extend #hundy-pic1;
+	background-image: url("../img/proj-hundy/divider-images/divider_image_05.jpg")
 
 }
 
