@@ -215,13 +215,13 @@ input[type="email"],
 
 
 .pic-back{
-	background-image:  url("../img/home-hero.jpg");
+	background-image:  url("../img/sticky03.png");
 	background-attachment: fixed;
 	height: 25vh;
 	width: 100%;
 	position: absolute;
 	z-index: -1;
-	background-position: 0% 280%;
+	// background-position: 0% 280%;
 }
 
 
@@ -240,12 +240,12 @@ input[type="email"],
 
 
 .footers{
-	// margin-top: -5vh;
+	margin-top: -1rem;
 
-	background: url("../img/home-footer.jpg");
+	background: url("../img/sticky03.png");
 	background-attachment: fixed;
 	
-	background-position: 0% -40%;
+	// background-position: 0% -40%;
 	height: 40vh;
 	width: 100%;
 	margin-top: -1vh;
