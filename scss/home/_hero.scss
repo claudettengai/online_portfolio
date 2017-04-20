@@ -1,0 +1,241 @@
+
+
+
+
+////////////////////////////////////////////////////////////
+
+
+// #hero-top{
+// 	background: url("../img/sticky03.jpg");
+// 	background-attachment: fixed;
+// 	background-position: bottom left;
+// 	height: 84vh;
+// 	z-index: -1;
+
+
+
+// 	@media (max-width: 375px) {
+// 		height: 114vh;
+			
+// 	}
+// }
+
+// #hero-content{
+// 	@include clip-path(polygon(0 0%, 100% 0%, 100% 30vh, 0% 100%));
+// 	// -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 30vh, 0% 100%);
+// 	height: 80vh;
+// 	background-color: $lime-green;
+
+// 	//fixing issues with right-off-canvas menu with hero-top background-attachement fixed 
+// 	overflow: hidden;
+
+// 	@media (max-width: 375px) {
+// 		@include clip-path(polygon(0 0%, 100% 0%, 100% 55vh, 0% 100%));
+// 		// -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 55vh, 0% 100%);
+// 		height: 110vh;
+			
+// 	}
+
+// }
+
+// #hero-text{
+// 	margin-top: 25vh;
+
+// 	@media (min-width: 400px) and (max-width: 450px){
+// 		#hero-subtext{ 
+// 			font-size: 27px;
+// 		}
+// 	}
+
+// 	@media (max-width: 400px) {
+// 		margin-top: 21vh;
+			
+// 	}
+
+
+
+
+// }
+
+// h1, h3{
+// 	font-family: "Varela";	
+// 	margin: 0 0 0.5em 0;
+
+		
+// }
+
+// h1{
+// 	font-weight: 700;
+
+// }
+
+// h3{
+// 	font-weight: 300;
+// }
+
+
+
+
+
+
+
+// #hero-bottom{
+// 	background-color: $white;
+// 	@include clip-path(polygon(0% 100%,100% 0%, 100% 101%, 0% 101%));
+// 	// -webkit-clip-path: polygon(0% 100%,100% 0%, 100% 101%, 0% 101%);
+// 	width: 100%;
+// 	height: 26vh;
+// 	margin-top:-26vh;
+// }
+
+// #hero-bottom2{
+// 	background-color: white;
+// 	width: 100%;
+// 	height: 16vh;
+// }
+
+
+
+
+
+#hero-top{
+	background: url("../img/sticky03.jpg");
+	background-attachment: fixed;
+	background-position: bottom left;
+	height: 76vh;
+	z-index: -1;
+
+
+
+	@media (max-width: 375px) {
+		height: 114vh;
+			
+	}
+}
+
+#hero-content{
+	@include clip-path(polygon(0 0%, 100% 0%, 100% 30vh, 0% 100%));
+	// -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 30vh, 0% 100%);
+	height: 70vh;
+	background-color: $lime-green;
+	// background-color: blue;
+	//fixing issues with right-off-canvas menu with hero-top background-attachement fixed 
+	overflow: hidden;
+
+	@media (max-width: 375px) {
+		@include clip-path(polygon(0 0%, 100% 0%, 100% 55vh, 0% 100%));
+		// -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 55vh, 0% 100%);
+		height: 110vh;
+			
+	}
+
+}
+
+#hero-text{
+	margin-top: 22vh;
+
+	@media (min-width: 400px) and (max-width: 450px){
+		#hero-subtext{ 
+			font-size: 27px;
+		}
+	}
+
+	@media (max-width: 400px) {
+		margin-top: 21vh;
+			
+	}
+
+
+
+
+}
+
+h1, h3{
+	font-family: "Varela";	
+	margin: 0 0 0.3em 0;
+
+		
+}
+
+h1{
+	font-weight: 700;
+
+}
+
+h3{
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+#hero-bottom{
+	background-color: $white;
+	// background-color: red;
+	@include clip-path(polygon(0% 100%,100% 0%, 100% 101%, 0% 101%));
+	// -webkit-clip-path: polygon(0% 100%,100% 0%, 100% 101%, 0% 101%);
+	width: 100%;
+	height: 26vh;
+	margin-top:-26vh;
+}
+
+#hero-bottom2{
+	background-color: white;
+	width: 100%;
+	height: 16vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////NO CLIP PATH POLYGON////////////////
+
+.no-cssclippathpolygon{
+
+
+	#hero-text{
+		margin-top: 35vh;
+	}
+
+	#hero-top{
+		background-position: 0% 2vh;
+		height: 100vh;
+
+
+	}
+
+	#hero-content{
+		height: 73vh;
+	}
+
+	#hero-bottom{
+		background-color: transparent;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

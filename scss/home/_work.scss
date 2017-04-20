@@ -1,6 +1,6 @@
 .work-section{
 	background-color: white;
-	padding: 10vh 0 0 0;
+	padding: 0vh 0 0 0;
 
 }
 
@@ -12,8 +12,8 @@
 	margin-top: -10vh;
 
 
-	h2{
-		border-bottom: 3px solid #333;
+	h3{
+		border-bottom: 2px solid #333;
 		display: inline-block;
 	
 
@@ -21,10 +21,9 @@
 
 }
 
-
-.contact-current-message{
-	margin-top: 6vh;
-}
+// .contact-current-message{
+// 	margin-top: 6vh;
+// }
 
 .more-projects-title{
 	@extend .work-title;
@@ -55,7 +54,7 @@
 
 
 .project-link{
-	margin: 4em 0 6vh 0;
+	margin: 2em 0 6vh 0;
 	}
 
 .project-larry-link{

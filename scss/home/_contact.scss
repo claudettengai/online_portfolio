@@ -1,5 +1,5 @@
 .contact{
-	padding-bottom: 3vh;
+	padding-bottom: 1vh;
 	// margin-top: 3rem;
 
 	h2{
@@ -7,11 +7,11 @@
 		display: inline-block;
 		float: right;
 		text-align: right;
-		margin-top: -5vh;
+		margin-top: -12vh;
 	}
 
 	p{
-		margin-top: 3vh;
+		margin-top: 1vh;
 		display: inline-block;
 		float: right;
 		line-height: 2.2rem;
@@ -31,7 +31,7 @@
 	padding: 2rem 1.5rem;
 	border: 2px solid $lime-green;
 	display: inline-block;
-	margin-top: 3rem;
+	margin-top: 2.5rem;
 	margin-right: 4rem;
 	float: right;
 
@@ -40,7 +40,7 @@
 .email-box{
 	@extend .location-box;
 	float: right;
-	margin-top: 1.5rem;
+	margin-top: 1rem;
 	margin-right: 0;
 }
 
