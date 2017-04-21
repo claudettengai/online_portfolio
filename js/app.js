@@ -134,6 +134,51 @@ $(function() {
 
 
 
+// Work
+
+function peekTextAlign(){
+	if ($(window).width() >= 1024){
+		var hundyHeight=  $('.hundy-image').height();
+		console.log(hundyHeight);
+
+		var peekHeight=  $('.sneak-peek-text').height();
+		console.log(peekHeight);
+
+		peekTextMarginTop = (hundyHeight - peekHeight)/2;
+		console.log(peekTextMarginTop);
+
+
+		$('.sneak-peek-text').css("margin-top", peekTextMarginTop);
+
+
+
+
+
+ 
+	}
+
+
+}
+
+
+$(window).load(peekTextAlign);
+$(window).resize(peekTextAlign);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // ABOUT STUFF ARROW
 
@@ -141,6 +186,9 @@ $(function() {
 	$('.accordion-navigation a').click(function() {
 		$(' .drop-down-arrow-right').toggleClass("drop-down-arrow-down");
 	});
+
+
+
 
 
 

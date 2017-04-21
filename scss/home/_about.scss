@@ -4,7 +4,7 @@
 .triangle-2{
 
 	background-color: $lime-green;
-	height: 25vh;
+	height: 15vh;
 	width: 100%;
 	@include clip-path(polygon(100% 0%,0 101%, 100% 101%));
 	// -webkit-clip-path: polygon(100% 0%,0 101%, 100% 101%);
@@ -20,7 +20,7 @@
 
 .about-me{
 	margin:0;
-	padding: 0 0 2vh 0;
+	padding: 0 0 0vh 0;
 	width: 100%;
 	background-color: $lime-green;
 	

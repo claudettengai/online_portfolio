@@ -27,7 +27,7 @@
 
 .more-projects-title{
 	@extend .work-title;
-	margin-top: 5rem;
+	margin-top: 3.5rem;
 }
 
 
@@ -54,17 +54,37 @@
 
 
 .project-link{
-	margin: 2em 0 6vh 0;
+	margin: 2.5em 0 6vh 0;
 	}
 
-.project-larry-link{
+.project-larry-link,
+.project-paycrave-link{
 	@media #{$small-only}{
 		margin-top: 0;
 	}
 }
 
+.project-hundy-link{
+	margin: 0;
+}
 
 
+.sneak-peek-text{
+	// text-align: center;
+	@media #{$small-only}{
+		text-align: left;
+	}
+
+
+}
+
+#peek-point{
+	font-size: 2.5rem;
+	color: $lime-green;
+	@media #{$small-only}{
+		display: none;
+	}
+}
 
 ////////////image overlay/////////////
 
@@ -82,7 +102,7 @@
 
 	}
 
-	h3{
+	h4{
 		color: white;
 	}
 
@@ -94,7 +114,8 @@
 
 
 
-.dolls-image{
+.dolls-image,
+.kixeye-image{
 	border: 1px solid #333;
 }
 
