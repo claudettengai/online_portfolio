@@ -8,7 +8,7 @@
 	// background-color: $lime-green;
 	padding: 2.5rem;
 	// display: inline-block;
-	margin: 3rem 0 6rem 0;
+	margin: 3rem 0 3rem 0;
 	text-align: center;
 
 	#limited-note-text{
@@ -51,9 +51,9 @@
 }
 
 .background-main{
-	margin-top: -5vh;
+	margin-top: 10vh;
 	@media #{$small-only}{
-		// margin-top: -10vh;
+		margin-top: -10vh;
 	}
 }
 
