@@ -3,12 +3,57 @@
 #project-hundy-page{
 
 
+#limited-view-note{
+	border: 4px solid $lime-green;
+	// background-color: $lime-green;
+	padding: 2.5rem;
+	// display: inline-block;
+	margin: 3rem 0 6rem 0;
+	text-align: center;
 
+	#limited-note-text{
+		display: inline-block;
+		// float: left;
+		font-size: 1.3rem;
+		padding: 0;
+		margin: 0;
+		// font-weight: 700;
+	}
+
+	// #blurred-out-text{
+	// 	font-size: 1.2rem;
+	// 	margin: 0rem 0 0 0;
+	// 	display: inline-block;
+	// }
+
+
+	#note{
+		font-size: 2.8rem;
+		display: inline-block;
+		border-bottom: 2px solid #333;
+		margin-bottom: 2rem;
+		// float: left;
+	}
+
+	#contact-me-note-button{
+		padding: 0 0 0.35rem 0;
+		background-color: $white;
+		border-bottom: 3px solid $lime-green;
+		margin: 0 0rem 0 0;
+		color: #333;
+		font-weight: 600;
+
+		&:hover{
+			color: $jet;
+			border-bottom: 2px solid #333;
+		}
+	}
+}
 
 .background-main{
-	margin-top: 10vh;
+	margin-top: -5vh;
 	@media #{$small-only}{
-		margin-top: -10vh;
+		// margin-top: -10vh;
 	}
 }
 

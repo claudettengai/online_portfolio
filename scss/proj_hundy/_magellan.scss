@@ -7,13 +7,21 @@ $sub-nav-height: 5.2rem;
 
 
 div#magellan-bar{
+	display: none;
 	@include transform(skewY(176deg));
 	// transform: skewY(176deg);
 	// margin-top: -4rem;
 	margin-top: -3.7rem;
 
+
+
+	// @include transform(skewY(176deg));
+	// margin-top: -3.7rem;
+
 	@media#{$xlarge-up}{
 		margin-top: -4.2rem;
+		// margin-top: -4.5rem;
+
 		
 	}
 
