@@ -140,7 +140,7 @@ $menu-side-padding-med: ($menu-push-percent-med - $menu-text-width-percent)/2;
     font-family: "Varela";
     font-style: normal;
     font-size: 3rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     color: $jet;
     text-transform: capitalize;
     .is-active, &:hover {
