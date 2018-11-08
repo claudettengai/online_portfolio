@@ -1,0 +1,133 @@
+#project-dcl-page{
+
+#summary-title{
+	margin: 2.5rem 0 1rem 0;
+}
+
+
+.summary-title{
+	padding-bottom: .2em;
+	padding-top: 0.5em;
+}
+
+
+.section-title{
+	margin: 5rem 0 1em 0;
+}
+
+
+.section-title2{
+	margin: 5rem 0 1rem 0;
+}
+.summary-images{
+	padding: 2rem 0;
+
+}
+
+.side-text{
+	padding-top: 2rem;
+
+	@media #{$xlarge-up}{
+		padding-top: 4rem;
+	}
+}
+
+.screen-no-phone,
+.border{
+	border: 1px solid #333;
+}
+
+
+.cart-description{
+	margin-top: 2.4rem;
+}
+
+
+.competitive-analysis-title{
+	margin: 0 0 1em 0;
+}
+
+
+.editable-item-descript{
+	@media #{$large-up}{
+		margin-top: 15rem;
+	}
+}
+
+.paypal-descript{
+	
+	@media #{$large-up}{
+		margin-top: 20rem;
+	}
+}
+
+.guest-descript{
+	@media #{$large-up}{
+		margin-top: 23rem;
+	}
+}
+
+.checkout{
+	margin-bottom: 3rem;
+}
+
+.prepop-descript{
+	@media #{$large-up}{
+		margin-top: 10rem;
+	}
+}
+
+.uneditable-fields-descript{
+	@media #{$large-up}{
+		margin-top: 7rem;
+	}
+}
+
+
+
+
+
+
+	
+.footers{
+	background: url("../img/proj-dollskill/header.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+
+	
+	@media (max-width: 399px){
+		height: 70vh;
+		background-size: 500px auto;
+		background-position: bottom center;
+		background-attachment: scroll;
+	}
+}
+
+
+
+.message{
+	margin-top: 6rem;
+
+
+	.button{
+
+		margin: 2.5rem 0 0 0;
+		background-color: white;
+		color: $jet;
+		border: 2px solid $jet;
+		&:hover{
+			background-color: $jet;
+
+			h5{
+				color: white;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+}
