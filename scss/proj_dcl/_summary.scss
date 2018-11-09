@@ -1,87 +1,88 @@
 #project-dcl-page{
 
-#summary-title{
-	margin: 2.5rem 0 1rem 0;
+
+.summary-images{
+	margin: 0 0 2rem 0;
+}
+
+.sub-section-title{
+	padding: 0 0 0 0;
 }
 
 
-.summary-title{
-	padding-bottom: .2em;
-	padding-top: 0.5em;
-}
 
 
 .section-title{
-	margin: 5rem 0 1em 0;
-}
+	color: $lime-green;
+	line-height: 1.3;
+	font-weight: 700;
+	text-align: right;
+	margin: 4rem 0 0 0;
 
-
-.section-title2{
-	margin: 5rem 0 1rem 0;
-}
-.summary-images{
-	padding: 2rem 0;
-
-}
-
-.side-text{
-	padding-top: 2rem;
-
-	@media #{$xlarge-up}{
-		padding-top: 4rem;
+	@media #{$small-only} {
+		font-size: 2rem;
 	}
+
 }
 
-.screen-no-phone,
-.border{
-	border: 1px solid #333;
+.solution-title{
+	padding-top: 2rem;
 }
 
 
-.cart-description{
-	margin-top: 2.4rem;
+.title-my-process{
+	margin: 6rem 0 3rem 0;
 }
 
+
+.competitive-analysis-img{
+	padding-top: 1rem;
+}
+
+
+.exploration{
+	margin: 5rem 0 0 0;
+}
+
+
+
+
+.explore-pic{
+	margin-top: 0.5em;
+}
+
+
+.exploration-paragraph{
+	margin-bottom: 2rem;
+}
+
+
+
+.flow{ 
+	padding: 6rem 0 0 0;
+	margin: 0;
+ }
+ 
+
+ #flow{
+ 	border: 1px solid $charcoal ;
+ }
 
 .competitive-analysis-title{
 	margin: 0 0 1em 0;
 }
 
 
-.editable-item-descript{
-	@media #{$large-up}{
-		margin-top: 15rem;
-	}
+
+
+.mockups{
+	@extend .exploration;
 }
 
-.paypal-descript{
-	
-	@media #{$large-up}{
-		margin-top: 20rem;
-	}
+.prototypes{
+	@extend .exploration;
 }
 
-.guest-descript{
-	@media #{$large-up}{
-		margin-top: 23rem;
-	}
-}
-
-.checkout{
-	margin-bottom: 3rem;
-}
-
-.prepop-descript{
-	@media #{$large-up}{
-		margin-top: 10rem;
-	}
-}
-
-.uneditable-fields-descript{
-	@media #{$large-up}{
-		margin-top: 7rem;
-	}
-}
 
 
 
@@ -90,7 +91,7 @@
 
 	
 .footers{
-	background: url("../img/proj-dollskill/header.jpg");
+	background: url("../img/proj-dcl/00_header_image.png");
 	background-size: cover;
 	background-attachment: fixed;
 

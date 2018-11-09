@@ -101,62 +101,54 @@
 <!--     summary and competition -->
 
 
-    <div class="summary-images row">
-      <div class= "small-6 medium-4 columns">
-        <img src= "img/proj-dcl/01a_iphone_details.png">
-      </div>
-     <!--  <div class= "small-0 medium-2 columns">.
-      </div> -->
-      <div class= "small-6 medium-4 columns">
-        <img src= "img/proj-dcl/01b_iphone_loading.png">
-      </div>
-      <div class= "small-6 medium-4 hide-for-small-only columns">
-        <img src= "img/proj-dcl/01c_iphone_in_queue.png">
-      </div>
-    </div>
-
 
 
     <div class= "row">
       <div class= "content-columns">
-
-
-
-
-        
         <div class= "summary">
 
 
 
-          
+           <div class="summary-images row">
+            <div class= "small-6 medium-4 columns">
+              <img src= "img/proj-dcl/01a_iphone_details.png">
+            </div>
+           <!--  <div class= "small-0 medium-2 columns">.
+            </div> -->
+            <div class= "small-6 medium-4 columns">
+              <img src= "img/proj-dcl/01b_iphone_loading.png">
+            </div>
+            <div class= "small-6 medium-4 hide-for-small-only columns">
+              <img src= "img/proj-dcl/01c_iphone_in_queue.png">
+            </div>
+          </div>  
+
+          <h1 class= "section-title">summary</h1>
 
 
-          <h2 class= "section-title" id= "summary-title">Summary</h2>
-          <h4 class= "summary-title">The Problem</h4>
+          <h3 class= "sub-section-title">The Problem</h3>
          
           <p>Disney Cruise Line offers their guests who are currently on board a Disney cruise, a discount on any future cruises that they purchase while on the ship. Therefore, on the last day of the cruise, there is a very long queue at the front desk of people purchasing future cruises. At times, guests are forced to wait several hours before they are helped. The design, product and engineering teams were tasked to find a digital solution that removed the need to wait in line and that additionally sold more future cruises.</p>
 
 
-          <h4 class= "summary-title">The Solution</h4>
+          <h3 class= "summary-title solution-title">The Solution</h3>
          
           <p>We came up with a solution that allowed guests to digitally hold their place in line, allowing them to return to their normal daily activities on the cruise ship.  Guests are able to periodically check how many people are ahead of them, and are notified as they approach the front of the line. We also added a call to action on the regularly-viewed dashboard, incentivizing guests who might not normally think of buying a future cruise to do so.</p>
 
 
           
-        <div class= "section-title">
-          <h2>My Process</h2>
-        </div>
+          <h1 class= "section-title title-my-process">my process</h1>
 
 
         <div class= "competitive-analysis">
          <!--  <h4>Navigation</h4> -->
           <div class= "row">
             <div class= "small-12 large-5 columns side-text">
-              <h4 class= "competitive-analysis-title">Competitive Analysis</h4>
+              <h3 class= "competitive-analysis-title">Competitive Analysis</h3>
               <p>I started by taking a look at multiple digital queue solutions across a number of industries.</p>
             </div>
           <div class= "small-12 large-7 columns">
-              <img class = "competitive_analysis" src= "img/proj-dcl/02_competitive_analysis.png">
+              <img class = "competitive-analysis-img" src= "img/proj-dcl/02_competitive_analysis.png">
             </div>
 
          </div>
@@ -164,112 +156,72 @@
 
 
         <div class= "exploration">
-          <h4 class= "section-title2">Explorations</h4>
+          <h3 class= "sub-section-title">Explorations</h3>
           <div class= "row">
             <div class= "small-12 columns">
-              <p>I wireframed out some initial ideas to bring back to the product and development teams to get a feel for the initial direction we should be designing towards that took into account tech restrictions.</p>
+              <p>I wireframed out some initial ideas to bring back to the product and development teams to get a feel for the direction we should be designing towards that took into account tech and business restrictions.</p>
               <img class = "explore-pic" src= "img/proj-dcl/03_explorations.png">
+            </div>     
+          </div>
+        </div>
+
+          <div class= "flow">
+            <h3 class= "sub-section-title">Architecture and Flow</h3>
+            <div class = "row">
+              <div class= "small-12 medium-8 columns">
+                <p>Being the first of a couple new features that would utilize the same pattern within the Disney Cruise Line app, we played with introducing new layers that diverged from existing patterns of the app. Ultimately we chose to design our feature with minimal impact to the app's information architecture; we added the digital queue feature to an existing screen in the app, and an extra entry point on the dashboard.
+
+               We worked very closely with the product team and the developers to find the right flow that utilized the capabilities of the third party integration, QNOMY, and covered all edge cases.</p>
+              </div>
+              <div class = "small-12 medium-4 columns">
+                <img src = "img/proj-dcl/04_whiteboard_flow.png">
+              </div>
+
             </div>
 
-            <div class= "medium-12 large-8 columns">
-              <div class= "cart-description">
-                <h5 class= "feature-title">Clickable Cart Select</h5>
-                <p>When selected, your cart appears in a rolled-down modal. When clicked again, your cart rolls back up. You end up in the same location as before you took a look at your cart. In mobile web, there can often be a lot of scrolling and this style of cart accounts for that.</p>
-              </div>
-              <div class= "concise-descript">
-                <h5 class= "feature-title">Concise Order Summary and Checkout Access</h5>
-                <p>This allows you to go to checkout directly if you don’t want to scroll through your cart. Standard shipping is default.</p>
-              </div>
-
-              <div class= "editable-item-descript">
-                <h5 class= "feature-title">Editable Items Summary</h5>
-                <p>Quantities can be changed and items can be deleted here. I chose not to be able to edit anything else directly in the cart to reduce mistakes and simplify the experience. To edit the color or size, you have to click on the picture or title, which are both linked to the item page. (When clicked, the cart rolls up again and the user is navigated to that page).</p>
-              </div>
-
-              <div class= "paypal-descript">
-                <h5 class= "feature-title">Checkout plus Paypal Option</h5>
-                <p>Adding a PayPal option here allows users to purchase fast without having to log in to Dolls Kill, or fill out any additional information. It’s not included at the top of the cart because I wanted the users to review their items before this option became available.</p>
-              </div>
-
-
-            </div>
+            <div class = "row">
               
-            </div>
+
+              <div class = "small-12 columns">
+                <img id = "flow" src = "img/proj-dcl/05_flow.png">
+              </div>
           </div>
 
-          <div class= "checkout-user-flows">
-            <h2 class= "section-title2">Checkout Process User Flows</h2>
-            <img class ="border" src= "img/proj-dollskill/checkout_user_flows.png">
-          </div>
 
-          <div class= "sign-in">
-            <h2 class= "section-title2">Sign in</h2>
+          <div class= "mockups">
+            <h3 class= "sub-section-title">Final Mockups</h3>
             <div class= "row">
-              <div class= "small-12 columns"><h6>A user who is not logged in lands on this page after clicking "checkout" from the cart.</h6></div>
-              <div class= "medium-7 large-4 columns">
-              
-                <img class ="screen-no-phone" src= "img/proj-dollskill/sign_in.png">        
-              </div>
-              <div class= "medium-12 large-8 columns">
-          
-                <h5 class= "guest-descript">Guest Customer Option</h5>
-                <p>I chose not to make users who don’t have an account sign up to be able to make a purchase. Mobile users especially do not want to take this extra step and are likely to not pull the trigger on an order if they’re forced to do so.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="guest-new-customer-checkout">
-            <h2 class= "section-title2">New and Guest Customer Checkout</h2>
-            <div class= "checkout row">
-              <div class= "small-6 large-4 columns">
-                <h6>Shipping Options</h6>
-                <img class= "screen-no-phone" src= "img/proj-dollskill/shipping.png">
-              </div>
-              <div class= "small-6 large-4 columns">
-                <h6>Payment Options</h6>
-                <img class= "screen-no-phone" src= "img/proj-dollskill/payment.png">
-              </div>
-              <div class= "small-6 large-4 columns">
-                <h6>Optional Account-Creation</h6>
-                <img class= "screen-no-phone" src= "img/proj-dollskill/account_creation.png">
-              </div>
-
+              <div class= "exploration-paragraph small-12 columns">
+                <p>After taking our explorations through leadership, we finalized our visuals to fit within our existing design system. We also worked with copywriters to find clear and concise messaging that helped incentivize the user to buy a future cruise and engage with this feature. (3 example screens shown below)</p>
+              </div>     
             </div>
 
-            <div>
-              <h5 class= "feature-title">Accordian Style Set-up</h5>
-              <p>Setting up the steps as accordian tabs instead of new pages allows users to see how many steps they have left in the process, as well as keeps them on one page which is a lot more orienting than flipping through multiple pages.</p>
-            </div>
-
-            <div>
-              <h5 class= "feature-title">Editable Tabs</h5>
-              <p>The completed tabs are collapsed, but can be edited and expanded again when clicked. Non-editable tabs aren’t expandable until you’ve completed the prior steps. Showing the next steps lets the user know how far along in the process they are.</p>
-            </div>
-
-            <div>
-              <h5 class= "feature-title">Optional Account Creation</h5>
-              <p>Users have the option of saving their shipping and billing information, but it’s not mandatory</p>
-            </div>
-          </div>
-
-
-          <div class= "order-review">
-            <h2 class= "section-title2">Order Review</h2>
             <div class= "row">
-              <div class= "medium-7 large-4 columns">
-                <h6>order review</h6>
-                <img class ="screen-no-phone" src= "img/proj-dollskill/order_review.png">        
+              <div class = "small-12, medium-6 columns">
+                <img src = "img/proj-dcl/06_dash_mock.png">
               </div>
-              <div class= "medium-12 large-8 columns">
-          
-                <h5 class= "prepop-descript">Prepopulated Information</h5>
-                <p>This information is either saved from past orders in a user’s account, pulled from PayPal or filled out in the steps preceding arriving at this page.</p>
-
-                <h5 class= "uneditable-fields-descript">Uneditable Fields</h5>
-                <p>To edit your information, you must press the “edit” button, which takes you either to your cart, or your account settings where you can change or add new preset options (in the case of shipping and payment).</p>
-              </div>
+              <div class = "small-12 medium-3 columns">
+                <img src = "img/proj-dcl/07_mock_details.png">
+            </div>
+            <div class = "small-12 medium-3 columns">
+                <img src = "img/proj-dcl/08_mock_in_queue.png">
             </div>
           </div>
+        </div>
+
+
+        <div class= "prototypes">
+          <h3 class= "sub-section-title">Prototypes and Animations</h3>
+          <div class= "row">
+            <div class= "small-12 columns">
+              <p>We worked with an animator to come up with 2 experiences. A delightful loading experience while the app makes a service call to add the guest to the queue and the animation as a guest moves forward in the line . Both are reusable components that have been integrated into the design system of the app.
+
+              I used Framer to prototype the transition between the two different states of the page - not in queue, and in queue - with the loading animation in the middle.</p>
+              <img class = "explore-pic" src= "img/proj-dcl/09_framer_window.png">
+            </div>     
+          </div>
+        </div>
+      </div>
 
 
 

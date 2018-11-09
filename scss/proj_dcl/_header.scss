@@ -47,7 +47,7 @@
 	background-attachment: fixed;
 
 	//height for full screen (100vh) is 72vh
-	height: 94vh; 
+	height: 81vh; 
 
 	width:100%;
 	margin: -33vh 0 1vh 0;
@@ -67,7 +67,7 @@
 	height: 18vh;
 	width: 100%;
 	background-color: white;
-	margin-top: 76vh;
+	margin-top: 63vh;
 	position: absolute;
 	@include clip-path(polygon(100% 0%, 100% 100%, 0% 100%));
 	// -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
