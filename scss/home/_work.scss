@@ -9,7 +9,7 @@
 .work-title{
 	width:100%;
 	padding: 0;
-	margin-top: -15vh;
+	margin-top: -12vh;
 
 
 	h3{
@@ -55,16 +55,18 @@
 
 .project-link{
 	margin: 1.5em 0 2em 0;
-	border: 1px solid $smoke;
+	// border: 1px solid $gainsboro;
+	box-shadow: 3px 3px 6px $smoke;
+
 	}
 
-.project-larry-link,
-.project-paycrave-link,
-.project-kixeye-link {
-	@media #{$small-only}{
-		margin-top: 0;
-	}
-}
+// .project-larry-link,
+// .project-paycrave-link,
+// .project-kixeye-link {
+// 	@media #{$small-only}{
+// 		margin-top: 0;
+// 	}
+// }
 
 .project-hundy-link{
 	margin: 0;
@@ -86,6 +88,12 @@
 	@media #{$small-only}{
 		display: none;
 	}
+}
+
+
+.project-dollskill-link,
+.project-larry-link{
+	margin: 0;
 }
 
 ////////////image overlay/////////////
