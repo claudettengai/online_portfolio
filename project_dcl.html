@@ -128,12 +128,13 @@
 
           <h3 class= "sub-section-title">The Problem</h3>
          
-          <p>Disney Cruise Line offers their guests who are currently on board a Disney cruise, a discount on any future cruises that they purchase while on the ship. Therefore, on the last day of the cruise, there is a very long queue at the front desk of people purchasing future cruises. At times, guests are forced to wait several hours before they are helped. The design, product and engineering teams were tasked to find a digital solution that removed the need to wait in line and that additionally sold more future cruises.</p>
+          <p>Disney Cruise Line offers their guests who are currently on board a Disney cruise, a discount on any future cruises that they purchase while on the ship. Therefore, on the last day of the cruise, there is a very long queue at the front desk of people purchasing future cruises. At times, guests are forced to wait several hours before they are helped. The design, product and engineering teams were tasked with finding a digital solution that removed the need to wait in line and that additionally sold more future cruises.</p>
 
 
           <h3 class= "summary-title solution-title">The Solution</h3>
          
           <p>We came up with a solution that allowed guests to digitally hold their place in line, allowing them to return to their normal daily activities on the cruise ship.  Guests are able to periodically check how many people are ahead of them, and are notified as they approach the front of the line. We also added a call to action on the regularly-viewed dashboard, incentivizing guests who might not normally think of buying a future cruise to do so.</p>
+        </div>
 
 
           
@@ -159,7 +160,7 @@
           <h3 class= "sub-section-title">Explorations</h3>
           <div class= "row">
             <div class= "small-12 columns">
-              <p>I wireframed out some initial ideas to bring back to the product and development teams to get a feel for the direction we should be designing towards that took into account tech and business restrictions.</p>
+              <p>I wireframed out some initial ideas to bring back to the product and development teams to get a feel for the direction I should be designing towards that took into account tech and business restrictions.</p>
               <img class = "explore-pic" src= "img/proj-dcl/03_explorations.png">
             </div>     
           </div>
@@ -169,9 +170,9 @@
             <h3 class= "sub-section-title">Architecture and Flow</h3>
             <div class = "row">
               <div class= "small-12 medium-8 columns">
-                <p>Being the first of a couple new features that would utilize the same pattern within the Disney Cruise Line app, we played with introducing new layers that diverged from existing patterns of the app. Ultimately we chose to design our feature with minimal impact to the app's information architecture; we added the digital queue feature to an existing screen in the app, and an extra entry point on the dashboard.
+                <p>Being the first of a couple new features that would utilize the same pattern within the Disney Cruise Line app, I played with introducing new layers that diverged from existing patterns of the app. Ultimately I chose to design our feature with minimal impact to the app's information architecture; I added the digital queue feature to an existing screen in the app, and an extra entry point on the dashboard.
 
-               We worked very closely with the product team and the developers to find the right flow that utilized the capabilities of the third party integration, QNOMY, and covered all edge cases.</p>
+               I worked very closely with the product team and the developers to find the right flow that utilized the capabilities of the third party integration, QNOMY, and covered all edge cases.</p>
               </div>
               <div class = "small-12 medium-4 columns">
                 <img src = "img/proj-dcl/04_whiteboard_flow.png">
@@ -180,9 +181,12 @@
             </div>
 
             <div class = "row">
+              
+
               <div class = "small-12 columns">
                 <img id = "flow" src = "img/proj-dcl/05_flow.png">
               </div>
+            </div>
           </div>
 
 
@@ -190,7 +194,7 @@
             <h3 class= "sub-section-title">Final Mockups</h3>
             <div class= "row">
               <div class= "exploration-paragraph small-12 columns">
-                <p>After taking our explorations through leadership, we finalized our visuals to fit within our existing design system. We also worked with copywriters to find clear and concise messaging that helped incentivize the user to buy a future cruise and engage with this feature. (3 example screens shown below)</p>
+                <p>After taking our explorations through leadership, I finalized our visuals to fit within our existing design system. I also worked with copywriters to find clear and concise messaging that helped incentivize the user to buy a future cruise and engage with this feature. Three example screens shown below.</p>
               </div>     
             </div>
 
@@ -212,7 +216,7 @@
           <h3 class= "sub-section-title">Prototypes and Animations</h3>
           <div class= "row">
             <div class= "small-12 columns">
-              <p>We worked with an animator to come up with 2 experiences. A delightful loading experience while the app makes a service call to add the guest to the queue and the animation as a guest moves forward in the line . Both are reusable components that have been integrated into the design system of the app.
+              <p>I worked with an animator to come up with 2 experiences. A delightful loading experience while the app makes a service call to add the guest to the queue and the animation as a guest moves forward in the line . Both are reusable components that have been integrated into the design system of the app.
 
               I used Framer to prototype the transition between the two different states of the page - not in queue, and in queue - with the loading animation in the middle.</p>
               <img class = "explore-pic" src= "img/proj-dcl/09_framer_window.png">
@@ -221,50 +225,37 @@
         </div>
 
 
+
         <div class= "handoff">
-          <h3 class= "sub-section-title">Developer Handoff - Annotations and Accesibility</h3>
+          <h3 class= "sub-section-title">Handoff - Annotations and Accessibility</h3>
           <div class= "row">
             <div class= "small-12 columns">
-              <p>I used Sketch Measure to create redlines to hand over to the developers. I also sent over annotations that explained the behavior,  different states of the screens, and accessibility/ voiceover behavior.  </p>
+              <p>I created annotations containing the different states of each screen, and explaining accompanying behavior. I also documented the voiceover/accessibility behavior for the respective screens. Those documents in addition to redlines were sent over to the developers. </p>
 
-               <a href="#" data-reveal-id="annotations-flow" id= "user-flow-button" class= "small button">View Annotations</a>
 
-              <div id="user-flow" class="reveal-modal" data-reveal aria-labelledby="user-flow" aria-hidden="true" role="dialog">
-              <img src= "img/proj-hundy/solution_01/user_flow.png">
+             
+
+              <a target= "#" href="img/proj-dcl/DCL_Future_Cruise_Annotations.pdf" data-reveal-id="user-interview" id= "annotations-button" class= "medium button">View Annotations</a>
+
+
+
+                <div class = "accessibility">
+                  <h5>Accessibility/Voiceover Documentation</h5>
+                  <img class = "accessibility-img" src= "img/proj-dcl/10_accessibility.png">
+                </div>
+
+
 
               
-              <a class="close-reveal-modal" aria-label="Close">&#215;</a>             
-
-
-
-
-
-
-
-
-
             </div>     
           </div>
         </div>
 
 
 
-
-
-
-
-
-
-
-      </div>
-
-
-
-
-
-        </div>
       </div>
     </div>
+      
 
         
 
@@ -354,6 +345,3 @@
  
   </body>
 </html>
-
-
-

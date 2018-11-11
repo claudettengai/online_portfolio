@@ -65,7 +65,7 @@
  
 
  #flow{
- 	border: 1px solid $charcoal ;
+ 	border: 1px solid $iron ;
  }
 
 .competitive-analysis-title{
@@ -73,6 +73,31 @@
 }
 
 
+
+.accessibility{
+	margin: 1.5rem 0 1rem 0;
+}
+
+
+.accessibility-img{
+	border: 1px solid $iron;
+}
+
+
+#annotations-button{
+	background-color: white;
+	border: 3px solid $jet;
+	color: black;
+	font-size: 18px;
+	font-family: "Varela";
+	margin: 2vh 0 4vh 0;
+
+	&:hover{
+		background-color: $jet;
+		color: white;
+	}
+
+}
 
 
 .mockups{
