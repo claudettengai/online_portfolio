@@ -2,7 +2,7 @@
 
 
 .summary-images{
-	margin-top: 2rem;
+	margin-top: 4rem;
 	max-width: none;
 	width: 90%;
 	
@@ -10,16 +10,30 @@
 
 
 .original{
-	width: 25%;
+	img{
+		width: 94%;
+	}	
 }
 
 .redesign{
-	width: 65%;
+	img{
+		width: 100%;
+	}
 }
 
 .sub-section-title{
-	padding: 0 0 0 0;
+	padding: 2rem 0 0 0;
 }
+
+.goals-title{
+	padding-top: 3rem;
+}
+
+
+.identifying-problems-title{
+	padding: 2rem 0 0 0;
+}
+
 
 
 
@@ -47,41 +61,91 @@
 }
 
 
-.competitive-analysis-img{
-	padding-top: 1rem;
-}
-
-
-.exploration{
-	margin: 5rem 0 0 0;
-}
 
 
 
 
-.explore-pic{
-	margin-top: 0.5em;
-}
 
 
-.exploration-paragraph{
-	margin-bottom: 2rem;
+
+
+
+
+.criteria{
+	margin-top: 10vh;
 }
 
 
 
-.flow{ 
-	padding: 6rem 0 0 0;
-	margin: 0;
- }
- 
 
- #flow{
- 	border: 1px solid $iron ;
- }
 
-.competitive-analysis-title{
-	margin: 0 0 1em 0;
+	#vision-list{
+
+
+
+		margin-left: 2.4rem;
+		margin-top: 1rem;
+		list-style: none;
+		// text-align: center;
+	
+
+		// li{
+		// 	display: inline-block;
+		// }
+
+		li::before{
+			content: "";
+		    border-color: transparent $lime-green;
+		    border-style: solid;
+		    border-width: 0.4rem 0 0.4rem 0.8rem;
+		    display: block;
+		    height: 0;
+		    width: 0;
+		    left: -2rem;
+		    top: $paragraph-font-size + 0.24;
+		    position: relative;
+		    margin: 0rem;
+		    transform: rotate(15deg);
+
+		}
+
+		@for $i from 2 through 5 {
+      		li:nth-child(#{$i})::before { 
+       		transform: rotate($i * 45deg); 
+      }
+    }
+
+
+
+
+
+
+		.text-bold{
+			// @extend h6;
+			// margin-right: 1rem;
+			// font-weight: 500;
+		}
+
+	// 	margin-left: 4rem;
+	// 	margin-top: -1.5rem;
+	// 	li{
+	// 		margin-bottom: 1rem;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+.identifying-problems-title{
+	margin: 2rem 0 1em 0;
 }
 
 
