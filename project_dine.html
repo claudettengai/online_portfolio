@@ -89,16 +89,20 @@
     </header>
 
 
+
     <div class="summary-images row">
+
+  
+
       <div class= "original small-12 medium-6 columns">
 
-        <h4>Original Design</h4>
+        <h5>Original Design</h5>
         <img src= "img/proj-dine/01a-current.png">
       </div>
      <!--  <div class= "small-0 medium-2 columns">.
       </div> -->
       <div class= "redesign small-12 medium-6 columns">
-        <h4>Redesign</h4>
+        <h5>New Design</h5>
         <img src= "img/proj-dine/01d-new.png">
       </div>
 
@@ -124,7 +128,7 @@
 
 
 
-          <h1 class= "section-title">summary</h1>
+          <h1 id="big-title">Summary</h1>
 
 
           <h3 class= "sub-section-title">Background</h3>
@@ -163,110 +167,121 @@
           <div class= "row">
             <div class= "small-12 large-7 columns">
               
-              <p>I started by taking a look at multiple digital queue solutions across a number of industries.</p>
+              <ul id= "problem-list">
+                <li>
+                  <h6 class= "problem-titles">Uncompelling Images</h6>
+                  <p>Heat mapping shows that users are not focusing on the images on the side panel. Concurrent A/B testing showed that by switching out the media for more sophisticated photos resulted in a conversion of an additional $6 million in one quarter.</p>
+                </li>
+                <li>
+                  <h6 class= "problem-titles">Poor Communication of Benefits</h6>
+                  <p>The dry descriptions of specific features does not adequately convey the value and added benefits of a dining plan to the user. Additionally, the heavy text might be deterring the user from reading through the descriptions at all.</p>
+                </li>
+                 <li>
+                  <h6 class= "problem-titles">Undesireable default focus</h6>
+                  <p>By default, “No Dining Plan” is selected, thus funnelling users down the booking process, disregarding the Dining Plan options. </p>
+                </li>
+
+
+              </ul>
+
             </div>
-          <div class= "small-12 large-5 columns">
-              <img class = "competitive-analysis-img" src= "img/proj-dine/02-heat-map.png">
+
+            <div class= "small-12 large-5 columns">
+              <img id = "heat-map" src= "img/proj-dine/02-heat-map.png">
             </div>
 
          </div>
        </div>
 
 
-        <div class= "exploration">
-          <h3 class= "sub-section-title">Explorations</h3>
+        <div class= "my-process">
+          <h3 class= "sub-section-title">My Process</h3>
           <div class= "row">
             <div class= "small-12 columns">
-              <p>I wireframed out some initial ideas to bring back to the product and development teams to get a feel for the direction I should be designing towards that took into account tech and business restrictions.</p>
-              <img class = "explore-pic" src= "img/proj-dcl/03_explorations.png">
+              <p>I started iterating out multiple designs while concurrently adapting the page to a more cleaner, more modern design system. Our team took the different iterations of the design through multiple rounds of user testing to help validate design decisions. After taking the design through leadership, we began finessing the final visual design. </p>
+
+              <div class = "iterations-and-testing row">
+                <div class = "small-12 large-8 columns iterations">
+                  <h5 id="iterations-and-testing-titles">First Iterations</h5>
+                  <img class = "iterations-pic" src= "img/proj-dine/03-iterations.png">
+                </div>
+
+                <div class = "small-12 large-4 research columns">
+                  <h5 id="iterations-and-testing-titles">User Testing</h5>
+                  <img class = "testing-pic" src= "img/proj-dine/04a-testing.png">
+                  <img class = "testing-pic" src= "img/proj-dine/04b-testing.png">
+                </div>
+              </div>
             </div>     
           </div>
         </div>
 
-          <div class= "flow">
-            <h3 class= "sub-section-title">Architecture and Flow</h3>
-            <div class = "row">
-              <div class= "small-12 medium-8 columns">
-                <p>Being the first of a couple new features that would utilize the same pattern within the Disney Cruise Line app, I played with introducing new layers that diverged from existing patterns of the app. Ultimately I chose to design our feature with minimal impact to the app's information architecture; I added the digital queue feature to an existing screen in the app, and an extra entry point on the dashboard.
 
-               I worked very closely with the product team and the developers to find the right flow that utilized the capabilities of the third party integration, QNOMY, and covered all edge cases.</p>
+
+        <h1 id="big-title">My Solutions</h1>
+
+          <div class= "solutions">
+            <h3 class= "sub-section-title">Adding Compelling Imagery</h3>
+            <p>Adding higher quality photos of more interesting foods and associating them with each dining plan will draw attention to the plans themselves, incentivize guests to read the content, and purchase the product. The hero image also portays an experience that could only be achieved by dining with Disney. </p>
+
+            <div class = "solution-pic row">
+              <div class= "small-12 medium-6 columns solution-pic-columns">
+                <h6>Original Design</h6>
+                <img class= "first-side-by-side-image" src = "img/proj-dine/05a-current-images.png">
               </div>
-              <div class = "small-12 medium-4 columns">
-                <img src = "img/proj-dcl/04_whiteboard_flow.png">
+              <div class = "small-12 medium-6 columns">
+                <h6>New Design</h6>
+                <img src = "img/proj-dine/05b-new-images.png">
               </div>
 
-            </div>
-
-            <div class = "row">
-              
-
-              <div class = "small-12 columns">
-                <img id = "flow" src = "img/proj-dcl/05_flow.png">
-              </div>
             </div>
           </div>
 
 
+          <div class= "solutions second-solution">
+     
+            <h3 class= "sub-section-title">Easy Comparison and Deprioritizing "No Plan"</h3>
+            <p> A side-by-side layout and shortened copy allows guests to easily see the benefits of upgrading to higher tier dining plans. Placing "Continue Without a Plan" at the bottom of the page makes this option the exception to the expected behavior instead of the default. This would compel the user to read through the benefits of the different plans that we are surfacing.</p>
+
+            <div class = "solution-pic row">
+              <div class= "small-12 medium-6 solution-pic-columns columns">
+                <h6>Original Design</h6>
+                <img class= "first-side-by-side-image" src = "img/proj-dine/06a-current-plans.png">
+              </div>
+              <div class = "small-12 medium-6 columns">
+                <h6>New Design</h6>
+                <img src = "img/proj-dine/06b-new-plans.png">
+              </div>
+
+            </div>
+          </div>
+
+
+
+
+
+
           <div class= "mockups">
-            <h3 class= "sub-section-title">Final Mockups</h3>
+            <h3 class= "sub-section-title">Finalizing the Design</h3>
             <div class= "row">
               <div class= "exploration-paragraph small-12 columns">
-                <p>After taking our explorations through leadership, I finalized our visuals to fit within our existing design system. I also worked with copywriters to find clear and concise messaging that helped incentivize the user to buy a future cruise and engage with this feature. Three example screens shown below.</p>
+                <p>After accounting for all the different use cases for this design and finalizing the mobile state, I handed off my redlines to the developers.</p>
               </div>     
             </div>
 
             <div class= "row">
-              <div class = "small-12, medium-6 columns">
-                <img src = "img/proj-dcl/06_dash_mock.png">
+              <div class = "small-12, medium-9 columns">
+                <img src = "img/proj-dine/01d-new.png">
               </div>
               <div class = "small-12 medium-3 columns">
-                <img src = "img/proj-dcl/07_mock_details.png">
+                <img src = "img/proj-dine/07-dine-plan-mobile.png">
             </div>
-            <div class = "small-12 medium-3 columns">
-                <img src = "img/proj-dcl/08_mock_in_queue.png">
-            </div>
+
           </div>
         </div>
 
 
-        <div class= "prototypes">
-          <h3 class= "sub-section-title">Prototypes and Animations</h3>
-          <div class= "row">
-            <div class= "small-12 columns">
-              <p>I worked with an animator to come up with 2 experiences. A delightful loading experience while the app makes a service call to add the guest to the queue and the animation as a guest moves forward in the line . Both are reusable components that have been integrated into the design system of the app.
-
-              I used Framer to prototype the transition between the two different states of the page - not in queue, and in queue - with the loading animation in the middle.</p>
-              <img class = "explore-pic" src= "img/proj-dcl/09_framer_window.png">
-            </div>     
-          </div>
-        </div>
-
-
-
-        <div class= "handoff">
-          <h3 class= "sub-section-title">Handoff - Annotations and Accessibility</h3>
-          <div class= "row">
-            <div class= "small-12 columns">
-              <p>I created annotations containing the different states of each screen, and explaining accompanying behavior. I also documented the voiceover/accessibility behavior for the respective screens. Those documents in addition to redlines were sent over to the developers. </p>
-
-
-             
-
-              <a target= "#" href="img/proj-dcl/DCL_Future_Cruise_Annotations.pdf" data-reveal-id="user-interview" id= "annotations-button" class= "medium button">View Annotations</a>
-
-
-
-                <div class = "accessibility">
-                  <h5>Accessibility/Voiceover Documentation</h5>
-                  <img class = "accessibility-img" src= "img/proj-dcl/10_accessibility.png">
-                </div>
-
-
-
-              
-            </div>     
-          </div>
-        </div>
+      
 
 
 

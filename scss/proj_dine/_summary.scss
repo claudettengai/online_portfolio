@@ -1,27 +1,56 @@
 #project-dine-page{
 
 
-.summary-images{
-	margin-top: 6rem;
-	max-width: none;
-	width: 90%;
+// .summary-images{
+// 	margin-top: 6rem;
+// 	max-width: none;
+// 	width: 86%;
 
-	h4{
-		padding-bottom: 2rem;
-	}
+// 	h4{
+// 		padding-bottom: 2rem;
+// 	}
 	
+// }
+
+
+
+// .sub-section-title{
+// 	font-size: 32px;
+// }
+
+.summary-images{
+	margin-top: 3rem;
+	// color: $lime-green;
+}
+
+
+#big-title{
+	// color: $lime-green;
+	font-size: 50px;
 }
 
 
 .original{
+	h5{
+		margin-bottom: 0;
+		padding-bottom:0.4rem;
+		font-weight: bold;
+	}
 	img{
-		width: 80%;
+		width: 100%;
 	}	
 }
 
 .redesign{
+	h5{
+		margin-bottom: 0;
+		padding-bottom:0.4rem;
+	
+		font-weight: bold;
+	}
 	img{
 		width: 100%;
+		float: right;
 	}
 }
 
@@ -30,12 +59,12 @@
 }
 
 .goals-title{
-	padding-top: 3rem;
+	padding-top: 5rem;
 }
 
 
 .identifying-problems-title{
-	padding: 2rem 0 0 0;
+	padding: 5rem 0 0 0;
 }
 
 
@@ -60,35 +89,26 @@
 }
 
 
-.title-my-process{
-	margin: 6rem 0 3rem 0;
+
+
+
+
+
+
+////////////PROBLEM LIST/////////////////
+
+
+.identifying-problems-title{
+	margin: 2rem 0 0.3rem 0;
 }
 
 
+#problem-list{
 
 
 
-
-
-
-
-
-
-
-.criteria{
-	margin-top: 10vh;
-}
-
-
-
-
-
-	#vision-list{
-
-
-
-		margin-left: 2.4rem;
-		margin-top: 1rem;
+		margin-left: 2rem;
+		margin-top: 1.2rem;
 		list-style: none;
 		// text-align: center;
 	
@@ -119,49 +139,86 @@
       }
     }
 
+}
+
+
+
+
+.problem-titles{
+	font-size: 20px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+
+
+
+#heat-map{
+	padding-top: 2.5rem;
+	width: 80%;
+	float: right;
+}
 
 
 
 
 
-		.text-bold{
-			// @extend h6;
-			// margin-right: 1rem;
-			// font-weight: 500;
-		}
 
-	// 	margin-left: 4rem;
-	// 	margin-top: -1.5rem;
-	// 	li{
-	// 		margin-bottom: 1rem;
+////////////MY PROCESS/////////////////
+
+
+.my-process{
+	.sub-section-title{
+		margin: 4rem 0 1rem 0;
 	}
-	
+}
 
 
-
-
-
-
-
-
-
-
-
-
-.identifying-problems-title{
-	margin: 2rem 0 1em 0;
+#iterations-and-testing-titles{
+	margin: 2rem 0 1.4rem 0;
 }
 
 
 
-.accessibility{
-	margin: 1.5rem 0 1rem 0;
+////////////MY SOLUTIONS/////////////////
+
+
+h6{
+	font-weight: bold;
+}
+
+.solutions{
+	.sub-section-title{
+		margin: 0 0 2rem 0;
+	}
+}
+
+.solution-pic{
+	margin: 3rem 0;
+
+	// h6{
+	// 	margin-top: 2rem;
+	// }
+}
+
+.solution-pic-columns{
+	padding:0;
+}
+
+.first-side-by-side-image{
+	width: 86%;
 }
 
 
-.accessibility-img{
-	border: 1px solid $iron;
-}
+
+
+
+
+
+
+
+
+
 
 
 #annotations-button{
@@ -199,7 +256,7 @@
 
 	
 .footers{
-	background: url("../img/proj-dcl/00_header_image.png");
+	background: url("../img/proj-dine/00_header_image.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 
