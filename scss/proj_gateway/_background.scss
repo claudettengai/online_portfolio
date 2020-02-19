@@ -4,7 +4,7 @@
 
 
 .summary-images{
-	margin-top: 3rem;
+	margin-top: 9rem;
 	// color: $lime-green;
 	width: 94%;
 	margin-left: 3%;
@@ -15,10 +15,10 @@
 	margin-top: 2rem;
 }
 
-#big-title{
+.big-title{
 	// color: $lime-green;
 	font-size: 50px;
-	margin: 1rem 0 0.5rem 0;
+	margin: 2rem 0 1rem 0;
 }
 
 
@@ -92,8 +92,14 @@
 
 ////////////USER TYPES/////////////////
 
+#who-are-our-users-title{
+	margin-top: 1.5rem;
+}
+
+
+
 .user-type-title{
-	margin-top: 1.2rem;
+	margin-top: 2rem;
 	margin-bottom: 0;
 	// font-size: 20px;
 
@@ -130,6 +136,7 @@
 
 #user-subtypes{
 	margin-top: 0;
+	margin-bottom: 3rem;
 
 
 	
@@ -169,17 +176,33 @@
 
 
 
-//////////////////USE CASES/////////////////
 
 
 /////////////////USE CASES//////////////////
 
 
+.use-cases{
+	display: inline-block;
+}
+
+
+#use-case-subtext{
+	margin-top: 1rem;
+	// background-color: orange;
+	display: inline-block;
+
+} 
+
+
+
+
+
 .use-cases{	
 
 	.sub-section-title{
-		margin-top: 3rem;
+		margin-top: 1rem;
 		margin-bottom: 3rem;
+		// background-color: red;
 	}	
 
 		ul{
@@ -215,7 +238,10 @@
 }
 
 
-////////////////////////GOALS PANELS///////////////////////////
+
+
+
+
 
 .use-cases .panel{
 
@@ -253,12 +279,127 @@
 	}
 
 
-} 
+}
+
+
+
+.panel-num-shape{
+	text-align: center;
+	margin-top: -1.8rem * $header-line-height;
+
+}
+
+@mixin num-triangle-color($num-color, $background-color){
+	h5, h6{
+		margin-top: -0.5rem;
+		color: $num-color;
+		// transform: rotate(-$rotate);
+	}
+
+
+	@include clip-path(polygon(45% 0%, 100% 50%, 0 80%));
+	// -webkit-clip-path: polygon(45% 0%, 100% 50%, 0 80%);
+	display: inline-block;
+	padding: 1rem 2rem;
+	// padding: (1rem * $padding-multiplier) (2rem * $padding-multiplier);
+	background-color: $background-color;
+	// transform: rotate($rotate);
+}
+
+.num-triangle-white{
+	@include num-triangle-color($jet, white);
+}
+
+
+
+
+.num-triangle-black{
+	@include num-triangle-color($lime-green, $jet);
+	h5{
+		color: white;
+	}
+}
+
+.num-triangle-black-white{
+	@include num-triangle-color(white, $jet)
+}
+.num-triangle-green{
+	@include num-triangle-color($jet, $lime-green);
+}
+
+
+.tilt2{
+	h5, h6{
+		@include transform(rotate(-35deg));
+		// transform: rotate(-35deg);
+		margin-left: -0.3rem; 
+    	margin-top: 0.2rem;
+
+	}
+	@include transform(rotate(35deg));
+	// transform:rotate(35deg);
+	margin-top: -0.4rem;
+
+}
+
+.tilt3{
+	h5, h6{
+		@include transform(rotate(-165deg));
+		// transform: rotate(-165deg);
+    	margin-left: -0.2rem; 
+    	margin-top: -0.2rem;
+	}
+	@include transform(rotate(165deg));
+ 	// transform: rotate(165deg);
+ 	margin-top: -0.7rem;
+}
+
+
+.tilt4{
+	h5, h6{
+		@include transform(rotate(-335deg));
+		// transform: rotate(-335deg);
+    	margin-left: 0.2rem; 
+    	margin-top: -0.2rem;
+	}
+	@include transform(rotate(335deg));
+	// transform: rotate(335deg);
+ 	margin-top: -1rem;
+
+
+}
+
+
+.tilt5{
+	h5, h6{
+		@include transform(rotate(-65deg));
+		// transform: rotate(-65deg);
+    	margin-left: -0.2rem; 
+    	margin-top: -0.2rem;
+	}
+	@include transform(rotate(65deg));
+	// transform: rotate(65deg);
+ 	margin-top: 0rem;
+
+
+}
+
+
+.num-triangle-small{
+	padding: 0.6rem 1.6rem;
+}
 
 
 
 
 
+/////////////////////// FORMULATING A STRATEGY //////////////////////////////
+
+
+.strategy .big-title{
+	margin-top: 4rem;
+	
+}
 
 
 
