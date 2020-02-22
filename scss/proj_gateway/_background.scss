@@ -16,9 +16,10 @@
 }
 
 .big-title{
-	// color: $lime-green;
+	// color: #536610;
 	font-size: 50px;
 	margin: 2rem 0 1rem 0;
+
 }
 
 
@@ -53,7 +54,7 @@
 }
 
 .sub-section-title{
-	padding: 1rem 0 0 0;
+	padding: 1rem 0 1rem 0;
 }
 
 .goals-title{
@@ -396,158 +397,148 @@
 /////////////////////// FORMULATING A STRATEGY //////////////////////////////
 
 
-.strategy .big-title{
-	margin-top: 4rem;
-	
-}
+.strategy{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-////////////PROBLEM LIST/////////////////
-
-
-.identifying-problems-title{
-	margin: 2rem 0 0.3rem 0;
-}
-
-
-#problem-list{
-
-
-
-		margin-left: 2rem;
-		margin-top: 1.2rem;
-		list-style: none;
-		// text-align: center;
-	
-
-		// li{
-		// 	display: inline-block;
-		// }
-
-		li::before{
-			content: "";
-		    border-color: transparent $lime-green;
-		    border-style: solid;
-		    border-width: 0.4rem 0 0.4rem 0.8rem;
-		    display: block;
-		    height: 0;
-		    width: 0;
-		    left: -2rem;
-		    top: $paragraph-font-size + 0.24;
-		    position: relative;
-		    margin: 0rem;
-		    transform: rotate(15deg);
-
-		}
-
-		@for $i from 2 through 5 {
-      		li:nth-child(#{$i})::before { 
-       		transform: rotate($i * 45deg); 
-      }
-    }
-
-}
-
-
-
-
-.problem-titles{
-	font-size: 20px;
-	margin-bottom: 15px;
-	font-weight: bold;
-}
-
-
-
-
-#heat-map{
-	padding-top: 2.5rem;
-	width: 80%;
-	float: right;
-}
-
-
-
-
-
-
-////////////MY PROCESS/////////////////
-
-
-.my-process{
-	.sub-section-title{
-		margin: 4rem 0 1rem 0;
+	 .big-title{
+		margin-top: 5rem;
+		margin-bottom: 2rem;
 	}
+
+	.sub-section-title{
+		margin-bottom: 1rem;
+	}
+
+
 }
 
 
-#iterations-and-testing-titles{
-	margin: 2rem 0 1.4rem 0;
+
+
+
+
+.strategy{
+	// margin-top: 0;
+	// margin-bottom: 3rem;
+
+	// .bold-text{
+	// 	font-weight: bold;
+	// }	
+
+
+	
+	li{
+		list-style-type: decimal;
+		margin-left: 3rem;
+		margin-bottom: 0.8rem;
+		// background-color: red;
+		line-height: 1.4;
+
+	}
+	li::before{
+		content: "";
+	    border-color: transparent $lime-green;
+	    border-style: solid;
+	    border-width: 0.4rem 0 0.4rem 0.8rem;
+	    display: block;
+	    height: 0;
+	    width: 0;
+	    left: -4rem;
+	    top: $paragraph-font-size ;
+	    position: relative;
+	    margin: 0rem;
+	    @include transform(rotate(15deg));
+	    // transform: rotate(15deg);
+
+	}
+
+	@for $i from 2 through 8 {
+			li:nth-child(#{$i})::before { 
+			@include transform(rotate($i *45deg));
+			// transform: rotate($i * 45deg); 
+			}
+		 }
 }
 
 
 
-////////////MY SOLUTIONS/////////////////
 
 
-h6{
-	font-weight: bold;
+
+
+
+
+/////////////////////// JOURNEY PIC //////////////////////////////
+
+
+
+
+.journey-pic{
+
+
+	h6{
+	margin: 5rem 0 2rem 0;
+	font-weight: 900;
+	}
+
+	img{
+		// border: 2px solid $iron;
+		// padding: 1rem 2rem 1rem 2rem;
+	}
+
+	
 }
+
 
 .solutions{
-	.sub-section-title{
-		margin: 0 0 2rem 0;
+	margin-top: 3rem;
+	margin-bottom: 6rem;
+}
+
+
+
+
+
+
+////////////FLOW AND ARCHITECTURE/////////////////
+
+.colored-text{
+	color: orange;
+	font-weight: 900;
+}
+
+.simplify-onboarding{
+	
+
+	.row{
+		margin-top: 1.5rem;
+	}
+
+	margin: 2rem 0 4rem 0;
+
+}
+
+
+
+
+.complete-flow{
+
+	margin: 5rem 0 2.5rem 0;
+	.row{
+		margin-top: 1.5rem;
 	}
 }
 
-.solution-pic{
-	margin: 3rem 0;
 
-	// h6{
-	// 	margin-top: 2rem;
-	// }
+.contextual-info{
+	margin: 5rem 0 2.5rem 0;
+	.sub-section-title{
+		margin-bottom: 1.5rem;
+	}
+
+	.row{
+		margin-top: 3rem;
+	}
 }
-
-.solution-pic-columns{
-	padding:0;
-}
-
-.first-side-by-side-image{
-	width: 86%;
-}
-
-
-
 
 
 
